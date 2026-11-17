@@ -1,0 +1,212 @@
+[
+  {
+    "source": "highD_instructions",
+    "seed_id": "highd_instructions__multiple_choice__l2__0001",
+    "question_index": 0,
+    "before": "Considering where and on what kind of roads the data was recorded, which traffic environment does the highD dataset most accurately represent?\n\nOptions:\n{\"A\": \"Urban intersections in the United States\", \"B\": \"Rural roads in Europe\", \"C\": \"German freeway traffic\", \"D\": \"Mixed pedestrian and bicycle corridors\"}",
+    "after": "Considering where and on what kind of roads the data was recorded, which traffic environment does the highD dataset most accurately represent?"
+  },
+  {
+    "source": "highD_instructions",
+    "seed_id": "highd_instructions__multiple_choice__l2__0001",
+    "question_index": 1,
+    "before": "Given that the highD dataset was gathered from several high-speed highway locations in Germany, which setting does it primarily characterize?\n\nOptions:\n{\"A\": \"Urban intersections in the United States\", \"B\": \"Rural roads in Europe\", \"C\": \"German freeway traffic\", \"D\": \"Mixed pedestrian and bicycle corridors\"}",
+    "after": "Given that the highD dataset was gathered from several high-speed highway locations in Germany, which setting does it primarily characterize?"
+  },
+  {
+    "source": "highD_instructions",
+    "seed_id": "highd_instructions__multiple_choice__l2__0001",
+    "question_index": 2,
+    "before": "Taking into account that all recordings in the highD dataset come from German high-speed highway segments, for which environment is this dataset most appropriate?\n\nOptions:\n{\"A\": \"Urban intersections in the United States\", \"B\": \"Rural roads in Europe\", \"C\": \"German freeway traffic\", \"D\": \"Mixed pedestrian and bicycle corridors\"}",
+    "after": "Taking into account that all recordings in the highD dataset come from German high-speed highway segments, for which environment is this dataset most appropriate?"
+  },
+  {
+    "source": "highD_instructions",
+    "seed_id": "highd_instructions__multiple_choice__l2__0001",
+    "question_index": 3,
+    "before": "If you consider both the geographic origin and the roadway type used to collect the highD dataset, which traffic scenario does it best represent?\n\nOptions:\n{\"A\": \"Urban intersections in the United States\", \"B\": \"Rural roads in Europe\", \"C\": \"German freeway traffic\", \"D\": \"Mixed pedestrian and bicycle corridors\"}",
+    "after": "If you consider both the geographic origin and the roadway type used to collect the highD dataset, which traffic scenario does it best represent?"
+  },
+  {
+    "source": "highD_instructions",
+    "seed_id": "highd_instructions__multiple_choice__l2__0001",
+    "question_index": 4,
+    "before": "Knowing that the highD dataset was obtained exclusively from several German high-speed freeway sites, which traffic environment is it most suitable to model?\n\nOptions:\n{\"A\": \"Urban intersections in the United States\", \"B\": \"Rural roads in Europe\", \"C\": \"German freeway traffic\", \"D\": \"Mixed pedestrian and bicycle corridors\"}",
+    "after": "Knowing that the highD dataset was obtained exclusively from several German high-speed freeway sites, which traffic environment is it most suitable to model?"
+  },
+  {
+    "source": "japan_mlit_instructions",
+    "seed_id": "japan_mlit_instructions__multiple_choice__l2__0001",
+    "question_index": 0,
+    "before": "When traffic data is collected for each road segment only at set intervals, what does this imply about the type of analysis that can be performed? \n\nOptions:\n{\"A\": \"Continuous real-time tracking\", \"B\": \"Detailed spatial but limited temporal analysis\", \"C\": \"No spatial detail\", \"D\": \"No temporal data\"}\n\nCorrect option:\nB",
+    "after": "When traffic data is collected for each road segment only at set intervals, what does this imply about the type of analysis that can be performed?"
+  },
+  {
+    "source": "japan_mlit_instructions",
+    "seed_id": "japan_mlit_instructions__multiple_choice__l2__0001",
+    "question_index": 1,
+    "before": "If traffic is recorded per segment using surveys conducted periodically, what does this say about the nature of the resulting dataset? \n\nOptions:\n{\"A\": \"Continuous real-time tracking\", \"B\": \"Detailed spatial but limited temporal analysis\", \"C\": \"No spatial detail\", \"D\": \"No temporal data\"}\n\nCorrect option:\nB",
+    "after": "If traffic is recorded per segment using surveys conducted periodically, what does this say about the nature of the resulting dataset?"
+  },
+  {
+    "source": "japan_mlit_instructions",
+    "seed_id": "japan_mlit_instructions__multiple_choice__l2__0001",
+    "question_index": 2,
+    "before": "Given that traffic data is obtained at the segment level through occasional (periodic) measurements, what is the main characteristic of the analysis that can be done? \n\nOptions:\n{\"A\": \"Continuous real-time tracking\", \"B\": \"Detailed spatial but limited temporal analysis\", \"C\": \"No spatial detail\", \"D\": \"No temporal data\"}\n\nCorrect option:\nB",
+    "after": "Given that traffic data is obtained at the segment level through occasional (periodic) measurements, what is the main characteristic of the analysis that can be done?"
+  },
+  {
+    "source": "japan_mlit_instructions",
+    "seed_id": "japan_mlit_instructions__multiple_choice__l2__0001",
+    "question_index": 3,
+    "before": "If a traffic dataset consists of per-segment measurements collected only at discrete time intervals, what does this combination imply about the dataset? \n\nOptions:\n{\"A\": \"Continuous real-time tracking\", \"B\": \"Detailed spatial but limited temporal analysis\", \"C\": \"No spatial detail\", \"D\": \"No temporal data\"}\n\nCorrect option:\nB",
+    "after": "If a traffic dataset consists of per-segment measurements collected only at discrete time intervals, what does this combination imply about the dataset?"
+  },
+  {
+    "source": "japan_mlit_instructions",
+    "seed_id": "japan_mlit_instructions__multiple_choice__l2__0001",
+    "question_index": 4,
+    "before": "When traffic per road segment is captured through surveys that occur at regular but infrequent times, what is the resulting implication for the data characteristics? \n\nOptions:\n{\"A\": \"Continuous real-time tracking\", \"B\": \"Detailed spatial but limited temporal analysis\", \"C\": \"No spatial detail\", \"D\": \"No temporal data\"}\n\nCorrect option:\nB",
+    "after": "When traffic per road segment is captured through surveys that occur at regular but infrequent times, what is the resulting implication for the data characteristics?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0002",
+    "question_index": 0,
+    "before": "Based on the brief recording durations and their scheduling during peak hours in NGSIM, what does this imply about the type of traffic conditions represented in the dataset?\n\nOptions:\n{\"A\": \"The dataset represents overnight low-traffic conditions\", \"B\": \"The dataset captures peak-hour congestion on freeways\", \"C\": \"The dataset provides year-long traffic trends\", \"D\": \"The dataset focuses on weekend recreational traffic\"}\n\nCorrect option:\nB",
+    "after": "Based on the brief recording durations and their scheduling during peak hours in NGSIM, what does this imply about the type of traffic conditions represented in the dataset?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0002",
+    "question_index": 1,
+    "before": "Considering that NGSIM data was collected in three short 15-minute intervals during weekday rush hours, what does this suggest about the traffic situation that the dataset emphasizes?\n\nOptions:\n{\"A\": \"The dataset represents overnight low-traffic conditions\", \"B\": \"The dataset captures peak-hour congestion on freeways\", \"C\": \"The dataset provides year-long traffic trends\", \"D\": \"The dataset focuses on weekend recreational traffic\"}\n\nCorrect option:\nB",
+    "after": "Considering that NGSIM data was collected in three short 15-minute intervals during weekday rush hours, what does this suggest about the traffic situation that the dataset emphasizes?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0002",
+    "question_index": 2,
+    "before": "Given that NGSIM recordings are limited to three 15-minute sessions taken during weekday peak periods, what conclusion can be drawn about the nature of the traffic captured in this dataset?\n\nOptions:\n{\"A\": \"The dataset represents overnight low-traffic conditions\", \"B\": \"The dataset captures peak-hour congestion on freeways\", \"C\": \"The dataset provides year-long traffic trends\", \"D\": \"The dataset focuses on weekend recreational traffic\"}\n\nCorrect option:\nB",
+    "after": "Given that NGSIM recordings are limited to three 15-minute sessions taken during weekday peak periods, what conclusion can be drawn about the nature of the traffic captured in this dataset?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0002",
+    "question_index": 3,
+    "before": "If NGSIM only includes three short 15-minute recordings collected during weekday rush hours, what does this combination of duration and timing indicate about the traffic conditions represented?\n\nOptions:\n{\"A\": \"The dataset represents overnight low-traffic conditions\", \"B\": \"The dataset captures peak-hour congestion on freeways\", \"C\": \"The dataset provides year-long traffic trends\", \"D\": \"The dataset focuses on weekend recreational traffic\"}\n\nCorrect option:\nB",
+    "after": "If NGSIM only includes three short 15-minute recordings collected during weekday rush hours, what does this combination of duration and timing indicate about the traffic conditions represented?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0002",
+    "question_index": 4,
+    "before": "Taking into account that NGSIM consists of three 15-minute segments recorded on weekdays during peak traffic times, what inference can be made about the primary traffic scenario depicted in the dataset?\n\nOptions:\n{\"A\": \"The dataset represents overnight low-traffic conditions\", \"B\": \"The dataset captures peak-hour congestion on freeways\", \"C\": \"The dataset provides year-long traffic trends\", \"D\": \"The dataset focuses on weekend recreational traffic\"}\n\nCorrect option:\nB",
+    "after": "Taking into account that NGSIM consists of three 15-minute segments recorded on weekdays during peak traffic times, what inference can be made about the primary traffic scenario depicted in the dataset?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0003",
+    "question_index": 0,
+    "before": "In the context of NGSIM, what does the 10 Hz sampling rate allow researchers to do with the collected data? \n\nOptions:\n{\"A\": \"Only obtain static counts of vehicles at fixed points\", \"B\": \"Compute detailed motion metrics like speed and acceleration from position data\", \"C\": \"Record vehicle information just once every 10 minutes\", \"D\": \"Capture only non-numeric, descriptive observations\"}\n\nCorrect option:\nB",
+    "after": "In the context of NGSIM, what does the 10 Hz sampling rate allow researchers to do with the collected data?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0003",
+    "question_index": 1,
+    "before": "Within the NGSIM dataset, what is the significance of having vehicle trajectories sampled at 10 Hz? \n\nOptions:\n{\"A\": \"The data are limited to simple vehicle count summaries\", \"B\": \"The data support precise calculation of kinematic variables such as speed and acceleration\", \"C\": \"The measurements are taken at 10-minute time intervals\", \"D\": \"The observations are restricted to qualitative descriptions only\"}\n\nCorrect option:\nB",
+    "after": "Within the NGSIM dataset, what is the significance of having vehicle trajectories sampled at 10 Hz?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0003",
+    "question_index": 2,
+    "before": "What does the 10 Hz sampling frequency imply about the kind of vehicle trajectory information provided in NGSIM? \n\nOptions:\n{\"A\": \"It confines the dataset to aggregate vehicle counts\", \"B\": \"It allows fine-grained estimation of motion quantities like speed and acceleration from positions\", \"C\": \"It means data points are collected every 10 minutes\", \"D\": \"It means the dataset includes only non-quantitative observations\"}\n\nCorrect option:\nB",
+    "after": "What does the 10 Hz sampling frequency imply about the kind of vehicle trajectory information provided in NGSIM?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0003",
+    "question_index": 3,
+    "before": "In NGSIM trajectory data, what is the practical consequence of recording vehicle positions at 10 Hz? \n\nOptions:\n{\"A\": \"Only static traffic volumes can be measured\", \"B\": \"Dynamic motion variables, including speed and acceleration, can be accurately derived\", \"C\": \"Each vehicle is sampled once per 10-minute interval\", \"D\": \"Only qualitative, narrative data are available\"}\n\nCorrect option:\nB",
+    "after": "In NGSIM trajectory data, what is the practical consequence of recording vehicle positions at 10 Hz?"
+  },
+  {
+    "source": "ngsim_instructions",
+    "seed_id": "ngsim_instructions__multiple_choice__l2__0003",
+    "question_index": 4,
+    "before": "Regarding NGSIM vehicle trajectories, what does a 10 Hz sampling rate tell you about the resulting dataset? \n\nOptions:\n{\"A\": \"It restricts the information to stationary vehicle counts\", \"B\": \"It provides sufficiently frequent samples to accurately compute speed, acceleration, and related motion variables\", \"C\": \"It shows that data collection occurred every 10 minutes\", \"D\": \"It limits the records to descriptive, non-numeric observations\"}\n\nCorrect option:\nB",
+    "after": "Regarding NGSIM vehicle trajectories, what does a 10 Hz sampling rate tell you about the resulting dataset?"
+  },
+  {
+    "source": "tlc_trip_instructions",
+    "seed_id": "tlc_trip_instructions__multiple_choice__l2__0004",
+    "question_index": 0,
+    "before": "Given that TLC trip data is openly accessible but may contain errors or missing values, what is the most appropriate way to work with it in an analysis project?\n\nOptions:\n{\"A\": \"Use the raw data directly without checks because it is public\", \"B\": \"Avoid using the dataset because it is open\", \"C\": \"Freely download the data but inspect and clean records before analysis\", \"D\": \"Only analyze a single trip to avoid errors\"}\n\nCorrect option:\nC",
+    "after": "Given that TLC trip data is openly accessible but may contain errors or missing values, what is the most appropriate way to work with it in an analysis project?"
+  },
+  {
+    "source": "tlc_trip_instructions",
+    "seed_id": "tlc_trip_instructions__multiple_choice__l2__0004",
+    "question_index": 1,
+    "before": "Considering TLC trip data is both public and known to have occasional inaccuracies or missing fields, what is the recommended approach for analysts using this dataset?\n\nOptions:\n{\"A\": \"Use the raw data directly without checks because it is public\", \"B\": \"Avoid using the dataset because it is open\", \"C\": \"Freely download the data but inspect and clean records before analysis\", \"D\": \"Only analyze a single trip to avoid errors\"}\n\nCorrect option:\nC",
+    "after": "Considering TLC trip data is both public and known to have occasional inaccuracies or missing fields, what is the recommended approach for analysts using this dataset?"
+  },
+  {
+    "source": "tlc_trip_instructions",
+    "seed_id": "tlc_trip_instructions__multiple_choice__l2__0004",
+    "question_index": 2,
+    "before": "TLC trip data is released as open data, yet some records may be incomplete or erroneous. What practice should data users follow in handling this data?\n\nOptions:\n{\"A\": \"Use the raw data directly without checks because it is public\", \"B\": \"Avoid using the dataset because it is open\", \"C\": \"Freely download the data but inspect and clean records before analysis\", \"D\": \"Only analyze a single trip to avoid errors\"}\n\nCorrect option:\nC",
+    "after": "TLC trip data is released as open data, yet some records may be incomplete or erroneous. What practice should data users follow in handling this data?"
+  },
+  {
+    "source": "tlc_trip_instructions",
+    "seed_id": "tlc_trip_instructions__multiple_choice__l2__0004",
+    "question_index": 3,
+    "before": "Because TLC trip data is publicly available but may contain missing or incorrect values, which data-handling strategy is most appropriate?\n\nOptions:\n{\"A\": \"Use the raw data directly without checks because it is public\", \"B\": \"Avoid using the dataset because it is open\", \"C\": \"Freely download the data but inspect and clean records before analysis\", \"D\": \"Only analyze a single trip to avoid errors\"}\n\nCorrect option:\nC",
+    "after": "Because TLC trip data is publicly available but may contain missing or incorrect values, which data-handling strategy is most appropriate?"
+  },
+  {
+    "source": "tlc_trip_instructions",
+    "seed_id": "tlc_trip_instructions__multiple_choice__l2__0004",
+    "question_index": 4,
+    "before": "TLC provides open trip data that can include quality issues such as errors and missing entries. What is the implied best practice for working with this dataset?\n\nOptions:\n{\"A\": \"Use the raw data directly without checks because it is public\", \"B\": \"Avoid using the dataset because it is open\", \"C\": \"Freely download the data but inspect and clean records before analysis\", \"D\": \"Only analyze a single trip to avoid errors\"}\n\nCorrect option:\nC",
+    "after": "TLC provides open trip data that can include quality issues such as errors and missing entries. What is the implied best practice for working with this dataset?"
+  },
+  {
+    "source": "urban_flow_prediction_survey_instructions",
+    "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0002",
+    "question_index": 0,
+    "before": "Considering the three categories of urban flow and the four primary influencing factors, which option most accurately characterizes how they are related?\n\nOptions:\n{\"A\": \"Only crowd flow is affected by weather and holidays\", \"B\": \"Traffic and transit flows ignore daily activity patterns\", \"C\": \"Daily activity patterns, anomalies, weather, and holidays jointly shape crowd, traffic, and public transit flows\", \"D\": \"Influence factors affect datasets but not urban flows\"}\n\nCorrect option:\nC",
+    "after": "Considering the three categories of urban flow and the four primary influencing factors, which option most accurately characterizes how they are related?"
+  },
+  {
+    "source": "urban_flow_prediction_survey_instructions",
+    "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0002",
+    "question_index": 1,
+    "before": "If we look at all three urban flow types together with the four main influence factors, which choice best summarizes how these factors interact with the flows?\n\nOptions:\n{\"A\": \"Only crowd flow is affected by weather and holidays\", \"B\": \"Traffic and transit flows ignore daily activity patterns\", \"C\": \"Daily activity patterns, anomalies, weather, and holidays jointly shape crowd, traffic, and public transit flows\", \"D\": \"Influence factors affect datasets but not urban flows\"}\n\nCorrect option:\nC",
+    "after": "If we look at all three urban flow types together with the four main influence factors, which choice best summarizes how these factors interact with the flows?"
+  },
+  {
+    "source": "urban_flow_prediction_survey_instructions",
+    "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0002",
+    "question_index": 2,
+    "before": "In the context of the three forms of urban flow and the four key factors that influence them, which statement most accurately reflects their overall interaction?\n\nOptions:\n{\"A\": \"Only crowd flow is affected by weather and holidays\", \"B\": \"Traffic and transit flows ignore daily activity patterns\", \"C\": \"Daily activity patterns, anomalies, weather, and holidays jointly shape crowd, traffic, and public transit flows\", \"D\": \"Influence factors affect datasets but not urban flows\"}\n\nCorrect option:\nC",
+    "after": "In the context of the three forms of urban flow and the four key factors that influence them, which statement most accurately reflects their overall interaction?"
+  },
+  {
+    "source": "urban_flow_prediction_survey_instructions",
+    "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0002",
+    "question_index": 3,
+    "before": "When examining the three kinds of urban flow alongside the four principal influencing factors, which option best captures how these elements are connected?\n\nOptions:\n{\"A\": \"Only crowd flow is affected by weather and holidays\", \"B\": \"Traffic and transit flows ignore daily activity patterns\", \"C\": \"Daily activity patterns, anomalies, weather, and holidays jointly shape crowd, traffic, and public transit flows\", \"D\": \"Influence factors affect datasets but not urban flows\"}\n\nCorrect option:\nC",
+    "after": "When examining the three kinds of urban flow alongside the four principal influencing factors, which option best captures how these elements are connected?"
+  },
+  {
+    "source": "urban_flow_prediction_survey_instructions",
+    "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0002",
+    "question_index": 4,
+    "before": "Taking into account the three urban flow types together with the four major factors that impact them, which of the following statements most precisely describes their relationship?\n\nOptions:\n{\"A\": \"Only crowd flow is affected by weather and holidays\", \"B\": \"Traffic and transit flows ignore daily activity patterns\", \"C\": \"Daily activity patterns, anomalies, weather, and holidays jointly shape crowd, traffic, and public transit flows\", \"D\": \"Influence factors affect datasets but not urban flows\"}\n\nCorrect option:\nC",
+    "after": "Taking into account the three urban flow types together with the four major factors that impact them, which of the following statements most precisely describes their relationship?"
+  }
+]

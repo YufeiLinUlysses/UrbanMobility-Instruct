@@ -1,0 +1,2298 @@
+{
+  "schema_version": "2.0",
+  "source_name": "japan_mlit_instructions",
+  "generator_model": "gpt-5.1",
+  "random_seed": 2025,
+  "seed_components": [
+    {
+      "seed": {
+        "Fact": "The MLIT dataset is provided by Japan’s Ministry of Land, Infrastructure, Transport and Tourism.",
+        "Question": "Who provides the dataset?",
+        "Selections": {
+          "A": "Private company",
+          "B": "MLIT Japan",
+          "C": "EU agency",
+          "D": "University"
+        },
+        "Output": "B",
+        "Explanation": "MLIT provides the dataset.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l1__0001",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 0,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which organization is responsible for supplying the dataset?",
+          "The dataset is made available by which provider?",
+          "Who is the official source of the dataset?",
+          "From which organization does the dataset originate?",
+          "Which entity offers this dataset?"
+        ],
+        "correct_answers": [
+          "MLIT in Japan",
+          "Japan’s MLIT"
+        ],
+        "explanations": [
+          "The dataset is supplied by MLIT, which is why the correct choice is MLIT Japan.",
+          "MLIT is the organization that offers this dataset, so the right answer is MLIT Japan."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "University",
+              "B": "EU agency",
+              "C": "Private company",
+              "D": "MLIT Japan"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "MLIT Japan",
+              "B": "EU agency",
+              "C": "Private company",
+              "D": "University"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "MLIT Japan",
+              "B": "University",
+              "C": "EU agency",
+              "D": "Private company"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "University",
+              "B": "MLIT Japan",
+              "C": "Private company",
+              "D": "EU agency"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "University",
+              "B": "Private company",
+              "C": "EU agency",
+              "D": "MLIT Japan"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset covers road networks across Japan.",
+        "Question": "What is the spatial coverage?",
+        "Selections": {
+          "A": "Tokyo only",
+          "B": "Japan nationwide",
+          "C": "Europe",
+          "D": "US"
+        },
+        "Output": "B",
+        "Explanation": "It covers Japan.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l1__0002",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 1,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which geographic area does the dataset cover?",
+          "What is the geographic extent of the dataset?",
+          "To which region does this dataset’s coverage apply?",
+          "What is the area of coverage for this dataset?",
+          "Over which region is the dataset’s spatial extent defined?"
+        ],
+        "correct_answers": [
+          "Nationwide across Japan",
+          "All regions of Japan"
+        ],
+        "explanations": [
+          "The area it includes is all of Japan.",
+          "Its scope extends across the entire country of Japan."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "US",
+              "B": "Tokyo only",
+              "C": "Europe",
+              "D": "Japan nationwide"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "US",
+              "B": "Tokyo only",
+              "C": "Japan nationwide",
+              "D": "Europe"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Europe",
+              "B": "Tokyo only",
+              "C": "Japan nationwide",
+              "D": "US"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Japan nationwide",
+              "B": "US",
+              "C": "Tokyo only",
+              "D": "Europe"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Europe",
+              "B": "Tokyo only",
+              "C": "US",
+              "D": "Japan nationwide"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is collected periodically through national surveys.",
+        "Question": "What is the temporal coverage?",
+        "Selections": {
+          "A": "Real-time only",
+          "B": "Periodic surveys",
+          "C": "One-time",
+          "D": "No time data"
+        },
+        "Output": "B",
+        "Explanation": "Collected periodically.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l1__0003",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 2,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Over what time frame is the dataset collected?",
+          "Which description best matches how often the dataset is gathered?",
+          "How would you characterize the time span covered by the dataset?",
+          "What best describes the dataset’s pattern of data collection over time?",
+          "Which option correctly describes the temporal nature of the dataset’s collection?"
+        ],
+        "correct_answers": [
+          "Surveys conducted at regular intervals",
+          "Data collected on a recurring survey schedule"
+        ],
+        "explanations": [
+          "Data is gathered at regular intervals over time.",
+          "Information is obtained through repeated surveys conducted periodically."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "One-time",
+              "B": "Periodic surveys",
+              "C": "No time data",
+              "D": "Real-time only"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "No time data",
+              "B": "One-time",
+              "C": "Periodic surveys",
+              "D": "Real-time only"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Real-time only",
+              "B": "Periodic surveys",
+              "C": "One-time",
+              "D": "No time data"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "No time data",
+              "B": "Real-time only",
+              "C": "One-time",
+              "D": "Periodic surveys"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Real-time only",
+              "B": "Periodic surveys",
+              "C": "No time data",
+              "D": "One-time"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "Traffic volume is measured per road segment.",
+        "Question": "What is the measurement resolution?",
+        "Selections": {
+          "A": "Country",
+          "B": "Segment-level",
+          "C": "Global",
+          "D": "None"
+        },
+        "Output": "B",
+        "Explanation": "Measured per segment.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l1__0004",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 3,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "At what level is the traffic volume measurement taken?",
+          "Which level best describes the resolution at which traffic volume is recorded?",
+          "How is the measurement of traffic volume spatially resolved?",
+          "The traffic volume data is collected at which specific resolution?",
+          "At which granularity is the traffic volume information measured?"
+        ],
+        "correct_answers": [
+          "Per segment",
+          "At the level of individual segments"
+        ],
+        "explanations": [
+          "The measurement is done for each individual segment.",
+          "Data is collected and reported at the segment level."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "None",
+              "B": "Segment-level",
+              "C": "Global",
+              "D": "Country"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Segment-level",
+              "B": "Country",
+              "C": "Global",
+              "D": "None"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Global",
+              "B": "Segment-level",
+              "C": "None",
+              "D": "Country"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Segment-level",
+              "B": "Global",
+              "C": "Country",
+              "D": "None"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Global",
+              "B": "None",
+              "C": "Segment-level",
+              "D": "Country"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "Variables include traffic volume and vehicle count.",
+        "Question": "Which variable is included?",
+        "Selections": {
+          "A": "DNA",
+          "B": "Vehicle count",
+          "C": "Ocean temp",
+          "D": "Wind speed"
+        },
+        "Output": "B",
+        "Explanation": "Vehicle count is included.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l1__0005",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 4,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which of the following is a variable that is part of the data set?",
+          "Which option represents a variable that is actually included in the study?",
+          "Which of these choices corresponds to one of the variables being measured?",
+          "Which listed item is one of the variables recorded in the data?",
+          "Which of the following is counted as a variable in this context?"
+        ],
+        "correct_answers": [
+          "Vehicle tally",
+          "Number of vehicles"
+        ],
+        "explanations": [
+          "The variable that is part of the set is vehicle count.",
+          "Vehicle count is the variable that is included among the options."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "DNA",
+              "B": "Wind speed",
+              "C": "Ocean temp",
+              "D": "Vehicle count"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "DNA",
+              "B": "Vehicle count",
+              "C": "Ocean temp",
+              "D": "Wind speed"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Ocean temp",
+              "B": "DNA",
+              "C": "Wind speed",
+              "D": "Vehicle count"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "DNA",
+              "B": "Ocean temp",
+              "C": "Wind speed",
+              "D": "Vehicle count"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Ocean temp",
+              "B": "Vehicle count",
+              "C": "DNA",
+              "D": "Wind speed"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is stored in structured tables.",
+        "Question": "What is the file structure?",
+        "Selections": {
+          "A": "Audio",
+          "B": "Tabular",
+          "C": "Video",
+          "D": "Binary only"
+        },
+        "Output": "B",
+        "Explanation": "Structured tables.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l1__0006",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 5,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "What type of file structure does the dataset use? (A) Audio (B) Tabular (C) Video (D) Binary only",
+          "The dataset is organized using which kind of file structure? (A) Audio (B) Tabular (C) Video (D) Binary only",
+          "In what format is the dataset’s file structure arranged? (A) Audio (B) Tabular (C) Video (D) Binary only",
+          "Which option best describes the file structure of this dataset? (A) Audio (B) Tabular (C) Video (D) Binary only",
+          "How are the files in this dataset structurally stored? (A) Audio (B) Tabular (C) Video (D) Binary only"
+        ],
+        "correct_answers": [
+          "Tabulated",
+          "In table form"
+        ],
+        "explanations": [
+          "Organized in a table format with rows and columns.",
+          "Data is arranged in a structured, spreadsheet-like layout."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Tabular",
+              "B": "Binary only",
+              "C": "Video",
+              "D": "Audio"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Audio",
+              "B": "Tabular",
+              "C": "Binary only",
+              "D": "Video"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Video",
+              "B": "Tabular",
+              "C": "Audio",
+              "D": "Binary only"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Audio",
+              "B": "Binary only",
+              "C": "Tabular",
+              "D": "Video"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Audio",
+              "B": "Video",
+              "C": "Tabular",
+              "D": "Binary only"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is collected using sensors and surveys.",
+        "Question": "How is it collected?",
+        "Selections": {
+          "A": "Drone",
+          "B": "Sensors and surveys",
+          "C": "Manual only",
+          "D": "Satellite"
+        },
+        "Output": "B",
+        "Explanation": "Sensors + surveys.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l1__0007",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 6,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "By what method is this dataset gathered?",
+          "Which approach is used to obtain this dataset?",
+          "How is the data for this dataset acquired?",
+          "Through what means is the dataset primarily collected?",
+          "What is the collection method used for this dataset?"
+        ],
+        "correct_answers": [
+          "Sensors and surveys",
+          "Surveys and sensors"
+        ],
+        "explanations": [
+          "Using sensors and conducting surveys.",
+          "Data is gathered through both sensor equipment and survey methods."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Satellite",
+              "B": "Drone",
+              "C": "Sensors and surveys",
+              "D": "Manual only"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Sensors and surveys",
+              "B": "Drone",
+              "C": "Manual only",
+              "D": "Satellite"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Drone",
+              "B": "Manual only",
+              "C": "Sensors and surveys",
+              "D": "Satellite"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Drone",
+              "B": "Sensors and surveys",
+              "C": "Satellite",
+              "D": "Manual only"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Sensors and surveys",
+              "B": "Drone",
+              "C": "Satellite",
+              "D": "Manual only"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is used for traffic planning and infrastructure design.",
+        "Question": "What is the usage context?",
+        "Selections": {
+          "A": "Gaming",
+          "B": "Traffic planning",
+          "C": "Medical",
+          "D": "Finance"
+        },
+        "Output": "B",
+        "Explanation": "Used in planning.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l1__0008",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 7,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In which context is this dataset primarily applied?",
+          "For what main purpose is this dataset utilized?",
+          "In what domain is this dataset chiefly used?",
+          "This dataset is mainly intended for use in which field?",
+          "The primary application area of this dataset falls under which category?"
+        ],
+        "correct_answers": [
+          "Planning for traffic",
+          "Use in traffic planning"
+        ],
+        "explanations": [
+          "It is applied when creating or organizing plans for traffic systems.",
+          "Its purpose is to assist in the planning and organization of traffic."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Gaming",
+              "B": "Finance",
+              "C": "Medical",
+              "D": "Traffic planning"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Gaming",
+              "B": "Traffic planning",
+              "C": "Medical",
+              "D": "Finance"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Gaming",
+              "B": "Medical",
+              "C": "Traffic planning",
+              "D": "Finance"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Traffic planning",
+              "B": "Finance",
+              "C": "Gaming",
+              "D": "Medical"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Medical",
+              "B": "Gaming",
+              "C": "Finance",
+              "D": "Traffic planning"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset reflects Japan-specific road conditions.",
+        "Question": "What is a limitation?",
+        "Selections": {
+          "A": "No data",
+          "B": "Japan-specific patterns",
+          "C": "Too small",
+          "D": "No time data"
+        },
+        "Output": "B",
+        "Explanation": "Region-specific.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l1__0009",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 8,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which of the following is a limitation of the dataset?",
+          "What is one constraint associated with this dataset?",
+          "Which option best describes a key drawback of the dataset?",
+          "What is one notable limitation when using this dataset?",
+          "Which choice identifies a limitation inherent in this dataset?"
+        ],
+        "correct_answers": [
+          "Patterns specific to Japan",
+          "Japan-only patterns"
+        ],
+        "explanations": [
+          "It is limited to patterns that apply only to Japan.",
+          "The patterns are specific to the Japanese region."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "No time data",
+              "B": "Too small",
+              "C": "No data",
+              "D": "Japan-specific patterns"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "No time data",
+              "B": "Japan-specific patterns",
+              "C": "No data",
+              "D": "Too small"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Japan-specific patterns",
+              "B": "Too small",
+              "C": "No time data",
+              "D": "No data"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "No data",
+              "B": "Japan-specific patterns",
+              "C": "No time data",
+              "D": "Too small"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Too small",
+              "B": "Japan-specific patterns",
+              "C": "No data",
+              "D": "No time data"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset measures traffic per segment with periodic surveys.",
+        "Question": "What is the implication of combining segment-level data with periodic collection?",
+        "Selections": {
+          "A": "Continuous real-time tracking",
+          "B": "Detailed spatial but limited temporal analysis",
+          "C": "No spatial detail",
+          "D": "No temporal data"
+        },
+        "Output": "B",
+        "Explanation": "Temporal resolution is limited.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l2__0001",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 9,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "When traffic data is collected for each road segment only at set intervals, what does this imply about the type of analysis that can be performed?",
+          "If traffic is recorded per segment using surveys conducted periodically, what does this say about the nature of the resulting dataset?",
+          "Given that traffic data is obtained at the segment level through occasional (periodic) measurements, what is the main characteristic of the analysis that can be done?",
+          "If a traffic dataset consists of per-segment measurements collected only at discrete time intervals, what does this combination imply about the dataset?",
+          "When traffic per road segment is captured through surveys that occur at regular but infrequent times, what is the resulting implication for the data characteristics?"
+        ],
+        "correct_answers": [
+          "Fine-grained spatial analysis but constrained temporal analysis",
+          "High spatial detail with restricted temporal resolution"
+        ],
+        "explanations": [
+          "Because data is only collected periodically, the time detail is coarse, so you get fine spatial detail but only limited insight into changes over time.",
+          "The infrequent timing of data collection restricts how precisely events can be tracked over time, even though the spatial information for each segment is detailed."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Continuous real-time tracking",
+              "B": "Detailed spatial but limited temporal analysis",
+              "C": "No temporal data",
+              "D": "No spatial detail"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "No spatial detail",
+              "B": "Detailed spatial but limited temporal analysis",
+              "C": "No temporal data",
+              "D": "Continuous real-time tracking"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "No temporal data",
+              "B": "Continuous real-time tracking",
+              "C": "Detailed spatial but limited temporal analysis",
+              "D": "No spatial detail"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "Vehicle counts are collected via sensors and surveys.",
+        "Question": "What does combining these methods achieve?",
+        "Selections": {
+          "A": "Reduces accuracy",
+          "B": "Balances precision and coverage",
+          "C": "Removes spatial info",
+          "D": "Only manual data"
+        },
+        "Output": "B",
+        "Explanation": "Different methods complement each other.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l2__0002",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 10,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In the context of collecting vehicle counts using sensors and surveys, what is the result of using both methods together?",
+          "When vehicle counts are gathered through both sensor data and survey data, what overall outcome does this combination provide?",
+          "If traffic data are obtained by integrating sensor-based counts with survey-based counts, what does this integration accomplish?",
+          "When you merge sensor-collected vehicle counts with survey-based vehicle counts, what is the main benefit of this combined approach?",
+          "Considering that vehicle counts come from both sensors and surveys, what is the primary effect of combining these two collection methods?"
+        ],
+        "correct_answers": [
+          "Achieves a balance between accuracy and breadth",
+          "Maintains an equilibrium between precision and overall coverage"
+        ],
+        "explanations": [
+          "Using multiple methods together allows their strengths to offset each other’s weaknesses, resulting in a better balance between precision and coverage.",
+          "Because the methods work in a complementary way, combining them helps achieve both good precision and broad coverage at the same time."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Only manual data",
+              "B": "Reduces accuracy",
+              "C": "Balances precision and coverage",
+              "D": "Removes spatial info"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Reduces accuracy",
+              "B": "Removes spatial info",
+              "C": "Only manual data",
+              "D": "Balances precision and coverage"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Removes spatial info",
+              "B": "Balances precision and coverage",
+              "C": "Reduces accuracy",
+              "D": "Only manual data"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is tabular and nationwide.",
+        "Question": "What does this combination enable?",
+        "Selections": {
+          "A": "Limited analysis",
+          "B": "Scalable national analysis",
+          "C": "No structure",
+          "D": "Only local data"
+        },
+        "Output": "B",
+        "Explanation": "Supports large-scale computation.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l2__0003",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 11,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "This tabular, nationwide dataset supports large-scale computation. What does this allow researchers to achieve?",
+          "Given a nationwide tabular dataset that supports large-scale computation, what kind of analysis becomes possible?",
+          "With access to a tabular dataset that covers the entire nation and can be processed at scale, what capability does this provide?",
+          "A tabular dataset spanning the whole country enables large-scale computation. What type of analysis does this combination support?",
+          "Considering that the dataset is both tabular and nationwide, and can be used for large-scale computation, what does this make feasible?"
+        ],
+        "correct_answers": [
+          "Nationwide scalable analysis",
+          "Scalable analysis at the national level"
+        ],
+        "explanations": [
+          "Allows computations to be performed efficiently at a large, nationwide scale.",
+          "Enables processing and analysis of data across the entire country in a scalable way."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Scalable national analysis",
+              "B": "Only local data",
+              "C": "Limited analysis",
+              "D": "No structure"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Only local data",
+              "B": "Scalable national analysis",
+              "C": "Limited analysis",
+              "D": "No structure"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "No structure",
+              "B": "Only local data",
+              "C": "Scalable national analysis",
+              "D": "Limited analysis"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset includes traffic volume and regional segmentation.",
+        "Question": "What does combining these attributes enable?",
+        "Selections": {
+          "A": "Static averages",
+          "B": "Traffic distribution modeling",
+          "C": "No analysis",
+          "D": "Only temporal data"
+        },
+        "Output": "B",
+        "Explanation": "Supports modeling.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l2__0004",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 12,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "What does the integration of traffic volume data with regional segmentation allow you to perform?",
+          "When traffic volume is combined with regional segmentation in a dataset, what type of analysis becomes possible?",
+          "Given a dataset that merges traffic volume with regional segmentation, what does this combination facilitate?",
+          "If a dataset includes both traffic volume and regional segmentation, what can be achieved by using these attributes together?",
+          "By using traffic volume together with regional segmentation, what kind of modeling can be carried out?"
+        ],
+        "correct_answers": [
+          "Modeling of traffic distribution",
+          "Simulation of how traffic is distributed"
+        ],
+        "explanations": [
+          "Enables modeling of how traffic is distributed.",
+          "Allows the creation of models that represent traffic distribution."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Traffic distribution modeling",
+              "B": "No analysis",
+              "C": "Only temporal data",
+              "D": "Static averages"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Static averages",
+              "B": "No analysis",
+              "C": "Traffic distribution modeling",
+              "D": "Only temporal data"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "No analysis",
+              "B": "Only temporal data",
+              "C": "Traffic distribution modeling",
+              "D": "Static averages"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is Japan-specific and periodically collected.",
+        "Question": "What is the implication?",
+        "Selections": {
+          "A": "Universal use",
+          "B": "Context-dependent applicability",
+          "C": "No limitation",
+          "D": "Only affects file size"
+        },
+        "Output": "B",
+        "Explanation": "Limits generalization.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__multiple_choice__l2__0005",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 13,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "What does this suggest about how broadly the dataset’s findings can be applied?",
+          "Given that the dataset is Japan-specific and periodically collected, what does this indicate about the scope of its applicability?",
+          "Considering the dataset is limited to Japan and gathered at intervals, what does this imply about using its results elsewhere?",
+          "In light of the dataset being specific to Japan and collected periodically, what can be inferred about the generalizability of its conclusions?",
+          "Based on the fact that the dataset focuses on Japan and is periodically updated, what does this imply about where and how its insights can be used?"
+        ],
+        "correct_answers": [
+          "Applicability that depends on the specific context",
+          "Usefulness restricted to particular situations or conditions"
+        ],
+        "explanations": [
+          "It restricts how broadly the result can be generalized, meaning it only applies in certain contexts.",
+          "It narrows the scope of generalization so the conclusion is valid only under specific conditions."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Only affects file size",
+              "B": "Context-dependent applicability",
+              "C": "Universal use",
+              "D": "No limitation"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Only affects file size",
+              "B": "Universal use",
+              "C": "No limitation",
+              "D": "Context-dependent applicability"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Universal use",
+              "B": "Only affects file size",
+              "C": "No limitation",
+              "D": "Context-dependent applicability"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The MLIT dataset is provided by Japan’s Ministry of Land, Infrastructure, Transport and Tourism.",
+        "Question": "Who provides the dataset?",
+        "Output": "Japan’s Ministry of Land, Infrastructure, Transport and Tourism.",
+        "Explanation": "MLIT is the provider.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__short_answer__l1__0001",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 0,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The MLIT dataset is supplied by Japan’s Ministry of Land, Infrastructure, Transport and Tourism.",
+            "Explanation": "The ministry is the source organization that supplies the MLIT dataset."
+          },
+          {
+            "Fact": "Japan’s Ministry of Land, Infrastructure, Transport and Tourism is responsible for supplying the MLIT dataset.",
+            "Explanation": "The dataset originates from and is issued by this specific Japanese ministry."
+          },
+          {
+            "Fact": "The provider of the MLIT dataset is Japan’s Ministry of Land, Infrastructure, Transport and Tourism.",
+            "Explanation": "This ministry acts as the official provider of the dataset in question."
+          },
+          {
+            "Fact": "Japan’s Ministry of Land, Infrastructure, Transport and Tourism makes the MLIT dataset available.",
+            "Explanation": "The dataset is made accessible to users by this ministry, identifying it as the provider."
+          },
+          {
+            "Fact": "The MLIT dataset comes from Japan’s Ministry of Land, Infrastructure, Transport and Tourism.",
+            "Explanation": "Because the dataset comes from this ministry, it is the entity that provides it."
+          }
+        ],
+        "questions": [
+          "Which organization is responsible for supplying the MLIT dataset?",
+          "Who is the official provider of the MLIT dataset?",
+          "The MLIT dataset comes from which government body?",
+          "Which ministry offers the MLIT dataset?",
+          "Who is in charge of providing the MLIT dataset?",
+          "From which governmental ministry is the MLIT dataset obtained?",
+          "Which institution makes the MLIT dataset available?",
+          "Who supplies the MLIT dataset used in this context?",
+          "The dataset referred to as MLIT is issued by which ministry?",
+          "Which national ministry is the source of the MLIT dataset?"
+        ],
+        "negative_candidates": [
+          "Japan’s Ministry of Economy, Trade and Industry",
+          "Japan’s National Institute of Informatics",
+          "The Statistics Bureau of the Ministry of Internal Affairs and Communications",
+          "The Japan Meteorological Agency",
+          "The Cabinet Office of the Government of Japan",
+          "The World Bank’s Open Data Initiative",
+          "The Geospatial Information Authority of Japan",
+          "The Ministry of the Environment of Japan",
+          "The Tokyo Metropolitan Government’s Data Portal",
+          "The Organisation for Economic Co-operation and Development (OECD)"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset covers road networks across Japan.",
+        "Question": "What is the spatial coverage of the dataset?",
+        "Output": "Road networks across Japan.",
+        "Explanation": "It spans nationwide.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__short_answer__l1__0002",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 1,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset encompasses road networks throughout Japan.",
+            "Explanation": "Its scope is nationwide, including roads across the entire country."
+          },
+          {
+            "Fact": "The dataset includes road network data for all regions of Japan.",
+            "Explanation": "It provides coverage across Japan as a whole, not limited to specific areas."
+          },
+          {
+            "Fact": "The dataset represents Japan’s road networks on a national scale.",
+            "Explanation": "Its spatial extent is the full territory of Japan’s road system."
+          },
+          {
+            "Fact": "The dataset spans road networks in Japan from end to end.",
+            "Explanation": "It is designed to cover roads across the entire nation of Japan."
+          },
+          {
+            "Fact": "The dataset’s spatial extent is the complete road network of Japan.",
+            "Explanation": "It offers comprehensive, countrywide coverage of Japanese roads."
+          }
+        ],
+        "questions": [
+          "What geographic area does the dataset encompass?",
+          "Which region’s road networks are included in the dataset?",
+          "Over what territory does the dataset’s road network information extend?",
+          "What is the national scope of the road network data in the dataset?",
+          "The dataset focuses on road networks; for which country are these provided?",
+          "What is the overall geographic extent of the road network coverage in this dataset?",
+          "Which country’s road network system is represented throughout the dataset?",
+          "Across what area are the road networks in this dataset mapped?",
+          "What is the nationwide coverage area described by this road network dataset?",
+          "For what location does the dataset provide comprehensive road network coverage?"
+        ],
+        "negative_candidates": [
+          "Only the major expressways in the Tokyo metropolitan area.",
+          "Urban road networks limited to the Kansai region around Osaka and Kyoto.",
+          "Highway segments exclusively on the island of Hokkaido.",
+          "Rural secondary roads in the Tohoku region only.",
+          "Road infrastructure confined to Okinawa Prefecture.",
+          "A single-city road network dataset focused on Nagoya.",
+          "Intercity highways connecting Tokyo and Osaka, without local streets.",
+          "Coastal road corridors along Japan’s Pacific shoreline only.",
+          "Road segments within government-designated ordinance cities, excluding smaller municipalities.",
+          "A pilot study area consisting of three selected prefectures in central Honshu."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is collected periodically through national surveys.",
+        "Question": "What is the temporal coverage of the dataset?",
+        "Output": "Collected periodically through national surveys.",
+        "Explanation": "It is not continuous real-time data.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__short_answer__l1__0003",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 2,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset is gathered at intervals via nationwide survey efforts.",
+            "Explanation": "This indicates the data is captured at specific survey times rather than continuously in real time."
+          },
+          {
+            "Fact": "Data in the dataset comes from recurring national-level survey collections.",
+            "Explanation": "Because it is based on repeated surveys, the information is not streamed or updated in real time."
+          },
+          {
+            "Fact": "The dataset is based on periodic rounds of surveys conducted across the country.",
+            "Explanation": "Since it relies on survey rounds, the data reflects discrete collection periods instead of ongoing real-time measurement."
+          },
+          {
+            "Fact": "Information in the dataset is obtained from regularly scheduled national surveys.",
+            "Explanation": "Regular survey schedules mean the dataset is updated at set times, not through continuous real-time recording."
+          },
+          {
+            "Fact": "The dataset’s temporal coverage is defined by successive national survey waves carried out periodically.",
+            "Explanation": "Survey waves occur at distinct points in time, so the dataset does not provide uninterrupted real-time coverage."
+          }
+        ],
+        "questions": [
+          "Over what time frame is the dataset gathered?",
+          "How is the dataset collected in terms of time coverage?",
+          "What describes the dataset’s time-based collection pattern?",
+          "In what manner is the dataset accumulated over time?",
+          "How would you characterize the temporal pattern of data collection for this dataset?",
+          "What is the nature of the dataset’s time coverage based on how it is gathered?",
+          "How is the dataset’s temporal span defined by its collection method?",
+          "What kind of temporal sampling does this dataset use?",
+          "How is the timing of data collection for this dataset structured?",
+          "What best describes the dataset’s temporal collection schedule?"
+        ],
+        "negative_candidates": [
+          "The dataset provides continuous real-time coverage with hourly updates.",
+          "The dataset covers a single cross-sectional snapshot from the year 2010 only.",
+          "The dataset spans daily observations from 1990 to the present without gaps.",
+          "The dataset includes only one annual survey conducted in 2020.",
+          "The dataset consists of monthly administrative records collected in real time from sensors.",
+          "The dataset is limited to a one-week field study conducted in June 2015.",
+          "The dataset offers second-by-second temporal coverage derived from live transaction logs.",
+          "The dataset is based on a single census round carried out in 2001 with no follow-up waves.",
+          "The dataset covers only a single day of observations gathered during a pilot experiment.",
+          "The dataset provides continuous minute-level time series data over a 24-hour period."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "Traffic volume is measured per road segment.",
+        "Question": "What is the measurement resolution?",
+        "Output": "Per road segment.",
+        "Explanation": "Segment-level measurement.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__short_answer__l1__0004",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 3,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "Traffic counts are recorded for each individual road segment.",
+            "Explanation": "The data is collected at the segment level, so resolution is per road segment."
+          },
+          {
+            "Fact": "The system tracks traffic volume separately on every road segment.",
+            "Explanation": "Because measurements are separated by segment, the resolution is per road segment."
+          },
+          {
+            "Fact": "Each road segment has its own traffic volume measurement.",
+            "Explanation": "Having a distinct value for each segment means the measurement resolution is per road segment."
+          },
+          {
+            "Fact": "Traffic volume data is not aggregated across multiple roads but stored by segment.",
+            "Explanation": "Since values are kept at the segment granularity, the resolution is per road segment."
+          },
+          {
+            "Fact": "Measurements of traffic volume are taken at the level of discrete road segments.",
+            "Explanation": "Using discrete segments as the unit of measurement yields a resolution of per road segment."
+          }
+        ],
+        "questions": [
+          "At what level is the traffic volume measured?",
+          "What is the unit of granularity used to measure the traffic volume?",
+          "Traffic volume is recorded at which specific scale?",
+          "On what basis is the traffic volume data collected?",
+          "At which spatial level is traffic volume quantified?",
+          "Traffic volume measurements are taken for what type of unit?",
+          "The resolution of the traffic volume data corresponds to what?",
+          "For which kind of segment is the traffic volume specifically measured?",
+          "The measurement detail for traffic volume is defined at what level?",
+          "What is the basic segment used as the resolution for measuring traffic volume?"
+        ],
+        "negative_candidates": [
+          "Per individual vehicle detected by sensors",
+          "Per entire road network aggregated daily",
+          "Per intersection rather than along links",
+          "Per city district or zone boundary",
+          "Per kilometer of roadway regardless of segments",
+          "Per lane group across multiple adjacent roads",
+          "Per entire corridor combining multiple roads",
+          "Per time-of-day period only, without spatial granularity",
+          "Per traffic signal cycle at controlled junctions",
+          "Per administrative region such as municipality or county"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "Variables include traffic volume and vehicle count.",
+        "Question": "Name one variable in the dataset.",
+        "Output": "Traffic volume or vehicle count.",
+        "Explanation": "Both are core variables.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__short_answer__l1__0005",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 4,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset contains a variable for traffic volume as well as one for vehicle count.",
+            "Explanation": "Traffic volume and vehicle count are both listed as variables, so either can be named as an answer."
+          },
+          {
+            "Fact": "Among the recorded variables are traffic volume and the number of vehicles.",
+            "Explanation": "Since traffic volume and vehicle number are explicitly part of the dataset, each qualifies as a valid variable to mention."
+          },
+          {
+            "Fact": "Traffic volume and vehicle count are two of the fields included in the dataset.",
+            "Explanation": "Because these fields are present as dataset variables, stating either traffic volume or vehicle count correctly answers the question."
+          },
+          {
+            "Fact": "The dataset tracks traffic volume alongside a measure of vehicle count.",
+            "Explanation": "Tracking both traffic volume and vehicle count means each is a dataset variable that can be cited in response."
+          },
+          {
+            "Fact": "One of the dataset’s variables is traffic volume, and another is vehicle count.",
+            "Explanation": "Given that both traffic volume and vehicle count are defined as variables, naming either satisfies the requirement to name one variable."
+          }
+        ],
+        "questions": [
+          "Identify a single variable that appears in the dataset.",
+          "Give one example of a variable that is part of this dataset.",
+          "State one of the variables recorded in the dataset.",
+          "What is one variable measured in this dataset?",
+          "Name any one variable that the dataset tracks.",
+          "Provide one variable that the dataset includes.",
+          "List one variable that is captured in the dataset.",
+          "Mention one of the variables found in the dataset.",
+          "What is one of the variables contained in this dataset?",
+          "Cite one variable that is present in the dataset."
+        ],
+        "negative_candidates": [
+          "Average vehicle speed",
+          "Road surface condition",
+          "Weather type",
+          "Time of day of observation",
+          "Number of traffic lanes",
+          "Accident count",
+          "Vehicle occupancy rate",
+          "Road segment length",
+          "Traffic signal cycle time",
+          "Parking availability"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is stored in structured tables.",
+        "Question": "What is the file structure of the dataset?",
+        "Output": "Structured tables.",
+        "Explanation": "It uses tabular format.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__short_answer__l1__0006",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 5,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset is organized into well-defined tables.",
+            "Explanation": "Its contents are arranged in a tabular structure."
+          },
+          {
+            "Fact": "Data within the dataset is kept in a table-based layout.",
+            "Explanation": "Information is stored using a structured tabular format."
+          },
+          {
+            "Fact": "The dataset’s files are formatted as structured tables.",
+            "Explanation": "They are saved in a table-like, column-and-row arrangement."
+          },
+          {
+            "Fact": "All records in the dataset are contained in tabular structures.",
+            "Explanation": "The data is represented using structured tables rather than unstructured files."
+          },
+          {
+            "Fact": "The dataset is implemented as a collection of structured data tables.",
+            "Explanation": "Its organization relies on a tabular schema for storing entries."
+          }
+        ],
+        "questions": [
+          "How is the dataset organized on disk?",
+          "In what format is the dataset’s data arranged?",
+          "What kind of structural layout does the dataset use?",
+          "How are the contents of the dataset structured?",
+          "What is the organizational format of the dataset files?",
+          "In what structural form is the dataset stored?",
+          "How is the dataset’s information formatted and stored?",
+          "What is the underlying data structure used by the dataset?",
+          "What type of file organization does the dataset follow?",
+          "What is the storage structure used to hold the dataset’s data?"
+        ],
+        "negative_candidates": [
+          "Unstructured plain text documents",
+          "A collection of nested JSON files",
+          "Hierarchical XML files organized by category",
+          "A directory of individual image files with labels in filenames",
+          "Key-value pairs stored in a NoSQL document store",
+          "Compressed binary blobs without explicit schema",
+          "A graph database with nodes and edges representing entities",
+          "Time-series logs stored as line-delimited records",
+          "A single flat CSV file with no tabular organization",
+          "Audio recordings stored as separate waveform files"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is collected using sensors and surveys.",
+        "Question": "How is the dataset collected?",
+        "Output": "Using sensors and surveys.",
+        "Explanation": "Both methods are used.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__short_answer__l1__0007",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 6,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "Data for the dataset is gathered through the use of sensors and participant surveys.",
+            "Explanation": "It specifies that both sensors and surveys are employed to collect the dataset."
+          },
+          {
+            "Fact": "The dataset is assembled by recording information from sensors and by administering surveys.",
+            "Explanation": "It clarifies that data comes from two sources: sensors and surveys."
+          },
+          {
+            "Fact": "Collection of the dataset relies on sensor measurements in combination with survey responses.",
+            "Explanation": "It indicates that both sensor readings and survey answers are used to obtain the data."
+          },
+          {
+            "Fact": "Researchers obtain the dataset by deploying sensors and conducting surveys.",
+            "Explanation": "It shows that the dataset is created through two collection methods: sensors and surveys."
+          },
+          {
+            "Fact": "The dataset is created from data captured by sensors and from information reported in surveys.",
+            "Explanation": "It confirms that the dataset is based on inputs from both sensors and surveys."
+          }
+        ],
+        "questions": [
+          "In what way was the dataset gathered?",
+          "By what methods was the dataset obtained?",
+          "How did the researchers acquire the dataset?",
+          "Through which approaches was the dataset assembled?",
+          "What procedures were used to collect the dataset?",
+          "How was the data for the dataset obtained?",
+          "Which techniques were employed to gather the dataset?",
+          "By what means was the dataset compiled?",
+          "How did they collect the data that makes up the dataset?",
+          "What data collection methods were used to build the dataset?"
+        ],
+        "negative_candidates": [
+          "The dataset is collected exclusively through manual field observations.",
+          "The dataset is compiled from publicly available government records.",
+          "The dataset is gathered using only online questionnaires distributed via email.",
+          "The dataset is collected from satellite imagery and aerial photography.",
+          "The dataset is assembled from historical archives and library documents.",
+          "The dataset is generated synthetically using computer simulations.",
+          "The dataset is collected through interviews conducted over the phone.",
+          "The dataset is obtained by web scraping various online platforms.",
+          "The dataset is gathered from transactional logs of an e-commerce platform.",
+          "The dataset is collected by crowdsourcing contributions from social media users."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is used for traffic planning and infrastructure design.",
+        "Question": "What is the usage context of the dataset?",
+        "Output": "Traffic planning and infrastructure design.",
+        "Explanation": "It supports planning decisions.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__short_answer__l1__0008",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 7,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset serves applications in traffic planning and the design of transport infrastructure.",
+            "Explanation": "It is applied when making decisions about how to plan traffic systems and shape related infrastructure."
+          },
+          {
+            "Fact": "This dataset is utilized in contexts involving transportation planning and the layout of infrastructure.",
+            "Explanation": "Its primary role is to inform choices about organizing traffic and configuring infrastructure projects."
+          },
+          {
+            "Fact": "The dataset is intended for use in traffic management planning and infrastructure development.",
+            "Explanation": "It provides information that guides how traffic networks are planned and how supporting infrastructure is developed."
+          },
+          {
+            "Fact": "Users rely on this dataset for tasks related to planning traffic flows and designing infrastructure networks.",
+            "Explanation": "It offers data that underpins decisions about traffic arrangements and the structure of transport infrastructure."
+          },
+          {
+            "Fact": "The dataset’s main context of use is in planning transportation systems and designing associated infrastructure.",
+            "Explanation": "It supports decision-making processes focused on traffic system planning and infrastructure design."
+          }
+        ],
+        "questions": [
+          "In what context is this dataset intended to be applied?",
+          "For what primary purpose is this dataset utilized?",
+          "In which domain is the dataset mainly used?",
+          "What is the main application area of this dataset?",
+          "This dataset is designed to support decisions in what field?",
+          "For what kind of planning activities is the dataset employed?",
+          "In what practical setting would this dataset typically be used?",
+          "What is the main use case for this dataset?",
+          "In which professional context would analysts rely on this dataset?",
+          "The dataset is primarily collected to aid which type of work?"
+        ],
+        "negative_candidates": [
+          "Real-time navigation assistance for individual drivers and delivery services.",
+          "Marketing analytics to understand consumer purchasing behavior in retail stores.",
+          "Environmental impact assessments focused solely on wildlife migration patterns.",
+          "Healthcare resource allocation within hospital networks and emergency rooms.",
+          "Educational curriculum development for primary and secondary schools.",
+          "Financial risk modeling for stock market trading and portfolio optimization.",
+          "Social media sentiment analysis for brand reputation management.",
+          "Agricultural yield prediction and farm irrigation scheduling.",
+          "Personal fitness tracking and individualized workout recommendations.",
+          "E-commerce product recommendation engines for online shopping platforms."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset reflects Japan-specific road conditions.",
+        "Question": "What is a limitation of the dataset?",
+        "Output": "Japan-specific road conditions.",
+        "Explanation": "It may not generalize globally.",
+        "Level": 1,
+        "seed_id": "japan_mlit_instructions__short_answer__l1__0009",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 8,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset is based solely on road conditions found in Japan.",
+            "Explanation": "Because it only includes Japanese roads, its applicability to other countries is limited."
+          },
+          {
+            "Fact": "All road data in the dataset comes from Japanese environments.",
+            "Explanation": "Since it is restricted to Japan, the dataset may not represent driving conditions elsewhere."
+          },
+          {
+            "Fact": "The dataset’s road scenarios are exclusively drawn from Japan.",
+            "Explanation": "This geographic focus can reduce how well the dataset transfers to non-Japanese settings."
+          },
+          {
+            "Fact": "Roadway information in the dataset is limited to Japanese locations.",
+            "Explanation": "Such regional restriction can hinder its use for modeling or analysis in other regions."
+          },
+          {
+            "Fact": "The dataset captures driving conditions unique to Japan’s roads.",
+            "Explanation": "These Japan-specific characteristics may not hold in other countries, limiting broader generalization."
+          }
+        ],
+        "questions": [
+          "Which constraint applies to this dataset?",
+          "What is one drawback associated with this dataset?",
+          "What is a notable restriction of the dataset’s applicability?",
+          "What is one key limitation regarding the dataset’s coverage?",
+          "What is a primary shortcoming of the dataset’s scope?",
+          "What is one important limitation of how this dataset can be used?",
+          "What is a significant constraint on the dataset’s generalizability?",
+          "What is one major limitation in terms of where this dataset is relevant?",
+          "What is a central limitation affecting the dataset’s broader usefulness?",
+          "What is one geographic limitation inherent in this dataset?"
+        ],
+        "negative_candidates": [
+          "Limited to urban expressways and excludes rural or local roads entirely.",
+          "Contains only highway traffic data and omits all information about intersections and traffic signals.",
+          "Focuses exclusively on winter weather conditions such as snow and ice, ignoring other seasons.",
+          "Includes only daytime driving scenarios and has no data collected at night or in low-light conditions.",
+          "Restricted to passenger cars and does not include data from trucks, buses, or motorcycles.",
+          "Covers only dry pavement conditions and excludes wet or slippery road surfaces.",
+          "Consists solely of simulated road environments and lacks any real-world measurements.",
+          "Provides only historical, static snapshots and does not support real-time or time-series analysis.",
+          "Includes only high-resolution imagery but no numerical sensor data such as speed or acceleration.",
+          "Collected during a single day of observation, making it too small to capture typical traffic variability."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset measures traffic volume per road segment using periodic surveys.",
+        "Question": "How do segment-level spatial resolution and periodic temporal collection affect traffic trend analysis?",
+        "Output": "They allow analysis of traffic distribution but limit continuous temporal dynamics.",
+        "Explanation": "Spatial detail exists but temporal granularity is limited.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__short_answer__l2__0001",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 9,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "Traffic counts are recorded for individual road segments at set survey intervals.",
+            "Explanation": "This supports examining how traffic is distributed across space, but the interval-based collection restricts insight into continuous time-based changes."
+          },
+          {
+            "Fact": "The traffic data is collected segment by segment, with measurements taken only at specific, repeated times.",
+            "Explanation": "This enables detailed spatial analysis of where traffic occurs, yet the periodic timing constrains the ability to track uninterrupted temporal trends."
+          },
+          {
+            "Fact": "Each road segment has traffic volume observations tied to discrete survey periods rather than ongoing monitoring.",
+            "Explanation": "This segment-level structure supports spatial pattern analysis, while the non-continuous timing limits the study of fine-grained temporal dynamics."
+          },
+          {
+            "Fact": "Traffic volumes are captured at the level of individual segments, but only during scheduled survey rounds.",
+            "Explanation": "This provides granular spatial coverage for distribution analysis, but the survey-based schedule prevents full observation of continuous traffic evolution over time."
+          }
+        ],
+        "questions": [
+          "In what ways do having traffic counts at the road-segment level and only periodically collected data influence the ability to study traffic trends?",
+          "How does measuring traffic per individual road segment on a periodic basis shape what can and cannot be inferred about traffic trends over time?",
+          "What is the impact on traffic trend analysis of using segment-based traffic volumes that are gathered only at discrete survey intervals?",
+          "How do road-segment-specific measurements combined with non-continuous, survey-based collection affect the understanding of traffic patterns?",
+          "How does the combination of detailed segment-level traffic data and infrequent temporal sampling constrain and enable traffic trend analysis?",
+          "In analyzing traffic trends, what are the implications of having fine spatial resolution at the segment level but only periodic temporal observations?",
+          "How does recording traffic volume by segment through occasional surveys influence the assessment of both spatial distribution and temporal evolution of traffic?",
+          "What effect does collecting traffic counts per segment at set survey times have on capturing spatial patterns versus continuous temporal changes in traffic?",
+          "How do segment-specific traffic measurements taken at periodic intervals shape the analysis of where traffic occurs versus how it changes over time?",
+          "When traffic volume is recorded per road segment but only during periodic surveys, how does this affect the ability to map traffic distribution and to track its continuous temporal dynamics?"
+        ],
+        "negative_candidates": [
+          "They mainly improve long-term temporal forecasting while offering almost no useful spatial detail at the segment level.",
+          "They hinder both spatial and temporal analysis because the data are aggregated to the whole network and collected only once.",
+          "They provide continuous real-time traffic monitoring for each segment, enabling precise detection of short-term fluctuations.",
+          "They eliminate the need for any temporal analysis since spatial variation alone fully explains traffic patterns.",
+          "They primarily capture citywide average traffic trends, with segment-level resolution being too coarse to study local variations.",
+          "They make it impossible to compare traffic across different road segments because measurements are only available as total daily counts for the entire city.",
+          "They enable detailed temporal pattern detection, such as minute-by-minute rush hour dynamics, but are too spatially coarse to study individual segments.",
+          "They ensure that both spatial and temporal resolutions are so fine that no important traffic trend information is lost.",
+          "They support only temporal trend analysis over time, with no capability to examine how traffic varies across different locations.",
+          "They bias the analysis toward long continuous time series on each segment, preventing identification of any spatial differences in traffic loads."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset includes vehicle counts collected through sensors and surveys.",
+        "Question": "How do variable definitions and collection methods together ensure data coverage?",
+        "Output": "They provide both precise measurements and broad coverage.",
+        "Explanation": "Sensors provide accuracy, surveys provide scope.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__short_answer__l2__0002",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 10,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset contains vehicle count data gathered via automated sensors and manual survey methods.",
+            "Explanation": "Combining automated sensors with manual surveys yields both precise measurements and wide-ranging data coverage."
+          },
+          {
+            "Fact": "Vehicle counting in the dataset is performed using both sensor-based tracking and survey-based recording.",
+            "Explanation": "Sensor-based tracking ensures accurate counts, while survey-based recording expands the overall scope of the data."
+          },
+          {
+            "Fact": "Data on vehicle numbers is obtained from instrumented sensors as well as from survey responses.",
+            "Explanation": "Instrumented sensors deliver exact numerical readings, and survey responses extend the dataset’s reach across more situations."
+          },
+          {
+            "Fact": "The collection of vehicle counts relies on two approaches: sensor measurements and survey collection.",
+            "Explanation": "Sensor measurements contribute high precision, and survey collection adds broader contextual coverage of vehicles."
+          }
+        ],
+        "questions": [
+          "In what way do the defined variables and the mix of collection methods guarantee comprehensive data coverage?",
+          "How does the combination of variable definitions and different data collection approaches result in full coverage of the data?",
+          "How do clearly defined variables and the use of multiple collection methods work together to achieve complete data coverage?",
+          "How do the specifications of variables and the chosen collection techniques jointly contribute to ensuring that the data are fully covered?",
+          "How does the way variables are defined, along with the collection methods used, help secure thorough coverage of the dataset?",
+          "How do the variable definitions, when paired with the various collection methods, make sure that the data are comprehensively covered?",
+          "In what manner do the variable definitions and the selected collection strategies collaborate to ensure that data coverage is complete?",
+          "How do the established variable definitions and the combination of collection methods function together to provide overall data coverage?",
+          "How does the interplay between how variables are defined and how data are collected ensure that the dataset has full coverage?",
+          "How do the definitions of the variables and the diversity of collection methods jointly ensure that the data are both accurate and comprehensively covered?"
+        ],
+        "negative_candidates": [
+          "They eliminate the need for both calibration and validation of the dataset.",
+          "They guarantee that every individual vehicle in the population is tracked continuously in real time.",
+          "They allow the dataset to focus exclusively on peak-hour congestion without including off-peak periods.",
+          "They ensure that only sensor-based measurements are used, making survey data unnecessary for coverage.",
+          "They restrict the dataset to a narrow subset of vehicle types to avoid variability in coverage.",
+          "They prioritize respondent opinions over numerical counts, emphasizing perceptions instead of measurements.",
+          "They ensure that the dataset captures only long-distance freight movements, excluding local traffic.",
+          "They make it possible to discard incomplete records, thereby reducing the overall coverage of the dataset.",
+          "They standardize the data so that only average daily traffic volumes are stored, omitting all detailed counts.",
+          "They focus on minimizing data collection costs rather than maximizing the extent of the covered network."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset is structured in tabular format and covers nationwide road networks.",
+        "Question": "How do file structure and spatial coverage support large-scale analysis?",
+        "Output": "They enable efficient nationwide traffic analysis.",
+        "Explanation": "Structured data supports scalability.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__short_answer__l2__0003",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 11,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The data is organized in tables and spans road networks across the entire country.",
+            "Explanation": "Tabular organization combined with full national coverage allows traffic patterns to be analyzed efficiently at a countrywide scale."
+          },
+          {
+            "Fact": "The dataset uses a tabular layout and includes all roads at the national level.",
+            "Explanation": "Having all roads represented in a consistent table format makes it practical to run large-scale traffic analyses across the whole nation."
+          },
+          {
+            "Fact": "Information is stored in a table-based schema and encompasses road infrastructure nationwide.",
+            "Explanation": "A uniform tabular schema over a complete national road set supports scalable processing for traffic analysis across the country."
+          },
+          {
+            "Fact": "The collection is in a structured table form and provides coverage of the full national road network.",
+            "Explanation": "This structured, comprehensive coverage enables efficient computation and aggregation needed for nationwide traffic analysis."
+          }
+        ],
+        "questions": [
+          "In what way do the tabular organization and nationwide road coverage of the dataset facilitate broad traffic analysis?",
+          "How does having the data in tables and spanning all national road networks help perform large-scale traffic studies?",
+          "Why do a tabular file layout and nationwide road network coverage make it easier to conduct traffic analysis at a national scale?",
+          "How do the dataset’s tabular format and its inclusion of all roads across the country support scalable traffic analysis?",
+          "In what manner do the tabular structure and full national road coverage of the dataset contribute to efficient large-area traffic analysis?",
+          "How does structuring the data in tables and including every road nationwide enable comprehensive traffic analysis across the country?",
+          "Why does a tabular data structure combined with coverage of the entire national road network allow for efficient large-scale traffic analysis?",
+          "How do the dataset’s table-based structure and its nationwide road network extent help support traffic analysis over the whole country?",
+          "What is the benefit for large-scale traffic analysis of having the dataset in tabular form and covering all roads nationwide?",
+          "How do the tabular file format and the dataset’s nationwide road coverage together facilitate efficient countrywide traffic analysis?"
+        ],
+        "negative_candidates": [
+          "They restrict analysis to small urban corridors instead of broader regions.",
+          "They primarily facilitate building-level navigation rather than regional traffic modeling.",
+          "They are optimized for visual map rendering only, not for analytical workflows.",
+          "They limit users to manual inspection of individual roads instead of automated analysis.",
+          "They are designed solely for historical archiving, preventing contemporary traffic studies.",
+          "They focus on local neighborhood paths, excluding major intercity routes.",
+          "They only support point-based accident records, not continuous network analysis.",
+          "They confine analysis to a single state at a time, blocking cross-state comparisons.",
+          "They are intended mainly for 3D visualization of road geometry, not for traffic analytics.",
+          "They support only ad hoc, small-sample queries rather than systematic large-scale studies."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset includes traffic volume and regional segmentation.",
+        "Question": "How do these attributes together support traffic modeling?",
+        "Output": "They enable modeling of traffic distribution across regions.",
+        "Explanation": "Spatial segmentation supports distribution analysis.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__short_answer__l2__0004",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 12,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset provides traffic volume data broken down by geographic regions.",
+            "Explanation": "Having traffic counts separated by region makes it possible to analyze how traffic is distributed in different areas."
+          },
+          {
+            "Fact": "Traffic volumes in the dataset are organized according to distinct regional segments.",
+            "Explanation": "By assigning volumes to specific regions, the data can be used to model how traffic is spread across those regions."
+          },
+          {
+            "Fact": "The dataset records how much traffic occurs in each defined region.",
+            "Explanation": "Knowing the volume per region allows analysts to construct models of traffic distribution between those regions."
+          },
+          {
+            "Fact": "Traffic counts are available in the dataset with an associated regional classification.",
+            "Explanation": "Linking each traffic count to a region enables examination and modeling of traffic patterns across the regional segments."
+          }
+        ],
+        "questions": [
+          "In what way do these characteristics collectively facilitate modeling how traffic is distributed?",
+          "How do these combined properties help in constructing models of traffic distribution patterns?",
+          "How do these features, when used together, aid in analyzing how traffic is spread out?",
+          "In what manner do these attributes as a group assist in modeling the distribution of traffic flows?",
+          "How does the combination of these attributes contribute to understanding how traffic is allocated across different areas?",
+          "How do these attributes jointly make it possible to model where traffic is distributed?",
+          "How do these characteristics, taken together, support analysis of how traffic volumes are distributed?",
+          "In what way does the joint presence of these attributes help in modeling traffic spread across locations?",
+          "How do these attributes in combination enable studying how traffic is distributed spatially?",
+          "How does having these attributes together assist in modeling the way traffic is distributed over regions?"
+        ],
+        "negative_candidates": [
+          "They allow the model to predict individual driver behavior over time rather than aggregate flows.",
+          "They make it possible to estimate vehicle maintenance needs based on where cars are manufactured.",
+          "They primarily support forecasting of fuel prices by linking traffic counts to regional tax policies.",
+          "They enable identification of optimal billboard locations by correlating ad impressions with vehicle types.",
+          "They support modeling of pedestrian safety outcomes by tracking foot traffic instead of vehicle traffic.",
+          "They allow detailed simulation of engine performance variations across different vehicle brands.",
+          "They are mainly used to calibrate parking availability models within single intersections rather than across areas.",
+          "They help forecast airline passenger volumes by mapping road traffic directly to airport check-in counts.",
+          "They allow the dataset to be converted into a real-time navigation system that replaces GPS signals.",
+          "They support modeling of long-term climate patterns by treating traffic volume as a proxy for regional temperature changes."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset reflects Japan-specific road infrastructure and uses periodic surveys.",
+        "Question": "How do these attributes affect generalizability?",
+        "Output": "They limit applicability to regions with similar infrastructure and data collection frequency.",
+        "Explanation": "Both attributes constrain transfer.",
+        "Level": 2,
+        "seed_id": "japan_mlit_instructions__short_answer__l2__0005",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 13,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The data is based on road systems unique to Japan and is gathered through recurring survey campaigns.",
+            "Explanation": "Because the roads and collection method are specific to Japan and periodic surveys, models trained on this data may only generalize well to places with comparable road setups and survey schedules."
+          },
+          {
+            "Fact": "The dataset is tailored to Japanese roadway conditions and relies on time-interval survey data rather than continuous collection.",
+            "Explanation": "This specialization to Japan’s roads and periodic sampling reduces how well findings extend to areas that lack similar infrastructure or survey timing."
+          },
+          {
+            "Fact": "Road information in the dataset comes from Japan’s particular infrastructure and is captured at discrete survey times.",
+            "Explanation": "Such country-specific and intermittently collected data restricts model transfer to other regions unless they share similar road characteristics and survey frequency."
+          },
+          {
+            "Fact": "The dataset’s content is drawn from Japan’s distinctive road network and is updated through scheduled surveys.",
+            "Explanation": "These Japan-focused and periodically updated observations narrow the range of environments where the results can be reliably applied, mainly to those with comparable roads and survey intervals."
+          }
+        ],
+        "questions": [
+          "In what way do these characteristics influence how broadly the results can be applied?",
+          "How do these two features impact the extent to which findings can be used in other settings?",
+          "What effect do these properties have on the ability to generalize the results beyond the original context?",
+          "How do these dataset attributes shape the degree to which conclusions can be transferred elsewhere?",
+          "In what manner do these aspects of the dataset constrain the generalizability of its outcomes?",
+          "How do these particular traits of the data influence whether the results hold in other regions or conditions?",
+          "What is the impact of these dataset features on applying the findings to different locations or situations?",
+          "How do these two dataset characteristics affect the scope of contexts to which the results can be generalized?",
+          "In what ways do these attributes restrict the transferability of the study’s conclusions?",
+          "How do these specific aspects of the dataset determine how widely its insights can be generalized?"
+        ],
+        "negative_candidates": [
+          "They enhance generalizability because Japan’s advanced infrastructure closely mirrors conditions in most other countries, making the findings widely applicable without adjustment.",
+          "They have no meaningful impact on generalizability, since road infrastructure characteristics and survey timing are largely irrelevant to model transfer.",
+          "They actually improve external validity by providing a standardized benchmark that can be safely applied to any region regardless of infrastructure differences.",
+          "They make the results most suitable for low-income countries with minimal road infrastructure and infrequent data collection, rather than developed regions.",
+          "They broaden applicability by averaging out local peculiarities, so the conclusions can be directly extended to rural off-road environments and unpaved networks worldwide.",
+          "They ensure universal transferability, because periodic surveys inherently capture all possible temporal and spatial variations in road conditions across the globe.",
+          "They primarily affect internal validity rather than generalizability, so the findings can still be assumed to hold for all other national contexts.",
+          "They make the dataset ideal for extrapolating to maritime and air transportation systems, where infrastructure and survey patterns are fundamentally different.",
+          "They strengthen generalizability specifically to regions that lack formal road networks, as the periodic surveys compensate for missing infrastructure details.",
+          "They allow the results to be generalized most confidently to regions undergoing rapid, unmonitored infrastructure changes, where data are collected only sporadically or not at all."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset captures traffic volume across Japan using periodic surveys.",
+        "Question": "How can temporal variation in traffic volume reflect real-world dynamics?",
+        "Output": "It may reflect changes in demand, infrastructure use, or policy effects.",
+        "Explanation": "Variation reflects real-world changes.",
+        "Level": 3,
+        "seed_id": "japan_mlit_instructions__short_answer__l3__0001",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 14,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset records how traffic volumes change over time across Japan through recurring surveys.",
+            "Explanation": "Because the data track traffic at multiple time points, shifts in volume can mirror evolving demand, infrastructure usage, or policy impacts."
+          },
+          {
+            "Fact": "Traffic counts in the dataset are collected repeatedly throughout Japan at different times.",
+            "Explanation": "These repeated measurements allow temporal fluctuations in traffic to correspond to real-world changes in demand, infrastructure utilization, or the influence of policies."
+          },
+          {
+            "Fact": "The dataset includes time-series measurements of traffic volume from periodic nationwide surveys in Japan.",
+            "Explanation": "As traffic is measured over time, observed increases or decreases can indicate changing travel demand, patterns of infrastructure use, or the effects of implemented policies."
+          },
+          {
+            "Fact": "By conducting regular traffic volume surveys across Japan, the dataset provides longitudinal traffic data.",
+            "Explanation": "This longitudinal perspective means that temporal variation in the data can signal shifts in transportation demand, how infrastructure is used, or the outcomes of policy decisions."
+          }
+        ],
+        "questions": [
+          "In what ways might changes over time in measured traffic volumes mirror actual conditions in society?",
+          "How could fluctuations in traffic counts across different survey periods indicate shifts in real-world activity?",
+          "What real-world developments might be inferred from observing temporal changes in traffic volume data?",
+          "How can differences in traffic volume between survey times serve as evidence of evolving real-world patterns?",
+          "Which kinds of real-world changes might be revealed by variations in traffic volume over time?",
+          "How might time-based shifts in recorded traffic volumes signal changes in actual demand or usage?",
+          "In what sense can periodic changes in traffic volume measurements be interpreted as reflecting real-world dynamics?",
+          "How do variations in traffic volume across multiple survey periods potentially correspond to real-world transformations?",
+          "What aspects of real-world behavior or conditions could be captured by observing traffic volume changes over time?",
+          "How can analyzing traffic volume at different times help us understand underlying changes in real-world systems?"
+        ],
+        "negative_candidates": [
+          "It primarily reflects random measurement error rather than any systematic real-world changes.",
+          "It only indicates seasonal weather patterns and has no connection to transportation systems or human behavior.",
+          "Temporal variation is caused solely by differences in the survey teams’ counting methods, not by any external factors.",
+          "It mainly shows how the physical size of vehicles changes over time in different regions of Japan.",
+          "It reflects fluctuations in the accuracy of GPS satellites used to record traffic, not actual traffic conditions.",
+          "It indicates how often road maintenance crews decide to repaint lane markings, independent of traffic usage.",
+          "Temporal variation is driven entirely by changes in the legal definition of what counts as a vehicle, rather than real-world usage.",
+          "It mostly captures how often survey administrators change the survey schedule, unrelated to actual road activity.",
+          "It reflects periodic upgrades to traffic-counting hardware that alter the recorded volumes without any change in real traffic.",
+          "It shows the evolution of map-making standards in Japan over time, instead of any changes in how roads are used."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset includes spatial segmentation and traffic volume.",
+        "Question": "How can this data inform infrastructure planning decisions?",
+        "Output": "It can identify high-demand regions for capacity expansion.",
+        "Explanation": "Spatial demand informs planning.",
+        "Level": 3,
+        "seed_id": "japan_mlit_instructions__short_answer__l3__0002",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 15,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset provides geographically segmented data along with corresponding traffic volumes.",
+            "Explanation": "Knowing where traffic is concentrated helps planners pinpoint areas that may need additional infrastructure capacity."
+          },
+          {
+            "Fact": "Traffic volume is broken down by specific spatial zones in the dataset.",
+            "Explanation": "By seeing which zones carry the most traffic, planners can target those locations for capacity upgrades."
+          },
+          {
+            "Fact": "The data links traffic counts to distinct geographic segments.",
+            "Explanation": "This link allows planners to detect segments with heavy usage and prioritize them for expansion."
+          },
+          {
+            "Fact": "Spatial segmentation in the dataset is paired with measured demand levels.",
+            "Explanation": "This pairing reveals high-demand regions, guiding decisions on where to increase infrastructure capacity."
+          }
+        ],
+        "questions": [
+          "In what way could this dataset be used to guide infrastructure capacity planning?",
+          "How might planners use this data to decide where to expand infrastructure capacity?",
+          "How can the spatial segmentation and traffic volume data support decisions about where to increase infrastructure capacity?",
+          "How does this dataset help determine which areas should receive infrastructure upgrades or expansions?",
+          "How can the information on spatial segments and traffic volumes be applied to pinpoint where infrastructure capacity needs to grow?",
+          "In what manner can the dataset be leveraged to choose regions that require additional infrastructure capacity?",
+          "How can these spatial and traffic volume metrics be utilized to prioritize locations for infrastructure expansion?",
+          "How does the combination of spatial segmentation and traffic volume data assist in identifying areas that need more infrastructure capacity?",
+          "How can this dataset be interpreted to reveal which regions have sufficient demand to justify infrastructure capacity increases?",
+          "How can the spatial demand patterns in this data be used to inform where infrastructure capacity should be expanded?"
+        ],
+        "negative_candidates": [
+          "It is primarily used to calibrate vehicle emission models rather than guide physical infrastructure changes.",
+          "Planners rely on it only to schedule traffic signal maintenance, not to make long-term capacity decisions.",
+          "It serves mainly as a basis for setting dynamic toll prices instead of influencing where to build or widen roads.",
+          "The information is used exclusively to design public transit fare structures rather than roadway infrastructure.",
+          "Its main role is to validate GPS accuracy, with no direct application to infrastructure investment planning.",
+          "The data is used only to optimize advertising billboard placement along existing routes.",
+          "It informs decisions about which neighborhoods should have reduced road access to intentionally lower traffic volumes.",
+          "The dataset is applied solely to adjust seasonal speed limits without affecting any construction or expansion plans.",
+          "Planners use it only to determine where to place decorative streetscape features, not functional capacity upgrades.",
+          "It is used mainly to forecast parking ticket revenue instead of guiding any infrastructure capacity improvements."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset reflects Japan road systems.",
+        "Question": "How might infrastructure differences affect interpretation compared to other countries?",
+        "Output": "Different road designs may lead to different traffic patterns.",
+        "Explanation": "Infrastructure shapes behavior.",
+        "Level": 3,
+        "seed_id": "japan_mlit_instructions__short_answer__l3__0003",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 16,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The data is based specifically on Japan’s roadway infrastructure.",
+            "Explanation": "Because the information comes from Japan’s road network, its unique design features can influence how traffic flows there compared to elsewhere."
+          },
+          {
+            "Fact": "The dataset is drawn from Japanese road layouts and configurations.",
+            "Explanation": "Japan’s particular road layout can produce traffic behaviors that differ from those in countries with other infrastructure designs."
+          },
+          {
+            "Fact": "All observations in the dataset come from Japan’s specific road system.",
+            "Explanation": "Since the roads in Japan may be structured differently than in other nations, the resulting traffic patterns may not generalize directly."
+          },
+          {
+            "Fact": "The underlying data represents conditions on Japan’s distinct road network.",
+            "Explanation": "Differences in how Japan’s roads are built and organized can cause traffic to behave differently than it would on foreign road systems."
+          }
+        ],
+        "questions": [
+          "In what ways could Japan’s specific road system influence how we interpret the data versus data from other countries?",
+          "How could variations in road infrastructure between Japan and other nations change how the results are understood?",
+          "Why might Japan’s unique road design cause the findings to differ from those in countries with different infrastructure?",
+          "How can differences in national road systems affect the way this dataset from Japan is interpreted abroad?",
+          "In what respect could Japan’s particular road layout lead to interpretations that don’t directly apply to other countries?",
+          "How might the distinct characteristics of Japan’s road network alter the conclusions compared with countries that have other types of road systems?",
+          "How could the fact that the data comes from Japanese roads impact its interpretation when comparing it to countries with different road designs?",
+          "Why should we be cautious when generalizing these Japan-based results to countries whose road infrastructures are not the same?",
+          "How might cross-country differences in road system design influence the traffic patterns we infer from this Japanese dataset?",
+          "In what ways could the unique features of Japan’s road infrastructure limit how well these interpretations transfer to other nations’ traffic systems?"
+        ],
+        "negative_candidates": [
+          "Infrastructure differences will have no measurable impact on how the dataset should be interpreted across countries.",
+          "Because road systems are globally standardized, Japanese road infrastructure can be analyzed exactly the same way as in any other country without adjustment.",
+          "The primary concern is language differences in road signs, which completely determine how traffic patterns form, not the infrastructure itself.",
+          "The only factor that matters for interpretation is the number of vehicles, so infrastructure variations between Japan and other countries can be ignored.",
+          "Differences in infrastructure mainly affect fuel composition and emissions chemistry, not how traffic or road usage data should be interpreted.",
+          "Interpretation changes solely because Japan drives on the left side, while all other aspects of infrastructure can be treated as identical.",
+          "Infrastructure differences only influence the accuracy of GPS coordinates, not the behavioral patterns seen in the dataset.",
+          "Variation in road infrastructure between countries affects only maintenance schedules and has no relevance for understanding traffic-related data.",
+          "The dataset must be interpreted differently purely due to cultural driving etiquette, independent of any physical infrastructure differences.",
+          "Any discrepancies between Japan and other countries arise exclusively from data collection technology, not from the underlying road infrastructure."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset uses surveys and sensors.",
+        "Question": "How might measurement methods affect observed traffic patterns?",
+        "Output": "They may introduce sampling bias or measurement inconsistencies.",
+        "Explanation": "Method impacts data quality.",
+        "Level": 3,
+        "seed_id": "japan_mlit_instructions__short_answer__l3__0004",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 17,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "Traffic data in this case is collected through a combination of surveys and sensor readings.",
+            "Explanation": "Because the information comes from specific tools and respondents, the way these are used can skew which vehicles or times are captured, leading to sampling bias or inconsistent measurements."
+          },
+          {
+            "Fact": "Researchers rely on both self-reported surveys and automated sensors to build the traffic dataset.",
+            "Explanation": "Differences in how people report trips versus how sensors detect vehicles can create uneven coverage or errors, which may appear as biased or inconsistent traffic patterns."
+          },
+          {
+            "Fact": "The traffic dataset is derived from two main sources: participant surveys and physical sensing devices.",
+            "Explanation": "Each source has its own limitations and error characteristics, so relying on them can distort which traffic flows are recorded and how accurately, causing sampling bias or measurement inconsistencies."
+          },
+          {
+            "Fact": "Surveys and sensor-based counts are the primary methods used to measure traffic in the dataset.",
+            "Explanation": "These methods may miss certain drivers or conditions and may not record all events uniformly, which can bias the sample and introduce inconsistencies in the observed traffic patterns."
+          }
+        ],
+        "questions": [
+          "In what ways could the use of surveys versus sensors influence the traffic patterns that are recorded?",
+          "How could relying on both surveys and sensors change or distort the traffic trends that appear in the data?",
+          "What impact might the choice between survey-based data and sensor-based data have on the traffic patterns that are observed?",
+          "How might combining survey responses with sensor readings affect the reliability of the traffic patterns shown in the dataset?",
+          "In what ways can the specific measurement tools (surveys and sensors) shape or bias the traffic patterns that are detected?",
+          "How could the different data collection methods (surveys compared to sensors) lead to variations in the observed traffic patterns?",
+          "Why might traffic patterns look different depending on whether they are measured through surveys, sensors, or both?",
+          "How can the use of surveys alongside sensors introduce biases or inconsistencies in the traffic patterns that are reported?",
+          "What role do the chosen measurement methods (surveys and sensors) play in potentially skewing the traffic patterns that are observed?",
+          "How might the combination of survey data and sensor data affect the accuracy and consistency of the recorded traffic patterns?"
+        ],
+        "negative_candidates": [
+          "They will always produce identical traffic patterns regardless of the tools used.",
+          "They only affect how quickly results are reported, not the patterns observed in the data.",
+          "They primarily determine the color-coding of traffic maps rather than the underlying patterns.",
+          "They change traffic patterns by directly influencing how drivers choose their routes in real time.",
+          "They ensure that all rare or extreme traffic events are captured perfectly without omission.",
+          "They only impact long-term weather trends and have no effect on traffic-related observations.",
+          "They guarantee that every road segment is monitored continuously with no gaps in coverage.",
+          "They affect only the visual style of charts and graphs, not the underlying traffic measurements.",
+          "They automatically correct for any irregularities in driver behavior, making patterns perfectly uniform.",
+          "They determine how many lanes a road appears to have in the dataset, but not the traffic flow itself."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The dataset includes traffic volume and temporal collection.",
+        "Question": "How could this dataset be combined with urban transit data?",
+        "Output": "To analyze interactions between road traffic and public transport systems.",
+        "Explanation": "Cross-system reasoning.",
+        "Level": 3,
+        "seed_id": "japan_mlit_instructions__short_answer__l3__0005",
+        "source_name": "japan_mlit_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 18,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The dataset provides measurements of traffic volume along with the times at which they were recorded.",
+            "Explanation": "Knowing both how much traffic there is and when it occurs enables joint analysis with time-stamped public transit data to study their interactions."
+          },
+          {
+            "Fact": "Traffic counts in the dataset are tied to specific collection times.",
+            "Explanation": "These time-linked traffic records can be aligned with transit schedules or vehicle logs to examine how road congestion and public transport usage affect each other."
+          },
+          {
+            "Fact": "The dataset’s traffic volume information is organized by temporal intervals.",
+            "Explanation": "This temporal structuring allows matching road traffic patterns to corresponding periods in transit operations, supporting analysis of cross-system dynamics."
+          },
+          {
+            "Fact": "Traffic volume data in the dataset is explicitly associated with collection timestamps.",
+            "Explanation": "Because the traffic data is time-referenced, it can be synchronized with urban transit time data to investigate how the two systems interact over the same periods."
+          }
+        ],
+        "questions": [
+          "In what way might this dataset be integrated with public transportation data?",
+          "How could you merge this dataset with city bus and rail usage data?",
+          "How can the traffic volume and timing data be linked with metro and bus network information?",
+          "How might you combine this dataset with urban transit schedules and ridership records?",
+          "In what manner could these traffic counts and timestamps be fused with public transit system data?",
+          "How could you join this dataset with citywide bus and train operation datasets?",
+          "How can the temporal traffic volume data be incorporated into analyses that also use public transit data?",
+          "What is one way to pair this dataset with urban bus and subway performance data?",
+          "How might you integrate these traffic volume measurements with municipal transit network datasets?",
+          "How could this dataset be used alongside city transit route and frequency data?"
+        ],
+        "negative_candidates": [
+          "To estimate the total number of private parking spaces available in the city center",
+          "To reconstruct historical land-use patterns for archaeological research purposes",
+          "To predict long-term climate change effects on regional agriculture yields",
+          "To design indoor navigation systems for large commercial buildings",
+          "To optimize the layout of residential Wi‑Fi networks along major corridors",
+          "To authenticate users’ identities based on their commuting patterns for security systems",
+          "To infer individual drivers’ medical histories from their travel behaviors",
+          "To generate detailed 3D models of building interiors near major intersections",
+          "To forecast global stock market indices based solely on rush-hour patterns",
+          "To classify different types of road surface materials using bus timetable information"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+experiment_data:
+  dataset_version: revision_v5
+  random_seed: 2025
+  split_ratios:
+    train: 0.8
+    validation: 0.1
+    test: 0.1
+  holdout_source_patterns:
+    - france
+    - japan
+  region_patterns:
+    france: france
+    japan: japan
+  fail_on_leakage: true
+  # Human-adjudicated semantic duplicates. The mapping key is the canonical concept;
+  # every listed concept is resolved to that key before the 80/10/10 split.
+  concept_group_aliases:
+    tlc_trip_instructions__concept__33b139cb4069c24a:
+      - tlc_trip_instructions__concept__7a91891160410e07
+    road_networks_instructions__concept__2a288367fb48e043:
+      - road_networks_instructions__concept__156fd0ad22023b98
+  semantic_audit:
+    enabled: true
+    model_id: sentence-transformers/all-mpnet-base-v2
+    similarity_threshold: 0.90
+    nearest_neighbors_per_record: 10
+    batch_size: 64
+    max_candidates_per_split_pair: 1000
+    human_review_top_n: 50
+    human_review_boundary_n: 50

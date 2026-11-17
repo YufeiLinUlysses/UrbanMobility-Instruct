@@ -1,0 +1,115 @@
+{
+  "exact_duplicate_count": 0,
+  "near_duplicates": {
+    "threshold": 0.92,
+    "pairs": [
+      {
+        "left_variant_id": "france_mobility_instructions__multiple_choice__l1__0001__original",
+        "right_variant_id": "france_mobility_instructions__short_answer__l1__0001__original",
+        "left_seed_id": "france_mobility_instructions__multiple_choice__l1__0001",
+        "right_seed_id": "france_mobility_instructions__short_answer__l1__0001",
+        "similarity": 1.0
+      },
+      {
+        "left_variant_id": "france_mobility_instructions__multiple_choice__l1__0006__original",
+        "right_variant_id": "france_mobility_instructions__short_answer__l1__0006__original",
+        "left_seed_id": "france_mobility_instructions__multiple_choice__l1__0006",
+        "right_seed_id": "france_mobility_instructions__short_answer__l1__0006",
+        "similarity": 0.967378
+      },
+      {
+        "left_variant_id": "france_mobility_instructions__multiple_choice__l1__0008__original",
+        "right_variant_id": "france_mobility_instructions__short_answer__l1__0008__original",
+        "left_seed_id": "france_mobility_instructions__multiple_choice__l1__0008",
+        "right_seed_id": "france_mobility_instructions__short_answer__l1__0008",
+        "similarity": 0.972221
+      },
+      {
+        "left_variant_id": "france_mobility_instructions__short_answer__l1__0002__original",
+        "right_variant_id": "france_mobility_instructions__multiple_choice__l1__0002__original",
+        "left_seed_id": "france_mobility_instructions__short_answer__l1__0002",
+        "right_seed_id": "france_mobility_instructions__multiple_choice__l1__0002",
+        "similarity": 1.0
+      },
+      {
+        "left_variant_id": "france_mobility_instructions__short_answer__l1__0003__original",
+        "right_variant_id": "france_mobility_instructions__multiple_choice__l1__0003__original",
+        "left_seed_id": "france_mobility_instructions__short_answer__l1__0003",
+        "right_seed_id": "france_mobility_instructions__multiple_choice__l1__0003",
+        "similarity": 1.0
+      },
+      {
+        "left_variant_id": "france_mobility_instructions__short_answer__l1__0004__original",
+        "right_variant_id": "france_mobility_instructions__multiple_choice__l1__0004__original",
+        "left_seed_id": "france_mobility_instructions__short_answer__l1__0004",
+        "right_seed_id": "france_mobility_instructions__multiple_choice__l1__0004",
+        "similarity": 1.0
+      },
+      {
+        "left_variant_id": "france_mobility_instructions__short_answer__l1__0007__original",
+        "right_variant_id": "france_mobility_instructions__multiple_choice__l1__0007__original",
+        "left_seed_id": "france_mobility_instructions__short_answer__l1__0007",
+        "right_seed_id": "france_mobility_instructions__multiple_choice__l1__0007",
+        "similarity": 1.0
+      },
+      {
+        "left_variant_id": "france_mobility_instructions__short_answer__l1__0009__original",
+        "right_variant_id": "france_mobility_instructions__multiple_choice__l1__0009__original",
+        "left_seed_id": "france_mobility_instructions__short_answer__l1__0009",
+        "right_seed_id": "france_mobility_instructions__multiple_choice__l1__0009",
+        "similarity": 1.0
+      },
+      {
+        "left_variant_id": "japan_mlit_instructions__multiple_choice__l1__0001__original",
+        "right_variant_id": "japan_mlit_instructions__short_answer__l1__0001__original",
+        "left_seed_id": "japan_mlit_instructions__multiple_choice__l1__0001",
+        "right_seed_id": "japan_mlit_instructions__short_answer__l1__0001",
+        "similarity": 1.0
+      },
+      {
+        "left_variant_id": "japan_mlit_instructions__multiple_choice__l1__0002__original",
+        "right_variant_id": "japan_mlit_instructions__short_answer__l1__0002__original",
+        "left_seed_id": "japan_mlit_instructions__multiple_choice__l1__0002",
+        "right_seed_id": "japan_mlit_instructions__short_answer__l1__0002",
+        "similarity": 0.946301
+      },
+      {
+        "left_variant_id": "japan_mlit_instructions__multiple_choice__l1__0003__original",
+        "right_variant_id": "japan_mlit_instructions__short_answer__l1__0003__original",
+        "left_seed_id": "japan_mlit_instructions__multiple_choice__l1__0003",
+        "right_seed_id": "japan_mlit_instructions__short_answer__l1__0003",
+        "similarity": 0.952503
+      },
+      {
+        "left_variant_id": "japan_mlit_instructions__multiple_choice__l1__0004__original",
+        "right_variant_id": "japan_mlit_instructions__short_answer__l1__0004__original",
+        "left_seed_id": "japan_mlit_instructions__multiple_choice__l1__0004",
+        "right_seed_id": "japan_mlit_instructions__short_answer__l1__0004",
+        "similarity": 1.0
+      },
+      {
+        "left_variant_id": "japan_mlit_instructions__multiple_choice__l1__0006__original",
+        "right_variant_id": "japan_mlit_instructions__short_answer__l1__0006__original",
+        "left_seed_id": "japan_mlit_instructions__multiple_choice__l1__0006",
+        "right_seed_id": "japan_mlit_instructions__short_answer__l1__0006",
+        "similarity": 0.935572
+      },
+      {
+        "left_variant_id": "japan_mlit_instructions__multiple_choice__l1__0008__original",
+        "right_variant_id": "japan_mlit_instructions__short_answer__l1__0008__original",
+        "left_seed_id": "japan_mlit_instructions__multiple_choice__l1__0008",
+        "right_seed_id": "japan_mlit_instructions__short_answer__l1__0008",
+        "similarity": 0.969064
+      },
+      {
+        "left_variant_id": "japan_mlit_instructions__multiple_choice__l1__0009__original",
+        "right_variant_id": "japan_mlit_instructions__short_answer__l1__0009__original",
+        "left_seed_id": "japan_mlit_instructions__multiple_choice__l1__0009",
+        "right_seed_id": "japan_mlit_instructions__short_answer__l1__0009",
+        "similarity": 0.92883
+      }
+    ],
+    "pair_count": 15,
+    "truncated": false
+  }
+}

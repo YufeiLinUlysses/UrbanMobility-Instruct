@@ -1,0 +1,26 @@
+{
+  "scope": "Exploratory inspection of 20 selected model-output rows from the five corrected fine-tuned in-domain evaluations. These cases illustrate mechanisms and do not estimate population error rates.",
+  "selection": "Four rows per model selected from task-specific low-score lists to cover lexical disagreement, low entailment, and verification-target mismatch or a substantive task error. Rows can share underlying seed concepts.",
+  "cases": [
+    {"audit_id": "llama31_70b:1778", "assessment": "partial", "note": "Names taxi and FHV trip types but does not directly express the requested travel-pattern concept."},
+    {"audit_id": "llama31_70b:1844", "assessment": "correct", "note": "Identifies the TLC data dictionary despite a very low NLI score."},
+    {"audit_id": "llama31_70b:2398", "assessment": "correct_verdict_metric_mismatch", "note": "Two-field Correct/Yes response is compared semantically with a one-word correct reference."},
+    {"audit_id": "llama31_70b:1514", "assessment": "correct_option_metric_mismatch", "note": "Selects the correct TLC option and gives a grounded explanation despite very low NLI on the option-label row."},
+    {"audit_id": "llama31_8b:1748", "assessment": "partial", "note": "The answer is broader than the requested taxi/FHV travel-pattern concept."},
+    {"audit_id": "llama31_8b:2054", "assessment": "incorrect", "note": "Claims the dataset includes all NYC trips regardless of vehicle type, extending beyond taxi/FHV coverage."},
+    {"audit_id": "llama31_8b:2398", "assessment": "correct_verdict_metric_mismatch", "note": "Correct/Yes decision is semantically scored against the verdict word alone."},
+    {"audit_id": "llama31_8b:1704", "assessment": "correct_option_metric_mismatch", "note": "Correct TLC option and supported explanation receive very low NLI on the option-label row."},
+    {"audit_id": "qwen25_14b:210", "assessment": "correct_lexical_mismatch", "note": "25Hz and reference 25 Hz are equivalent, but tokenization gives zero ROUGE-L."},
+    {"audit_id": "qwen25_14b:274", "assessment": "correct", "note": "Correctly answers 25 Hz despite very low NLI score."},
+    {"audit_id": "qwen25_14b:2398", "assessment": "correct_verdict_metric_mismatch", "note": "Correct/Yes decision is scored against the verdict word alone."},
+    {"audit_id": "qwen25_14b:2227", "assessment": "incomplete_explanation", "note": "Parsed answer names both segmentation approaches, but the raw explanation only refers to 'these two methods' without naming them."},
+    {"audit_id": "qwen25_7b:210", "assessment": "indirect_but_equivalent", "note": "Gives the 0.04-second sampling interval rather than directly stating 25 samples per second; the two are mathematically equivalent."},
+    {"audit_id": "qwen25_7b:204", "assessment": "correct", "note": "Correctly answers 25 Hz despite very low NLI score."},
+    {"audit_id": "qwen25_7b:2398", "assessment": "correct_verdict_metric_mismatch", "note": "Correct/Yes decision is scored against the verdict word alone."},
+    {"audit_id": "qwen25_7b:2227", "assessment": "incomplete_explanation", "note": "Answer names grid- and network-based approaches, but the raw explanation does not name either approach."},
+    {"audit_id": "t5_base:744", "assessment": "incorrect", "note": "Answer says NGSIM is non-transformable despite context listing compatible simulation tools; explanation is self-contradictory."},
+    {"audit_id": "t5_base:2160", "assessment": "correct_answer_unsupported_explanation", "note": "Answer identifies both decomposition types, but explanation adds an unsupported claim that grid-based decomposition is most efficient."},
+    {"audit_id": "t5_base:2396", "assessment": "incorrect_verdict", "note": "Rejects the supported candidate 25 samples per second for a 25 Hz source fact."},
+    {"audit_id": "t5_base:634", "assessment": "incorrect_option", "note": "Selects aesthetics instead of workflow integration and explains the wrong choice as if supported."}
+  ]
+}

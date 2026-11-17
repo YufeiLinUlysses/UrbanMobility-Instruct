@@ -1,0 +1,2448 @@
+{
+  "schema_version": "2.0",
+  "source_name": "urban_flow_prediction_survey_instructions",
+  "generator_model": "gpt-5.1",
+  "random_seed": 2025,
+  "seed_components": [
+    {
+      "seed": {
+        "Fact": "The survey analyzes machine learning approaches for forecasting spatiotemporal urban flow, covering three flow types: crowd flow, traffic flow, and public transit flow.",
+        "Question": "What is the main focus of the Urban Flow Prediction Survey?",
+        "Selections": {
+          "A": "Urban architecture design",
+          "B": "Machine learning methods for urban flow prediction",
+          "C": "Drone operation",
+          "D": "Autonomous vehicle hardware"
+        },
+        "Output": "B",
+        "Explanation": "The survey analyzes ML approaches for forecasting spatiotemporal urban flow.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0001",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 0,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "What is the primary subject examined in the Urban Flow Prediction Survey?",
+          "The Urban Flow Prediction Survey is mainly concerned with which of the following topics?",
+          "The Urban Flow Prediction Survey primarily focuses on what area of study?",
+          "The main emphasis of the Urban Flow Prediction Survey is on which topic?",
+          "The Urban Flow Prediction Survey is chiefly devoted to which of these areas?"
+        ],
+        "correct_answers": [
+          "Machine learning techniques used for predicting urban flow",
+          "Approaches based on machine learning for forecasting urban flow"
+        ],
+        "explanations": [
+          "The survey examines machine learning techniques used to predict spatiotemporal patterns in urban flow.",
+          "The main emphasis of the survey is on ML-based methods for forecasting how urban flows change over space and time."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Urban architecture design",
+              "B": "Drone operation",
+              "C": "Machine learning methods for urban flow prediction",
+              "D": "Autonomous vehicle hardware"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Urban architecture design",
+              "B": "Machine learning methods for urban flow prediction",
+              "C": "Autonomous vehicle hardware",
+              "D": "Drone operation"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Machine learning methods for urban flow prediction",
+              "B": "Urban architecture design",
+              "C": "Autonomous vehicle hardware",
+              "D": "Drone operation"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Autonomous vehicle hardware",
+              "B": "Urban architecture design",
+              "C": "Machine learning methods for urban flow prediction",
+              "D": "Drone operation"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Urban architecture design",
+              "B": "Autonomous vehicle hardware",
+              "C": "Machine learning methods for urban flow prediction",
+              "D": "Drone operation"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey identifies three types of urban flow: crowd flow, traffic flow, and public transit flow.",
+        "Question": "Which of the following is NOT one of the urban flow types discussed?",
+        "Selections": {
+          "A": "Crowd flow",
+          "B": "Traffic flow",
+          "C": "Public transit flow",
+          "D": "Power grid flow"
+        },
+        "Output": "D",
+        "Explanation": "Only crowd, traffic, and transit flows are covered in the survey.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0002",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 1,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which of the following is NOT among the urban flow categories described in the survey?",
+          "The survey discusses three kinds of urban flows. Which option does NOT belong to these categories?",
+          "Based on the survey’s classification of urban flows, which of the following is NOT included?",
+          "Considering the urban flow types identified in the survey, which option is NOT one of them?",
+          "The survey outlines specific types of urban flows. Which of the following is NOT listed as one of those types?"
+        ],
+        "correct_answers": [
+          "Flow of the power grid",
+          "Electric power grid flow"
+        ],
+        "explanations": [
+          "The survey addresses only crowd flow, traffic flow, and public transit flow, so power grid flow is not included as one of the urban flow types.",
+          "Since the survey limits its discussion to crowd, traffic, and transit flows, power grid flow is excluded and therefore is not among the urban flow types covered."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Traffic flow",
+              "B": "Power grid flow",
+              "C": "Crowd flow",
+              "D": "Public transit flow"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Traffic flow",
+              "B": "Public transit flow",
+              "C": "Crowd flow",
+              "D": "Power grid flow"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Crowd flow",
+              "B": "Power grid flow",
+              "C": "Public transit flow",
+              "D": "Traffic flow"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Crowd flow",
+              "B": "Traffic flow",
+              "C": "Power grid flow",
+              "D": "Public transit flow"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Public transit flow",
+              "B": "Power grid flow",
+              "C": "Crowd flow",
+              "D": "Traffic flow"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey identifies four major factors influencing urban flow: daily activity patterns, anomalies, weather, and holidays.",
+        "Question": "Which of the following is an influential factor for urban flow?",
+        "Selections": {
+          "A": "Smartphone brand of users",
+          "B": "Daily activity patterns",
+          "C": "Street food sales",
+          "D": "Building color"
+        },
+        "Output": "B",
+        "Explanation": "Daily activity patterns are one of the four key flow determinants.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0003",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 2,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which of the following most strongly influences patterns of urban flow?",
+          "Which option represents a key determinant of how people move within a city?",
+          "Which factor is recognized as a primary driver of urban movement dynamics?",
+          "Which choice best describes a major factor affecting the flow of people in urban areas?",
+          "Which of the following is considered a core influence on citywide mobility patterns?"
+        ],
+        "correct_answers": [
+          "Patterns of daily activities",
+          "Everyday activity patterns"
+        ],
+        "explanations": [
+          "Daily activity patterns are considered one of the four primary determinants that influence urban flow.",
+          "Among the four main determinants of flow, daily activity patterns are specifically recognized as a key factor shaping urban flow."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Street food sales",
+              "B": "Daily activity patterns",
+              "C": "Smartphone brand of users",
+              "D": "Building color"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Smartphone brand of users",
+              "B": "Building color",
+              "C": "Street food sales",
+              "D": "Daily activity patterns"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Street food sales",
+              "B": "Smartphone brand of users",
+              "C": "Building color",
+              "D": "Daily activity patterns"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Street food sales",
+              "B": "Building color",
+              "C": "Daily activity patterns",
+              "D": "Smartphone brand of users"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Building color",
+              "B": "Daily activity patterns",
+              "C": "Smartphone brand of users",
+              "D": "Street food sales"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey categorizes spatiotemporal datasets into three types: spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic.",
+        "Question": "Which dataset category contains both spatial and temporal dynamics?",
+        "Selections": {
+          "A": "Spatiotemporal static",
+          "B": "Spatial static temporal dynamic",
+          "C": "Spatiotemporal dynamic",
+          "D": "Static-only data"
+        },
+        "Output": "C",
+        "Explanation": "Spatiotemporal dynamic datasets include time-varying location or flow data.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0004",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 3,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In which category of datasets are both spatial and temporal aspects changing over time?",
+          "Spatiotemporal datasets are grouped into three types. Which type involves data that varies in both space and time?",
+          "If a dataset includes changing locations or flows over time, which dataset category does it belong to?",
+          "Which dataset type is characterized by dynamic behavior in both its spatial distribution and temporal evolution?",
+          "Among the listed dataset categories, which one represents data with jointly varying spatial and temporal dimensions?"
+        ],
+        "correct_answers": [
+          "Spatiotemporal dynamics",
+          "Spatiotemporal dynamic data"
+        ],
+        "explanations": [
+          "Spatiotemporal dynamic datasets capture changes in both location and movement over time.",
+          "Spatiotemporal dynamic data involve time-dependent variations in spatial positions or flows."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Static-only data",
+              "B": "Spatiotemporal static",
+              "C": "Spatiotemporal dynamic",
+              "D": "Spatial static temporal dynamic"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Static-only data",
+              "B": "Spatial static temporal dynamic",
+              "C": "Spatiotemporal static",
+              "D": "Spatiotemporal dynamic"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Static-only data",
+              "B": "Spatiotemporal static",
+              "C": "Spatial static temporal dynamic",
+              "D": "Spatiotemporal dynamic"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Static-only data",
+              "B": "Spatiotemporal dynamic",
+              "C": "Spatiotemporal static",
+              "D": "Spatial static temporal dynamic"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Static-only data",
+              "B": "Spatial static temporal dynamic",
+              "C": "Spatiotemporal dynamic",
+              "D": "Spatiotemporal static"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey describes two map decomposition methods: grid-based decomposition and road-network-based decomposition.",
+        "Question": "Which method partitions a city into uniform grids?",
+        "Selections": {
+          "A": "Network-based segmentation",
+          "B": "Random polygon splitting",
+          "C": "Grid-based decomposition",
+          "D": "Voronoi tessellation only"
+        },
+        "Output": "C",
+        "Explanation": "Grid-based decomposition divides space into fixed M×N grids.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0005",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 4,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which technique divides an urban area into evenly sized grid cells?",
+          "Which approach breaks a city map into a fixed M×N grid layout?",
+          "Which method decomposes a city into equally spaced rectangular grid sections?",
+          "Which procedure splits a city’s area into a uniform lattice of grid squares?",
+          "Which strategy segments a city into standardized grid-based units?"
+        ],
+        "correct_answers": [
+          "Grid-based partitioning",
+          "Decomposition using a uniform grid"
+        ],
+        "explanations": [
+          "Grid-based decomposition splits the area into fixed M×N grid cells.",
+          "With grid-based decomposition, the city is divided into uniform M×N grid squares."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Grid-based decomposition",
+              "B": "Network-based segmentation",
+              "C": "Random polygon splitting",
+              "D": "Voronoi tessellation only"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Random polygon splitting",
+              "B": "Grid-based decomposition",
+              "C": "Network-based segmentation",
+              "D": "Voronoi tessellation only"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Random polygon splitting",
+              "B": "Grid-based decomposition",
+              "C": "Voronoi tessellation only",
+              "D": "Network-based segmentation"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Grid-based decomposition",
+              "B": "Random polygon splitting",
+              "C": "Voronoi tessellation only",
+              "D": "Network-based segmentation"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Random polygon splitting",
+              "B": "Voronoi tessellation only",
+              "C": "Network-based segmentation",
+              "D": "Grid-based decomposition"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey highlights common spatiotemporal data issues such as missing data, imbalance, and uncertainty.",
+        "Question": "Which of the following is a data problem discussed in the survey?",
+        "Selections": {
+          "A": "Too many colors in heatmaps",
+          "B": "Data missing",
+          "C": "Long PDF file names",
+          "D": "Lack of 3D building models"
+        },
+        "Output": "B",
+        "Explanation": "The survey describes missing data as a common challenge in urban datasets.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0006",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 5,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which of the following represents a data-related issue identified in the survey?",
+          "According to the survey, which option describes a data challenge that was discussed?",
+          "The survey mentions several common data issues. Which of the following is one of them?",
+          "Based on the survey, which choice corresponds to a spatiotemporal data problem that was highlighted?",
+          "In the context of the survey’s discussion of urban data challenges, which of these is cited as a data problem?"
+        ],
+        "correct_answers": [
+          "Missing data",
+          "Absence of data"
+        ],
+        "explanations": [
+          "The survey identifies missing data as a frequent issue encountered in urban datasets.",
+          "According to the survey, one of the main challenges in urban datasets is the presence of incomplete or missing data."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Long PDF file names",
+              "B": "Data missing",
+              "C": "Too many colors in heatmaps",
+              "D": "Lack of 3D building models"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Too many colors in heatmaps",
+              "B": "Lack of 3D building models",
+              "C": "Long PDF file names",
+              "D": "Data missing"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Data missing",
+              "B": "Lack of 3D building models",
+              "C": "Too many colors in heatmaps",
+              "D": "Long PDF file names"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Long PDF file names",
+              "B": "Too many colors in heatmaps",
+              "C": "Lack of 3D building models",
+              "D": "Data missing"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Data missing",
+              "B": "Long PDF file names",
+              "C": "Lack of 3D building models",
+              "D": "Too many colors in heatmaps"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey classifies urban flow prediction methods into five categories: statistics-based methods, traditional machine learning methods, deep learning-based methods, reinforcement learning-based methods, and transfer learning-based methods.",
+        "Question": "Which of the following is one of the five method categories?",
+        "Selections": {
+          "A": "Blockchain-based optimization",
+          "B": "Deep learning-based methods",
+          "C": "Origami-based modeling",
+          "D": "Market basket analysis"
+        },
+        "Output": "B",
+        "Explanation": "Deep learning is one of the five major method families identified.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0007",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 6,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In the survey’s classification of urban flow prediction approaches, which of the following belongs to one of the five identified method categories?",
+          "According to the survey’s taxonomy of urban flow prediction techniques, which option is included among the five main method categories?",
+          "Based on the survey’s grouping of urban flow prediction methods, which of the following is listed as one of the five primary categories?",
+          "When categorizing urban flow prediction methods into five main groups, which of the following is recognized as one of those categories?",
+          "Within the five-category framework for urban flow prediction methods described in the survey, which of these is considered one of the method types?"
+        ],
+        "correct_answers": [
+          "Methods based on deep learning",
+          "Deep learning–oriented methods"
+        ],
+        "explanations": [
+          "Deep learning is classified as one of the five primary method categories mentioned.",
+          "Among the five main method families described, deep learning-based methods are explicitly included as one of them."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Deep learning-based methods",
+              "B": "Origami-based modeling",
+              "C": "Market basket analysis",
+              "D": "Blockchain-based optimization"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Deep learning-based methods",
+              "B": "Market basket analysis",
+              "C": "Origami-based modeling",
+              "D": "Blockchain-based optimization"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Blockchain-based optimization",
+              "B": "Deep learning-based methods",
+              "C": "Origami-based modeling",
+              "D": "Market basket analysis"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Blockchain-based optimization",
+              "B": "Deep learning-based methods",
+              "C": "Market basket analysis",
+              "D": "Origami-based modeling"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Blockchain-based optimization",
+              "B": "Market basket analysis",
+              "C": "Deep learning-based methods",
+              "D": "Origami-based modeling"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey provides a trajectory preprocessing pipeline including stay-point extraction, filtering, compression, segmentation, and map matching.",
+        "Question": "Which operation is part of trajectory preprocessing?",
+        "Selections": {
+          "A": "3D printing trajectories",
+          "B": "Trajectory segmentation",
+          "C": "Sound wave filtering",
+          "D": "Combining emojis with GPS"
+        },
+        "Output": "B",
+        "Explanation": "Trajectory segmentation is a core step described in Section 3.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0008",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 7,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which of the following is a step included in trajectory preprocessing?",
+          "In a typical trajectory preprocessing pipeline, which operation is performed on the trajectory data?",
+          "Which process is commonly applied during the preprocessing phase of trajectory data?",
+          "When preparing trajectory data before analysis, which of these operations is usually carried out?",
+          "As part of a trajectory preprocessing workflow, which operation is typically executed?"
+        ],
+        "correct_answers": [
+          "Segmentation of trajectories",
+          "Segmenting trajectories"
+        ],
+        "explanations": [
+          "Trajectory segmentation is identified in Section 3 as a fundamental step in the preprocessing workflow.",
+          "Section 3 specifically highlights trajectory segmentation as an essential component of the trajectory preprocessing process."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Combining emojis with GPS",
+              "B": "Sound wave filtering",
+              "C": "Trajectory segmentation",
+              "D": "3D printing trajectories"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Trajectory segmentation",
+              "B": "Combining emojis with GPS",
+              "C": "3D printing trajectories",
+              "D": "Sound wave filtering"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Trajectory segmentation",
+              "B": "Combining emojis with GPS",
+              "C": "Sound wave filtering",
+              "D": "3D printing trajectories"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Sound wave filtering",
+              "B": "Combining emojis with GPS",
+              "C": "3D printing trajectories",
+              "D": "Trajectory segmentation"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Trajectory segmentation",
+              "B": "3D printing trajectories",
+              "C": "Combining emojis with GPS",
+              "D": "Sound wave filtering"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey identifies three major challenges in urban flow prediction: handling multiple influence factors, cross-domain data fusion, and data sparsity.",
+        "Question": "Which challenge is discussed in the paper?",
+        "Selections": {
+          "A": "Lack of coloring tools",
+          "B": "Data sparsity in spatiotemporal datasets",
+          "C": "Too many map projections",
+          "D": "Road sign typography"
+        },
+        "Output": "B",
+        "Explanation": "Data sparsity is one of the key challenges limiting prediction accuracy.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0009",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 8,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "What specific challenge mentioned in the paper affects the accuracy of urban flow prediction models?",
+          "According to the paper, which issue is identified as a key obstacle in urban flow prediction research?",
+          "The paper highlights several major difficulties in urban flow prediction; which of the following is one of them?",
+          "In the context of the paper’s discussion on urban flow prediction, which challenge is emphasized?",
+          "Which problem, as described in the paper, poses a significant challenge for improving urban flow prediction performance?"
+        ],
+        "correct_answers": [
+          "Sparsity of data in spatiotemporal datasets",
+          "Limited data density within spatiotemporal datasets"
+        ],
+        "explanations": [
+          "One of the main difficulties highlighted in the paper is data sparsity, which restricts how accurately predictions can be made from spatiotemporal datasets.",
+          "The paper identifies sparse data in spatiotemporal datasets as a central challenge because it constrains the achievable prediction accuracy."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Lack of coloring tools",
+              "B": "Data sparsity in spatiotemporal datasets",
+              "C": "Road sign typography",
+              "D": "Too many map projections"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Road sign typography",
+              "B": "Lack of coloring tools",
+              "C": "Data sparsity in spatiotemporal datasets",
+              "D": "Too many map projections"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Road sign typography",
+              "B": "Lack of coloring tools",
+              "C": "Too many map projections",
+              "D": "Data sparsity in spatiotemporal datasets"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Lack of coloring tools",
+              "B": "Data sparsity in spatiotemporal datasets",
+              "C": "Too many map projections",
+              "D": "Road sign typography"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Data sparsity in spatiotemporal datasets",
+              "B": "Too many map projections",
+              "C": "Road sign typography",
+              "D": "Lack of coloring tools"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey lists public datasets such as NYC taxi data, Citi Bike data, UK traffic flow data, San Francisco taxi data, and Chicago bike sharing data.",
+        "Question": "Which of the following datasets is listed as publicly available in the survey?",
+        "Selections": {
+          "A": "Mars rover speed logs",
+          "B": "NYC taxi data",
+          "C": "Private corporate fleet GPS",
+          "D": "Instagram story timestamps"
+        },
+        "Output": "B",
+        "Explanation": "NYC taxi data is one of the main public datasets referenced in Section 7.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l1__0010",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 9,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "According to the survey, which of the following datasets is identified as publicly accessible?",
+          "Based on the survey, which one of these datasets is described as being publicly available?",
+          "In the survey, which dataset is specifically mentioned as an example of a public dataset?",
+          "Referring to the survey, which of these options corresponds to a dataset that is publicly released?",
+          "From the survey’s discussion of open datasets, which dataset is indicated as being publicly obtainable?"
+        ],
+        "correct_answers": [
+          "New York City taxi dataset",
+          "NYC taxicab data"
+        ],
+        "explanations": [
+          "The survey specifically identifies NYC taxi data in Section 7 as one of the primary publicly accessible datasets, making it the correct choice.",
+          "Section 7 of the survey highlights NYC taxi data as a key example of a public dataset, which is why it is the listed publicly available option."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Instagram story timestamps",
+              "B": "NYC taxi data",
+              "C": "Private corporate fleet GPS",
+              "D": "Mars rover speed logs"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Instagram story timestamps",
+              "B": "Mars rover speed logs",
+              "C": "NYC taxi data",
+              "D": "Private corporate fleet GPS"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Instagram story timestamps",
+              "B": "Private corporate fleet GPS",
+              "C": "NYC taxi data",
+              "D": "Mars rover speed logs"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Mars rover speed logs",
+              "B": "Instagram story timestamps",
+              "C": "Private corporate fleet GPS",
+              "D": "NYC taxi data"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Instagram story timestamps",
+              "B": "NYC taxi data",
+              "C": "Mars rover speed logs",
+              "D": "Private corporate fleet GPS"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey reviews methods for predicting three types of urban flow—crowd flow, traffic flow, and public transit flow—using spatiotemporal data.",
+        "Question": "Considering both the three flow types and the stated aim of the survey, what does the Urban Flow Prediction Survey primarily review?",
+        "Selections": {
+          "A": "Visualization tools for static city maps",
+          "B": "Methods for predicting crowd, traffic, and public transit flows from spatiotemporal data",
+          "C": "Architectural design techniques for smart buildings",
+          "D": "Hardware platforms for autonomous vehicles"
+        },
+        "Output": "B",
+        "Explanation": "The survey centers on prediction methods for multiple kinds of urban flow (crowd, traffic, transit) based on spatiotemporal datasets.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0001",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 10,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Taking into account the three identified urban flow categories and the survey’s stated objective, what is the main focus of the Urban Flow Prediction Survey?",
+          "Given the survey’s goal and its emphasis on three kinds of urban flows, what is the primary subject that the Urban Flow Prediction Survey evaluates?",
+          "Based on the three flow types discussed and the declared purpose of the survey, what is the Urban Flow Prediction Survey chiefly concerned with reviewing?",
+          "Considering the survey’s aim and its coverage of three distinct urban flow forms, what does the Urban Flow Prediction Survey mainly examine?",
+          "In light of the three specified urban flow types and the survey’s overarching aim, what is the principal topic assessed by the Urban Flow Prediction Survey?"
+        ],
+        "correct_answers": [
+          "Techniques for forecasting crowd, vehicular, and public transit movements using spatiotemporal data",
+          "Approaches to predicting flows of people, road traffic, and transit systems from spatiotemporal information"
+        ],
+        "explanations": [
+          "The survey’s main focus is on prediction techniques that use spatiotemporal data to forecast different types of urban flows, specifically crowds, traffic, and public transit.",
+          "It primarily reviews methods that rely on spatiotemporal datasets to predict various urban flow types, including crowd movements, traffic patterns, and public transit flows."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Architectural design techniques for smart buildings",
+              "B": "Hardware platforms for autonomous vehicles",
+              "C": "Visualization tools for static city maps",
+              "D": "Methods for predicting crowd, traffic, and public transit flows from spatiotemporal data"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Hardware platforms for autonomous vehicles",
+              "B": "Methods for predicting crowd, traffic, and public transit flows from spatiotemporal data",
+              "C": "Architectural design techniques for smart buildings",
+              "D": "Visualization tools for static city maps"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Architectural design techniques for smart buildings",
+              "B": "Methods for predicting crowd, traffic, and public transit flows from spatiotemporal data",
+              "C": "Hardware platforms for autonomous vehicles",
+              "D": "Visualization tools for static city maps"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey identifies four major factors affecting urban flow—daily activity patterns, anomalies, weather, and holidays—and applies these to flows such as crowd, traffic, and public transit.",
+        "Question": "When considering both the three types of urban flow and the four major influence factors, which statement best describes their relationship?",
+        "Selections": {
+          "A": "Only crowd flow is affected by weather and holidays",
+          "B": "Traffic and transit flows ignore daily activity patterns",
+          "C": "Daily activity patterns, anomalies, weather, and holidays jointly shape crowd, traffic, and public transit flows",
+          "D": "Influence factors affect datasets but not urban flows"
+        },
+        "Output": "C",
+        "Explanation": "The survey treats these factors as general drivers that alter all three forms of urban flow, not just a single domain.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0002",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 11,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Considering the three categories of urban flow and the four primary influencing factors, which option most accurately characterizes how they are related?",
+          "If we look at all three urban flow types together with the four main influence factors, which choice best summarizes how these factors interact with the flows?",
+          "In the context of the three forms of urban flow and the four key factors that influence them, which statement most accurately reflects their overall interaction?",
+          "When examining the three kinds of urban flow alongside the four principal influencing factors, which option best captures how these elements are connected?",
+          "Taking into account the three urban flow types together with the four major factors that impact them, which of the following statements most precisely describes their relationship?"
+        ],
+        "correct_answers": [
+          "Daily activity patterns, anomalies, weather, and holidays together influence crowd, traffic, and public transit flows",
+          "Crowd, traffic, and public transit flows are all affected by daily activity patterns, anomalies, weather, and holidays acting in combination"
+        ],
+        "explanations": [
+          "The survey views daily activity patterns, anomalies, weather, and holidays as broad drivers that influence all three urban flow types—crowd, traffic, and public transit—rather than affecting only one specific kind of flow.",
+          "According to the survey, these four factors operate as overarching influences that modify each of the three urban flows (crowd, traffic, and transit) together, instead of being restricted to a single urban flow domain."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Traffic and transit flows ignore daily activity patterns",
+              "B": "Influence factors affect datasets but not urban flows",
+              "C": "Only crowd flow is affected by weather and holidays",
+              "D": "Daily activity patterns, anomalies, weather, and holidays jointly shape crowd, traffic, and public transit flows"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Traffic and transit flows ignore daily activity patterns",
+              "B": "Daily activity patterns, anomalies, weather, and holidays jointly shape crowd, traffic, and public transit flows",
+              "C": "Only crowd flow is affected by weather and holidays",
+              "D": "Influence factors affect datasets but not urban flows"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Daily activity patterns, anomalies, weather, and holidays jointly shape crowd, traffic, and public transit flows",
+              "B": "Traffic and transit flows ignore daily activity patterns",
+              "C": "Only crowd flow is affected by weather and holidays",
+              "D": "Influence factors affect datasets but not urban flows"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey divides datasets into spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic categories, and describes grid-based and road-network-based map decomposition methods.",
+        "Question": "If a researcher wants time-varying flow values defined over uniform spatial units, which combination from the survey is most appropriate?",
+        "Selections": {
+          "A": "Spatiotemporal static data with no decomposition",
+          "B": "Spatial static temporal dynamic data with random polygon splitting",
+          "C": "Spatiotemporal dynamic data with grid-based decomposition",
+          "D": "Static-only data with Voronoi tessellation"
+        },
+        "Output": "C",
+        "Explanation": "Spatiotemporal dynamic datasets capture changes over both space and time, and grid-based decomposition produces a uniform M×N grid for assigning those flows.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0003",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 12,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "A researcher needs flow measurements that change over time and are assigned to equally sized spatial cells. Which option from the survey best satisfies this requirement?\n\nA. Spatiotemporal static data with no decomposition\nB. Spatial static temporal dynamic data with random polygon splitting\nC. Spatiotemporal dynamic data with grid-based decomposition\nD. Static-only data with Voronoi tessellation",
+          "A scientist is analyzing flows that vary over time and must be mapped onto a regular, evenly spaced set of spatial units. Which survey choice should be used?\n\nA. Spatiotemporal static data with no decomposition\nB. Spatial static temporal dynamic data with random polygon splitting\nC. Spatiotemporal dynamic data with grid-based decomposition\nD. Static-only data with Voronoi tessellation",
+          "A data analyst wants to model time-dependent flows distributed across a uniform grid of spatial regions. Which combination listed in the survey is most suitable?\n\nA. Spatiotemporal static data with no decomposition\nB. Spatial static temporal dynamic data with random polygon splitting\nC. Spatiotemporal dynamic data with grid-based decomposition\nD. Static-only data with Voronoi tessellation",
+          "An investigator is interested in flow data that simultaneously changes over time and space and is recorded over a regular M×N grid of areas. Which survey option should they select?\n\nA. Spatiotemporal static data with no decomposition\nB. Spatial static temporal dynamic data with random polygon splitting\nC. Spatiotemporal dynamic data with grid-based decomposition\nD. Static-only data with Voronoi tessellation",
+          "A practitioner wants to study flows that are dynamic in both space and time and need to be aggregated over equally sized, grid-based spatial units. Which survey configuration is most appropriate?\n\nA. Spatiotemporal static data with no decomposition\nB. Spatial static temporal dynamic data with random polygon splitting\nC. Spatiotemporal dynamic data with grid-based decomposition\nD. Static-only data with Voronoi tessellation"
+        ],
+        "correct_answers": [
+          "Spatiotemporal dynamic data using a grid-based spatial decomposition",
+          "Time-varying spatiotemporal data represented on a uniform grid-based decomposition"
+        ],
+        "explanations": [
+          "Spatiotemporal dynamic data represent changes across both space and time, and using a grid-based decomposition creates a uniform M×N grid that can be used to assign those time-varying flow values.",
+          "Because spatiotemporal dynamic data vary in both spatial and temporal dimensions, and grid-based decomposition enforces a regular M×N grid structure, this combination provides the desired time-varying flows over uniform spatial units."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Spatial static temporal dynamic data with random polygon splitting",
+              "B": "Spatiotemporal static data with no decomposition",
+              "C": "Spatiotemporal dynamic data with grid-based decomposition",
+              "D": "Static-only data with Voronoi tessellation"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Spatiotemporal static data with no decomposition",
+              "B": "Spatiotemporal dynamic data with grid-based decomposition",
+              "C": "Static-only data with Voronoi tessellation",
+              "D": "Spatial static temporal dynamic data with random polygon splitting"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Spatial static temporal dynamic data with random polygon splitting",
+              "B": "Static-only data with Voronoi tessellation",
+              "C": "Spatiotemporal static data with no decomposition",
+              "D": "Spatiotemporal dynamic data with grid-based decomposition"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey defines five method categories—statistics-based, traditional machine learning, deep learning, reinforcement learning, and transfer learning—and lists challenges such as handling multiple influence factors, cross-domain data fusion, and data sparsity.",
+        "Question": "Given the five method categories and the challenges of multi-factor influence and data fusion, which category is most directly aimed at learning complex patterns from rich spatiotemporal inputs?",
+        "Selections": {
+          "A": "Statistics-based methods only",
+          "B": "Traditional machine learning methods only",
+          "C": "Deep learning-based methods",
+          "D": "Origami-based modeling methods"
+        },
+        "Output": "C",
+        "Explanation": "Deep learning-based approaches are explicitly identified as a major category and are commonly used to learn complex, high-dimensional spatiotemporal relationships.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0004",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 13,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In light of the five method categories and the issues of multi-factor impacts and cross-domain data fusion, which method category is primarily designed to capture intricate patterns from high-dimensional spatiotemporal data?",
+          "Considering the five categories of methods and the difficulty of modeling multiple influencing factors and fused data sources, which category is best suited to learn complex relationships from rich spatiotemporal inputs?",
+          "Given the five defined method categories and the challenge of representing multi-factor effects and integrated cross-domain data, which category most directly focuses on extracting complex structures from spatiotemporal information?",
+          "With the five method categories in mind and the problems of handling many influencing variables and fused datasets, which category is most specifically intended to model sophisticated patterns in rich spatiotemporal signals?",
+          "Taking into account the five method categories and the challenge of learning from multiple interacting factors and fused cross-domain data, which category is most directly targeted at capturing complex patterns in high-dimensional spatiotemporal inputs?"
+        ],
+        "correct_answers": [
+          "Deep learning-based approaches",
+          "Methods based on deep learning"
+        ],
+        "explanations": [
+          "Deep learning-based methods are specifically highlighted as a main category and are well suited to capturing complex, high-dimensional spatiotemporal patterns from rich input data.",
+          "Because deep learning-based approaches are designed to model intricate, high-dimensional spatiotemporal relationships, they are the category most directly intended for learning complex patterns from rich spatiotemporal inputs."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Origami-based modeling methods",
+              "B": "Traditional machine learning methods only",
+              "C": "Deep learning-based methods",
+              "D": "Statistics-based methods only"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Statistics-based methods only",
+              "B": "Origami-based modeling methods",
+              "C": "Traditional machine learning methods only",
+              "D": "Deep learning-based methods"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Origami-based modeling methods",
+              "B": "Deep learning-based methods",
+              "C": "Statistics-based methods only",
+              "D": "Traditional machine learning methods only"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey lists public datasets such as NYC taxi data, Citi Bike data, UK traffic flow data, San Francisco taxi data, and Chicago bike sharing data, and reviews multiple categories of prediction methods.",
+        "Question": "Considering both the range of public datasets and the variety of prediction methods, why are datasets such as NYC taxi and Citi Bike important in the survey?",
+        "Selections": {
+          "A": "They are used only to illustrate map colors",
+          "B": "They provide common benchmark data for comparing different prediction methods",
+          "C": "They contain only static maps without flow information",
+          "D": "They are included solely to demonstrate file compression techniques"
+        },
+        "Output": "B",
+        "Explanation": "Publicly available urban flow datasets enable standardized, reproducible comparison across the method categories summarized in the paper.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__multiple_choice__l2__0005",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 14,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In light of the breadth of public datasets and the diversity of prediction techniques reviewed, what is the role of datasets like NYC taxi and Citi Bike in the survey? (A: They are used only to illustrate map colors, B: They provide common benchmark data for comparing different prediction methods, C: They contain only static maps without flow information, D: They are included solely to demonstrate file compression techniques)",
+          "Given the wide selection of public datasets and the range of prediction approaches discussed, why are datasets such as NYC taxi and Citi Bike highlighted in the survey? (A: They are used only to illustrate map colors, B: They provide common benchmark data for comparing different prediction methods, C: They contain only static maps without flow information, D: They are included solely to demonstrate file compression techniques)",
+          "Taking into account both the variety of publicly available datasets and the spectrum of prediction models surveyed, what makes datasets like NYC taxi and Citi Bike significant in this work? (A: They are used only to illustrate map colors, B: They provide common benchmark data for comparing different prediction methods, C: They contain only static maps without flow information, D: They are included solely to demonstrate file compression techniques)",
+          "Considering that the survey covers many public datasets alongside numerous prediction methodologies, for what primary purpose are datasets such as NYC taxi and Citi Bike included? (A: They are used only to illustrate map colors, B: They provide common benchmark data for comparing different prediction methods, C: They contain only static maps without flow information, D: They are included solely to demonstrate file compression techniques)",
+          "Given the extensive catalog of urban flow datasets and the multiple prediction methods examined, why are public datasets like NYC taxi and Citi Bike particularly emphasized in the survey? (A: They are used only to illustrate map colors, B: They provide common benchmark data for comparing different prediction methods, C: They contain only static maps without flow information, D: They are included solely to demonstrate file compression techniques)"
+        ],
+        "correct_answers": [
+          "They offer shared benchmark datasets that allow comparison of different prediction methods",
+          "They supply standardized benchmark data that supports comparing various prediction approaches"
+        ],
+        "explanations": [
+          "Public urban flow datasets allow different prediction approaches discussed in the paper to be evaluated on the same data, making comparisons standardized and reproducible.",
+          "Because these urban flow datasets are publicly accessible, researchers can repeatedly test and compare the surveyed prediction methods under identical conditions, ensuring fair and consistent benchmarking."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "They provide common benchmark data for comparing different prediction methods",
+              "B": "They are included solely to demonstrate file compression techniques",
+              "C": "They are used only to illustrate map colors",
+              "D": "They contain only static maps without flow information"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "They are included solely to demonstrate file compression techniques",
+              "B": "They are used only to illustrate map colors",
+              "C": "They contain only static maps without flow information",
+              "D": "They provide common benchmark data for comparing different prediction methods"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "They contain only static maps without flow information",
+              "B": "They are used only to illustrate map colors",
+              "C": "They provide common benchmark data for comparing different prediction methods",
+              "D": "They are included solely to demonstrate file compression techniques"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey lists public datasets such as NYC taxi data, Citi Bike data, UK traffic flow data, San Francisco taxi data, and Chicago bike sharing data.",
+        "Question": "Name one public dataset mentioned in the survey.",
+        "Output": "Examples include NYC taxi data, Citi Bike data, Chicago bike data, or UK traffic flow datasets.",
+        "Explanation": "Section 7 presents a list of publicly available urban spatiotemporal datasets.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0001",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 0,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "In Section 7, the survey enumerates several public urban datasets, including NYC taxi data, Citi Bike data, UK traffic flow data, San Francisco taxi data, and Chicago bike sharing data.",
+            "Explanation": "Because these datasets are explicitly identified as publicly available in Section 7, any one of them—such as NYC taxi data or Citi Bike data—correctly answers the question."
+          },
+          {
+            "Fact": "The survey explicitly names NYC taxi data, Citi Bike data, UK traffic flow data, San Francisco taxi data, and Chicago bike sharing data as examples of public datasets.",
+            "Explanation": "Since these datasets are directly labeled as public in the survey, selecting any one of them, for instance Chicago bike sharing data, satisfies the request to name a public dataset mentioned."
+          },
+          {
+            "Fact": "Among the datasets the survey highlights are several that are publicly accessible, including NYC taxi data, Citi Bike data, UK traffic flow data, San Francisco taxi data, and Chicago bike sharing data.",
+            "Explanation": "The question asks for one public dataset from the survey, and this list provides multiple valid options, such as NYC taxi data or UK traffic flow data."
+          },
+          {
+            "Fact": "The survey’s dataset overview includes public resources like NYC taxi data, Citi Bike data, UK traffic flow data, San Francisco taxi data, and Chicago bike sharing data.",
+            "Explanation": "Because these resources are described as public datasets in the overview, any single one—for example Citi Bike data—constitutes a correct response."
+          },
+          {
+            "Fact": "In its discussion of available resources, the survey cites public datasets including NYC taxi data, Citi Bike data, UK traffic flow data, San Francisco taxi data, and Chicago bike sharing data.",
+            "Explanation": "These cited datasets are explicitly public and thus any one of them, such as Chicago bike sharing data, directly answers the question about a public dataset mentioned in the survey."
+          }
+        ],
+        "questions": [
+          "Identify one of the public datasets cited in the survey.",
+          "Give an example of a public dataset referenced in the survey.",
+          "Name a specific public dataset that the survey mentions.",
+          "From the survey, state one publicly available dataset that is listed.",
+          "What is one example of a public dataset highlighted in the survey?",
+          "Provide the name of one public dataset discussed in the survey.",
+          "According to the survey, mention one of the public datasets it lists.",
+          "List one public dataset that appears in the survey’s examples.",
+          "Cite one public dataset that the survey includes in its discussion.",
+          "What is one publicly accessible dataset identified in the survey?"
+        ],
+        "negative_candidates": [
+          "London Underground turnstile entries data",
+          "Los Angeles Metro bus GPS traces",
+          "Paris Vélib bike-sharing trip records",
+          "Tokyo subway passenger flow dataset",
+          "Berlin public transit GTFS feeds",
+          "Seattle scooter-sharing trip data",
+          "Boston parking meter occupancy dataset",
+          "Singapore ride-hailing trip logs",
+          "Madrid air quality monitoring stations dataset",
+          "Sydney ferry passenger count data"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey identifies three major challenges: handling multiple influence factors, cross-domain data fusion, and data sparsity.",
+        "Question": "What is one open challenge for urban flow prediction mentioned in the survey?",
+        "Output": "Examples include handling multiple influence factors, data fusion, or data sparsity.",
+        "Explanation": "Section 5 explicitly lists these three challenges.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0002",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 1,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey highlights three key open challenges for urban flow prediction: managing multiple influencing factors, integrating data from different domains, and coping with sparse data.",
+            "Explanation": "These three issues are explicitly named as major challenges in Section 5, so any one of them matches the example answers given."
+          },
+          {
+            "Fact": "According to the survey, open challenges in urban flow prediction include dealing with many interacting influence factors, fusing heterogeneous data sources, and addressing data sparsity.",
+            "Explanation": "Section 5 directly enumerates these three items as ongoing challenges, which aligns with the listed example answers of influence factors, data fusion, and sparsity."
+          },
+          {
+            "Fact": "The survey states that urban flow prediction still struggles with three main problems: modeling multiple influence factors, performing cross-domain data fusion, and overcoming data sparsity.",
+            "Explanation": "These three problems are explicitly described in Section 5 as major open challenges, so each corresponds to the types of challenges cited in the correct answer."
+          },
+          {
+            "Fact": "In its discussion of open problems, the survey points to three major challenges: capturing multiple influence factors, combining information across domains, and handling sparse observations.",
+            "Explanation": "Section 5 clearly identifies these three aspects as central challenges, directly supporting the example challenges listed in the correct answer."
+          },
+          {
+            "Fact": "The survey’s Section 5 names three principal open challenges for urban flow prediction: accounting for numerous influence factors, achieving effective cross-domain fusion of data, and mitigating the effects of data sparsity.",
+            "Explanation": "These three named challenges in Section 5 match the categories mentioned in the correct answer—multiple influence factors, data fusion, and data sparsity."
+          }
+        ],
+        "questions": [
+          "Name one of the open challenges for urban flow prediction highlighted in the survey.",
+          "According to the survey, what is a single major challenge that remains open in urban flow prediction?",
+          "The survey outlines several open problems in urban flow prediction. Give one of them.",
+          "Based on the survey, identify one key challenge that urban flow prediction methods still struggle with.",
+          "From the survey’s discussion, what is one challenge that continues to hinder progress in urban flow prediction?",
+          "The survey lists three main difficulties for urban flow prediction. State any one of these difficulties.",
+          "According to the survey, what is one unresolved issue that affects the accuracy of urban flow prediction models?",
+          "The survey mentions multiple open challenges in urban flow prediction. Provide one example of such a challenge.",
+          "What is one major obstacle to effective urban flow prediction, as described in the survey?",
+          "From the survey’s summary of challenges, name one open research challenge in urban flow prediction."
+        ],
+        "negative_candidates": [
+          "Real-time visualization of urban flow predictions for end-users",
+          "Developing hardware sensors specifically optimized for urban flow data collection",
+          "Ensuring full privacy preservation by completely anonymizing all trajectory data",
+          "Designing new map-matching algorithms for raw GPS traces in urban environments",
+          "Integrating social media sentiment analysis directly into the prediction loss function",
+          "Replacing all traditional time-series models with purely graph-based neural networks",
+          "Standardizing a single universal benchmark dataset for all cities worldwide",
+          "Focusing exclusively on long-term (multi-year) urban flow forecasting horizons",
+          "Eliminating the need for any historical data through purely simulation-based prediction",
+          "Restricting urban flow prediction models to operate only on traffic speed data"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey provides a full preprocessing pipeline for trajectory data including stay-point extraction, filtering, compression, segmentation, and map matching.",
+        "Question": "Name one trajectory preprocessing step mentioned in the survey.",
+        "Output": "Examples include stay-point extraction, filtering, compression, segmentation, or map matching.",
+        "Explanation": "Section 3 walks through these preprocessing stages.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0003",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 2,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey outlines a complete trajectory preprocessing workflow that covers steps such as stay-point extraction, filtering, compression, segmentation, and map matching.",
+            "Explanation": "These listed operations are explicitly described as stages in the preprocessing pipeline in Section 3, so any of them can be named as an example step."
+          },
+          {
+            "Fact": "In its discussion of trajectory preprocessing, the survey explicitly mentions stay-point extraction, filtering, compression, segmentation, and map matching as core steps.",
+            "Explanation": "Section 3 enumerates these specific procedures as part of the preprocessing process, so each one qualifies as a valid example to answer the question."
+          },
+          {
+            "Fact": "According to the survey, a standard preprocessing pipeline for trajectories typically includes operations like stay-point extraction, filtering, compression, segmentation, and map matching.",
+            "Explanation": "The text in Section 3 presents these operations as the main preprocessing stages, meaning any of them can be cited as a trajectory preprocessing step."
+          },
+          {
+            "Fact": "The survey’s preprocessing section describes a pipeline where trajectories undergo stay-point extraction, then may be filtered, compressed, segmented, and finally map matched.",
+            "Explanation": "Section 3 details these steps as the sequence of preprocessing tasks, so they are all acceptable examples of preprocessing steps to mention."
+          },
+          {
+            "Fact": "Within the survey, trajectory preprocessing is characterized by several named steps, including stay-point extraction, filtering, compression, segmentation, and map matching.",
+            "Explanation": "These named steps are explicitly identified in Section 3 as parts of the preprocessing pipeline, so each one directly answers the request for a preprocessing step."
+          }
+        ],
+        "questions": [
+          "Identify one of the trajectory preprocessing operations described in the survey.",
+          "Give an example of a preprocessing step applied to trajectory data as outlined in the survey.",
+          "According to the survey, name a single step that is part of the trajectory preprocessing pipeline.",
+          "From the preprocessing pipeline discussed in the survey, mention one specific trajectory preprocessing stage.",
+          "State one method used in the survey’s trajectory preprocessing workflow.",
+          "List one type of preprocessing performed on trajectory data in the survey’s pipeline.",
+          "What is one trajectory preprocessing technique that the survey explicitly includes in its pipeline?",
+          "Cite one of the preprocessing procedures for trajectory data that the survey describes.",
+          "According to the survey’s preprocessing framework, what is one step involved in preparing trajectory data?",
+          "Name any one component of the trajectory data preprocessing pipeline presented in the survey."
+        ],
+        "negative_candidates": [
+          "Outlier amplification",
+          "Temporal interpolation of missing trajectories",
+          "User identity anonymization",
+          "Speed profile normalization",
+          "Trajectory encryption",
+          "Weather-condition tagging",
+          "Sensor calibration for GPS devices",
+          "Real-time trajectory visualization",
+          "Crowd-density estimation from trajectories",
+          "Origin–destination matrix construction"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "Urban flow prediction methods are classified into five categories: statistics-based, traditional ML, deep learning, reinforcement learning, and transfer learning.",
+        "Question": "How many categories of prediction methods does the survey define?",
+        "Output": "Five categories.",
+        "Explanation": "Section 4 defines these five methodological groups.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0004",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 3,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey organizes urban flow prediction approaches into five main types: statistics-based, traditional machine learning, deep learning, reinforcement learning, and transfer learning.",
+            "Explanation": "Because the survey explicitly lists five distinct methodological types, the total number of categories is five."
+          },
+          {
+            "Fact": "According to the survey, prediction techniques for urban flow are grouped into exactly five methodological classes: statistics-based, conventional ML, deep learning, reinforcement learning, and transfer learning.",
+            "Explanation": "The text specifies five separate classes of methods, so the defined number of categories is five."
+          },
+          {
+            "Fact": "In the survey’s taxonomy, urban flow prediction methods fall into five groups: those based on statistics, on traditional machine learning, on deep learning, on reinforcement learning, and on transfer learning.",
+            "Explanation": "The taxonomy enumerates five groups of methods, which means the survey defines five categories in total."
+          },
+          {
+            "Fact": "The survey’s Section 4 divides urban flow prediction methods into five distinct categories: statistics-based, traditional machine learning, deep learning, reinforcement learning, and transfer learning.",
+            "Explanation": "Section 4 explicitly partitions methods into five categories, so the answer is that there are five categories."
+          },
+          {
+            "Fact": "Within the survey, urban flow prediction approaches are classified into five overarching categories—statistics-based, traditional ML, deep learning, reinforcement learning, and transfer learning.",
+            "Explanation": "Since the classification scheme lists five overarching categories, the number of categories defined by the survey is five."
+          }
+        ],
+        "questions": [
+          "According to the survey, into how many groups are urban flow prediction methods categorized?",
+          "How many distinct methodological groups for prediction does the survey identify?",
+          "The survey classifies urban flow prediction approaches into how many categories?",
+          "According to the survey’s taxonomy, prediction methods are divided into how many categories?",
+          "How many separate categories of prediction techniques are outlined in the survey?",
+          "In the survey, prediction methods are grouped into how many different categories?",
+          "The survey organizes prediction methods into how many main categories?",
+          "How many top-level categories of prediction methods does the survey propose?",
+          "According to the survey, prediction methods fall into how many classification categories?",
+          "How many overarching categories of prediction methods are described in the survey?"
+        ],
+        "negative_candidates": [
+          "Three categories",
+          "Four categories",
+          "Six categories",
+          "Seven categories",
+          "Eight categories",
+          "Nine categories",
+          "Ten categories",
+          "Two categories",
+          "A single unified category",
+          "More than a dozen categories"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey highlights common spatiotemporal issues such as missing data, imbalance, and uncertainty.",
+        "Question": "Name one spatiotemporal data issue discussed in the survey.",
+        "Output": "Examples include missing data, imbalance, or uncertainty.",
+        "Explanation": "Section 2.3 covers these three categories of data challenges.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0005",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 4,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey identifies missing data, data imbalance, and uncertainty as key spatiotemporal data problems.",
+            "Explanation": "These three issues are explicitly listed as major categories of challenges, so any one of them is a valid example for the answer."
+          },
+          {
+            "Fact": "Among the spatiotemporal challenges the survey discusses are missing values, imbalanced distributions, and uncertain measurements.",
+            "Explanation": "Section 2.3 explicitly groups these three as primary data issues, so naming any of them correctly addresses the question."
+          },
+          {
+            "Fact": "In the survey, missing data, imbalance in the dataset, and uncertainty in observations are presented as central spatiotemporal data issues.",
+            "Explanation": "The text clearly categorizes these three as core problems, meaning each one qualifies as an example for the response."
+          },
+          {
+            "Fact": "The survey notes that spatiotemporal datasets often suffer from missing entries, skewed class distributions, and uncertainty.",
+            "Explanation": "These three problems are highlighted together as typical data issues, so selecting any one of them matches the required answer format."
+          },
+          {
+            "Fact": "According to the survey, typical spatiotemporal data issues include incomplete (missing) data, imbalanced data, and uncertain data.",
+            "Explanation": "Section 2.3 explicitly names these three types of issues, so each directly supports the example answer of missing data, imbalance, or uncertainty."
+          }
+        ],
+        "questions": [
+          "Identify one type of spatiotemporal data challenge mentioned in the survey.",
+          "According to the survey, what is one common issue that arises in spatiotemporal data?",
+          "The survey lists several spatiotemporal data problems. Name any one of them.",
+          "Give one example of a spatiotemporal data issue highlighted in the survey.",
+          "What is one category of spatiotemporal data difficulty described in the survey?",
+          "From the survey’s discussion, mention one problem commonly found in spatiotemporal datasets.",
+          "The survey outlines multiple challenges in spatiotemporal data. State one such challenge.",
+          "Name any one of the spatiotemporal data-related issues that the survey points out.",
+          "According to the survey’s Section 2.3, what is one major issue affecting spatiotemporal data?",
+          "Citing the survey, provide one example of a typical issue encountered in spatiotemporal data."
+        ],
+        "negative_candidates": [
+          "Concept drift in model parameters over long deployment periods",
+          "Label noise arising from inconsistent human annotations of events",
+          "Hardware-induced sensor bias due to faulty calibration procedures",
+          "Privacy leakage caused by inadvertent re-identification of individuals",
+          "Adversarial attacks that subtly perturb spatial coordinates to fool models",
+          "Domain shift between satellite and aerial imagery sources",
+          "Occlusion artifacts in video streams from overlapping moving objects",
+          "Synchronization errors between multimodal data sources such as LiDAR and radar",
+          "Projection distortions introduced when mapping data between coordinate systems",
+          "Compression artifacts introduced by aggressive lossy encoding of time series"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey describes two map decomposition methods: grid-based and road-network-based.",
+        "Question": "What are the two map decomposition approaches introduced in the survey?",
+        "Output": "Grid-based decomposition and road-network-based decomposition.",
+        "Explanation": "Section 2.2 explicitly contrasts grid and road-network segmentation.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0006",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 5,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey identifies two main map decomposition strategies: a grid-based approach and a road-network-based approach.",
+            "Explanation": "It clearly states that map decomposition can be carried out either by dividing space into grids or by segmenting along the road network, matching the two approaches in the answer."
+          },
+          {
+            "Fact": "According to the survey, map decomposition is categorized into grid-based decomposition and decomposition based on the road network.",
+            "Explanation": "The text explicitly classifies decomposition techniques into these two categories, which correspond directly to the listed correct answer."
+          },
+          {
+            "Fact": "In the survey, map decomposition techniques are grouped into two types: grid-based methods and methods that use the road network structure.",
+            "Explanation": "The survey’s classification into grid-based and road-network-structured methods aligns exactly with the two approaches named in the answer."
+          },
+          {
+            "Fact": "The survey presents map decomposition as relying on either a grid representation or a road-network representation of the environment.",
+            "Explanation": "By framing decomposition around grid versus road-network representations, the survey supports the answer’s two approaches: grid-based and road-network-based decomposition."
+          },
+          {
+            "Fact": "Section 2.2 of the survey distinguishes between decomposing maps into grid cells and decomposing them along road networks.",
+            "Explanation": "This section’s contrast between grid-cell and road-network decomposition directly corresponds to the two approaches given in the correct answer."
+          }
+        ],
+        "questions": [
+          "Which two types of map decomposition methods does the survey present?",
+          "According to the survey, what are the two methods used to decompose maps?",
+          "The survey outlines a pair of map decomposition strategies. What are they called?",
+          "What are the names of the two map decomposition techniques discussed in the survey?",
+          "In the survey, which two approaches are proposed for decomposing maps?",
+          "Identify the two map decomposition schemes that the survey introduces.",
+          "What are the two distinct approaches to map decomposition mentioned in the survey?",
+          "According to the survey, which two approaches are used for segmenting maps?",
+          "The survey contrasts two ways of decomposing maps. What are these two approaches?",
+          "What are the two map segmentation (decomposition) methods described in the survey?"
+        ],
+        "negative_candidates": [
+          "Cell-based decomposition and trajectory-based decomposition",
+          "Raster-based partitioning and junction-based partitioning",
+          "Quad-tree decomposition and lane-level decomposition",
+          "Region-growing segmentation and intersection-cluster decomposition",
+          "Hexagonal tiling decomposition and highway-based decomposition",
+          "Point-cloud-based decomposition and corridor-based decomposition",
+          "Semantic-layer decomposition and topology-preserving decomposition",
+          "Voronoi-cell decomposition and arterial-road-focused decomposition",
+          "Block-level decomposition and landmark-anchored decomposition",
+          "Time-sliced decomposition and vehicle-route-based decomposition"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey divides spatiotemporal datasets into spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic categories.",
+        "Question": "What are the three categories of spatiotemporal datasets mentioned in the survey?",
+        "Output": "Spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic.",
+        "Explanation": "Table 1 on page 2 outlines these dataset categories.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0007",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 6,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "According to the survey, spatiotemporal datasets are grouped into three types: spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic.",
+            "Explanation": "The classification given in the survey explicitly lists these three names as the categories of spatiotemporal datasets."
+          },
+          {
+            "Fact": "The survey identifies three main categories for spatiotemporal datasets: spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic.",
+            "Explanation": "These three labels are presented in the survey as the official categorization scheme for spatiotemporal datasets."
+          },
+          {
+            "Fact": "In the survey’s taxonomy, spatiotemporal datasets fall into three classes: spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic.",
+            "Explanation": "The taxonomy described in the survey specifies exactly these three classes as the dataset categories."
+          },
+          {
+            "Fact": "The survey organizes spatiotemporal datasets into three distinct groups: spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic.",
+            "Explanation": "The organizational scheme in the survey explicitly enumerates these three groups as the dataset categories."
+          },
+          {
+            "Fact": "Within the survey, spatiotemporal datasets are classified under three headings: spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic.",
+            "Explanation": "The survey’s classification headings directly list these three terms as the categories of spatiotemporal datasets."
+          }
+        ],
+        "questions": [
+          "According to the survey, into which three categories are spatiotemporal datasets classified?",
+          "How does the survey categorize spatiotemporal datasets into three distinct types?",
+          "What are the three types of spatiotemporal datasets identified in the survey?",
+          "The survey organizes spatiotemporal datasets into three groups. What are these three groups called?",
+          "Based on the survey, what are the names of the three spatiotemporal dataset categories?",
+          "In the survey, spatiotemporal datasets are divided into three main categories. What are these categories?",
+          "What three category labels does the survey use to classify spatiotemporal datasets?",
+          "According to the survey’s taxonomy, what are the three categories of spatiotemporal datasets?",
+          "What are the three main classes of spatiotemporal datasets described in the survey?",
+          "The survey distinguishes three categories of spatiotemporal datasets. List these three categories."
+        ],
+        "negative_candidates": [
+          "Spatial static, temporal static, and temporal dynamic datasets",
+          "Spatiotemporal continuous, spatiotemporal discrete, and hybrid spatiotemporal datasets",
+          "Static spatial-only, static temporal-only, and combined spatiotemporal datasets",
+          "Spatial dynamic, temporal dynamic, and fully dynamic spatiotemporal datasets",
+          "Point-based spatiotemporal, region-based spatiotemporal, and trajectory-based spatiotemporal datasets",
+          "Low-resolution spatiotemporal, medium-resolution spatiotemporal, and high-resolution spatiotemporal datasets",
+          "Deterministic spatiotemporal, stochastic spatiotemporal, and mixed spatiotemporal datasets",
+          "Raster spatiotemporal, vector spatiotemporal, and network spatiotemporal datasets",
+          "Offline spatiotemporal, near-real-time spatiotemporal, and real-time spatiotemporal datasets",
+          "Historical spatiotemporal, current spatiotemporal, and predictive spatiotemporal datasets"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey identifies four major urban flow factors: daily activity patterns, anomalies, weather, and holidays.",
+        "Question": "Name one major factor affecting urban flow according to the survey.",
+        "Output": "Examples include daily activity patterns, anomalies, weather, or holidays.",
+        "Explanation": "Page 1 lists these four factor groups explicitly.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0008",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 7,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "According to the survey, four key factors shape urban flow: daily activity patterns, anomalies, weather, and holidays.",
+            "Explanation": "These four elements are explicitly highlighted in the survey as the main influences on urban flow, so any one of them is a valid example."
+          },
+          {
+            "Fact": "The survey states that urban flow is primarily influenced by four groups of factors: routine daily activities, unusual anomalies, meteorological conditions, and holiday periods.",
+            "Explanation": "Because the survey directly names these four categories as primary influences, each one qualifies as a major factor affecting urban flow."
+          },
+          {
+            "Fact": "In the survey, daily activity patterns, anomalous events, weather conditions, and holidays are identified as the principal determinants of urban flow.",
+            "Explanation": "The document clearly lists these four determinants, meaning any single one can correctly answer which major factor affects urban flow."
+          },
+          {
+            "Fact": "The survey highlights four main contributors to variations in urban flow: everyday activity schedules, irregular anomalies, prevailing weather, and holiday times.",
+            "Explanation": "Since these contributors are explicitly called out as main factors, mentioning any one of them satisfies the requirement to name a major factor from the survey."
+          },
+          {
+            "Fact": "Urban flow, as described in the survey, is largely governed by four factor categories: patterns of daily activities, unexpected anomalies, weather patterns, and holiday periods.",
+            "Explanation": "These four categories are singled out in the survey as the dominant factors, so each is an acceptable example of a major factor influencing urban flow."
+          }
+        ],
+        "questions": [
+          "According to the survey, what is one key factor that influences urban flow?",
+          "Based on the survey, name one primary factor that impacts urban flow conditions.",
+          "From the survey’s findings, identify one major factor that shapes urban flow.",
+          "According to the survey results, list one significant factor that affects urban flow.",
+          "The survey highlights several main influences on urban flow; give one of these factors.",
+          "As reported in the survey, what is one of the principal factors determining urban flow?",
+          "Referring to the survey, mention one of the major factors that plays a role in urban flow.",
+          "The survey outlines four main factors related to urban flow; provide any one of them.",
+          "According to the survey document, what is one of the key factor groups that affect urban flow?",
+          "From the survey, state one of the major categories of factors that influence urban flow."
+        ],
+        "negative_candidates": [
+          "Population density distribution across neighborhoods",
+          "Long-term economic growth trends of the city",
+          "Historical architecture and building age",
+          "Type of political system governing the city",
+          "Average education level of residents",
+          "Cultural heritage sites and monuments",
+          "Zoning regulations for industrial land use",
+          "Internet penetration and broadband access rates",
+          "Municipal budget size and allocation",
+          "Public opinion on local government policies"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey identifies three flow types: crowd flow, traffic flow, and public transit flow.",
+        "Question": "What are the three types of urban flow described in the survey?",
+        "Output": "Crowd flow, traffic flow, and public transit flow.",
+        "Explanation": "These categories appear explicitly in the introduction of the paper.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0009",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 8,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "According to the survey, urban dynamics are grouped into three flows: crowd flow, traffic flow, and public transit flow.",
+            "Explanation": "The paper explicitly classifies urban flow into these three named categories, matching the correct answer."
+          },
+          {
+            "Fact": "The survey explicitly states that it focuses on three main urban flow types: crowd flow, traffic flow, and public transit flow.",
+            "Explanation": "These three flow types are directly listed in the survey, so they form the correct set of answers."
+          },
+          {
+            "Fact": "In the survey’s description of urban flows, it distinguishes three categories: crowd flow, traffic flow, and public transit flow.",
+            "Explanation": "The introduction of the survey clearly separates urban flow into these three specific categories, which are the required answer."
+          },
+          {
+            "Fact": "The paper categorizes urban flow into three distinct types: crowd flow, traffic flow, and public transit flow.",
+            "Explanation": "These three types are named as the fundamental urban flow categories in the survey, aligning exactly with the correct answer."
+          },
+          {
+            "Fact": "Within the survey, urban flow is defined in terms of three principal types: crowd flow, traffic flow, and public transit flow.",
+            "Explanation": "The survey’s introductory section identifies these three principal types, which directly correspond to the answer given."
+          }
+        ],
+        "questions": [
+          "According to the survey, which three categories of urban flow are distinguished?",
+          "The survey divides urban flow into three types. What are these three types?",
+          "Based on the survey, name the three identified types of urban flow.",
+          "What are the three specific urban flow types mentioned in the survey?",
+          "In the survey’s classification, which three forms of urban flow are described?",
+          "The survey outlines three main kinds of urban flow. What are they?",
+          "According to the survey’s introduction, what three types of urban flow are recognized?",
+          "What three urban flow categories does the survey explicitly define?",
+          "List the three types of urban flow that the survey discusses.",
+          "The survey characterizes urban dynamics using three flow types. What are these three types?"
+        ],
+        "negative_candidates": [
+          "Pedestrian flow, bicycle flow, and freight flow.",
+          "Residential flow, commercial flow, and industrial flow.",
+          "Information flow, energy flow, and goods flow.",
+          "Vehicular flow, maritime flow, and aerial flow.",
+          "Commuter flow, tourist flow, and logistics flow.",
+          "Economic flow, social flow, and environmental flow.",
+          "High-speed rail flow, taxi flow, and rideshare flow.",
+          "Parking flow, delivery flow, and emergency vehicle flow.",
+          "Digital communication flow, financial transaction flow, and media flow.",
+          "Intercity flow, intracity flow, and suburban flow."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey reviews methods for predicting urban flow from spatiotemporal data across traffic, crowd, and public transit domains.",
+        "Question": "What does the survey primarily review?",
+        "Output": "Methods for predicting urban flow from spatiotemporal data.",
+        "Explanation": "The paper summarizes prediction approaches for crowd flow, traffic flow, and public transit flow.",
+        "Level": 1,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l1__0010",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 9,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey focuses on techniques that forecast urban flow using spatiotemporal data in traffic, crowd, and public transit settings.",
+            "Explanation": "Because it centers on forecasting techniques across these three urban domains, the survey’s main focus is methods for predicting urban flow from spatiotemporal data."
+          },
+          {
+            "Fact": "The article examines a range of spatiotemporal prediction methods applied to urban flows such as vehicle traffic, pedestrian movement, and transit usage.",
+            "Explanation": "By analyzing prediction methods for these different types of urban flows, the survey’s primary subject is methods for predicting urban flow from spatiotemporal data."
+          },
+          {
+            "Fact": "The survey compiles and discusses approaches that model and predict how people and vehicles move in cities based on time-varying spatial data.",
+            "Explanation": "Since it reviews approaches that use temporal and spatial information to predict urban movements, the core focus is methods for predicting urban flow from spatiotemporal data."
+          },
+          {
+            "Fact": "The paper reviews existing models that use spatial and temporal information to estimate future traffic, crowd densities, and public transport flows in cities.",
+            "Explanation": "Its emphasis on models that rely on spatiotemporal information to forecast various city flows shows that it primarily reviews methods for predicting urban flow from spatiotemporal data."
+          },
+          {
+            "Fact": "The survey provides an overview of prediction frameworks that leverage spatiotemporal datasets to anticipate urban mobility patterns in traffic, crowds, and transit.",
+            "Explanation": "Because it concentrates on prediction frameworks driven by spatiotemporal data for different urban mobility types, the survey’s main topic is methods for predicting urban flow from spatiotemporal data."
+          }
+        ],
+        "questions": [
+          "What is the main focus of the survey’s review?",
+          "What is the primary subject that the survey examines?",
+          "The survey mainly provides an overview of what topic?",
+          "What core topic does the survey concentrate its review on?",
+          "What central theme does the survey’s review address?",
+          "The survey chiefly reviews which kind of methods?",
+          "What is the principal area of methods that the survey evaluates?",
+          "What main type of approaches does the survey summarize?",
+          "The survey’s primary emphasis is on reviewing what?",
+          "What is the main category of prediction techniques discussed in the survey?"
+        ],
+        "negative_candidates": [
+          "Applications of deep learning to real-time traffic signal control in smart cities.",
+          "Techniques for visualizing urban mobility patterns using geographic information systems.",
+          "Hardware architectures and sensor networks for collecting urban transportation data.",
+          "Policy frameworks and governance models for sustainable urban transportation planning.",
+          "Economic impacts of congestion pricing and road tolling in metropolitan areas.",
+          "Privacy-preserving mechanisms for sharing location data in intelligent transportation systems.",
+          "Optimization algorithms for designing bus routes and subway networks from scratch.",
+          "Simulation tools for virtual testing of autonomous vehicles in urban environments.",
+          "Social and behavioral factors influencing commuters’ transportation mode choices.",
+          "Environmental assessment methods for estimating emissions from city traffic."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey reviews methods for predicting three types of urban flow—crowd flow, traffic flow, and public transit flow—using spatiotemporal data.",
+        "Question": "By combining the three urban flow types and the overall goal of the paper, what is the primary prediction objective of the Urban Flow Prediction Survey?",
+        "Output": "To predict crowd, traffic, and public transit flows from spatiotemporal urban data.",
+        "Explanation": "The survey explicitly focuses on methods that forecast urban flows, and it organizes them around three domains: crowd flow, traffic flow, and public transit flow.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l2__0001",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 10,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The paper centers on forecasting three categories of urban movement—crowd, road traffic, and public transit—based on spatiotemporal information.",
+            "Explanation": "Because the survey’s methods all aim to forecast these three movement types from spatiotemporal data, the main prediction goal is to estimate crowd, traffic, and transit flows using such urban data."
+          },
+          {
+            "Fact": "The survey’s core task is to use spatial and temporal urban data to anticipate how people and vehicles move as crowd flows, traffic flows, and transit flows.",
+            "Explanation": "Since the methods surveyed are designed to anticipate these three flow types from spatiotemporal inputs, the primary objective is to predict crowd, traffic, and public transit flows from urban spatiotemporal data."
+          },
+          {
+            "Fact": "Across the reviewed approaches, the common target is to model and forecast urban flows—specifically crowd, vehicular traffic, and public transit—using data indexed by space and time.",
+            "Explanation": "All techniques discussed share the same prediction target: given spatiotemporal urban data, they aim to predict the three flow types, so the survey’s main objective is to forecast crowd, traffic, and transit flows from such data."
+          },
+          {
+            "Fact": "The survey unifies methods whose shared purpose is predicting crowd, traffic, and public transit dynamics from urban datasets that vary over locations and time.",
+            "Explanation": "Because each method is evaluated on its ability to predict these three flow types from spatiotemporal urban information, the overarching prediction objective is to estimate crowd, traffic, and public transit flows using that data."
+          }
+        ],
+        "questions": [
+          "Considering the three categories of urban flows discussed and the survey’s overarching aim, what is the main forecasting task addressed in the Urban Flow Prediction Survey?",
+          "Given that the survey centers on crowd, traffic, and public transit flows, what is its core prediction goal using spatiotemporal urban information?",
+          "When the paper integrates crowd flow, traffic flow, and public transit flow under its main objective, what key type of urban flow prediction is it trying to achieve?",
+          "Taking into account the three urban flow domains and the stated purpose of the survey, what is the fundamental prediction problem the survey focuses on?",
+          "Based on the survey’s emphasis on crowd, traffic, and public transit flows, what is the principal prediction objective it pursues with spatiotemporal data?",
+          "If the survey’s overall goal is framed around three urban flow types, what is the central predictive task it aims to perform?",
+          "In light of the survey’s review of methods for crowd, traffic, and public transit flows, what is the primary urban flow prediction target?",
+          "Combining the three specified urban flow categories with the survey’s main purpose, what is the essential prediction objective described in the paper?",
+          "Given that the paper surveys methods for three distinct urban flows, what is the main predictive outcome it seeks to obtain from spatiotemporal urban data?",
+          "Considering the focus on crowd, traffic, and public transit flows, what overarching prediction objective does the Urban Flow Prediction Survey aim to accomplish?"
+        ],
+        "negative_candidates": [
+          "To optimize long-term urban infrastructure planning and land-use zoning based solely on demographic projections.",
+          "To classify different categories of urban regions (residential, commercial, industrial) using static geographic and socioeconomic features.",
+          "To detect and recognize anomalous events such as crimes or natural disasters in real time using video surveillance streams.",
+          "To generate synthetic city layouts, including road networks and building placements, using generative models trained on existing urban maps.",
+          "To estimate air pollution levels and environmental quality indices in different city districts using meteorological and emission data.",
+          "To recommend optimal public policy interventions and taxation schemes by modeling citizen economic behavior in urban areas.",
+          "To segment and label urban scenes in images for autonomous driving systems using computer vision techniques.",
+          "To infer individual user mobility preferences and lifestyle patterns from personal smartphone sensor logs.",
+          "To simulate long-term population migration between cities based on macroeconomic indicators and housing prices.",
+          "To forecast real estate prices and rental rates across neighborhoods using historical transaction and listing data."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey identifies four major factors affecting urban flow—daily activity patterns, anomalies, weather, and holidays—and applies these to flows such as crowd, traffic, and public transit.",
+        "Question": "Why do models for crowd, traffic, and public transit flows need to incorporate factors like daily activity patterns, anomalies, weather, and holidays?",
+        "Output": "Because these factors jointly drive variations in all three flow types, and ignoring them can reduce prediction accuracy.",
+        "Explanation": "The survey highlights these four influence groups as key determinants of urban flow; since crowd, traffic, and transit flows all respond to them, predictive models must represent their combined effects.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l2__0002",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 11,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey reports that daily activity cycles, unexpected anomalies, weather conditions, and holidays are four principal influences on urban flows, and it analyzes their impact on crowd, road traffic, and public transit movements.",
+            "Explanation": "Since these four influences shape how all three flow types change over time, models that omit them risk missing important variation and thus making less accurate predictions."
+          },
+          {
+            "Fact": "According to the survey, urban flows of people and vehicles—across crowds, traffic, and transit—are largely governed by four categories of factors: routine daily schedules, anomalous events, meteorological conditions, and holiday periods.",
+            "Explanation": "Because these categories systematically affect fluctuations in each flow type, predictive models must encode them together to capture real-world dynamics and avoid degraded accuracy."
+          },
+          {
+            "Fact": "The survey concludes that variations in crowd density, traffic volume, and transit usage can be largely explained by four factor groups: daily behavioral rhythms, irregular disruptions, weather patterns, and holiday effects.",
+            "Explanation": "As these groups jointly account for much of the observed variation in all three flows, excluding them from models would overlook key drivers and harm predictive performance."
+          },
+          {
+            "Fact": "In the survey, daily activity patterns, anomalous situations, weather, and holidays are identified as core explanatory variables for multiple urban flow modalities, including crowds, vehicular traffic, and public transportation.",
+            "Explanation": "Because these shared variables are central to how each modality fluctuates, robust prediction models must incorporate their combined influence to maintain high accuracy."
+          }
+        ],
+        "questions": [
+          "Why is it important for models of crowd, traffic, and transit flows to explicitly represent daily activity patterns, anomalies, weather, and holidays?",
+          "Why must predictive models of urban crowd, road traffic, and public transit account for daily routines, unusual events, weather conditions, and holiday effects?",
+          "Why should models that forecast crowd movement, vehicle traffic, and transit usage include variables for everyday activity cycles, rare disruptions, meteorological factors, and holiday schedules?",
+          "Why do forecasting models for crowds, traffic, and public transport have to model the combined influence of regular daily patterns, anomalous events, weather, and holidays?",
+          "Why is it necessary for urban flow models covering crowds, traffic, and transit to integrate daily behavioral rhythms, unexpected anomalies, climatic conditions, and holiday periods?",
+          "Why can’t models of crowd, traffic, and public transit flows ignore daily activity cycles, anomalies, weather changes, and holidays when making predictions?",
+          "Why do accurate prediction models for crowd flows, traffic volumes, and transit ridership need to factor in everyday patterns, exceptional events, weather variability, and holiday effects?",
+          "Why is incorporating daily activity regularities, occasional anomalies, weather influences, and holiday impacts essential in modeling crowd, traffic, and public transit flows?",
+          "Why do models that aim to predict urban flows—such as crowds, road traffic, and public transit—need to embed information about daily routines, outlier events, weather, and holidays?",
+          "Why must models of crowd, traffic, and transit dynamics be designed to capture the effects of daily activity patterns, anomalous occurrences, weather conditions, and holiday periods on these flows?"
+        ],
+        "negative_candidates": [
+          "Because these factors mainly introduce random noise into the data, and modeling them helps to filter out irrelevant fluctuations rather than explain systematic variation in flows.",
+          "Because crowd, traffic, and public transit flows are almost entirely determined by a single dominant factor, and the four listed factors are used only as optional post-processing features for visualization purposes.",
+          "Because these factors primarily affect only long-term urban planning decisions, and flow models must include them to comply with regulatory reporting requirements rather than to improve predictions.",
+          "Because incorporating these factors allows the models to remain completely static over time, eliminating the need for retraining or adaptation as urban conditions change.",
+          "Because the survey uses these factors solely as labels for different datasets, and models must incorporate them in order to match the naming conventions of the benchmark, not to influence the flow dynamics.",
+          "Because daily activity patterns, anomalies, weather, and holidays are used only to normalize the input data, after which the actual prediction model assumes flows are constant and independent of such influences.",
+          "Because these factors are considered independent of crowd, traffic, and transit flows, and are included only to provide auxiliary metadata for downstream visualization dashboards.",
+          "Because the main purpose of the models is to detect when these factors occur, not to predict flows, so they are embedded as primary outputs rather than as explanatory inputs.",
+          "Because the four factors are treated as noise that must be removed from the observations so that the model can learn an idealized, factor-free representation of urban flow.",
+          "Because the models are designed to operate exclusively during rare special events, and these four factors are only used to switch the models off during normal operating conditions."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey divides datasets into spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic categories, and describes grid-based and road-network-based map decomposition methods.",
+        "Question": "How do spatiotemporal dynamic datasets and grid-based decomposition together support urban flow prediction?",
+        "Output": "They provide time-varying flow values on a regular grid, enabling models to learn how flows evolve across both space and time.",
+        "Explanation": "Spatiotemporal dynamic datasets contain changing flows over time, and grid-based decomposition partitions the city into uniform cells; combining them yields a structured spatiotemporal grid that is well-suited to prediction models.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l2__0003",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 12,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The paper categorizes data into spatiotemporal static, spatial static temporal dynamic, and spatiotemporal dynamic types, and explains that grid-based decomposition divides the city into evenly sized spatial cells.",
+            "Explanation": "By using spatiotemporal dynamic data, which records how flows change over time, and mapping them onto a uniform grid, models receive time-varying flow values at each grid cell, allowing them to capture how flows develop across space and time."
+          },
+          {
+            "Fact": "According to the survey, spatiotemporal dynamic datasets record flow values that vary over time, and grid-based map decomposition overlays a regular grid on the urban area.",
+            "Explanation": "When dynamic flow measurements are assigned to each cell of a regular grid, the result is a structured representation of flows that change over time at fixed spatial locations, which supports learning spatiotemporal flow patterns for prediction."
+          },
+          {
+            "Fact": "The survey notes that spatiotemporal dynamic data provide temporally changing observations, and that grid-based decomposition represents the city as a matrix of uniform spatial units.",
+            "Explanation": "Placing time-varying flow data into a matrix of fixed cells yields a consistent spatiotemporal grid, giving prediction models a clear layout of how flows evolve in each cell and how they propagate between neighboring cells over time."
+          },
+          {
+            "Fact": "In the taxonomy, spatiotemporal dynamic datasets are defined as having both spatial and temporal variation, while grid-based decomposition is described as splitting the urban region into regular, equally sized grid cells.",
+            "Explanation": "Combining these datasets with a regular grid structure produces sequences of flow values for each cell, enabling models to learn temporal trends at each location and spatial interactions across the grid for urban flow forecasting."
+          }
+        ],
+        "questions": [
+          "In what way does combining spatiotemporal dynamic datasets with a grid-based city partition help models forecast urban flows?",
+          "How does using spatiotemporal dynamic data together with a regular grid decomposition of the city facilitate learning urban flow patterns over time?",
+          "Why does pairing time-varying spatiotemporal datasets with a uniform grid representation of the urban area benefit urban flow prediction models?",
+          "How does the integration of spatiotemporal dynamic flow records and grid-based map decomposition improve the ability to predict urban flows?",
+          "In urban flow forecasting, how does representing time-changing flows on a grid derived from grid-based decomposition aid model training?",
+          "How do time-evolving spatiotemporal datasets, when mapped onto a grid-based partition of the city, support accurate prediction of urban flows?",
+          "Why is it advantageous for urban flow prediction to express spatiotemporal dynamic data on a regular grid obtained from grid-based decomposition?",
+          "How does projecting dynamic spatiotemporal flow data onto uniformly sized grid cells help models capture urban flow evolution?",
+          "In the context of urban flow prediction, how does a grid-based decomposition work together with spatiotemporal dynamic datasets to model changes across space and time?",
+          "How does organizing temporally varying flow data into a grid structure via grid-based decomposition enhance spatiotemporal urban flow prediction?"
+        ],
+        "negative_candidates": [
+          "They allow each road segment to be treated as an independent time series, so models can ignore spatial relationships and focus solely on temporal patterns in traffic counts.",
+          "They convert all temporal information into a single static snapshot over an irregular mesh, letting models focus on long-term average flows instead of short-term dynamics.",
+          "They aggregate flows into administrative districts and remove the temporal dimension, simplifying prediction to a purely spatial interpolation problem on a coarse grid.",
+          "They transform dynamic flow records into a sequence of unstructured point events, which eliminates the need for any fixed spatial partition like a grid during model training.",
+          "They ensure that flow values remain constant within each grid cell over time, allowing models to assume stationarity and avoid learning temporal transitions between cells.",
+          "They map time-varying trajectories directly onto a road network graph, bypassing any need for regular spatial discretization and focusing exclusively on network topology.",
+          "They use grid cells only as labels for origin–destination pairs, while the dynamic dataset provides a single global flow matrix that does not vary with time.",
+          "They represent urban flows as static heatmaps over an adaptive, non-uniform grid, enabling models to learn spatial hotspots without modeling temporal evolution.",
+          "They split the city into grids that are updated only once per day, so models predict daily average congestion levels without considering finer-grained temporal changes.",
+          "They store all flows from different times in separate, unrelated grids, preventing models from capturing continuity or correlations across consecutive time steps."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey defines five method categories—statistics-based, traditional machine learning, deep learning, reinforcement learning, and transfer learning—and lists challenges such as handling multiple influence factors, cross-domain data fusion, and data sparsity.",
+        "Question": "Why are deep learning and transfer learning methods particularly relevant to challenges like multiple influence factors and cross-domain data fusion in urban flow prediction?",
+        "Output": "Because they can model complex nonlinear relationships among many factors and transfer knowledge across related datasets or domains.",
+        "Explanation": "The survey’s method taxonomy and challenge list together suggest that richer models (deep learning, transfer learning) are better suited to capturing multifactor spatiotemporal dependencies and leveraging information from multiple data sources.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l2__0004",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 13,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey groups approaches into five types—statistical models, conventional machine learning, deep learning, reinforcement learning, and transfer learning—while highlighting issues like many interacting factors, fusing data from different domains, and sparse observations.",
+            "Explanation": "By contrasting simpler methods with deep and transfer learning in the context of these challenges, the survey implies that the latter are more capable of representing complex multifactor patterns and integrating heterogeneous data sources."
+          },
+          {
+            "Fact": "Among the five categories of methods identified in the survey, deep learning and transfer learning are discussed alongside key difficulties such as modeling numerous influencing variables, combining cross-domain datasets, and coping with limited data.",
+            "Explanation": "Placing deep and transfer learning in the same framework as these specific challenges indicates that these methods are intended to address intricate nonlinear dependencies and reuse knowledge between related but different datasets or domains."
+          },
+          {
+            "Fact": "The survey’s taxonomy separates deep learning and transfer learning from simpler statistical and traditional machine learning techniques, and simultaneously emphasizes problems like multiple influence factors, cross-domain fusion, and data sparsity in urban flow prediction.",
+            "Explanation": "This separation suggests that deep and transfer learning are chosen because they can better capture complex, nonlinear interactions among many variables and exploit information shared across domains when data are scarce."
+          },
+          {
+            "Fact": "In outlining method families, the survey notes deep learning and transfer learning as distinct categories and, in its challenge section, stresses the need to handle multifactor influences, integrate heterogeneous domain data, and deal with sparse samples.",
+            "Explanation": "Linking these advanced method families to such challenges implies they are particularly relevant for learning rich spatiotemporal representations from many factors and for transferring learned structure between related data domains."
+          }
+        ],
+        "questions": [
+          "What makes deep learning and transfer learning especially suitable for dealing with issues like many interacting influence factors and cross-domain data fusion in urban flow prediction?",
+          "Why are deep learning and transfer learning approaches considered more appropriate than simpler methods for addressing multiple influence factors and integrating data from different domains in urban flow forecasting?",
+          "In the context of urban flow prediction, what characteristics of deep learning and transfer learning make them well-matched to challenges such as numerous influencing variables and fusing heterogeneous domain data?",
+          "How do the properties of deep learning and transfer learning explain their particular relevance for tackling both multiple influence factors and cross-domain data fusion in urban flow modeling?",
+          "Why do deep learning and transfer learning methods align well with the survey’s highlighted challenges of handling many influence factors and performing cross-domain data fusion in urban flow prediction tasks?",
+          "What is the reason that deep learning and transfer learning are especially pertinent for overcoming the challenges of multifactor influences and cross-domain data integration in urban flow prediction?",
+          "In urban flow prediction, why are deep learning and transfer learning regarded as particularly effective for managing complex influence factors and combining information from different data domains?",
+          "How does the capability of deep learning and transfer learning make them particularly relevant for addressing the survey’s challenges of multiple influence factors and cross-domain data fusion in urban flow forecasting?",
+          "Why are methods based on deep learning and transfer learning particularly emphasized when dealing with the intertwined issues of many influence factors and cross-domain data fusion in urban flow prediction?",
+          "What underlying abilities of deep learning and transfer learning account for their special suitability in handling both multiple influence factors and cross-domain data fusion in urban flow prediction problems?"
+        ],
+        "negative_candidates": [
+          "Because they reduce the number of variables that need to be considered, simplifying the problem to only the most important single factor in each prediction model.",
+          "Because they avoid using nonlinear transformations, focusing instead on linear trend extrapolation that is easier to interpret across different urban regions.",
+          "Because they are designed to ignore domain differences, enforcing the same fixed parameter set for all cities without any adaptation or knowledge sharing between them.",
+          "Because they focus primarily on improving computational efficiency, allowing faster training times but providing no particular advantage in handling heterogeneous data sources.",
+          "Because they replace the need for historical data entirely by relying solely on real-time sensor readings from a single data modality, which eliminates cross-domain fusion issues.",
+          "Because they treat each influence factor independently, preventing interactions between variables and thereby sidestepping the complexity of modeling joint effects.",
+          "Because they specialize in low-dimensional time series and therefore require that all spatial and contextual factors be aggregated into a single scalar index before prediction.",
+          "Because they are mainly used to clean noisy data and perform basic pre-processing, rather than to represent complex relationships or share information across domains.",
+          "Because they constrain all input domains to share identical feature spaces and distributions, removing the need to adapt or reuse knowledge between different datasets.",
+          "Because they focus on rule extraction and symbolic reasoning, encoding expert-designed heuristics for each domain instead of learning from multiple correlated data sources."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey lists public datasets such as NYC taxi data, Citi Bike data, UK traffic flow data, San Francisco taxi data, and Chicago bike sharing data, and reviews multiple categories of prediction methods.",
+        "Question": "How do the publicly available datasets mentioned in the survey support fair evaluation of different urban flow prediction methods?",
+        "Output": "They act as shared benchmarks that allow researchers to compare different methods on the same real-world spatiotemporal data.",
+        "Explanation": "Because datasets like NYC taxi and Citi Bike are openly accessible, multiple studies can apply diverse methods to the identical data, making performance comparisons and methodological progress more meaningful.",
+        "Level": 2,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l2__0005",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 14,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey identifies several open urban mobility datasets—like NYC taxi trips, Citi Bike usage, UK road traffic counts, San Francisco taxi records, and Chicago bike sharing logs—and uses them when discussing various urban flow prediction approaches.",
+            "Explanation": "By grounding different prediction methods in the same openly available real-world datasets, the survey enables direct, fair comparisons of model performance across studies."
+          },
+          {
+            "Fact": "Among the resources the survey highlights are widely used public datasets, including New York City taxi and bike data, UK traffic flow measurements, San Francisco taxi data, and Chicago bike share data, alongside a range of prediction techniques applied to them.",
+            "Explanation": "Since these datasets are publicly accessible, many researchers can test their methods on the identical spatiotemporal records, turning them into common benchmarks for fair evaluation."
+          },
+          {
+            "Fact": "The paper enumerates multiple real-world, publicly released urban flow datasets—such as NYC taxi, Citi Bike, UK traffic, San Francisco taxi, and Chicago bike sharing—and relates them to different categories of forecasting models.",
+            "Explanation": "Because all researchers can download and use the same datasets, these collections serve as shared testbeds where different models can be evaluated under identical data conditions, supporting fair comparison."
+          },
+          {
+            "Fact": "In its review, the survey points to open datasets like New York taxi and bike sharing logs, UK traffic flow series, and similar data from San Francisco and Chicago, and examines how various prediction methods are evaluated on them.",
+            "Explanation": "These common, real-world datasets function as standardized benchmarks, letting different studies run their methods on the same inputs so that performance differences reflect the methods rather than the data."
+          }
+        ],
+        "questions": [
+          "In what way do the public datasets cited in the survey enable fair comparison among various urban flow prediction approaches?",
+          "How do the open datasets referenced in the survey help ensure that different urban flow prediction models are evaluated on an equal footing?",
+          "Why do the publicly accessible datasets discussed in the survey provide a fair basis for assessing different urban flow prediction techniques?",
+          "How do the shared urban mobility datasets mentioned in the survey contribute to unbiased evaluation of competing flow prediction methods?",
+          "In what sense do the open urban flow datasets reviewed in the survey function as a common ground for comparing different prediction methods?",
+          "How do the publicly released taxi and bike-sharing datasets in the survey facilitate objective comparison of multiple urban flow prediction algorithms?",
+          "Why do the public spatiotemporal datasets highlighted in the survey serve as suitable benchmarks for evaluating diverse urban flow prediction methods?",
+          "How do the survey’s listed public datasets help standardize the evaluation of different urban flow prediction models?",
+          "In what way do the open urban traffic and mobility datasets described in the survey support consistent performance comparison across prediction methods?",
+          "How do the publicly available urban flow datasets reviewed in the survey operate as benchmark resources for fairly testing different prediction techniques?"
+        ],
+        "negative_candidates": [
+          "They primarily serve as large-scale pretraining corpora for deep learning models, after which evaluation is done on separate proprietary datasets collected by each research group.",
+          "They are used only to validate simulation engines for synthetic traffic generation, while actual prediction methods are evaluated on closed industrial datasets that better reflect operational constraints.",
+          "They function mainly as privacy stress tests, allowing researchers to study anonymization techniques rather than to compare predictive performance across different urban flow models.",
+          "They are included in the survey only as illustrative examples of urban mobility data types and are not actually used as standardized benchmarks for method comparison.",
+          "They provide ground truth solely for short-term trajectory reconstruction tasks, whereas urban flow prediction models are typically evaluated on entirely different datasets focused on long-term demand forecasting.",
+          "They are used to calibrate hyperparameters for each model, but final performance comparisons are conducted on separate, non-public datasets unique to each research team.",
+          "They help define qualitative case studies where researchers describe model behavior in narrative form instead of using them as quantitative benchmarks for cross-method evaluation.",
+          "They enable each research group to select disjoint subsets and custom preprocessing pipelines, making it impossible to run competing methods on the exact same data configuration for fair comparison.",
+          "They mainly support visualization and exploratory analysis of urban mobility patterns, with predictive models evaluated using simulated flows rather than these real-world datasets.",
+          "They are leveraged to train city-specific models that cannot be transferred or replicated elsewhere, so they do not meaningfully contribute to standardized or fair comparisons between different prediction approaches."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey identifies four major influence factors (daily activity patterns, anomalies, weather, holidays), discusses spatiotemporal data issues (missing data, imbalance, uncertainty), and lists open challenges (multiple influence factors, cross-domain fusion, data sparsity).",
+        "Question": "If a model’s performance drops sharply on holiday periods with abnormal conditions, what multi-facet explanation best aligns the survey’s influence factors, data issues, and open challenges?",
+        "Output": "Holiday and anomaly effects shift flow patterns while weather can further perturb demand; combined with missing/imbalanced samples and sparsity in such rare periods, models struggle to learn reliable multi-factor interactions and generalize across domains.",
+        "Explanation": "This integrates factor-driven distribution shifts (holidays/anomalies/weather) with dataset issues (missing/imbalance/uncertainty) and the stated challenges (multi-factor handling, sparsity, and fusion).",
+        "Level": 3,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l3__0001",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 15,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey highlights four key factors shaping model behavior—daily activity cycles, irregular anomalies, weather conditions, and holidays—while also detailing spatiotemporal data problems like missing values, class imbalance, and uncertainty, and emphasizing open challenges such as coping with multiple simultaneous factors, fusing cross-domain signals, and handling sparse data.",
+            "Explanation": "This supports the answer by tying sharp performance drops on holidays to interacting influence factors (holidays, anomalies, weather) and to data limitations (missing, imbalanced, uncertain, and sparse samples), which together hinder learning robust multi-factor relationships and transferring them across domains."
+          },
+          {
+            "Fact": "According to the survey, travel and flow patterns are governed by daily routines but can be disrupted by anomalies, weather events, and holidays, and the underlying spatiotemporal datasets often suffer from missing entries, skewed distributions, and uncertain measurements, making it difficult to address open problems like modeling multiple interacting influences, integrating heterogeneous domains, and learning from sparse observations.",
+            "Explanation": "This aligns with the answer by showing that holiday and anomaly periods create atypical flow distributions, which, when combined with incomplete and imbalanced data, make it hard for models to capture reliable multi-factor dynamics or generalize beyond the training domain."
+          },
+          {
+            "Fact": "The survey reports that daily patterns, unexpected anomalies, meteorological conditions, and holiday effects jointly influence traffic or demand, while the data itself is plagued by missingness, imbalance, and uncertainty, and it notes unresolved issues in jointly modeling these factors, performing cross-domain fusion, and coping with data sparsity.",
+            "Explanation": "This underpins the answer by linking abnormal holiday conditions and weather-induced shifts to distribution changes that, together with sparse and biased samples, prevent models from robustly learning complex factor interactions or transferring them to new settings."
+          },
+          {
+            "Fact": "In the survey, four primary influence sources—routine daily behavior, anomalous events, weather variations, and holidays—are identified, alongside spatiotemporal data challenges such as incomplete records, imbalanced samples, and uncertain observations, and the work stresses open challenges in multi-factor modeling, cross-domain information fusion, and learning under sparse data regimes.",
+            "Explanation": "This matches the answer by explaining that rare holiday and anomaly periods, further perturbed by weather, occur in data that is missing, imbalanced, and sparse, so models lack sufficient reliable examples to learn stable multi-factor relationships or generalize across different domains."
+          }
+        ],
+        "questions": [
+          "When a model’s accuracy collapses specifically during rare holiday intervals with unusual conditions, how would you comprehensively explain this using the survey’s listed influence factors, spatiotemporal data problems, and open research challenges?",
+          "In a scenario where prediction quality degrades markedly on holiday days that exhibit abnormal behavior, what integrated explanation—drawing on the survey’s influence factors, data-quality issues, and open challenges—best accounts for this drop?",
+          "If a forecasting model performs well normally but fails badly during holiday periods with atypical patterns, how can the survey’s four influence factors, its noted data issues, and its open challenges be combined into a single coherent explanation?",
+          "When model performance deteriorates sharply on holidays characterized by irregular demand and conditions, what multi-dimensional rationale, grounded in the survey’s influence factors, data limitations, and open challenges, most plausibly explains this behavior?",
+          "Suppose a model’s predictions become highly unreliable on holiday intervals that exhibit abnormal flows; how can you synthesize the survey’s identified influence factors, spatiotemporal data issues, and open challenges into one overarching explanation for this failure?",
+          "If evaluation shows that a model’s errors spike during holiday periods with anomalous patterns, what unified explanation—linking the survey’s influence factors, known data problems, and remaining challenges—best describes why the model struggles?",
+          "When a learned model underperforms drastically on holiday-related abnormal periods compared with regular days, how can the survey’s discussion of influence factors, data issues, and open challenges be jointly used to explain this performance gap?",
+          "In cases where prediction performance drops significantly on holidays that introduce unusual activity and conditions, what combined explanation, based on the survey’s influence factors, data-quality concerns, and open challenges, most accurately captures the root causes?",
+          "If test results reveal that the model is particularly weak on holiday segments with irregular patterns, how would you formulate a multi-faceted explanation that aligns with the survey’s influence factors, spatiotemporal data issues, and identified open challenges?",
+          "When the model’s generalization breaks down on holiday periods featuring abnormal flows, what integrated account—drawing simultaneously on the survey’s influence factors, data-related issues, and open research challenges—best explains this breakdown?"
+        ],
+        "negative_candidates": [
+          "The main reason is that daily activity patterns remain completely stable during holidays, so the model’s failure is unrelated to distribution shifts and instead stems solely from overfitting to weather features in normal periods.",
+          "Performance degrades because holidays remove all influence of anomalies and weather, leaving only pure temporal seasonality; the model is not designed to ignore these now-absent factors, causing systematic underfitting.",
+          "The drop is best explained by the model’s excessive robustness to missing data and sparsity, which leads it to ignore rare holiday samples and focus only on abundant non-holiday periods where no influential factors change.",
+          "Holiday periods cause the spatial layout of sensors to be reconfigured, introducing a hardware-induced domain shift that is not connected to the survey’s listed influence factors or data issues, but instead to changing network topology.",
+          "The performance issue arises because holidays perfectly balance the dataset and eliminate class imbalance, so models trained on skewed non-holiday data become confused by this sudden move toward uniform distributions.",
+          "The key driver is that holidays make travel demand entirely deterministic and noise-free, but the model assumes high uncertainty, so its probabilistic outputs are penalized despite having no relation to anomalies or weather.",
+          "The model fails mainly because cross-domain fusion is unnecessary during holidays, and its built-in fusion mechanisms interfere with the otherwise simple single-factor (time-of-day) patterns that dominate those periods.",
+          "The sharp drop is due to the model’s inability to exploit the strong redundancy of holiday samples, which are extremely frequent and dense in the dataset, leading to over-regularization on these overrepresented periods.",
+          "Holiday intervals introduce an artificial smoothing of traffic flows that eliminates any meaningful spatiotemporal variation, so the model, which relies on rich variability, cannot extract features and collapses in performance.",
+          "The degradation occurs because holidays convert the task from spatiotemporal prediction into a purely spatial clustering problem, and the model was never trained on clustering objectives or representations."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey contrasts grid-based vs road-network-based map decomposition and reviews three flow types (crowd, traffic, public transit) under a shared spatiotemporal prediction goal.",
+        "Question": "Why might road-network-based decomposition be more suitable than grid-based decomposition for linking aggregated flow indicators to structural features when predicting traffic flow, while grid-based may still be effective for certain crowd-flow settings?",
+        "Output": "Traffic flow is constrained by road topology, so network-based decomposition aligns predictions with links/nodes and bottlenecks; crowd flow can be more area-based and diffuse, where regular grids can capture broad spatial diffusion patterns effectively.",
+        "Explanation": "This connects a flow type’s physical constraints to decomposition choice, spanning conceptual dimensions (flow domain ↔ spatial representation ↔ interpretability).",
+        "Level": 3,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l3__0002",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 16,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The paper compares grid-style spatial partitioning with road-network-based partitioning and examines how each applies to three flow domains—crowd, vehicular traffic, and public transit—within a unified spatiotemporal prediction framework.",
+            "Explanation": "By framing both decomposition strategies across multiple flow types under the same prediction objective, the survey highlights why road-network-based units better match traffic’s link-and-node constraints, while grid cells can still suit more diffuse, area-oriented crowd flows."
+          },
+          {
+            "Fact": "In the survey, map decomposition methods are systematically contrasted, showing how grid cells versus road-network segments serve as alternative spatial units for modeling crowd flow, traffic flow, and public transit flow under a common forecasting task.",
+            "Explanation": "This systematic contrast clarifies that traffic prediction benefits from spatial units aligned with road segments and intersections, whereas crowd-flow prediction can often rely on regular grid cells that capture aggregate movement over areas rather than along fixed links."
+          },
+          {
+            "Fact": "The review explicitly sets grid-based and road-network-based decompositions side by side and evaluates their use across three categories of mobility data—crowds, road traffic, and transit—while keeping the core goal of spatiotemporal flow prediction fixed.",
+            "Explanation": "By holding the prediction goal constant and varying both the flow type and spatial partitioning, the survey makes it clear that traffic’s dependence on road topology favors network-based units, whereas crowd movement’s more diffuse, region-level patterns can be modeled adequately with grids."
+          },
+          {
+            "Fact": "The article organizes prior work by contrasting spatial discretization schemes (regular grids vs. road-network elements) and mapping them onto three flow prediction scenarios: crowd movement, vehicle traffic, and public transit usage, all under a shared spatiotemporal modeling objective.",
+            "Explanation": "This organization reveals how the physical structure of each flow domain guides the choice of spatial representation—showing that traffic flows, tied to road links and junctions, align naturally with network-based decomposition, while crowd flows, which spread over areas, can be effectively captured using grid-based decomposition."
+          }
+        ],
+        "questions": [
+          "In the context of spatiotemporal flow prediction, why does a road-network-based map decomposition better support linking aggregated flow indicators to specific structural elements for traffic forecasting, whereas a grid-based decomposition can still work well for some crowd-flow scenarios?",
+          "When predicting traffic versus crowd flows, why would decomposing space along the road network be more appropriate for associating flow metrics with structural bottlenecks, while a simple grid partition can remain adequate for modeling certain types of crowd movement?",
+          "Why is it generally more suitable to use a road-network-based spatial decomposition to relate traffic-flow indicators to concrete network features (like links and intersections), yet a grid-based decomposition can still effectively capture patterns in some crowd-flow prediction tasks?",
+          "What makes road-network-based decomposition preferable to grid-based decomposition for tying traffic-flow predictions to the underlying network structure, and why might grid-based decomposition still be a reasonable choice for modeling certain crowd-flow dynamics?",
+          "In spatiotemporal prediction, why does a decomposition aligned with the road network better capture and interpret traffic flows in terms of structural constraints, while a regular grid partition can still successfully represent area-level crowd flows?",
+          "Why would a spatial representation that follows the road network be more effective than a grid for connecting traffic-flow aggregates to network topology, but a grid representation remain effective for some crowd-flow settings where movement is more diffuse?",
+          "How does the physical nature of traffic flow make road-network-based decomposition more appropriate than grid-based decomposition for mapping flow indicators to structural features, and why doesn’t this advantage necessarily carry over to all crowd-flow prediction problems?",
+          "Why is it that, for traffic-flow prediction, decomposing the map according to road links and nodes better supports structural interpretation of flow indicators than using uniform grids, whereas for certain crowd-flow tasks a grid-based decomposition can still capture the essential spatial patterns?",
+          "What characteristics of traffic flow versus crowd flow explain why a road-network-based decomposition is better suited for linking traffic indicators to network structures, while grid-based decomposition can remain effective for modeling some crowd-flow behaviors?",
+          "In a unified spatiotemporal prediction framework, why might traffic-flow models benefit more from road-network-based decomposition for associating flows with structural bottlenecks, whereas crowd-flow models can often rely on grid-based decomposition to represent broad spatial diffusion?"
+        ],
+        "negative_candidates": [
+          "Road-network-based decomposition is preferred for traffic flow because it automatically corrects sensor errors using turn restrictions, whereas grid-based methods cannot incorporate any sensor data at all, making them unusable for both traffic and crowd-flow prediction tasks.",
+          "Network-based decomposition performs better for traffic because it eliminates the need for temporal modeling, while grid-based approaches require complex recurrent networks; for crowd flow, grids are only used because they are cheaper to compute, not because they reflect any property of the flow itself.",
+          "Road-network-based decomposition is more suitable for traffic because it ensures every spatial unit has exactly the same physical length, unlike grid cells whose size varies; in contrast, crowd-flow studies prefer grids because human movement is always uniform across all directions and locations.",
+          "Traffic prediction benefits from network-based decomposition because it avoids any aggregation of flow indicators, keeping purely microscopic trajectories, whereas grid-based decomposition forces macroscopic aggregation; crowd-flow prediction, however, relies exclusively on macroscopic variables so network models are irrelevant there.",
+          "Network-based decomposition is superior for traffic flow because it can directly encode weather conditions into the edges and nodes, which is impossible with grid-based methods; for crowd flow, grids are chosen mainly because they can ignore weather and other exogenous factors without loss of accuracy.",
+          "Road-network-based decomposition is ideal for traffic because it assumes vehicles move randomly and independently of infrastructure, which grid-based methods cannot represent; for crowd flow, grids work better because pedestrians are strictly confined to pre-defined walkways similar to raster cells.",
+          "Traffic flow models favor road-network-based decomposition since it guarantees that each predicted unit corresponds to a single intersection only, making it impossible to represent road segments; grid-based models, on the other hand, are effective for crowd flow because they can only represent continuous movement along one-dimensional paths.",
+          "Network-based decomposition is more suitable for traffic because it allows mapping every vehicle to a unique edge at all times, whereas grid-based decomposition cannot represent individual vehicles at any resolution; in crowd-flow scenarios, grids remain useful only when the environment has no obstacles or layout at all, such as in open fields.",
+          "Road-network-based decomposition outperforms grid-based methods for traffic prediction because it discards any information about connectivity and focuses solely on geographic distance, while grid-based approaches overemphasize network connectivity; for crowd flow, grids are effective precisely because pedestrian movement ignores geographic distance.",
+          "Traffic flow prediction uses road-network-based decomposition mainly because it simplifies the problem to a single central artery with no branches, which grids cannot model; grid-based decomposition is still used for crowd flow because it can only handle radially symmetric movement around a single point of interest."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey provides a trajectory preprocessing pipeline (stay-point extraction, filtering, compression, segmentation, map matching) and highlights uncertainty/missingness as common spatiotemporal issues.",
+        "Question": "How do map matching and segmentation jointly help address uncertainty when using trajectory data for urban flow prediction on a road-network representation?",
+        "Output": "Segmentation structures trajectories into meaningful movement pieces, and map matching anchors them to plausible road links; together they reduce positional ambiguity and improve consistency of link-level flow aggregation despite noisy or uncertain raw traces.",
+        "Explanation": "This links specific preprocessing steps to a spatiotemporal data issue and to the road-network conceptualization used in modeling.",
+        "Level": 3,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l3__0003",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 17,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey outlines a trajectory preprocessing workflow—including stay-point extraction, filtering, compression, segmentation, and map matching—and emphasizes that trajectory data often suffer from spatial and temporal uncertainty or missing samples.",
+            "Explanation": "By situating segmentation and map matching within a broader preprocessing chain that explicitly targets uncertainty, this fact supports their role in cleaning and structuring noisy trajectories before they are used for road-level flow prediction."
+          },
+          {
+            "Fact": "In the described pipeline, segmentation breaks raw trajectories into coherent movement segments, while map matching aligns these segments to the most likely paths on the road network, which the survey notes is important given common spatiotemporal noise and gaps in trajectory data.",
+            "Explanation": "This connects the functional roles of segmentation and map matching to the problem of noisy, incomplete trajectories, showing how they jointly impose structure and plausibility on the data used for link-based flow estimation."
+          },
+          {
+            "Fact": "The survey notes that trajectory preprocessing typically includes both segmentation and map matching specifically to cope with uncertainty and missingness, ensuring that the resulting movement units are better aligned with the underlying road-network representation.",
+            "Explanation": "By stating that these steps are explicitly motivated by uncertainty and the need to respect the road graph, this fact underpins the idea that they reduce positional ambiguity and make subsequent link-level flow aggregation more reliable."
+          },
+          {
+            "Fact": "According to the survey, handling spatiotemporal uncertainty in trajectories involves operations such as segmenting continuous traces and then map matching them so that the final representation is a sequence of plausible road links rather than raw, noisy GPS points.",
+            "Explanation": "This shows how segmentation and map matching transform uncertain point-level data into consistent link-level sequences, directly supporting their contribution to more accurate and stable urban flow prediction on road networks."
+          }
+        ],
+        "questions": [
+          "In the context of predicting urban flows on a road-network graph, how do trajectory segmentation and map matching work together to mitigate uncertainty in noisy GPS traces?",
+          "When preparing trajectory data for link-level urban flow modeling on a road network, in what way do segmentation and map matching jointly reduce ambiguity caused by uncertain locations?",
+          "For road-network–based urban flow prediction, how does combining trajectory segmentation with map matching help handle positional uncertainty in the raw trajectory data?",
+          "In a preprocessing pipeline for trajectory-based urban flow estimation on road links, how do the steps of segmentation and map matching together address uncertainty and missingness in the traces?",
+          "How does applying both segmentation and map matching to trajectory data help resolve spatiotemporal uncertainty when aggregating flows over a road-network representation?",
+          "Within a road-network framework for urban flow prediction, how do segmentation and map matching complement each other to turn noisy, uncertain trajectories into reliable link-level movement records?",
+          "Why is the joint use of trajectory segmentation and map matching important for dealing with uncertain GPS observations when modeling urban flows on a road network?",
+          "How do the preprocessing operations of segmenting trajectories and then map matching them collectively improve the reliability of link-based urban flow estimates under location uncertainty?",
+          "In road-network–centric urban flow prediction, how do segmentation and map matching together transform uncertain raw trajectories into more consistent movement segments aligned with specific links?",
+          "When using trajectories to infer traffic flows on a road network, how does the combination of segmentation and map matching help control for noise and uncertainty in the original spatiotemporal data?"
+        ],
+        "negative_candidates": [
+          "Segmentation and map matching mainly serve to speed up database storage and retrieval, allowing larger batches of trajectories to be processed in parallel without fundamentally changing how uncertainty is handled in the flows themselves.",
+          "By applying segmentation first, trajectories are broken into equal-length time intervals, and map matching then discards any segments that do not perfectly align with the road centerlines, thereby eliminating uncertainty by removing all imperfect data.",
+          "Segmentation divides trajectories according to user-defined regions of interest, and map matching subsequently assigns each region to a single central node in the network, converting continuous uncertainty into a discrete node-based representation that no longer requires probabilistic handling.",
+          "Map matching and segmentation work together by smoothing GPS coordinates into straight-line paths between origin and destination, so that all intermediate uncertainty is ignored and only the endpoints are used for predicting urban flows.",
+          "Segmentation is used to label trajectory segments with transportation modes, and map matching then snaps only the car segments to highways; this resolves uncertainty by assuming any remaining unmatched points are irrelevant for flow prediction.",
+          "Map matching converts trajectories into a grid-based representation, and segmentation groups grid cells with similar densities; this combination removes the need to consider road links at all, thereby sidestepping spatial uncertainty on the network.",
+          "Segmentation first clusters trajectories based on departure time, and map matching then assigns each cluster to a representative synthetic route, treating all individual variations as noise that can be discarded in flow estimation.",
+          "Together, segmentation and map matching replace raw GPS traces with Voronoi regions around road intersections, assuming that any point within a region has zero positional uncertainty relative to that intersection for the purposes of flow prediction.",
+          "Segmentation is applied to remove low-speed or stationary portions of trajectories, and map matching then forces the remaining points onto the fastest possible paths, interpreting any deviation as erroneous and thus eliminating uncertainty from the dataset.",
+          "Map matching ensures that every trajectory follows a precomputed set of canonical routes, and segmentation splits these canonical routes into fixed-length segments solely for visualization, without altering how uncertainty is treated in the underlying flow calculations."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "Urban flow prediction methods are grouped into five categories (statistics-based, traditional ML, deep learning, reinforcement learning, transfer learning), and the survey emphasizes cross-domain data fusion and data sparsity as key challenges.",
+        "Question": "In a setting where one city has dense taxi trajectories but another has sparse bike-sharing data, which combination of method categories best matches the survey’s framing for cross-domain fusion under sparsity, and why?",
+        "Output": "Deep learning plus transfer learning: deep models can learn rich spatiotemporal representations from the dense domain, while transfer learning can adapt knowledge to the sparse domain to mitigate data sparsity and enable cross-domain fusion.",
+        "Explanation": "The answer integrates method taxonomy with two linked challenges: learning complex patterns and transferring them across domains with uneven data density.",
+        "Level": 3,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l3__0004",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 18,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The survey organizes urban flow prediction techniques into five main groups—statistics-based, classic machine learning, deep learning, reinforcement learning, and transfer learning—and highlights cross-domain fusion and limited data as central issues.",
+            "Explanation": "This framing points toward methods that both capture complex patterns (deep learning) and explicitly move knowledge between domains (transfer learning), matching the need to fuse dense taxi data with sparse bike-sharing data."
+          },
+          {
+            "Fact": "Within the survey’s five-category taxonomy, deep learning and transfer learning are singled out as especially relevant when dealing with heterogeneous sources and uneven data availability.",
+            "Explanation": "Because one city has rich taxi trajectories and the other has scarce bike-sharing records, combining deep learning for representation learning with transfer learning for domain adaptation directly addresses cross-domain fusion under sparsity."
+          },
+          {
+            "Fact": "The survey notes that deep learning excels at modeling intricate spatiotemporal dependencies, while transfer learning is designed to reuse learned knowledge across different but related domains.",
+            "Explanation": "This pairing allows a model to first learn detailed flow patterns from the dense city data using deep learning, then apply transfer learning to adapt those patterns to the sparse city, handling both fusion and sparsity in line with the survey’s framework."
+          },
+          {
+            "Fact": "Data sparsity and cross-domain integration are described in the survey as challenges that cannot be fully addressed by statistics-based or traditional ML methods alone, motivating the use of deep and transfer learning approaches.",
+            "Explanation": "Deep learning provides powerful feature extraction from the dense domain, and transfer learning enables those features to be leveraged in the sparse domain, which is why their combination best fits the survey’s view of cross-domain fusion under sparse data."
+          }
+        ],
+        "questions": [
+          "Given a scenario where one metropolis has abundant taxi trajectory records while another only has limited bike-sharing logs, which pair of method categories from the survey’s taxonomy is most appropriate for handling cross-domain fusion under data sparsity, and for what reason?",
+          "Suppose you want to predict flows in a city with very few bike-sharing trips by leveraging a different city that has rich taxi trajectory data. According to the survey’s five method categories, which two categories should be combined to address both cross-domain fusion and sparsity, and why?",
+          "If City A provides dense taxi trajectory data and City B offers only sparse bike-sharing data, which combination of method types, as defined in the survey, is best suited to tackle cross-domain fusion under data scarcity, and what is the rationale?",
+          "In the context of the survey’s five classes of urban flow prediction methods, what pair of method categories would you choose to fuse knowledge from a data-rich taxi domain into a data-poor bike-sharing domain, and why does this pairing address sparsity?",
+          "When one urban domain has plentiful taxi trajectories and another has limited bike-sharing observations, which two categories from the survey’s method taxonomy most naturally support cross-domain knowledge transfer under sparse data, and why?",
+          "Consider two cities: one with comprehensive taxi trajectory coverage and another with very sparse bike-sharing records. Based on the survey’s categorization of methods, which two method families should be combined to best support cross-domain fusion in the presence of sparsity, and why?",
+          "In a cross-city setting where taxi data are dense in one domain but bike-sharing data are scarce in another, which pair of method categories from the survey is most aligned with addressing both cross-domain fusion and data sparsity, and for what reason?",
+          "Given the survey’s five-way classification of urban flow prediction approaches, which two categories would you jointly apply to learn from dense taxi trajectories in one city and transfer that knowledge to sparse bike-sharing data in another, and why is this combination suitable?",
+          "If you must fuse information from a taxi-rich source city to improve predictions in a bike-sharing–sparse target city, which two method categories, as defined in the survey, best capture this cross-domain, sparsity-aware strategy, and why?",
+          "Under the survey’s framework, which combination of method categories is most appropriate for learning complex patterns from dense taxi data in one city and adapting them to sparse bike-sharing data in another, thereby supporting cross-domain fusion under sparsity, and why?"
+        ],
+        "negative_candidates": [
+          "Statistics-based plus traditional machine learning: simple probabilistic models and classic regressors are sufficient to directly merge taxi and bike data across cities, because they naturally handle sparsity without needing any representation transfer between domains.",
+          "Reinforcement learning alone: an RL agent can explore both the dense taxi domain and the sparse bike-sharing domain and automatically learn an optimal policy for prediction, making explicit transfer or deep representation learning unnecessary for cross-domain fusion.",
+          "Traditional machine learning plus reinforcement learning: first train classical models like SVMs or random forests on the dense taxi data, then wrap them in an RL framework to sequentially adjust predictions in the sparse bike domain, which addresses sparsity without any explicit transfer-learning mechanism.",
+          "Statistics-based plus reinforcement learning: use time-series statistical models on the dense taxi data to estimate transition probabilities, and then let an RL agent directly reuse those probabilities in the sparse bike domain, which the survey suggests is the primary way to tackle cross-domain sparsity.",
+          "Statistics-based plus transfer learning: fit simple autoregressive models in the taxi-rich city and then directly reparameterize those models for the bike-sharing city, since the survey argues that shallow statistical structures are the most robust basis for cross-domain fusion under sparse data.",
+          "Traditional machine learning plus transfer learning: train gradient boosting and random forest models on the dense taxi data, then apply feature-level transfer to the bike-sharing domain, because the survey claims that hand-engineered features, not deep representations, are the preferred tool for dealing with sparsity in cross-domain settings.",
+          "Deep learning plus reinforcement learning: first use deep models to learn patterns in the taxi trajectories, then use RL to iteratively adjust predictions for the sparse bike-sharing data, which the survey describes as the main paradigm for handling both cross-domain fusion and sparsity without explicit transfer techniques.",
+          "Statistics-based, traditional ML, and deep learning together: combine ARIMA on taxi data, random forests on bike-sharing data, and a neural network that averages their outputs, since the survey indicates that brute-force ensemble fusion across method families is the key strategy for coping with cross-domain sparsity.",
+          "Reinforcement learning plus transfer learning: pretrain an RL policy on the dense taxi trajectories and then fine-tune it on the sparse bike-sharing data, because the survey positions policy transfer, rather than representation learning, as the central mechanism for cross-domain fusion under data sparsity.",
+          "All five categories jointly: integrate statistics-based baselines, traditional ML, deep models, RL, and transfer learning in a single hybrid system, as the survey argues that only a full-stack combination of every method class can adequately address cross-domain fusion and sparsity challenges."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The survey lists multiple public datasets (e.g., taxi, bike sharing, traffic flow) and argues they support fair benchmarking across diverse method families while acknowledging issues like imbalance and missing data.",
+        "Question": "How can public benchmark datasets simultaneously improve comparability across methods yet still create misleading conclusions if spatiotemporal imbalance and missingness are ignored?",
+        "Output": "They enable apples-to-apples comparisons because many methods can be evaluated on the same data, but if evaluation overlooks missing/imbalanced regimes (e.g., rare anomalies/holidays), models may appear strong overall while failing on critical conditions, overstating real-world reliability.",
+        "Explanation": "This links the survey’s benchmarking motivation to its data-issue taxonomy and to the higher-level planning concern of robustness under rare but important events.",
+        "Level": 3,
+        "seed_id": "urban_flow_prediction_survey_instructions__short_answer__l3__0005",
+        "source_name": "urban_flow_prediction_survey_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 19,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The paper highlights several shared public datasets (such as taxi demand, bike sharing, and traffic flow) as a way to benchmark many forecasting methods on identical data, while also noting that these datasets suffer from issues like uneven spatiotemporal coverage and missing observations.",
+            "Explanation": "This shows how common datasets promote direct comparison between methods, yet also embeds the warning that ignoring imbalance and missingness can distort conclusions about model robustness, especially in underrepresented conditions."
+          },
+          {
+            "Fact": "According to the survey, widely used mobility and traffic datasets allow different algorithms to be tested under the same experimental setup, but the authors caution that these datasets often contain skewed distributions and gaps in time or space.",
+            "Explanation": "This connects the benefit of standardized evaluation to the risk that unaddressed skew and data gaps can make models look generally effective even if they fail in rare or poorly sampled scenarios."
+          },
+          {
+            "Fact": "The review emphasizes that public benchmarks drawn from domains like ride-hailing, bike rentals, and road sensors facilitate consistent cross-method evaluation, yet it explicitly flags that these benchmarks commonly exhibit spatiotemporal imbalance and non-random missing data.",
+            "Explanation": "This ties the role of benchmarks in enabling fair, uniform testing to the concern that neglecting imbalance and missingness can hide weaknesses in critical but infrequent regimes, inflating perceived reliability."
+          },
+          {
+            "Fact": "The survey notes that using the same open datasets across studies improves comparability of results, but it also categorizes typical problems in those datasets, including underrepresented periods (e.g., holidays) and incomplete records.",
+            "Explanation": "This links the advantage of apples-to-apples benchmarking with the danger that, if such problematic regimes are not accounted for, evaluations may overstate how well methods handle rare yet important events."
+          }
+        ],
+        "questions": [
+          "In what way do shared public benchmark datasets enhance fair comparison between different forecasting methods, yet still risk leading to false confidence in model performance when spatiotemporal imbalance and missing data are not accounted for?",
+          "Why can widely used public datasets (like taxi, bike sharing, or traffic flow) make it easier to compare many methods on equal footing, but still produce misleading performance claims if rare events and missing observations in space and time are ignored during evaluation?",
+          "How is it possible that common benchmark datasets improve apples-to-apples evaluation across diverse model families, while at the same time causing overoptimistic conclusions when the evaluation does not explicitly handle spatiotemporal rarity and data gaps?",
+          "Why do public benchmarks help standardize comparisons among methods, yet can still distort our understanding of real-world robustness if the tests overlook imbalanced regimes and missingness in the underlying spatiotemporal data?",
+          "How can using the same public datasets for many models promote fair benchmarking, but also exaggerate a model’s reliability when the evaluation fails to consider that important but infrequent spatiotemporal conditions and missing values are underrepresented?",
+          "In what sense do public benchmark datasets support objective comparison across different approaches, and yet can still yield deceptive results if evaluation metrics ignore that rare events and incomplete spatiotemporal records are not properly captured?",
+          "Why might benchmark datasets drawn from domains like taxi or traffic flow be valuable for consistent cross-method evaluation, but still lead to overly positive conclusions if the assessment does not focus on performance in under-sampled or missing spatiotemporal regions?",
+          "How do shared benchmarks both facilitate standardized testing of many forecasting techniques and simultaneously risk masking weaknesses under rare spatiotemporal scenarios when missing data and imbalance are not explicitly addressed?",
+          "What is the mechanism by which public benchmark datasets allow direct comparison of diverse models, yet can mislead practitioners about robustness if the evaluation aggregates over data with uncorrected spatiotemporal imbalance and missing entries?",
+          "How can benchmark datasets at once provide a common ground for evaluating different methods and still cause misinterpretation of model quality when critical but infrequent spatiotemporal patterns and data gaps are ignored in the analysis?"
+        ],
+        "negative_candidates": [
+          "Benchmark datasets mainly cause misleading conclusions because they are usually synthetic and lack any real-world imbalance or missingness, so the main problem is that they are too clean and cannot reveal differences between methods at all.",
+          "They improve comparability by forcing all methods to use identical hyperparameters, but they mislead researchers because the benchmarks typically evaluate only computational efficiency and ignore prediction accuracy entirely.",
+          "Public benchmarks help comparability by standardizing the pre-processing pipeline, yet they create misleading conclusions only when the test sets are too large, which makes every model look equally good regardless of how they handle rare events or missing data.",
+          "They improve comparability because they guarantee that all spatial regions and time periods are perfectly balanced, but they can mislead when researchers mistakenly assume the results will generalize to domains with no temporal dimension at all, like static image classification.",
+          "Benchmark datasets support comparability by requiring all models to share the same architecture, but they may mislead if researchers forget to normalize the input features, leading them to attribute performance gaps to data issues rather than to scaling mistakes.",
+          "They improve comparability since they come with fixed train/validation/test splits, but they mislead when authors intentionally overfit to the test set, so imbalance and missingness play almost no role in the distorted conclusions.",
+          "Public datasets increase comparability by allowing direct leaderboard rankings, yet they mislead primarily because they usually hide the ground-truth labels for a subset of samples, so methods are compared on different label sets instead of the same one.",
+          "They support fair comparisons by providing uniform evaluation metrics, but they can still mislead if researchers rely only on qualitative visualizations of predictions and ignore the numeric scores altogether.",
+          "Benchmark datasets make methods comparable because they restrict everyone to using the same optimization algorithm, but they mislead when different groups secretly change the loss function, not because of any imbalance or missing data patterns.",
+          "They enhance comparability by ensuring that all models are trained on identical sensor types, but they can produce misleading conclusions if the benchmarks are updated too frequently, causing performance numbers to fluctuate even when models handle imbalance and missingness perfectly."
+        ]
+      }
+    }
+  ]
+}

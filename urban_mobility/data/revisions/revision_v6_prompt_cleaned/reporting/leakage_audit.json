@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "seed_overlap": {
+    "test__train": [],
+    "test__validation": [],
+    "train__validation": []
+  },
+  "concept_group_overlap": {
+    "test__train": [],
+    "test__validation": [],
+    "train__validation": []
+  },
+  "exact_prompt_overlap_count": {
+    "test__train": 0,
+    "test__validation": 0,
+    "train__validation": 0
+  },
+  "semantic_cross_split_audit": {
+    "enabled": false,
+    "review_required": false,
+    "split_pairs": {}
+  },
+  "note": "passed covers deterministic concept-group, seed, and exact-prompt leakage. Semantic candidates require human adjudication and do not automatically fail the pipeline."
+}

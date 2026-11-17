@@ -1,0 +1,2448 @@
+{
+  "schema_version": "2.0",
+  "source_name": "tlc_trip_instructions",
+  "generator_model": "gpt-5.1",
+  "random_seed": 2025,
+  "seed_components": [
+    {
+      "seed": {
+        "Fact": "TLC trip data represents all taxi and for-hire vehicle (FHV) trips in New York City.",
+        "Question": "Which city's transportation system is covered by the TLC trip data?",
+        "Selections": {
+          "A": "Los Angeles",
+          "B": "Chicago",
+          "C": "New York City",
+          "D": "Miami"
+        },
+        "Output": "C",
+        "Explanation": "TLC data represents all taxi and FHV trips in New York City.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0001",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 0,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "The TLC trip data corresponds to the transportation system of which city?",
+          "The TLC trip data covers taxi and for-hire vehicle trips in what city?",
+          "The transportation network represented by the TLC trip data belongs to which city?",
+          "The TLC trip dataset includes rides from the taxi and FHV system of which city?",
+          "The TLC trip records document trips occurring in the transportation system of which city?"
+        ],
+        "correct_answers": [
+          "New York City",
+          "The city of New York"
+        ],
+        "explanations": [
+          "The TLC trip data includes all taxi and for-hire vehicle trips that take place in New York City, so it pertains to New York City’s transportation system.",
+          "Because the TLC trip data covers every taxi and FHV trip within New York City, it specifically corresponds to New York City’s transportation network."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "New York City",
+              "B": "Los Angeles",
+              "C": "Miami",
+              "D": "Chicago"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Chicago",
+              "B": "Miami",
+              "C": "New York City",
+              "D": "Los Angeles"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Chicago",
+              "B": "Miami",
+              "C": "Los Angeles",
+              "D": "New York City"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Miami",
+              "B": "Chicago",
+              "C": "Los Angeles",
+              "D": "New York City"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "New York City",
+              "B": "Miami",
+              "C": "Chicago",
+              "D": "Los Angeles"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC yellow taxi trip data dates back to 2009.",
+        "Question": "How far back does the TLC yellow taxi trip data extend?",
+        "Selections": {
+          "A": "Since 2020",
+          "B": "Since 2015",
+          "C": "Since 2009",
+          "D": "Since 1990"
+        },
+        "Output": "C",
+        "Explanation": "Yellow taxi trip data begins in 2009.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0002",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 1,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "The TLC yellow taxi trip records are available starting from which year?",
+          "From what year onward is the TLC yellow taxi trip data available?",
+          "The historical TLC yellow taxi trip dataset includes trips going back to which year?",
+          "The TLC’s yellow taxi trip data coverage begins in which year?",
+          "Yellow taxi trip data maintained by the TLC extends back to what year?"
+        ],
+        "correct_answers": [
+          "From 2009 onward",
+          "Starting in 2009"
+        ],
+        "explanations": [
+          "The yellow taxi trip records start from the year 2009.",
+          "Data for yellow taxi trips has been collected beginning in 2009."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Since 2015",
+              "B": "Since 2009",
+              "C": "Since 1990",
+              "D": "Since 2020"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Since 2009",
+              "B": "Since 1990",
+              "C": "Since 2015",
+              "D": "Since 2020"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Since 2015",
+              "B": "Since 1990",
+              "C": "Since 2009",
+              "D": "Since 2020"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Since 2009",
+              "B": "Since 2015",
+              "C": "Since 1990",
+              "D": "Since 2020"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Since 2009",
+              "B": "Since 2015",
+              "C": "Since 2020",
+              "D": "Since 1990"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "Each month, TLC trip data can contain millions of trips.",
+        "Question": "How large is a typical month of TLC trip data?",
+        "Selections": {
+          "A": "A few hundred trips",
+          "B": "A few thousand trips",
+          "C": "Hundreds of thousands or millions of trips",
+          "D": "Only one trip per borough"
+        },
+        "Output": "C",
+        "Explanation": "Each month has large-scale trip records, often exceeding a million entries.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0003",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 2,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Approximately how many trips are usually recorded in a single month of TLC trip data?",
+          "What is the typical order of magnitude for the number of trips in one month of TLC trip data?",
+          "When examining one month of TLC trip data, about how many trips does it generally include?",
+          "For a standard month, what is the usual scale of trip counts in TLC trip data?",
+          "In a typical month, what is the approximate volume of trips captured in TLC trip data?"
+        ],
+        "correct_answers": [
+          "Several hundred thousand to several million trips",
+          "On the order of hundreds of thousands up to millions of trips"
+        ],
+        "explanations": [
+          "Every month contains a very large volume of trip records, commonly reaching or surpassing one million entries.",
+          "Monthly datasets consist of large-scale trip logs, frequently totaling over a million individual records."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Hundreds of thousands or millions of trips",
+              "B": "A few thousand trips",
+              "C": "A few hundred trips",
+              "D": "Only one trip per borough"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Only one trip per borough",
+              "B": "Hundreds of thousands or millions of trips",
+              "C": "A few hundred trips",
+              "D": "A few thousand trips"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "A few thousand trips",
+              "B": "Only one trip per borough",
+              "C": "A few hundred trips",
+              "D": "Hundreds of thousands or millions of trips"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "A few thousand trips",
+              "B": "Hundreds of thousands or millions of trips",
+              "C": "A few hundred trips",
+              "D": "Only one trip per borough"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "A few hundred trips",
+              "B": "Only one trip per borough",
+              "C": "A few thousand trips",
+              "D": "Hundreds of thousands or millions of trips"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data includes fields such as pickup and dropoff timestamps, trip distance, fare amounts, and payment types.",
+        "Question": "Which of the following fields is part of TLC trip data?",
+        "Selections": {
+          "A": "Passenger shoe size",
+          "B": "Pickup and dropoff timestamps",
+          "C": "Vehicle radio station",
+          "D": "Taxi driver’s favorite food"
+        },
+        "Output": "B",
+        "Explanation": "TLC trip data contains operational details such as pickup/dropoff times.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0004",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 3,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which of these items is included as a field in TLC trip data?",
+          "In TLC trip records, which of the following is one of the recorded data fields?",
+          "TLC trip data files contain various fields. Which option lists one of those fields?",
+          "When examining TLC trip datasets, which of the following is actually stored as a data field?",
+          "Which of the following best represents a field that appears in TLC trip data?"
+        ],
+        "correct_answers": [
+          "Pickup and dropoff times",
+          "Timestamps for pickup and dropoff"
+        ],
+        "explanations": [
+          "TLC trip data includes operational information like the times when trips start and end, i.e., pickup and dropoff timestamps.",
+          "Operational details recorded in TLC trip data specifically include the timestamps for when passengers are picked up and dropped off."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Passenger shoe size",
+              "B": "Pickup and dropoff timestamps",
+              "C": "Vehicle radio station",
+              "D": "Taxi driver’s favorite food"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Vehicle radio station",
+              "B": "Pickup and dropoff timestamps",
+              "C": "Passenger shoe size",
+              "D": "Taxi driver’s favorite food"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Vehicle radio station",
+              "B": "Pickup and dropoff timestamps",
+              "C": "Taxi driver’s favorite food",
+              "D": "Passenger shoe size"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Pickup and dropoff timestamps",
+              "B": "Vehicle radio station",
+              "C": "Taxi driver’s favorite food",
+              "D": "Passenger shoe size"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Passenger shoe size",
+              "B": "Vehicle radio station",
+              "C": "Taxi driver’s favorite food",
+              "D": "Pickup and dropoff timestamps"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data may contain errors or missing values, so TLC provides both raw and cleaned datasets.",
+        "Question": "Why do users often clean TLC trip data?",
+        "Selections": {
+          "A": "The dataset contains random emojis",
+          "B": "There may be missing or incorrect values in trip records",
+          "C": "Every file is encrypted",
+          "D": "Trips are stored as handwritten notes"
+        },
+        "Output": "B",
+        "Explanation": "TLC trip data occasionally includes inconsistent or erroneous entries.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0005",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 4,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "For what main reason do analysts frequently preprocess TLC trip datasets?",
+          "Why is it common practice to perform data cleaning on TLC trip records before analysis?",
+          "What is the primary motivation for users to run quality checks and cleaning steps on TLC trip data?",
+          "Why do data scientists typically need to clean TLC trip data prior to using it in models or reports?",
+          "What is a key reason that working with TLC trip data usually involves a data-cleaning stage?"
+        ],
+        "correct_answers": [
+          "Trip records can contain missing or inaccurate values",
+          "Trip entries sometimes have absent or wrong data fields"
+        ],
+        "explanations": [
+          "TLC trip data can sometimes have inconsistent or inaccurate entries in the trip records, so users clean it to address these issues.",
+          "Because the trip records may contain errors or missing information, users often perform data cleaning on TLC trip data."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "The dataset contains random emojis",
+              "B": "Every file is encrypted",
+              "C": "There may be missing or incorrect values in trip records",
+              "D": "Trips are stored as handwritten notes"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "The dataset contains random emojis",
+              "B": "Every file is encrypted",
+              "C": "Trips are stored as handwritten notes",
+              "D": "There may be missing or incorrect values in trip records"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "The dataset contains random emojis",
+              "B": "There may be missing or incorrect values in trip records",
+              "C": "Every file is encrypted",
+              "D": "Trips are stored as handwritten notes"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Trips are stored as handwritten notes",
+              "B": "Every file is encrypted",
+              "C": "The dataset contains random emojis",
+              "D": "There may be missing or incorrect values in trip records"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Trips are stored as handwritten notes",
+              "B": "The dataset contains random emojis",
+              "C": "Every file is encrypted",
+              "D": "There may be missing or incorrect values in trip records"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data covers all TLC-regulated passenger vehicle services, including yellow taxis, green taxis, and for-hire vehicles (FHVs).",
+        "Question": "Which types of services are included in TLC trip data?",
+        "Selections": {
+          "A": "Cargo ships",
+          "B": "Commercial airlines",
+          "C": "Yellow taxis, green taxis, and FHVs",
+          "D": "Electric scooters only"
+        },
+        "Output": "C",
+        "Explanation": "The dataset covers all TLC-regulated passenger vehicle services.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0006",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 5,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "What kinds of transportation services are represented in the TLC trip data?",
+          "The TLC trip data set includes trips from which of the following categories of transportation services?",
+          "TLC trip records provide information for which specific types of regulated passenger services?",
+          "The TLC trip database contains rides from which group of transportation services?",
+          "Which group best describes the transportation services captured in the TLC trip data?"
+        ],
+        "correct_answers": [
+          "Yellow taxicabs, green taxicabs, and for-hire vehicles",
+          "Yellow cabs, green cabs, and for-hire vehicles (FHVs)"
+        ],
+        "explanations": [
+          "The dataset includes all passenger vehicle services that are regulated by the TLC, which consist of yellow taxis, green taxis, and for-hire vehicles (FHVs).",
+          "Because the data encompasses every TLC-regulated passenger vehicle service, it specifically includes yellow taxis, green taxis, and for-hire vehicles (FHVs)."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Yellow taxis, green taxis, and FHVs",
+              "B": "Commercial airlines",
+              "C": "Cargo ships",
+              "D": "Electric scooters only"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Yellow taxis, green taxis, and FHVs",
+              "B": "Commercial airlines",
+              "C": "Electric scooters only",
+              "D": "Cargo ships"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Yellow taxis, green taxis, and FHVs",
+              "B": "Electric scooters only",
+              "C": "Cargo ships",
+              "D": "Commercial airlines"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Commercial airlines",
+              "B": "Cargo ships",
+              "C": "Yellow taxis, green taxis, and FHVs",
+              "D": "Electric scooters only"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Cargo ships",
+              "B": "Yellow taxis, green taxis, and FHVs",
+              "C": "Electric scooters only",
+              "D": "Commercial airlines"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data is provided as public open data on the NYC Open Data platform.",
+        "Question": "How is the TLC trip data licensed?",
+        "Selections": {
+          "A": "Only sold commercially",
+          "B": "Restricted to government agencies",
+          "C": "Open to the public",
+          "D": "Subscription-based"
+        },
+        "Output": "C",
+        "Explanation": "NYC provides TLC trip data openly to support transparency and research.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0007",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 6,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "What is the licensing status of the TLC trip data?",
+          "Under what type of license is the TLC trip data made available?",
+          "How is public access to the TLC trip data legally defined?",
+          "What best describes the way TLC trip data is made available for use?",
+          "Which option correctly characterizes the licensing model applied to TLC trip data?"
+        ],
+        "correct_answers": [
+          "Available to the public",
+          "Publicly accessible"
+        ],
+        "explanations": [
+          "New York City makes the TLC trip data publicly accessible in order to promote openness and enable research uses.",
+          "The TLC trip data is released for anyone to use, reflecting NYC’s goal of transparency and support for research activities."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Only sold commercially",
+              "B": "Subscription-based",
+              "C": "Restricted to government agencies",
+              "D": "Open to the public"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Only sold commercially",
+              "B": "Subscription-based",
+              "C": "Open to the public",
+              "D": "Restricted to government agencies"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Subscription-based",
+              "B": "Restricted to government agencies",
+              "C": "Only sold commercially",
+              "D": "Open to the public"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Subscription-based",
+              "B": "Only sold commercially",
+              "C": "Restricted to government agencies",
+              "D": "Open to the public"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Subscription-based",
+              "B": "Open to the public",
+              "C": "Restricted to government agencies",
+              "D": "Only sold commercially"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The TLC provides a data dictionary describing every field such as rate codes, payment types, and location zone IDs.",
+        "Question": "What does the TLC data dictionary provide?",
+        "Selections": {
+          "A": "Driver biographies",
+          "B": "Definitions of all fields such as payment type and location IDs",
+          "C": "Traffic camera footage",
+          "D": "Restaurant recommendations"
+        },
+        "Output": "B",
+        "Explanation": "The data dictionary helps researchers understand each trip attribute.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0008",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 7,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "What information is contained in the TLC data dictionary?",
+          "The TLC data dictionary is used to look up which type of information?",
+          "Which description best matches the purpose of the TLC data dictionary?",
+          "The TLC data dictionary primarily serves to provide what kind of information?",
+          "Researchers use the TLC data dictionary mainly to obtain what information?"
+        ],
+        "correct_answers": [
+          "Definitions for every field, including items like payment type and location IDs",
+          "A list of all fields with their meanings, such as payment type and location identifiers"
+        ],
+        "explanations": [
+          "The data dictionary explains what each trip attribute means, including fields like payment type and location IDs.",
+          "Researchers use the data dictionary to interpret every field in the dataset, such as payment type and location identifiers."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Definitions of all fields such as payment type and location IDs",
+              "B": "Restaurant recommendations",
+              "C": "Traffic camera footage",
+              "D": "Driver biographies"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Restaurant recommendations",
+              "B": "Driver biographies",
+              "C": "Definitions of all fields such as payment type and location IDs",
+              "D": "Traffic camera footage"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Driver biographies",
+              "B": "Traffic camera footage",
+              "C": "Definitions of all fields such as payment type and location IDs",
+              "D": "Restaurant recommendations"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Definitions of all fields such as payment type and location IDs",
+              "B": "Traffic camera footage",
+              "C": "Driver biographies",
+              "D": "Restaurant recommendations"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Restaurant recommendations",
+              "B": "Traffic camera footage",
+              "C": "Driver biographies",
+              "D": "Definitions of all fields such as payment type and location IDs"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data is provided in CSV and Parquet formats compatible with tools like Python, R, Spark, and SQL.",
+        "Question": "Which feature makes TLC trip data easy to analyze?",
+        "Selections": {
+          "A": "It is encrypted",
+          "B": "It is stored in CSV/Parquet formats",
+          "C": "It requires proprietary software",
+          "D": "It is only readable on macOS"
+        },
+        "Output": "B",
+        "Explanation": "CSV and Parquet files are compatible with widely used analytics tools.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0009",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 8,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which characteristic of TLC trip data allows it to be easily analyzed?",
+          "What aspect of TLC trip data primarily contributes to its ease of analysis?",
+          "TLC trip data is straightforward to analyze mainly because of which of the following features?",
+          "The ease of analyzing TLC trip data is largely due to which property?",
+          "Which property of TLC trip data makes it particularly convenient for data analysis?"
+        ],
+        "correct_answers": [
+          "The data is saved in CSV and Parquet file formats",
+          "It is kept in CSV and Parquet formats compatible with common analytics tools"
+        ],
+        "explanations": [
+          "Because the data is in CSV and Parquet formats, it works smoothly with most common data analysis tools.",
+          "Storing the data as CSV or Parquet makes it straightforward to load and process using standard analytics software."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "It is only readable on macOS",
+              "B": "It is encrypted",
+              "C": "It requires proprietary software",
+              "D": "It is stored in CSV/Parquet formats"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "It requires proprietary software",
+              "B": "It is encrypted",
+              "C": "It is stored in CSV/Parquet formats",
+              "D": "It is only readable on macOS"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "It is only readable on macOS",
+              "B": "It is stored in CSV/Parquet formats",
+              "C": "It is encrypted",
+              "D": "It requires proprietary software"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "It is only readable on macOS",
+              "B": "It is stored in CSV/Parquet formats",
+              "C": "It requires proprietary software",
+              "D": "It is encrypted"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "It is stored in CSV/Parquet formats",
+              "B": "It is only readable on macOS",
+              "C": "It requires proprietary software",
+              "D": "It is encrypted"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data reflects real-world travel patterns of passengers using taxis and FHVs in NYC.",
+        "Question": "Which population's travel behavior is represented in the TLC dataset?",
+        "Selections": {
+          "A": "Cyclists in Central Park",
+          "B": "Private car drivers",
+          "C": "NYC taxi and FHV passengers",
+          "D": "Subway riders"
+        },
+        "Output": "C",
+        "Explanation": "TLC data focuses exclusively on taxi and for-hire vehicle trips.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l1__0010",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 9,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In the TLC dataset, whose travel patterns are being captured?",
+          "The TLC dataset provides information about the travel behavior of which group of travelers?",
+          "The TLC trip records are used to analyze the movements of which type of passengers?",
+          "The TLC data specifically reflects the travel behavior of which population group?",
+          "The trips recorded in the TLC dataset correspond to the travel activity of which set of passengers?"
+        ],
+        "correct_answers": [
+          "Passengers using New York City taxis and for-hire vehicles",
+          "Riders of NYC taxicabs and for-hire vehicle services"
+        ],
+        "explanations": [
+          "The TLC dataset specifically covers trips made in taxis and for-hire vehicles, so it reflects the travel behavior of their passengers in NYC.",
+          "Because the TLC data only includes records of taxi and for-hire vehicle rides, it represents how NYC taxi and FHV passengers travel."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Cyclists in Central Park",
+              "B": "Subway riders",
+              "C": "NYC taxi and FHV passengers",
+              "D": "Private car drivers"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Private car drivers",
+              "B": "Subway riders",
+              "C": "NYC taxi and FHV passengers",
+              "D": "Cyclists in Central Park"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Cyclists in Central Park",
+              "B": "Private car drivers",
+              "C": "Subway riders",
+              "D": "NYC taxi and FHV passengers"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Subway riders",
+              "B": "Private car drivers",
+              "C": "Cyclists in Central Park",
+              "D": "NYC taxi and FHV passengers"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Subway riders",
+              "B": "Private car drivers",
+              "C": "NYC taxi and FHV passengers",
+              "D": "Cyclists in Central Park"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data describes real passenger movements across New York City made by yellow taxis, green taxis, and for-hire vehicles (FHVs).",
+        "Question": "Considering both its geographic coverage and service types, what population’s travel behavior is captured by TLC trip data?",
+        "Selections": {
+          "A": "Cyclists and pedestrians across the U.S.",
+          "B": "Private car drivers in suburban New York State",
+          "C": "Taxi and FHV passengers in New York City",
+          "D": "International airline passengers at JFK Airport"
+        },
+        "Output": "C",
+        "Explanation": "TLC trip data focuses on licensed taxi and FHV trips within New York City.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l2__0001",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 10,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In terms of both where it applies and what services it includes, whose travel patterns are represented in the TLC trip data?",
+          "Taking into account its spatial scope and the transportation modes covered, which group’s movements are reflected in TLC trip data?",
+          "Given its geographic limits and the types of services recorded, which population’s trips are documented in TLC trip data?",
+          "When considering the area it covers and the ride services included, TLC trip data captures the travel behavior of which group?",
+          "Based on both the region it focuses on and the transportation services it tracks, TLC trip data represents the travel of which population?"
+        ],
+        "correct_answers": [
+          "People who ride taxis and FHVs in New York City",
+          "New York City travelers using taxis and FHVs"
+        ],
+        "explanations": [
+          "TLC trip data specifically records trips taken by licensed taxis and for-hire vehicles operating within New York City.",
+          "The dataset is limited to rides provided by authorized taxi and FHV services in NYC, so it reflects the travel patterns of their passengers only."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Cyclists and pedestrians across the U.S.",
+              "B": "Taxi and FHV passengers in New York City",
+              "C": "Private car drivers in suburban New York State",
+              "D": "International airline passengers at JFK Airport"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Private car drivers in suburban New York State",
+              "B": "Taxi and FHV passengers in New York City",
+              "C": "International airline passengers at JFK Airport",
+              "D": "Cyclists and pedestrians across the U.S."
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "International airline passengers at JFK Airport",
+              "B": "Cyclists and pedestrians across the U.S.",
+              "C": "Taxi and FHV passengers in New York City",
+              "D": "Private car drivers in suburban New York State"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC provides monthly trip data at very large scale and long historical coverage (e.g., yellow taxi data since 2009), making it possible to study long-run trends and structural breaks.",
+        "Question": "What can researchers infer from the combination of TLC’s monthly data since 2009 and millions of trips per month?",
+        "Selections": {
+          "A": "The dataset is too small for robust trend analysis",
+          "B": "The dataset supports detailed long-term studies of travel demand and seasonality",
+          "C": "The dataset covers only a single special event weekend",
+          "D": "The dataset is limited to one day per year"
+        },
+        "Output": "B",
+        "Explanation": "High-volume monthly data over many years are ideal for trend, seasonality, and policy impact studies.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l2__0002",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 11,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Given TLC’s extensive monthly trip records dating back to 2009 and encompassing millions of rides each month, what does this enable researchers to do?",
+          "Considering TLC’s large-scale monthly trip data available from 2009 onward, with millions of observations per month, what conclusion can researchers draw about its analytical usefulness?",
+          "With TLC offering millions of trips per month in its monthly data series going back to 2009, what does this imply about the type of analysis that can be performed?",
+          "If TLC has provided high-volume monthly trip data continuously since 2009, totaling millions of trips each month, what can researchers reasonably infer about the dataset’s research potential?",
+          "Given that TLC’s dataset consists of millions of trips per month and spans from 2009 to the present, what does this suggest about the kinds of studies researchers can carry out with it?"
+        ],
+        "correct_answers": [
+          "The dataset enables in-depth, long-run analyses of travel demand and seasonal patterns",
+          "The data allow comprehensive, long-term investigations of travel demand and seasonal variation"
+        ],
+        "explanations": [
+          "Because the data are collected monthly over many years and include millions of trips each month, they are well-suited for analyzing long-term trends, recurring seasonal patterns, and the effects of policy changes on travel behavior.",
+          "The large number of trips recorded every month across an extended time span provides enough depth and continuity for researchers to conduct detailed studies of how travel demand and seasonal patterns evolve over time."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "The dataset supports detailed long-term studies of travel demand and seasonality",
+              "B": "The dataset covers only a single special event weekend",
+              "C": "The dataset is limited to one day per year",
+              "D": "The dataset is too small for robust trend analysis"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "The dataset covers only a single special event weekend",
+              "B": "The dataset supports detailed long-term studies of travel demand and seasonality",
+              "C": "The dataset is too small for robust trend analysis",
+              "D": "The dataset is limited to one day per year"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "The dataset is limited to one day per year",
+              "B": "The dataset supports detailed long-term studies of travel demand and seasonality",
+              "C": "The dataset covers only a single special event weekend",
+              "D": "The dataset is too small for robust trend analysis"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data is provided in CSV and Parquet formats that can be read by tools such as Python, R, Spark, and SQL engines.",
+        "Question": "Why does the combination of CSV/Parquet formats and compatibility with Python, R, Spark, and SQL matter for working with TLC trip data?",
+        "Selections": {
+          "A": "It restricts analysis to a single desktop application",
+          "B": "It ensures only small samples of data can be processed",
+          "C": "It allows efficient loading and analysis of large trip datasets in many standard tools",
+          "D": "It forces analysts to write their own file parsers from scratch"
+        },
+        "Output": "C",
+        "Explanation": "Open, widely supported formats plus mainstream tools lower the barrier to large-scale analysis.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l2__0003",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 12,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "How does having TLC trip data in CSV/Parquet and readable by Python, R, Spark, and SQL help with analyzing the trips?",
+          "What is the benefit of TLC trip data being stored in CSV/Parquet and usable directly in Python, R, Spark, and SQL environments?",
+          "Why is it important that TLC trip data is available as CSV/Parquet and can be ingested by common tools like Python, R, Spark, and SQL engines?",
+          "In what way does providing TLC trip data in CSV/Parquet formats and supporting Python, R, Spark, and SQL improve how analysts can work with the data?",
+          "How do open formats like CSV/Parquet combined with compatibility with Python, R, Spark, and SQL affect the ability to process TLC trip data?"
+        ],
+        "correct_answers": [
+          "It enables efficient loading and analysis of large trip datasets across many common tools",
+          "It supports efficient handling and analysis of large trip datasets in a wide range of standard tools"
+        ],
+        "explanations": [
+          "Because the data is stored in standard, well-supported formats and can be used directly in common analytics tools, analysts can work with very large trip datasets efficiently without extra conversion steps.",
+          "Using open formats like CSV and Parquet together with popular environments such as Python, R, Spark, and SQL makes it straightforward and performant to load, process, and analyze large TLC trip datasets across different platforms."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "It ensures only small samples of data can be processed",
+              "B": "It allows efficient loading and analysis of large trip datasets in many standard tools",
+              "C": "It forces analysts to write their own file parsers from scratch",
+              "D": "It restricts analysis to a single desktop application"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "It allows efficient loading and analysis of large trip datasets in many standard tools",
+              "B": "It forces analysts to write their own file parsers from scratch",
+              "C": "It ensures only small samples of data can be processed",
+              "D": "It restricts analysis to a single desktop application"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "It forces analysts to write their own file parsers from scratch",
+              "B": "It ensures only small samples of data can be processed",
+              "C": "It restricts analysis to a single desktop application",
+              "D": "It allows efficient loading and analysis of large trip datasets in many standard tools"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data is publicly available as open data, but some fields may contain errors or missing values, and TLC provides both raw and cleaned datasets.",
+        "Question": "What is the best practice implied by combining TLC’s open accessibility with its potential data quality issues?",
+        "Selections": {
+          "A": "Use the raw data directly without checks because it is public",
+          "B": "Avoid using the dataset because it is open",
+          "C": "Freely download the data but inspect and clean records before analysis",
+          "D": "Only analyze a single trip to avoid errors"
+        },
+        "Output": "C",
+        "Explanation": "Being open does not guarantee error-free records, so quality checks are still required.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l2__0004",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 13,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Given that TLC trip data is openly accessible but may contain errors or missing values, what is the most appropriate way to work with it in an analysis project?",
+          "Considering TLC trip data is both public and known to have occasional inaccuracies or missing fields, what is the recommended approach for analysts using this dataset?",
+          "TLC trip data is released as open data, yet some records may be incomplete or erroneous. What practice should data users follow in handling this data?",
+          "Because TLC trip data is publicly available but may contain missing or incorrect values, which data-handling strategy is most appropriate?",
+          "TLC provides open trip data that can include quality issues such as errors and missing entries. What is the implied best practice for working with this dataset?"
+        ],
+        "correct_answers": [
+          "Download the data without restriction, but carefully review and clean the records before using them for analysis",
+          "Access the data freely, yet perform thorough inspection and cleaning of the records prior to conducting analysis"
+        ],
+        "explanations": [
+          "Although the dataset is openly accessible, that doesn’t ensure the records are free of errors, so you must still perform quality checks and cleaning before using it for analysis.",
+          "Open access to the data does not mean it is automatically reliable, so you should download it freely but carefully verify and clean the records prior to analyzing them."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Only analyze a single trip to avoid errors",
+              "B": "Freely download the data but inspect and clean records before analysis",
+              "C": "Avoid using the dataset because it is open",
+              "D": "Use the raw data directly without checks because it is public"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Freely download the data but inspect and clean records before analysis",
+              "B": "Use the raw data directly without checks because it is public",
+              "C": "Only analyze a single trip to avoid errors",
+              "D": "Avoid using the dataset because it is open"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Use the raw data directly without checks because it is public",
+              "B": "Freely download the data but inspect and clean records before analysis",
+              "C": "Only analyze a single trip to avoid errors",
+              "D": "Avoid using the dataset because it is open"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data includes fields such as pickup/dropoff times, trip distance, fares, payment types, and zone IDs, and the TLC provides a detailed data dictionary describing each field.",
+        "Question": "Why is the combination of detailed trip fields and a comprehensive data dictionary important for working with TLC trip data?",
+        "Selections": {
+          "A": "It replaces the need to know any statistics",
+          "B": "It lets analysts guess variable meanings based on column names alone",
+          "C": "It supports accurate use of complex fields like rate codes, payment types, and zone IDs in analysis",
+          "D": "It limits analysis to only pickup time and dropoff time"
+        },
+        "Output": "C",
+        "Explanation": "Clear documentation plus rich variables helps avoid misinterpretation and enables more sophisticated modeling.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__multiple_choice__l2__0005",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 14,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Why is having both detailed trip variables and a thorough data dictionary crucial when analyzing TLC trip records?",
+          "Why are rich trip attributes combined with a well-documented data dictionary essential for correctly analyzing TLC trip datasets?",
+          "Why does effective analysis of TLC trip data depend on the presence of detailed trip fields together with a comprehensive data dictionary?",
+          "Why is it important for TLC trip data to provide extensive trip fields along with a fully documented data dictionary for analysts?",
+          "Why do analysts working with TLC trip data rely on both granular trip fields and a complete data dictionary to conduct proper analyses?"
+        ],
+        "correct_answers": [
+          "It enables precise use of complex variables such as rate codes, payment methods, and zone identifiers in analyses",
+          "It allows analysts to correctly interpret and apply detailed fields like rate categories, payment classifications, and zone IDs in their work"
+        ],
+        "explanations": [
+          "Having both detailed trip variables and a clear data dictionary prevents misunderstanding of complex fields and allows analysts to use them correctly in more advanced analyses and models.",
+          "When complex fields are well-documented and richly specified, analysts can interpret them reliably, reducing errors and enabling more nuanced and sophisticated analytical work."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "It supports accurate use of complex fields like rate codes, payment types, and zone IDs in analysis",
+              "B": "It limits analysis to only pickup time and dropoff time",
+              "C": "It lets analysts guess variable meanings based on column names alone",
+              "D": "It replaces the need to know any statistics"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "It limits analysis to only pickup time and dropoff time",
+              "B": "It lets analysts guess variable meanings based on column names alone",
+              "C": "It supports accurate use of complex fields like rate codes, payment types, and zone IDs in analysis",
+              "D": "It replaces the need to know any statistics"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "It limits analysis to only pickup time and dropoff time",
+              "B": "It replaces the need to know any statistics",
+              "C": "It lets analysts guess variable meanings based on column names alone",
+              "D": "It supports accurate use of complex fields like rate codes, payment types, and zone IDs in analysis"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data reflects real-world travel patterns of passengers using taxis and FHVs in NYC.",
+        "Question": "What does TLC trip data represent about travel patterns?",
+        "Output": "Real-world taxi and FHV travel patterns in NYC.",
+        "Explanation": "The dataset captures authentic passenger movements through NYC’s taxi system.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0001",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 0,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC trip data represents actual trips taken by passengers in New York City taxis and for-hire vehicles.",
+            "Explanation": "Because it records real passenger trips, the dataset shows genuine taxi and FHV travel behavior in NYC."
+          },
+          {
+            "Fact": "The TLC trip dataset documents real passenger journeys made in NYC using yellow cabs, green cabs, and other for-hire vehicles.",
+            "Explanation": "By logging these real journeys, the data directly reflects how people truly travel around New York City by taxi and FHV."
+          },
+          {
+            "Fact": "Each record in the TLC trip data corresponds to a real-world ride taken by a passenger in a New York City taxi or FHV.",
+            "Explanation": "Since each entry is an actual ride, the collection as a whole reveals authentic taxi and FHV travel patterns in NYC."
+          },
+          {
+            "Fact": "TLC trip data is based on observed rides from passengers using licensed taxis and FHVs throughout New York City.",
+            "Explanation": "These observed rides provide an empirical view of how passengers actually move through NYC via taxi and for-hire services."
+          },
+          {
+            "Fact": "The TLC trip dataset captures the movements of passengers who actually used NYC taxis and for-hire vehicles.",
+            "Explanation": "Because it tracks real movements rather than estimates, it accurately represents real-world taxi and FHV travel patterns in New York City."
+          }
+        ],
+        "questions": [
+          "What information about travel behavior is captured by TLC trip data?",
+          "TLC trip data provides insight into which aspect of how people travel in NYC?",
+          "In terms of movement through the city, what does TLC trip data show about passengers?",
+          "What kind of real-world travel behavior in NYC is represented in TLC trip data?",
+          "TLC trip data is used to understand what feature of taxi and FHV usage in NYC?",
+          "Regarding how passengers move around NYC, what does TLC trip data describe?",
+          "What aspect of NYC taxi and FHV usage patterns is reflected in TLC trip data?",
+          "TLC trip data primarily represents what about passenger movements in New York City?",
+          "What does TLC trip data reveal about how people actually use taxis and FHVs in NYC?",
+          "When analyzing TLC trip data, what real-world characteristic of NYC travel does it represent?"
+        ],
+        "negative_candidates": [
+          "Simulated routing scenarios for future public transit expansion in New York City.",
+          "Hypothetical ride-sharing demand predictions generated by urban planning models.",
+          "Only the scheduled routes and timetables of yellow cabs, without actual passenger activity.",
+          "Aggregated commuter flows on the subway and commuter rail systems across the New York metropolitan area.",
+          "Tourist sightseeing bus routes and planned stops around major NYC landmarks.",
+          "Self-reported travel diaries from residents about their typical weekly commuting habits.",
+          "Projected traffic volumes for newly proposed highways and bridges in the New York region.",
+          "GPS traces from private vehicles and delivery trucks operating throughout the tri-state area.",
+          "Ride-hailing demand forecasts for autonomous vehicles that are not yet deployed in NYC.",
+          "Synthetic mobility patterns created for academic simulations rather than actual trips in the city."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data is provided in CSV and Parquet formats compatible with tools like Python, R, Spark, and SQL.",
+        "Question": "Which tools can read TLC trip data formats?",
+        "Output": "Tools such as Python, R, Spark, and SQL.",
+        "Explanation": "The dataset uses common formats that major data tools support.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0002",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 1,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC trip data is distributed as CSV and Parquet files that can be opened by Python, R, Spark, and SQL-based systems.",
+            "Explanation": "Because the files use standard CSV and Parquet formats, they can be processed directly by common data tools like Python, R, Spark, and SQL."
+          },
+          {
+            "Fact": "The TLC trip records come in CSV and Parquet formats that are readable by Python, R, Spark, and SQL tools.",
+            "Explanation": "CSV and Parquet are widely supported data formats, so tools such as Python, R, Spark, and SQL can load and analyze the TLC trip data."
+          },
+          {
+            "Fact": "TLC trip datasets are stored as CSV and Parquet files, which are natively supported by Python, R, Spark, and SQL environments.",
+            "Explanation": "Since CSV and Parquet are standard formats, major analytics environments—including Python, R, Spark, and SQL—can work with the TLC trip data without special conversion."
+          },
+          {
+            "Fact": "The TLC trip data is made available in CSV and Parquet, formats that standard analytics tools like Python, R, Spark, and SQL can handle.",
+            "Explanation": "Using common formats such as CSV and Parquet ensures that widely used tools—Python, R, Spark, and SQL—can read and process the TLC trip data."
+          },
+          {
+            "Fact": "TLC trip information is provided in CSV and Parquet formats, which are directly compatible with Python, R, Spark, and SQL.",
+            "Explanation": "Because the dataset uses universally supported formats (CSV and Parquet), it can be accessed by tools such as Python, R, Spark, and SQL."
+          }
+        ],
+        "questions": [
+          "What kinds of tools are able to work with TLC trip data file formats?",
+          "Which software environments can directly load the CSV and Parquet formats used for TLC trip data?",
+          "TLC trip data is stored in CSV and Parquet; which analysis tools can open these formats?",
+          "Name the data processing tools that are compatible with the TLC trip data formats.",
+          "Which programming and query tools can be used to read the TLC trip data files?",
+          "What data analysis platforms can handle the CSV and Parquet formats of TLC trip data?",
+          "Which common data tools can import the TLC trip data as provided?",
+          "Identify the tools that can process TLC trip data given it is in CSV and Parquet formats.",
+          "Given that TLC trip data comes in CSV and Parquet, which tools can you use to analyze it?",
+          "Which languages or frameworks are suitable for reading the TLC trip data formats?"
+        ],
+        "negative_candidates": [
+          "Only proprietary TLC desktop software can read the trip data formats.",
+          "The TLC trip data can be read exclusively by Microsoft Excel and Google Sheets.",
+          "You must use a specialized GIS application like ArcGIS to read the TLC trip data formats.",
+          "Only Java-based desktop applications are able to open the TLC trip data formats.",
+          "The TLC trip data formats can only be read by SAS and Stata statistical packages.",
+          "You need a dedicated TLC web portal to access and read the trip data formats; no local tools can open them.",
+          "The data formats are designed to be read solely by Hadoop MapReduce jobs and cannot be used with other tools.",
+          "Only C++ command-line utilities developed by the TLC can read the trip data formats.",
+          "The TLC trip data can only be accessed through a custom mobile app provided by the city and not by standard data tools.",
+          "The trip data is stored in a proprietary binary format that can only be opened by a licensed TLC data viewer."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The TLC provides a data dictionary describing every field such as rate codes, payment types, and location zone IDs.",
+        "Question": "What documentation is available for understanding TLC trip fields?",
+        "Output": "A data dictionary describing each variable.",
+        "Explanation": "The TLC publishes detailed definitions for variables such as fares and trip types.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0003",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 2,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The TLC offers a comprehensive data dictionary that defines each trip field, including items like rate codes, payment methods, and zone identifiers.",
+            "Explanation": "Because the TLC releases a data dictionary with detailed definitions of all trip variables, users can consult it to understand each field."
+          },
+          {
+            "Fact": "A formal data dictionary from the TLC lists and explains every variable in the trip records, covering fields such as rate code, payment type, and zone ID.",
+            "Explanation": "This TLC data dictionary serves as the reference that describes what each variable in the trip data means, enabling users to interpret the fields correctly."
+          },
+          {
+            "Fact": "TLC trip data is accompanied by an official data dictionary that documents all included fields, for example rate codes, payment categories, and location zones.",
+            "Explanation": "The presence of this official data dictionary means there is a single document that defines each variable in the TLC trip dataset."
+          },
+          {
+            "Fact": "For TLC trip datasets, a data dictionary is provided that specifies the meaning of each column, including rate code values, payment type codes, and zone identifiers.",
+            "Explanation": "Since the TLC supplies a data dictionary explaining every column, users can rely on it as documentation for each variable in the trip data."
+          },
+          {
+            "Fact": "The TLC’s trip datasets come with a data dictionary that enumerates and describes all fields, such as codes for rates, payment options, and geographic zones.",
+            "Explanation": "This TLC data dictionary functions as the main documentation resource, giving detailed descriptions for each variable in the trip records."
+          }
+        ],
+        "questions": [
+          "Where can you find detailed definitions of the TLC trip fields?",
+          "What resource does the TLC offer to explain the meaning of each trip field?",
+          "What kind of reference does the TLC provide to clarify all trip variables like rate codes and payment types?",
+          "What official TLC resource should you consult to understand every trip field’s definition?",
+          "What documentation does the TLC supply that lists and explains each trip data field?",
+          "What is the name of the TLC resource that defines all the trip fields and their values?",
+          "Which TLC document should you use to look up the meaning of specific trip fields such as location zone IDs?",
+          "What type of TLC documentation contains descriptions of all trip-related variables?",
+          "What TLC-provided material explains the definitions of fields like fares, trip types, and rate codes?",
+          "What is the primary TLC reference for understanding the definitions of all trip data fields?"
+        ],
+        "negative_candidates": [
+          "A monthly PDF report that summarizes overall trip statistics without field-level details.",
+          "An interactive web dashboard that visualizes trips but does not define the underlying data fields.",
+          "Only the raw CSV files themselves, with no accompanying explanatory documentation.",
+          "A set of sample SQL queries that demonstrate how to analyze the data but do not explain the meaning of each field.",
+          "A brief FAQ page that covers general questions about taxis but omits technical field definitions.",
+          "A series of training videos that walk through using taxi data tools but never list or define individual variables.",
+          "A codebook that only explains geographic boundaries and ignores other trip-related attributes like fares or times.",
+          "A one-page glossary that defines just a handful of high-level concepts, not specific trip fields.",
+          "A collection of academic papers that analyze TLC data but do not provide official variable descriptions.",
+          "An API reference that documents only the endpoints and authentication, without any description of the trip fields returned."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The TLC trip data is provided as public open data on the NYC Open Data platform.",
+        "Question": "Is TLC trip data publicly accessible?",
+        "Output": "Yes, it is open data.",
+        "Explanation": "The dataset is freely available to the public through NYC Open Data.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0004",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 3,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC trip records are released as open public datasets on the NYC Open Data website.",
+            "Explanation": "Because the trip records are published as open datasets on NYC Open Data, they are publicly accessible and thus considered open data."
+          },
+          {
+            "Fact": "New York City’s TLC trip data is hosted on the NYC Open Data portal as publicly available information.",
+            "Explanation": "Since the TLC trip data is made available on the NYC Open Data portal, anyone can access it, meaning it is open data."
+          },
+          {
+            "Fact": "The Taxi and Limousine Commission publishes its trip data on NYC Open Data for unrestricted public use.",
+            "Explanation": "By publishing the trip data on NYC Open Data without access restrictions, the TLC makes it open data that the public can use."
+          },
+          {
+            "Fact": "TLC trip information is distributed through the NYC Open Data platform as an open, public dataset.",
+            "Explanation": "Distribution via NYC Open Data as an open dataset ensures that TLC trip information is accessible to the public as open data."
+          },
+          {
+            "Fact": "NYC Open Data includes TLC trip datasets that are designated as public open data resources.",
+            "Explanation": "Because these TLC trip datasets are listed as public open data on NYC Open Data, they are freely accessible and qualify as open data."
+          }
+        ],
+        "questions": [
+          "Can the public access the TLC trip data?",
+          "Is the TLC trip dataset available as open data to anyone?",
+          "Is the TLC trip information openly available on NYC Open Data?",
+          "Is the TLC trip data released as public open data?",
+          "Can anyone freely obtain the TLC trip data online?",
+          "Is the TLC trip data made publicly available through NYC Open Data?",
+          "Is the TLC trip dataset accessible to the general public?",
+          "Is the TLC trip data openly published for public use?",
+          "Can members of the public download the TLC trip data from NYC Open Data?",
+          "Is the TLC trip data provided as an open, publicly available dataset?"
+        ],
+        "negative_candidates": [
+          "No, the TLC trip data is restricted and only available to authorized city agencies.",
+          "No, access to TLC trip data requires a paid subscription and a special data license.",
+          "No, TLC trip data is classified due to privacy concerns and cannot be accessed by the public.",
+          "No, the TLC trip data can only be accessed through internal TLC dashboards by staff members.",
+          "No, TLC trip data is only shared with academic researchers under non-disclosure agreements.",
+          "No, TLC trip data is stored in a private database that is not exposed on any open data portals.",
+          "No, TLC trip data is only available upon filing a formal FOIL request and receiving approval.",
+          "No, the TLC trip data was once public but has since been removed and is no longer accessible.",
+          "No, TLC trip data is only accessible to licensed taxi and for-hire vehicle operators via a secure portal.",
+          "No, TLC trip data is provided only to commercial data brokers and is not directly available to the public."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data describes real passenger movements across NYC’s taxi and FHV systems.",
+        "Question": "What transportation modes does TLC trip data represent?",
+        "Output": "Yellow taxis, green taxis, and for-hire vehicles (FHVs).",
+        "Explanation": "The dataset includes trip records from all licensed taxi and FHV services.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0005",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 4,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC trip data captures actual rides taken by passengers using New York City’s yellow cabs, green cabs, and for-hire vehicle services.",
+            "Explanation": "Because the dataset records real trips from these licensed taxi and FHV services, it specifically represents yellow taxis, green taxis, and FHVs."
+          },
+          {
+            "Fact": "The TLC trip records consist of real-world journeys made by riders in NYC’s regulated yellow and green taxis as well as in for-hire vehicles.",
+            "Explanation": "Since the data is drawn from trips in these regulated services, the transportation modes represented are yellow taxis, green taxis, and FHVs."
+          },
+          {
+            "Fact": "TLC trip data is based on completed trips by passengers traveling in New York City’s official yellow and green taxicabs and in licensed for-hire vehicles.",
+            "Explanation": "As the trips come from these official taxi and FHV services, the modes covered are yellow taxis, green taxis, and FHVs."
+          },
+          {
+            "Fact": "The dataset maintained by the TLC logs passenger trips occurring in NYC’s medallion (yellow) taxis, street-hail livery (green) taxis, and for-hire vehicle services.",
+            "Explanation": "Because it logs trips from these three TLC-regulated services, the data represents yellow taxis, green taxis, and FHVs."
+          },
+          {
+            "Fact": "Each entry in the TLC trip dataset corresponds to a passenger ride taken in one of New York City’s yellow taxis, green taxis, or licensed for-hire vehicles.",
+            "Explanation": "Given that every record is a ride from these TLC-licensed services, the transportation modes represented are yellow taxis, green taxis, and FHVs."
+          }
+        ],
+        "questions": [
+          "Which types of transportation services are captured in the TLC trip data?",
+          "The TLC trip data reflects actual passenger movements in NYC. Which specific vehicle categories does it cover?",
+          "When analyzing TLC trip data, what kinds of taxi and for-hire services are represented in the records?",
+          "TLC trip data tracks real rides across NYC’s taxi and FHV network. Which service types are included in this dataset?",
+          "In the context of NYC’s TLC trip records, what are the transportation modes whose trips are documented?",
+          "Looking at the TLC trip dataset, which categories of licensed vehicles does it contain trip information for?",
+          "The TLC dataset logs real passenger trips across NYC. What specific taxi and for-hire vehicle modes does it represent?",
+          "What are the distinct vehicle service types included in the TLC trip data for NYC?",
+          "Within the TLC trip database of passenger movements, which modes of taxi and for-hire transportation are recorded?",
+          "Considering that TLC trip data covers NYC’s taxi and FHV systems, which particular transportation modes are represented in it?"
+        ],
+        "negative_candidates": [
+          "Only yellow taxis operating within Manhattan’s central business district.",
+          "Subway and commuter rail trips recorded by the MTA within New York City.",
+          "Yellow and green taxis, but excluding all app-based or traditional for-hire vehicles.",
+          "Private automobiles using toll bridges and tunnels in the New York metropolitan area.",
+          "Bike-share, e-scooter, and pedestrian trips within New York City.",
+          "Helicopter shuttles and airport transfer buses serving NYC airports.",
+          "Only medallion taxis picking up at JFK and LaGuardia airports.",
+          "All public transit modes including buses, subways, and ferries in New York City.",
+          "Long-distance intercity buses and regional coach services entering or leaving NYC.",
+          "Only livery cars and black cars, excluding both yellow and green taxis."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC provides both raw and cleaned datasets, as some values may require preprocessing due to errors or missing entries.",
+        "Question": "Why might TLC trip data require cleaning?",
+        "Output": "Because some fields may contain errors or missing values.",
+        "Explanation": "Real-world trip logs sometimes include invalid or incomplete data.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0006",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 5,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC releases unprocessed trip records that can include erroneous or blank fields, so they also offer cleaned versions of the data.",
+            "Explanation": "Since the raw logs may have mistakes or empty entries, the data often needs cleaning before reliable analysis is possible."
+          },
+          {
+            "Fact": "The original TLC trip datasets may contain incorrect entries or gaps in certain columns, prompting the need for preprocessing.",
+            "Explanation": "Because some recorded values are wrong or not recorded at all, the data must be cleaned to ensure accuracy and completeness."
+          },
+          {
+            "Fact": "TLC’s raw trip data is known to have quality issues such as invalid values and missing fields, which are addressed in their cleaned datasets.",
+            "Explanation": "Cleaning is necessary because some parts of the dataset are either invalid or absent, and these issues must be fixed or removed."
+          },
+          {
+            "Fact": "In the TLC trip records, some variables can be misreported or left empty, so additional processing is required to correct or handle them.",
+            "Explanation": "Data cleaning is needed when fields are inaccurate or not filled in, to make the dataset usable for analysis."
+          },
+          {
+            "Fact": "Because TLC’s uncleaned trip files may include faulty data points and unpopulated fields, they are often subjected to a cleaning step.",
+            "Explanation": "The presence of errors and missing values in certain fields means the data must be cleaned before it can be reliably used."
+          }
+        ],
+        "questions": [
+          "For what reason would TLC trip records need to be preprocessed before analysis?",
+          "Why is it necessary to perform data cleaning on TLC trip datasets?",
+          "What makes it important to clean TLC trip data prior to using it?",
+          "Why do analysts often have to clean TLC trip logs first?",
+          "What issue with TLC trip fields leads to the need for data cleaning?",
+          "Why might the original TLC trip dataset not be ready for direct analysis?",
+          "What characteristic of TLC trip data creates a need for a cleaned version of the dataset?",
+          "Why does TLC publish a cleaned dataset in addition to the raw trip data?",
+          "What problem in the raw TLC trip data makes preprocessing necessary?",
+          "Why can’t you always rely on the raw TLC trip data without performing cleaning steps?"
+        ],
+        "negative_candidates": [
+          "Because TLC intentionally obfuscates the data for privacy, replacing all numeric values with random numbers that must be decoded by users first.",
+          "Because the TLC trip data is stored in an encrypted image format, and users have to visually inspect and manually transcribe each value into a table.",
+          "Because the data is collected from handwritten paper logs that are scanned, so every entry must be manually retyped into a spreadsheet.",
+          "Because TLC releases the trip data in a foreign language that must be linguistically translated before any analysis can be performed.",
+          "Because the trip data is recorded using a proprietary coordinate system that must be converted into musical notation before it can be used.",
+          "Because TLC trip records are provided only as audio recordings of dispatch radio, so analysts must first perform speech-to-text transcription.",
+          "Because the dataset includes only approximate narrative descriptions of trips instead of structured fields, so analysts must invent the numeric values themselves.",
+          "Because all timestamps in the dataset are given in random fictional time zones that must be mapped to a fantasy calendar system.",
+          "Because the trip data is intentionally scrambled so that pickup locations are swapped with driver names, and cleaning involves permanently deleting all location information.",
+          "Because TLC distributes the data as a single long paragraph of prose describing all trips consecutively, requiring natural language parsing to even identify individual records."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data includes fields such as pickup time, dropoff time, trip distance, and fare amounts.",
+        "Question": "Name one type of information included in a TLC trip record.",
+        "Output": "Examples include pickup time, dropoff time, trip distance, or fare amount.",
+        "Explanation": "Each record includes temporal, spatial, and fare-related attributes.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0007",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 6,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "A TLC trip record stores details like when the ride started, when it ended, how far the vehicle traveled, and how much the passenger was charged.",
+            "Explanation": "These stored details cover timing, distance, and payment, any one of which (such as pickup time, dropoff time, trip distance, or fare amount) can be named as a valid type of information in the record."
+          },
+          {
+            "Fact": "Each TLC trip entry contains fields for pickup timestamp, dropoff timestamp, total distance of the trip, and the fare charged for that ride.",
+            "Explanation": "Because the record explicitly includes timestamps, distance, and fare fields, citing pickup time, dropoff time, trip distance, or fare amount correctly identifies a type of information in the data."
+          },
+          {
+            "Fact": "In the TLC trip dataset, every row records the start time, end time, distance traveled, and the monetary fare for the trip.",
+            "Explanation": "Since these attributes are part of each row, mentioning any one of them—such as pickup time, dropoff time, trip distance, or fare amount—answers what kind of information is included."
+          },
+          {
+            "Fact": "TLC trip logs capture when a passenger is picked up, when they are dropped off, how many miles or kilometers were driven, and the corresponding fare value.",
+            "Explanation": "The log’s inclusion of pickup and dropoff times, trip distance, and fare ensures that any of these elements can be correctly given as an example of information in a TLC trip record."
+          },
+          {
+            "Fact": "For every TLC trip, the record includes the pickup time, the dropoff time, the length of the trip in distance units, and the fare paid by the rider.",
+            "Explanation": "Because these four fields are standard in each record, identifying pickup time, dropoff time, trip distance, or fare amount directly matches the types of information stored."
+          }
+        ],
+        "questions": [
+          "Identify one kind of detail that a TLC trip record stores about a ride.",
+          "Give one example of a data field that appears in a TLC trip record.",
+          "State one specific attribute that is recorded in a TLC trip entry.",
+          "Mention one piece of trip-related information that is captured in a TLC trip record.",
+          "Provide one type of value that is documented in a TLC trip record for each ride.",
+          "What is one example of the information stored in a TLC trip record about a trip?",
+          "Name one specific measurement or timestamp that can be found in a TLC trip record.",
+          "List one kind of trip characteristic that is included in a TLC trip record.",
+          "What is one recorded element of a ride that appears in a TLC trip record?",
+          "Identify one type of trip detail that TLC includes as a field in its trip records."
+        ],
+        "negative_candidates": [
+          "The TLC trip record only stores the driver’s home address information.",
+          "A TLC trip record contains the passenger’s full credit card number and CVV code.",
+          "Each TLC trip record is limited to the taxi’s maintenance history and repair invoices.",
+          "TLC trip records primarily track the driver’s social security number and date of birth.",
+          "A TLC trip record consists solely of the taxi company’s annual profit and loss statement.",
+          "The TLC trip record includes the detailed audio recording of all conversations during the ride.",
+          "Each TLC trip record stores the passenger’s medical records associated with the journey.",
+          "TLC trip data is restricted to information about the manufacturer’s engine specifications for the taxi.",
+          "A TLC trip record only documents the weather forecast for the following month after the trip.",
+          "TLC trip records are used exclusively to store the driver’s performance review notes from their supervisor."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data can contain millions of trips per month.",
+        "Question": "Approximately how many trips can appear in a single month of TLC trip data?",
+        "Output": "Millions of trips.",
+        "Explanation": "Each monthly file often includes several million taxi or FHV trips.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0008",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 7,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "A single month of TLC trip records may include several million individual trips.",
+            "Explanation": "Monthly TLC datasets are typically very large, with counts reaching into the millions of trips for that month."
+          },
+          {
+            "Fact": "The TLC publishes monthly files that frequently list millions of taxi and FHV trips.",
+            "Explanation": "Because each monthly release aggregates all recorded rides, the total number of trips commonly reaches the millions."
+          },
+          {
+            "Fact": "In one month, TLC trip datasets can reach into the multi‑million range of recorded rides.",
+            "Explanation": "The volume of rides captured in a monthly TLC file is high enough that the trip count is usually measured in millions."
+          },
+          {
+            "Fact": "Monthly TLC trip files often span a dataset size of millions of trip entries.",
+            "Explanation": "Each entry corresponds to a single ride, and the accumulation over a month typically results in millions of such entries."
+          },
+          {
+            "Fact": "It is common for a month of TLC trip data to represent millions of completed trips.",
+            "Explanation": "The density of taxi and FHV activity in the covered area leads to monthly trip totals that are on the order of millions."
+          }
+        ],
+        "questions": [
+          "Roughly how many individual trips might be recorded in one month of TLC trip data?",
+          "About how many trips are typically included in a single month’s worth of TLC trip records?",
+          "What is the approximate number of trips that can be found in one monthly TLC trip dataset?",
+          "In a given month, TLC trip data can contain on the order of how many trips?",
+          "A single monthly TLC trip file may include roughly how many trips?",
+          "TLC trip data for one month can encompass approximately how many trips?",
+          "When looking at one month of TLC trip data, about how many trips can it represent?",
+          "For a single month, what is the ballpark figure for the number of trips in TLC trip data?",
+          "One month of TLC trip records can reach what approximate magnitude of trips?",
+          "What is the approximate scale of the number of trips in a monthly TLC trip dataset?"
+        ],
+        "negative_candidates": [
+          "A few hundred trips per month",
+          "Roughly one thousand trips per month",
+          "About ten thousand trips in a busy month",
+          "Typically around fifty thousand trips per month",
+          "Generally fewer than one hundred thousand trips per month",
+          "On the order of two hundred thousand trips per month",
+          "Usually about half a million trips in total per month",
+          "Rarely more than three-quarters of a million trips per month",
+          "Approximately 100 trips per day, or about 3,000 per month",
+          "Typically capped at 900,000 trips in any given month"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC provides monthly trip data dating back to 2009 for yellow taxis.",
+        "Question": "Since what year does TLC provide yellow taxi trip data?",
+        "Output": "Since 2009.",
+        "Explanation": "Yellow taxi trip datasets are available monthly beginning in 2009.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0009",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 8,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC has released monthly yellow taxi trip records starting in 2009.",
+            "Explanation": "Because the monthly yellow taxi data begins in 2009, that is the year TLC started providing it."
+          },
+          {
+            "Fact": "The earliest month for which TLC offers yellow taxi trip data is in 2009.",
+            "Explanation": "Since the first available yellow taxi trip files are from 2009, the data provision starts that year."
+          },
+          {
+            "Fact": "TLC’s publicly available yellow taxi trip datasets go back only as far as 2009.",
+            "Explanation": "As the historical yellow taxi data extends back to 2009 and no earlier, 2009 is the starting year."
+          },
+          {
+            "Fact": "Yellow taxi trip information from TLC is published on a monthly basis beginning with 2009 data.",
+            "Explanation": "Because the monthly publication of yellow taxi trips begins in 2009, that marks the first year of coverage."
+          },
+          {
+            "Fact": "TLC’s yellow taxi trip archives include data continuously from 2009 onward.",
+            "Explanation": "The continuous archive starting in 2009 shows that TLC has provided yellow taxi trip data since that year."
+          }
+        ],
+        "questions": [
+          "From which year onward has the TLC been publishing yellow taxi trip data?",
+          "Starting in what year did the TLC begin offering yellow taxi trip data?",
+          "Yellow taxi trip data from the TLC is available going back to which year?",
+          "The TLC’s monthly yellow taxi trip records date back to what year?",
+          "As of what year does the TLC’s historical yellow taxi trip dataset begin?",
+          "Since which year has monthly yellow taxi trip data been maintained by the TLC?",
+          "The earliest year for which the TLC provides yellow taxi trip data is what?",
+          "From what year does the TLC’s archive of yellow taxi trip data start?",
+          "In what year does the TLC’s available yellow taxi trip data first appear?",
+          "The TLC has yellow taxi trip data available monthly beginning in which year?"
+        ],
+        "negative_candidates": [
+          "Since 2010.",
+          "Since 2015.",
+          "Since 2005.",
+          "Since 2012.",
+          "Since 1999.",
+          "Since 2018.",
+          "Since 2013.",
+          "Since 2000.",
+          "Since 2007.",
+          "Since 2011."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data includes pickup and dropoff locations within New York City.",
+        "Question": "What city’s trip locations are included in the TLC trip data?",
+        "Output": "New York City.",
+        "Explanation": "The dataset provides pickup and dropoff points across NYC.",
+        "Level": 1,
+        "seed_id": "tlc_trip_instructions__short_answer__l1__0010",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 9,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The TLC trip dataset records pickup and dropoff points that occur in New York City.",
+            "Explanation": "Because all trip endpoints in the dataset are situated in New York City, the city represented is New York City."
+          },
+          {
+            "Fact": "Trips in the TLC data are logged with their origins and destinations located in New York City.",
+            "Explanation": "Since the trip locations captured by the dataset are in New York City, the correct city is New York City."
+          },
+          {
+            "Fact": "Within the TLC trip records, both starting and ending locations are confined to New York City.",
+            "Explanation": "As the dataset restricts trip locations to New York City, the city included is New York City."
+          },
+          {
+            "Fact": "The geographic coverage of pickup and dropoff coordinates in the TLC trip data is New York City.",
+            "Explanation": "Given that the dataset’s location coverage is New York City, the answer is New York City."
+          },
+          {
+            "Fact": "All trip location information in the TLC dataset pertains to rides taken in New York City.",
+            "Explanation": "Because the location data in the TLC records corresponds to New York City, the relevant city is New York City."
+          }
+        ],
+        "questions": [
+          "The TLC trip dataset contains pickup and dropoff locations for trips in which city?",
+          "The TLC trip data records trip origins and destinations within what city?",
+          "The pickup and dropoff points in the TLC trip dataset are all located in which city?",
+          "The TLC trip data covers taxi trip locations exclusively inside which city?",
+          "All trip pickup and dropoff locations in the TLC dataset fall within the boundaries of what city?",
+          "The TLC trip records include only trips that start and end in which city?",
+          "The geographic coverage of the TLC trip data’s pickup and dropoff locations is limited to which city?",
+          "The TLC trip dataset focuses on trip locations (pickups and dropoffs) in what specific city?",
+          "The TLC trip data’s recorded locations for pickups and dropoffs are all situated in which city?",
+          "The city whose internal pickup and dropoff locations are documented in the TLC trip data is which one?"
+        ],
+        "negative_candidates": [
+          "Los Angeles",
+          "Chicago",
+          "San Francisco",
+          "Boston",
+          "Miami",
+          "Houston",
+          "Philadelphia",
+          "Seattle",
+          "Washington, D.C.",
+          "Atlanta"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data describes real passenger movements across New York City made by yellow taxis, green taxis, and for-hire vehicles (FHVs).",
+        "Question": "By combining the covered city and the types of services included, whose travel behavior does the TLC trip data primarily represent?",
+        "Output": "Passengers using yellow taxis, green taxis, and FHVs in New York City.",
+        "Explanation": "The dataset is limited to TLC-regulated taxi and FHV trips within NYC, so it reflects the mobility patterns of these passengers rather than all travelers or modes.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__short_answer__l2__0001",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 10,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The TLC trip dataset records actual rides taken by passengers in New York City using yellow cabs, green cabs, and for-hire vehicles.",
+            "Explanation": "Because the records only cover trips in NYC made in yellow taxis, green taxis, and FHVs, the travel patterns captured are those of riders using these TLC-regulated services, not all travelers in the city."
+          },
+          {
+            "Fact": "Trips in the TLC data correspond to real journeys by riders in New York City who chose yellow taxis, green taxis, or for-hire vehicles.",
+            "Explanation": "Since the scope of the data is restricted to TLC-supervised taxi and FHV trips within NYC, it primarily reflects how these specific passengers move around, excluding other transport users."
+          },
+          {
+            "Fact": "The TLC trip records consist of observed rides taken by people in New York City via yellow taxis, green taxis, and for-hire vehicles.",
+            "Explanation": "As only TLC-licensed taxi and FHV journeys in NYC are included, the dataset characterizes the behavior of passengers using these services rather than the broader population of city travelers."
+          },
+          {
+            "Fact": "Each entry in the TLC trip data represents a completed trip by a passenger in New York City in a yellow taxi, green taxi, or for-hire vehicle.",
+            "Explanation": "Because the dataset is confined to NYC trips in TLC-regulated taxis and FHVs, it mainly depicts the mobility of riders who use these services, not all modes or users in the city."
+          }
+        ],
+        "questions": [
+          "Considering both the geographic scope and the transportation modes included, whose movement patterns are mainly captured in the TLC trip dataset?",
+          "When you account for the fact that the data covers New York City and only TLC-regulated services, whose travel habits are chiefly reflected in the TLC trip records?",
+          "Given that the dataset consists of trips within NYC taken by yellow taxis, green taxis, and FHVs, whose mobility behavior does this data most directly represent?",
+          "If the TLC data is restricted to yellow cabs, green cabs, and FHVs operating in New York City, whose travel patterns are primarily being documented?",
+          "Taking into account that the TLC trip data only includes NYC rides in yellow taxis, green taxis, and FHVs, whose movements does this dataset mainly describe?",
+          "Given the combination of the New York City setting and the inclusion of only TLC-licensed taxi and FHV services, whose travel behavior is predominantly shown in the TLC trip data?",
+          "Since the TLC trip records are limited to rides in yellow taxis, green taxis, and FHVs within New York City, whose transportation usage do these records chiefly represent?",
+          "Recognizing that the TLC dataset tracks actual trips by yellow taxis, green taxis, and FHVs in NYC, whose travel activity is this data primarily characterizing?",
+          "Because the TLC trip data is composed of real rides taken in New York City using yellow taxis, green taxis, and FHVs, whose mobility patterns are mainly captured?",
+          "If you merge the facts that the data is NYC-based and only includes yellow taxis, green taxis, and FHVs, whose travel behavior is the TLC trip data mostly illustrating?"
+        ],
+        "negative_candidates": [
+          "Commuters who primarily use the New York City subway and bus systems for daily travel within the five boroughs.",
+          "All residents and visitors in the New York metropolitan area, including those traveling by private car, walking, biking, and public transit.",
+          "Drivers and owners of yellow taxis, green taxis, and FHVs in New York City, focusing on their work schedules and income patterns.",
+          "Passengers using all types of transportation in New York City, including personal vehicles, ride-sharing apps, subways, and buses.",
+          "Regional travelers moving between New York City and neighboring states by intercity rail and long-distance bus services.",
+          "Tourists visiting New York City who primarily rely on guided tour buses and sightseeing services to get around the city.",
+          "Commercial freight and delivery vehicles operating in New York City, tracking their routes, stops, and cargo movements.",
+          "Residents of the broader Tri-State area who commute into Manhattan using commuter rail lines like LIRR, Metro-North, and NJ Transit.",
+          "Cyclists and pedestrians navigating New York City’s streets, bridges, and greenways as part of their daily travel.",
+          "Users of app-based ride-hailing platforms like Uber and Lyft throughout the entire United States."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC provides monthly yellow taxi trip data dating back to 2009, with each month often containing millions of trips.",
+        "Question": "How do the long historical coverage and large monthly trip volumes together influence the kinds of analyses TLC trip data supports?",
+        "Output": "They enable long-term, high-resolution analyses of NYC taxi and FHV demand trends over many years.",
+        "Explanation": "Multiple millions of trips per month over a span starting in 2009 provide both temporal depth and statistical power for studying changing travel patterns.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__short_answer__l2__0002",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 11,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The TLC yellow taxi trip records span back to 2009 and each monthly file typically includes millions of individual rides.",
+            "Explanation": "Having many years of data plus millions of observations per month gives both a long time horizon and dense sampling, which supports detailed, long-term analyses of taxi and FHV demand patterns."
+          },
+          {
+            "Fact": "Since 2009, TLC has released monthly yellow cab trip datasets, each containing a very large number of trips, often in the millions.",
+            "Explanation": "This combination of many years of coverage and very large monthly sample sizes allows researchers to track demand trends over extended periods with fine-grained statistical reliability."
+          },
+          {
+            "Fact": "TLC’s yellow taxi data archive covers more than a decade, and every month’s dataset includes a massive volume of trip records.",
+            "Explanation": "The extended historical range together with high trip counts per month makes it possible to study how taxi and FHV demand evolves over years while still capturing detailed variation within each period."
+          },
+          {
+            "Fact": "For each month going back to 2009, TLC publishes yellow taxi trip data at the scale of millions of rides.",
+            "Explanation": "The long-running monthly series and large number of trips in each release provide both longitudinal depth and robust sample sizes, enabling high-resolution analysis of demand trends across many years."
+          }
+        ],
+        "questions": [
+          "In what way do the many years of data and the millions of trips recorded each month shape the types of demand analyses that can be done with TLC trip records?",
+          "How does having TLC trip data going back to 2009 combined with millions of trips per month affect the depth and detail of demand trend studies that researchers can perform?",
+          "What impact do both the long time span and the large monthly trip counts in TLC data have on the robustness and granularity of demand trend analyses?",
+          "How do the extended historical timeline and the high volume of trips per month in TLC data together determine the scope and precision of demand pattern analyses?",
+          "In what manner do the years of continuous TLC trip records plus the large number of trips each month enhance the kinds of long-term demand trend investigations that are possible?",
+          "How does the combination of over a decade of TLC trip history and millions of trips per month influence the ability to conduct detailed, long-run demand studies?",
+          "Why does the pairing of long historical coverage with very large monthly trip volumes in TLC data allow for more powerful and fine-grained analyses of demand trends?",
+          "How do the extensive temporal coverage since 2009 and the high monthly trip volumes jointly expand the analytical possibilities for studying evolving taxi and FHV demand?",
+          "What is the effect of having both many years of TLC trip data and millions of trips per month on the types of long-term, detailed demand analyses that can be supported?",
+          "How do the long-running monthly TLC datasets, each with millions of trips, together shape the potential for high-resolution, multi-year analyses of taxi and FHV demand patterns?"
+        ],
+        "negative_candidates": [
+          "They mainly restrict analysis to short-term operational metrics, since the historical depth makes long-run comparisons unreliable.",
+          "They make the dataset suitable only for simple descriptive statistics, but not for any detailed time-series or trend analyses.",
+          "They limit researchers to studying only rare events, because the volume of trips is too large to meaningfully aggregate for broader patterns.",
+          "They primarily support real-time dispatch optimization, as the long history is mostly irrelevant for understanding demand patterns.",
+          "They confine analyses to a few representative sample months, because the full historical record is too sparse for robust inference.",
+          "They are best used to estimate single-year averages, since combining multiple years of data would introduce too much noise.",
+          "They mainly enable low-resolution, annual summaries of taxi use, but are not appropriate for fine-grained temporal studies.",
+          "They allow analysts to ignore temporal factors entirely and focus only on spatial clustering of pickups and drop-offs.",
+          "They support only cross-sectional comparisons between different taxi vendors, not longitudinal studies across years.",
+          "They make it necessary to discard older records and focus solely on recent months, because long-term trend analysis is not feasible with such volumes."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data is provided in CSV and Parquet formats that can be read by tools such as Python, R, Spark, and SQL engines.",
+        "Question": "How do the chosen data formats and supported tools together make large-scale analysis of TLC trips feasible?",
+        "Output": "Standard CSV/Parquet formats let analysts load large TLC files directly into common data platforms for scalable processing.",
+        "Explanation": "Because widely used tools natively support CSV and Parquet, users can handle millions of trip records without custom converters or proprietary software.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__short_answer__l2__0003",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 12,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The TLC trip records are released in standard CSV and Parquet files that common analytics tools like Python, R, Spark, and SQL databases can open directly.",
+            "Explanation": "Since these formats plug straight into mainstream data tools, analysts can ingest and process very large TLC datasets without extra conversion steps or special software."
+          },
+          {
+            "Fact": "TLC publishes its trip datasets in open, tabular formats (CSV and Parquet) that are directly compatible with popular data-processing environments, including Python, R, Spark, and SQL systems.",
+            "Explanation": "This direct compatibility lets users scale up to large trip volumes using existing analytics platforms, instead of building custom readers or pipelines."
+          },
+          {
+            "Fact": "The TLC trip files come as CSV and Parquet, which are standard data formats that integrate smoothly with widely used tools such as Python, R, Spark, and SQL query engines.",
+            "Explanation": "Because these tools are optimized for CSV and Parquet, they can efficiently load and analyze huge numbers of trip records, enabling large-scale studies with minimal setup."
+          },
+          {
+            "Fact": "Trip data from the TLC is distributed in CSV and Parquet, both of which are industry-standard formats supported out of the box by Python, R, Spark, and most SQL-based systems.",
+            "Explanation": "Using these standard formats means analysts can immediately run large-scale processing on TLC trips within familiar platforms, avoiding the need for proprietary formats or custom converters."
+          }
+        ],
+        "questions": [
+          "In what way do the provided CSV and Parquet formats, along with compatibility with tools like Python, R, Spark, and SQL engines, enable scalable analysis of large TLC trip datasets?",
+          "How does offering TLC trip data in CSV and Parquet, readable by Python, R, Spark, and SQL systems, allow analysts to process very large trip datasets efficiently?",
+          "Why does making TLC trip data available as CSV and Parquet files that work with Python, R, Spark, and SQL platforms make it practical to analyze massive volumes of trip records?",
+          "How do the CSV and Parquet formats, combined with support in Python, R, Spark, and SQL tools, help ensure that large TLC trip datasets can be processed at scale?",
+          "In what manner do standard CSV/Parquet formats plus support from Python, R, Spark, and SQL engines make it possible to handle millions of TLC trip records without difficulty?",
+          "How does storing TLC trip data in CSV and Parquet and ensuring it can be read by Python, R, Spark, and SQL engines contribute to feasible large-scale trip analysis?",
+          "Why does the use of CSV and Parquet formats, together with their native support in Python, R, Spark, and SQL tools, make large-scale TLC trip analysis manageable?",
+          "How do the chosen CSV and Parquet data formats, when used with tools like Python, R, Spark, and SQL engines, simplify performing large-scale analytics on TLC trip data?",
+          "In what specific way do standard CSV and Parquet formats plus compatibility with Python, R, Spark, and SQL environments enable efficient large-scale processing of TLC trip records?",
+          "How does the combination of CSV/Parquet storage and broad tool support (Python, R, Spark, SQL engines) make it feasible to run large-scale analyses on TLC trip datasets?"
+        ],
+        "negative_candidates": [
+          "Because the data is stored only as plain text logs, analysts must first convert it into CSV or Parquet before any large-scale processing is possible, which limits scalability and tool compatibility.",
+          "The use of CSV and Parquet forces analysts to work exclusively in Python, since R, Spark, and SQL engines cannot directly interpret these formats for large datasets.",
+          "Large-scale analysis is feasible mainly because the TLC data is compressed into a proprietary binary format that requires a special vendor tool, ensuring faster performance than CSV or Parquet could provide.",
+          "By distributing the TLC trip data only as Excel spreadsheets, the dataset can be easily opened on any desktop computer, which is the primary reason large-scale analysis becomes practical.",
+          "The chosen formats fragment the workflow so much that analysts must build custom parsers for each tool, and this extra step is what enables them to handle very large TLC datasets efficiently.",
+          "Scalability is achieved because CSV and Parquet are rarely used in typical analytics stacks, so they avoid contention with existing data pipelines and therefore run faster at scale.",
+          "The main benefit of the selected formats is that they prevent the data from being loaded directly into databases, forcing analysts to sample small subsets manually for any meaningful analysis.",
+          "Large-scale TLC analysis is possible only because the files are converted into images that can be visually inspected, eliminating the need for computational tools like Python or Spark.",
+          "Using CSV and Parquet actually restricts TLC analysis to small files, so analysts typically break the data into thousands of tiny chunks and process each one by hand.",
+          "Support for tools like Python, R, Spark, and SQL engines is incidental; the real enabler of large-scale analysis is that the TLC data is kept in a single monolithic file that everyone edits collaboratively."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data is publicly available as open data, but some fields may contain errors or missing values, and TLC provides both raw and cleaned datasets.",
+        "Question": "How do the open-data status and the presence of errors or missing values together affect how users should work with TLC trip data?",
+        "Output": "The data is easy to access, but users must perform or verify cleaning steps before drawing conclusions.",
+        "Explanation": "Open access encourages broad use, yet real-world logging errors mean that careful preprocessing and validation are necessary for reliable analysis.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__short_answer__l2__0004",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 13,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC trip records are released as open public datasets, but individual fields can be inaccurate or incomplete, and both unprocessed and cleaned versions are offered.",
+            "Explanation": "Because the data is freely accessible yet may contain flawed or missing entries, users need to check and, if needed, refine the cleaning before trusting analytical results."
+          },
+          {
+            "Fact": "The TLC makes its trip data openly accessible, though some entries have errors or gaps, and users can choose between raw files and datasets that have undergone cleaning.",
+            "Explanation": "While obtaining the data is straightforward, the presence of imperfect records means analysts must confirm or apply data-cleaning steps prior to interpreting findings."
+          },
+          {
+            "Fact": "TLC trip information is distributed as open data, but certain columns may be erroneous or null, and the agency publishes both original and pre-cleaned data tables.",
+            "Explanation": "Even though the datasets are easy to download, the potential for bad or missing values requires users to validate or perform preprocessing before drawing conclusions."
+          },
+          {
+            "Fact": "New York TLC trip datasets are openly published, yet they can include incorrect or missing values, and are provided in both raw and cleaned forms.",
+            "Explanation": "The open nature of the data simplifies access, but data quality issues mean that users should carefully inspect and verify the cleaning process to ensure sound analysis."
+          }
+        ],
+        "questions": [
+          "Given that TLC trip data is openly accessible but may include errors or missing entries and is offered in both raw and cleaned forms, how should analysts approach using it in their work?",
+          "Considering that TLC trip data is open to the public yet can contain incorrect or absent values, with both unprocessed and cleaned versions available, what precautions should users take before analyzing it?",
+          "How should users handle TLC trip data in practice, knowing it is open data but may have faulty or missing fields and comes as both raw and cleaned datasets?",
+          "In light of the fact that TLC trip data is freely available but some fields are erroneous or incomplete and TLC distributes raw as well as cleaned files, what is the appropriate way for users to proceed with analysis?",
+          "How do the facts that TLC trip data is publicly accessible and that some variables are inaccurate or missing, with both raw and cleaned datasets provided, influence the steps users should take before drawing conclusions?",
+          "Given that TLC trip data is open and easy to obtain, yet includes potential data-quality issues like errors and missing values and is supplied in raw and cleaned formats, what should users do to ensure sound analysis?",
+          "How should researchers treat TLC trip data, knowing it is open data but subject to logging errors and missing values, and that TLC offers both uncleaned and cleaned versions?",
+          "Taking into account that TLC trip data is open to everyone but may suffer from data-quality problems and is released in both raw and cleaned datasets, what workflow should users follow before trusting their results?",
+          "What implications do the open-data nature of TLC trip records and the presence of erroneous or missing fields—along with the availability of raw and cleaned data—have for how users should prepare the data for analysis?",
+          "How do the public availability of TLC trip data and its potential errors or gaps, plus the option of raw versus cleaned datasets, shape the level of data cleaning and validation users must perform before making inferences?"
+        ],
+        "negative_candidates": [
+          "Because the data is officially released as open data, users can assume it has already been fully validated and can analyze it directly without any additional preprocessing.",
+          "The combination of open-data status and occasional issues means users should avoid using TLC trip data for any serious analysis and restrict it only to demonstration or teaching purposes.",
+          "Since TLC provides both raw and cleaned datasets, analysts should always ignore the raw data and trust the cleaned dataset completely, with no need to check for remaining errors or inconsistencies.",
+          "Open-data status guarantees that all missing values are insignificant, so users can safely drop any problematic rows without documenting or investigating the impact on their results.",
+          "Because the datasets contain errors and missing values, the open-data aspect is largely irrelevant, and users should treat the information as unreliable and unsuitable for any research or policy work.",
+          "The fact that the data is open and contains errors means that users should focus primarily on building tools to correct the dataset rather than using it for analysis or decision-making.",
+          "Since the data is open and imperfect, the best practice is to replace all missing values with simple averages and proceed, as the public nature of the data ensures such approximations are acceptable.",
+          "The presence of both raw and cleaned versions implies that users should merge them into a single dataset and treat any conflicting values as random noise that can be ignored.",
+          "Because it is open data with known issues, the primary concern for users should be optimizing download and storage rather than worrying about data quality or cleaning procedures.",
+          "Open access combined with data imperfections means users should rely mainly on external, proprietary datasets for conclusions, using TLC trip data only as a supplementary, background reference."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data includes fields such as pickup/dropoff times, trip distance, fares, payment types, and zone IDs, and the TLC provides a detailed data dictionary describing each field.",
+        "Question": "How do the rich set of trip attributes and the accompanying data dictionary together support robust and interpretable analyses?",
+        "Output": "They allow analysts to design complex metrics while correctly interpreting each variable’s meaning and coding.",
+        "Explanation": "Because many operational fields are available and precisely defined, users can combine them (e.g., time, distance, fare, payment type, zones) to build nuanced indicators without misreading field semantics.",
+        "Level": 2,
+        "seed_id": "tlc_trip_instructions__short_answer__l2__0005",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 14,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The TLC trip records contain numerous operational fields—like timestamps for pickup and dropoff, trip length, fare amounts, payment method codes, and zone identifiers—along with an official data dictionary that explains each field in detail.",
+            "Explanation": "With many well-documented variables, analysts can safely construct sophisticated measures from combinations of these fields while relying on the dictionary to interpret each variable and code correctly."
+          },
+          {
+            "Fact": "Each TLC trip entry stores multiple attributes (e.g., time of pickup and dropoff, distance traveled, total fare, payment type, and geographic zone codes), and these are all clarified in a comprehensive TLC data dictionary.",
+            "Explanation": "The breadth of clearly defined attributes lets users mix and match variables to create complex analytical metrics, confident that they understand the meaning and coding of each field they use."
+          },
+          {
+            "Fact": "TLC publishes trip datasets that include granular fields such as pickup/dropoff timestamps, trip distance, fare details, payment categories, and zone IDs, and it supplements these with a thorough field-by-field data dictionary.",
+            "Explanation": "Because every key trip attribute is both available and explicitly described, analysts can derive intricate indicators from these fields without misinterpreting what any variable or code represents."
+          },
+          {
+            "Fact": "The TLC’s trip files provide many distinct variables—pickup and dropoff times, distances, fare amounts, payment-type flags, and zone identifiers—plus a detailed reference document that defines each column and its codes.",
+            "Explanation": "This combination of rich, multi-dimensional data and precise documentation enables analysts to build complex metrics from the variables while ensuring they correctly understand each field’s semantics and coding scheme."
+          }
+        ],
+        "questions": [
+          "In what way do the numerous trip fields and the detailed data dictionary work together to enable complex yet understandable analyses of the TLC data?",
+          "How does having many operational trip variables plus a thorough data dictionary make it possible to build sophisticated metrics that remain easy to interpret?",
+          "Why does the combination of diverse trip attributes and a comprehensive data dictionary lead to analyses that are both powerful and clearly interpretable?",
+          "How do the extensive trip-level fields, along with the TLC’s precise field definitions, help analysts construct nuanced indicators without misinterpreting variables?",
+          "In what manner do the rich variety of trip attributes and the accompanying field descriptions facilitate the creation of complex, well-understood analytical measures?",
+          "How does the presence of multiple detailed trip attributes, together with a clear data dictionary, support the development of advanced metrics that are correctly understood?",
+          "Why do the wide range of trip data fields and the explicit documentation for each one enable robust metric design and prevent confusion about variable meanings?",
+          "How do the many available trip characteristics, combined with the TLC’s detailed explanations of each field, promote sophisticated yet transparent analysis?",
+          "In what specific way does the pairing of rich trip attribute data with a thorough data dictionary help analysts avoid misreading variables while building complex indicators?",
+          "How does the integration of numerous, well-documented trip fields support the construction of intricate analytical measures that remain interpretable and accurate?"
+        ],
+        "negative_candidates": [
+          "They mainly serve to compress the dataset so that analysts can work with a much smaller file size, making interpretation less important than storage efficiency.",
+          "They are intended primarily for real-time dispatch optimization and not for analytical work, so the extra fields and dictionary rarely matter for interpretation.",
+          "They let analysts ignore most of the individual variables and instead rely on a single composite score that the TLC precomputes for all analytical purposes.",
+          "They enable fully automated model building where analysts no longer need to understand what any variable means, since the models infer semantics from the data alone.",
+          "They primarily function as anonymization tools, stripping out meaningful detail so that only high-level, non-interpretable aggregates remain for analysis.",
+          "They are used to enforce strict data-entry validation at the time of collection, but they have little relevance for later analytical robustness or interpretability.",
+          "They mainly help analysts convert the trip records into geospatial raster images, which replaces the need to understand the original tabular fields.",
+          "They allow the TLC to hide the true structure of the underlying database, so analysts must guess how fields should be combined for any serious analysis.",
+          "They are included so that analysts can treat all variables as interchangeable features, without needing to distinguish between temporal, spatial, or financial attributes.",
+          "They ensure that only fare-related variables can be analyzed reliably, since the dictionary focuses exclusively on payment fields and omits operational details."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip records contain pickup/dropoff timestamps, pickup/dropoff zone IDs, trip distance, fare amounts, and payment types, capturing real-world taxi/FHV movements across NYC at large monthly scale.",
+        "Question": "If a planner observes a sudden citywide spike in trip duration and fare per mile during a specific set of hours, what combination of TLC fields and outside context would help determine whether the cause is true network slowdown (e.g., storms or incidents) versus a data-quality artifact?",
+        "Output": "Compare hour-by-hour trip durations, distances, and fare-per-mile by zone against outside indicators like weather severity and traffic incident/congestion conditions for the same hours.",
+        "Explanation": "Using time + zone stratification in TLC data reveals where/when the anomaly occurs; external weather/incident context helps attribute the change to real conditions rather than logging errors.",
+        "Level": 3,
+        "seed_id": "tlc_trip_instructions__short_answer__l3__0001",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 15,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC trip data include pickup and dropoff timestamps, origin and destination zone identifiers, trip distance, fares, and payment information for large volumes of NYC taxi/FHV trips each month.",
+            "Explanation": "By slicing these fields by hour and zone, a planner can see when and where trip durations and fare-per-mile shift, then compare those patterns to external weather and traffic-incident data for the same periods to distinguish real congestion from data issues."
+          },
+          {
+            "Fact": "Each TLC trip record logs when and where a ride starts and ends, how far it travels, and how much the passenger is charged, across a citywide monthly dataset.",
+            "Explanation": "Examining hourly, zone-level changes in duration, distance, and fare-per-mile within this dataset, and aligning them with contemporaneous weather severity and congestion/incident reports, allows attribution of spikes to genuine network slowdowns versus artifacts in the data."
+          },
+          {
+            "Fact": "The TLC database provides time-stamped pickup and dropoff locations by zone, along with measured trip distance and associated fare amounts, for a broad sample of NYC trips.",
+            "Explanation": "Analyzing these variables by hour and zone highlights localized anomalies in speed and pricing, which can then be cross-checked against external sources on storms and traffic disruptions to determine if the spike reflects real-world conditions or logging anomalies."
+          },
+          {
+            "Fact": "TLC trip records systematically capture the timing, zonal origins and destinations, distances, and fares of taxi and FHV trips across New York City at monthly scale.",
+            "Explanation": "This structure enables hour-by-hour, zone-level comparisons of duration and fare-per-mile that, when matched to concurrent weather and traffic-incident data, help separate genuine network slowdowns from potential data-quality problems."
+          }
+        ],
+        "questions": [
+          "A transportation analyst notices that, during certain hours, average trip times and fares per mile jump sharply across the city. Using TLC trip fields plus external information, what should they examine to distinguish an actual slowdown in the network (such as bad weather or major incidents) from a problem in the recorded data?",
+          "Suppose an NYC mobility planner detects a sharp increase in both trip duration and fare per mile during a particular time window. Which TLC variables, combined with what outside contextual data, would allow them to tell whether this reflects genuine congestion from storms/incidents or merely a data-quality issue?",
+          "During a few specific hours, citywide taxi trips suddenly take longer and cost more per mile. What mix of TLC trip record fields and external context should a planner use to decide if this pattern is due to real-world slowdowns (weather, crashes, gridlock) rather than artifacts in the trip logs?",
+          "An analyst sees that, for a certain set of hours, average TLC trip durations and fares per mile spike across many rides. Which fields from the TLC data, together with which external indicators, would help them determine whether this is caused by actual traffic/network disruption versus systematic logging or meter errors?",
+          "Imagine you observe a sudden, hour-limited surge in trip times and fare-per-mile values across NYC taxis. What combination of time- and location-based TLC fields and outside data sources would you use to infer whether the spike reflects real congestion from storms/incidents or a data anomaly?",
+          "A data scientist reviewing TLC records finds that, in some hours, trips are much slower and more expensive per mile than usual. Which specific TLC attributes, analyzed alongside what external information, would best help decide if this is due to genuine network slowdown (e.g., severe weather, accidents) instead of corrupted or biased trip data?",
+          "You notice that during certain hours, TLC trips show unusually long durations and high fares per mile across the city. What set of TLC fields, combined with which external contextual datasets, would you rely on to judge whether this is a true traffic slowdown event versus a data-quality artifact?",
+          "When a planner detects a time-bounded, citywide rise in average trip duration and fare per mile in TLC data, what should they pull from the TLC records and from external sources to determine if the cause is real-world congestion (storms, incidents) rather than issues with how trips were recorded?",
+          "Suppose hourly summaries of TLC trips reveal a pronounced spike in both travel time and fare per mile for a particular period. Which TLC fields and which types of external context would you analyze together to distinguish genuine network disruption (e.g., weather or incident-driven delays) from anomalies in the underlying trip data?",
+          "An urban analyst sees that, for a specific block of hours, TLC trips across many zones have longer durations and higher fares per mile. What combination of TLC time/zone/fare fields and external information would help them assess whether this reflects actual storm- or incident-related slowdowns versus a data recording artifact?"
+        ],
+        "negative_candidates": [
+          "Look only at the change in average trip distance and total citywide trip count in the TLC data; if both move sharply, assume a real slowdown, and if they don’t, assume a data-quality artifact, without consulting any external information like weather or traffic feeds.",
+          "Rely exclusively on pickup and dropoff zone IDs to see if the spike in duration and fare per mile is spread across many zones; if it is, classify it as a data problem, and if it’s localized, classify it as a true network slowdown, without considering time-of-day or external events.",
+          "Use the payment type field to distinguish real slowdowns from artifacts: if the spike is concentrated in cash trips, it must be a data-quality issue, whereas if it appears in card trips, it must reflect actual congestion, making external context unnecessary.",
+          "Compare only the change in total fare amount and total number of trips per hour citywide; if revenue increases while trip count stays flat, infer a storm or incident, and if both move together, infer a logging error, without breaking results down by zone or consulting weather/traffic data.",
+          "Focus on outlier detection in fare amounts by payment type and remove all trips that exceed a fixed fare-per-mile threshold; if the spike disappears after this cleaning, conclude it was a data artifact, and if it persists, conclude it was a real slowdown, without referencing any external context.",
+          "Use pickup timestamps and trip distances to compute average speed per driver (inferred from medallion or vehicle IDs) and assume that any driver-specific pattern indicates a data-quality issue, while a uniform pattern across drivers indicates a true network slowdown, without checking weather or congestion information.",
+          "Check whether the spike in duration and fare per mile coincides with a change in the distribution of pickup times between weekdays and weekends; if more of the trips fall on weekends during the spike, classify it as a real slowdown, otherwise treat it as a data artifact, ignoring zone-level patterns and external incident data.",
+          "Compare the ratio of short trips (under one mile) to long trips (over five miles) during the spike hours; if the ratio changes significantly, automatically attribute the spike to network congestion, and if it doesn’t, attribute it to faulty meters or logging, without using any external data sources.",
+          "Look at which zones show the largest increase in total fare collected, and if these are primarily tourist-heavy zones (like around major attractions), assume a data-quality artifact due to atypical rider behavior, while if the increases are in residential zones, assume a genuine network slowdown, without examining weather or traffic reports.",
+          "Use only historical TLC trip records by month to see if similar spikes happened in past years during the same calendar dates; if so, label the current spike a data artifact due to seasonal pricing quirks, and if not, label it a real slowdown, without cross-checking with contemporaneous weather or incident data."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data includes pickup and dropoff zone IDs and precise pickup/dropoff times, enabling aggregation of flows between zones over different temporal windows.",
+        "Question": "How could a planner link aggregated zone-to-zone TLC flows to broader road-network structure (e.g., bridges, tunnels, arterial corridors) to identify likely bottlenecks during peak periods?",
+        "Output": "Aggregate OD flows by peak hours using zone IDs and timestamps, then relate the highest-flow OD pairs to external road-network connectivity and known chokepoints to flag corridors where demand concentrates onto limited links.",
+        "Explanation": "TLC provides the temporal OD demand signal; external network structure explains why certain OD pairs translate into bottlenecks rather than dispersing across many routes.",
+        "Level": 3,
+        "seed_id": "tlc_trip_instructions__short_answer__l3__0002",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 16,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC trip records store both pickup and dropoff zone identifiers along with exact timestamps for each trip event, allowing flows between zone pairs to be summarized over chosen time slices such as peak hours.",
+            "Explanation": "Because the data specifies when and between which zones trips occur, planners can build time-specific OD matrices and then overlay these concentrated flows on the physical network to see where heavy OD demand is funneled through limited links like bridges or tunnels."
+          },
+          {
+            "Fact": "Each TLC trip entry contains discrete pickup and dropoff zone codes plus the precise time of service, so trips can be grouped by origin–destination zone pair and by specific time-of-day windows.",
+            "Explanation": "This structure lets analysts isolate high-demand OD pairs during peak periods and then map those pairs onto the road network, revealing where intense OD flows are forced through constrained infrastructure segments that become bottlenecks."
+          },
+          {
+            "Fact": "The TLC dataset encodes every ride with a pickup zone ID, a dropoff zone ID, and exact pickup/dropoff timestamps, supporting construction of time-dependent OD flow tables between zones.",
+            "Explanation": "With these time-resolved OD tables, one can identify which zone pairs generate the largest peak-period flows and then examine how those flows traverse the road network, highlighting corridors and chokepoints where concentrated demand is likely to cause congestion."
+          },
+          {
+            "Fact": "By providing zone-level pickup and dropoff identifiers together with precise trip times, TLC data makes it possible to aggregate trips into zone-to-zone flows for specific temporal intervals, such as morning and evening peaks.",
+            "Explanation": "These temporally aggregated OD flows can then be aligned with the topology of bridges, tunnels, and arterials to determine where high OD demand converges on a small number of network links, indicating probable bottlenecks during peak hours."
+          }
+        ],
+        "questions": [
+          "In what way could a planner use aggregated peak-hour TLC origin–destination flows (based on zone IDs and timestamps) together with information on bridges, tunnels, and major arterials to pinpoint where traffic is likely to concentrate on a few links and create bottlenecks?",
+          "How might a transportation analyst take TLC’s time-stamped zone-to-zone trip counts during rush hours and overlay them on the city’s bridge, tunnel, and arterial network to determine which specific links are most at risk of congestion?",
+          "Given TLC trip records with pickup/dropoff zones and exact times, how could one aggregate peak-period OD flows and then map those flows onto the road network (bridges, tunnels, key corridors) to identify where heavy demand is funneled through limited-capacity links?",
+          "How could someone combine TLC’s temporally aggregated zone-level OD flows with a map of bridges, tunnels, and arterial routes to infer which network segments are likely to become bottlenecks during peak travel times?",
+          "Using TLC data that provide zone IDs and precise pickup/dropoff times, how could a planner build peak-hour OD matrices and then connect those matrices to the physical road network to highlight bridges, tunnels, or arterials that carry disproportionately high flows?",
+          "How can an analyst leverage TLC’s time-resolved zone-to-zone trip volumes to construct peak-period OD patterns and then align those patterns with the city’s bridge, tunnel, and arterial layout to flag likely congestion hotspots?",
+          "How could a city planner turn TLC’s time-stamped pickup/dropoff zone data into peak-hour OD flow maps and then overlay those maps on the broader road network to identify which bridges, tunnels, or arterials are probable bottlenecks?",
+          "In what manner could TLC’s detailed temporal OD data (by zone) be aggregated for rush hours and then linked to the topology of bridges, tunnels, and arterial corridors to reveal where concentrated demand is likely to overload specific links?",
+          "How might one use TLC’s pickup/dropoff zone IDs and times to compute peak-period OD flows and then associate the highest-flow OD pairs with the corresponding bridge, tunnel, or arterial paths to detect potential bottleneck locations?",
+          "How could a transportation planner aggregate TLC trips into peak-hour zone-to-zone flows and then match those flows to the city’s constrained connectors (bridges, tunnels, major arterials) to determine which corridors are most susceptible to bottlenecks?"
+        ],
+        "negative_candidates": [
+          "Use TLC trip distances alone to infer which specific bridges or tunnels are overloaded, assuming that longer average trip distance directly corresponds to bottlenecks on those links, without referencing any external road network data or OD structure.",
+          "Cluster trips by fare amount and tip percentage, then assume that OD pairs with the highest average fares must be traversing congested bridges or tunnels, treating price as the primary indicator of structural bottlenecks in the network.",
+          "Assign each TLC zone a congestion score based solely on the total number of trips originating there, and label any zone with a high score as a bottleneck location, without considering where trips go or how they traverse the road network.",
+          "Overlay TLC pickup points on a map and draw straight lines to dropoff points; any area where many straight lines intersect is declared a bottleneck, ignoring the actual road geometry, bridges, tunnels, or routing constraints.",
+          "Use the sequence of trip IDs over time to reconstruct the exact path that each vehicle must have taken and then count how many times each road segment appears in those reconstructed paths to determine bottlenecks, without using any map-matching or network model.",
+          "Identify zones with the earliest average pickup time in the morning and assume that the main roads leaving those zones are the primary bottlenecks, because commuters are presumed to depart earlier when congestion is high, with no explicit link to specific network elements.",
+          "Group zones by similar average travel times to all other zones and infer that zones with similar profiles share the same bottlenecks, concluding that any shared profile indicates a common congested link, even without mapping those zones to the physical road network.",
+          "Use only the variability of trip durations between zones to detect bottlenecks, assuming that high variance automatically signals a structural choke point, and ignore any information about where bridges, tunnels, or arterial corridors are located.",
+          "Rank OD pairs by the number of nighttime trips and treat the most popular nighttime connections as indicative of peak-period bottlenecks, reasoning that links used heavily at night must also be congested during the day, without examining peak-hour patterns or network topology.",
+          "Assign each OD pair to the nearest subway line on a map and infer that the subway line that is closest to the most OD pairs corresponds to the primary road bottleneck corridor, without examining actual road links, bridges, tunnels, or traffic flows."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip records include fare amounts and payment types, while the data dictionary defines coded fields such as payment categories and rate-related codes.",
+        "Question": "If cash payments and unusually high fare variability are concentrated in specific zones and times, what cross-dimensional interpretation could a planner test by combining TLC fields with outside neighborhood context?",
+        "Output": "Test whether those zones align with differing socioeconomic or access conditions by comparing payment type and fare distributions by zone/time against external neighborhood indicators (e.g., income, banking access, land use).",
+        "Explanation": "Payment/fare patterns in TLC can reflect who is using services and under what conditions; external neighborhood context helps interpret whether the pattern is behavioral/structural rather than random noise.",
+        "Level": 3,
+        "seed_id": "tlc_trip_instructions__short_answer__l3__0003",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 17,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC trip data captures both the fare charged and the method of payment, and the data dictionary explains coded variables such as payment type and rate codes.",
+            "Explanation": "Because the dataset shows how much was paid and how it was paid, a planner can relate these patterns to neighborhood characteristics to see if cash use and fare variability cluster in areas with particular socioeconomic or access conditions rather than occurring randomly."
+          },
+          {
+            "Fact": "Each TLC trip record stores detailed fare information and a coded payment category, with the meanings of those codes documented in the TLC data dictionary.",
+            "Explanation": "These structured fare and payment fields allow a planner to segment trips by zone and time, then overlay external neighborhood indicators (like income or banking access) to test whether observed cash-heavy or volatile fares correspond to underlying local conditions."
+          },
+          {
+            "Fact": "The TLC schema includes numeric fields for fares and categorical fields for payment methods and rate attributes, whose definitions are provided in the official data dictionary.",
+            "Explanation": "Using these defined fare and payment attributes, a planner can systematically compare zone/time patterns in cash usage and fare spread against outside measures of neighborhood context to assess whether the patterns align with socioeconomic or access differences."
+          },
+          {
+            "Fact": "TLC trip records encode fare amounts along with standardized payment-type and rate-related codes, with their meanings clarified in the TLC documentation.",
+            "Explanation": "Since fare levels and payment modes are explicitly coded, they can be aggregated by area and time and then matched to external neighborhood data, enabling a test of whether high cash usage and fare variability coincide with specific socioeconomic or land-use profiles instead of being random variation."
+          }
+        ],
+        "questions": [
+          "If you observe clusters of cash payments and unusually volatile fares in certain zones at particular times, what cross-dimensional hypothesis could you explore by merging TLC payment/fare fields with external neighborhood characteristics?",
+          "When cash usage and high fare variability appear concentrated in particular areas and time windows, what kind of cross-cutting interpretation could be evaluated by linking TLC payment and rate codes to outside socioeconomic or land-use data?",
+          "If specific zones and time periods show both a high share of cash transactions and large swings in fares, what integrated analysis could a planner perform by combining TLC trip payment/fare information with neighborhood-level indicators?",
+          "Suppose you find that cash payments and erratic fare amounts are heavily concentrated in certain TLC zones and time slots; what cross-domain relationship could you test by joining TLC payment categories and rate codes with external data on neighborhood conditions?",
+          "When analyzing TLC data, if you detect that cash-paid trips and highly variable fares cluster in particular locations and times, what broader contextual explanation could you investigate by overlaying these patterns with neighborhood socioeconomic or access metrics?",
+          "If TLC records reveal that certain zones and hours have both a disproportionate share of cash fares and wide fare dispersion, what cross-dimensional question could you examine by integrating TLC payment/fare fields with external neighborhood profiles?",
+          "Given that some zones and time periods show concentrated cash usage and unusually high fare spread in TLC trips, what kind of cross-context interpretation could be tested by comparing these TLC patterns with outside data on income, banking access, or land use?",
+          "If the TLC trip data indicate that cash payments and large fare variability are localized to specific zones and times, what hypothesis about neighborhood conditions could you assess by combining TLC payment type and rate codes with external contextual datasets?",
+          "When cash-heavy payments and inconsistent fare levels are found to be localized in certain TLC zones and time frames, what cross-dimensional relationship could a planner probe by linking TLC fare/payment distributions to neighborhood socioeconomic or accessibility indicators?",
+          "If analysis of TLC trip records shows that cash transactions and highly variable fares are concentrated in particular areas and times, what integrated neighborhood-level interpretation could you test by aligning these TLC fields with external measures such as income, financial services access, or land-use patterns?"
+        ],
+        "negative_candidates": [
+          "Investigate whether the zones with high cash usage and fare variability correspond to areas with the highest concentration of tourist attractions by overlaying TLC patterns with tourism and hotel density data.",
+          "Test if the spatial and temporal clusters of cash payments and variable fares coincide with locations and times of major sporting events by combining TLC records with stadium schedules and event calendars.",
+          "Assess whether the zones and times showing elevated cash usage and fare volatility match areas with the highest frequency of traffic incidents by linking TLC data to traffic crash and congestion datasets.",
+          "Examine whether these zones align with areas that have stricter local taxi enforcement or unique regulatory rules by comparing TLC metrics with maps of enforcement activity and regulatory boundaries.",
+          "Check if the concentration of cash payments and fare variability corresponds to zones with the greatest density of nightlife venues by integrating TLC data with bar/club locations and late-night business licenses.",
+          "Evaluate whether the affected zones align with major construction corridors by overlaying TLC fare patterns with city construction permit and street-closure data to see if detours drive variability.",
+          "Test whether zones and times with high cash usage and fare swings map onto areas with the most frequent service outages in electronic payment networks by merging TLC data with payment-processor downtime logs.",
+          "Explore whether the pattern of cash-heavy, variable fares corresponds to locations with the highest share of visitors from regions where cash is culturally preferred, using TLC data alongside origin–destination surveys and tourism origin statistics.",
+          "Determine if these zones line up with areas of complex road geometry—such as irregular street grids or many one-way streets—by combining TLC data with detailed roadway network characteristics.",
+          "Analyze whether the zones and times of elevated cash payments and fare variability overlap with areas that have the most dynamic surge in competing ride-hail promotions, using TLC patterns with external marketing and pricing campaign data."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC provides monthly trip data at very large scale and long historical coverage (e.g., yellow taxi data since 2009), making it possible to study long-run trends and structural breaks.",
+        "Question": "How can a planner use the long historical monthly coverage of TLC trips to evaluate the impact of major city changes, when those changes are not recorded directly in the trip files?",
+        "Output": "Compute pre/post trend changes in demand, trip distance, and fare metrics by service type and zone, then align the breakpoints with external timelines of policy, pricing, or infrastructure changes to attribute shifts.",
+        "Explanation": "TLC supplies consistent longitudinal mobility measurements; external timelines provide the “intervention points” needed to connect observed shifts to broader urban changes.",
+        "Level": 3,
+        "seed_id": "tlc_trip_instructions__short_answer__l3__0004",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 18,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The TLC publishes large-scale monthly trip records over many years, including yellow taxi data going back to 2009, which allows analysts to detect long-term patterns and sudden shifts in trip behavior.",
+            "Explanation": "Because the trip series is continuous and extensive, a planner can statistically identify when trends in demand, distance, or fares change and then compare those dates to outside information on policies or projects to infer which city changes likely caused the shifts."
+          },
+          {
+            "Fact": "With a long historical panel of TLC trip data at monthly resolution, planners can observe how trip volumes, lengths, and prices evolve over time and pinpoint when these trajectories deviate from prior trends.",
+            "Explanation": "Once the timing of these deviations is known from the TLC data, it can be matched to external records of policy, pricing, or infrastructure interventions, enabling attribution of observed mobility changes to specific city actions even though those actions are not logged in the trip files."
+          },
+          {
+            "Fact": "The extensive temporal coverage of TLC trip records, spanning many years at a consistent monthly cadence, supports time-series analysis of structural breaks in taxi and for-hire vehicle activity.",
+            "Explanation": "By estimating where structural breaks occur in the TLC time series and then overlaying those break dates with independent timelines of major city changes, planners can link shifts in trip demand and fare patterns to particular interventions that are absent from the raw trip data."
+          },
+          {
+            "Fact": "TLC’s long-run monthly trip dataset, available at fine spatial and service-type detail, enables comparison of mobility metrics before and after suspected intervention periods.",
+            "Explanation": "Planners can compute pre- and post-change trends in trips, distances, and fares by zone and service, then line up the timing of any detected breaks with known external events, using those external dates as anchors to interpret which unrecorded city changes likely drove the observed differences."
+          }
+        ],
+        "questions": [
+          "In what way could an urban planner leverage the long-run monthly TLC trip records to assess the effects of major city policies or projects, even though those interventions are not explicitly listed in the trip datasets?",
+          "How might a planner use the extended historical series of monthly TLC trip data to detect and interpret the effects of big city-level changes that are not directly encoded as variables in the trip files?",
+          "Given that major city interventions are not recorded in TLC trip records, how can a planner still exploit the long historical monthly coverage of these trips to infer the impact of such changes?",
+          "How can an analyst rely on the long-term monthly TLC trip history to identify and evaluate the influence of significant urban changes when those changes themselves do not appear as fields in the trip data?",
+          "What strategy can a planner apply to the extensive historical monthly TLC trip dataset to measure the impact of large-scale city changes that are absent from the trip file metadata?",
+          "How could a transportation planner use the multi-year monthly TLC trip time series to quantify the effects of major city policies or infrastructure shifts that are not directly documented in the trip records?",
+          "In the absence of explicit flags for major city changes in TLC trip files, how can the long historical monthly trip data still be used by planners to evaluate the impacts of those changes?",
+          "How can a planner turn the long-span monthly TLC trip dataset into evidence about the impact of major city-level interventions, given that the interventions themselves are not recorded in the trip tables?",
+          "What approach allows a planner to exploit the large-scale, long-horizon monthly TLC trip data to study the consequences of major urban changes that are not directly represented in the trip data fields?",
+          "How can the extensive monthly TLC trip history be analyzed by planners to reveal the impact of significant city changes, despite those changes not being explicitly captured within the trip datasets?"
+        ],
+        "negative_candidates": [
+          "Rely exclusively on seasonal averages from the TLC files and assume any deviation from those seasonal patterns must be caused by major city changes, without consulting any external data sources or timelines.",
+          "Aggregate all historical trips into a single citywide total and compare that one number year by year, inferring the presence and timing of structural breaks purely from visual inspection of the aggregate series.",
+          "Use the TLC data only to identify which individual drivers changed their behavior and then infer citywide policy impacts by extrapolating from those driver-level changes alone, ignoring spatial or temporal aggregation.",
+          "Filter the TLC data to a single recent year and compare it to the earliest available year, treating the difference between those two endpoints as the total effect of all unobserved city changes, without modeling trends in the intervening years.",
+          "Classify every sudden increase in total fare revenue as evidence of a new transportation policy and every sudden decrease as evidence of an infrastructure failure, without checking any outside information or controlling for economic cycles.",
+          "Assume that any neighborhood with rising trip counts in the TLC data must have received new transit investments, and any neighborhood with falling counts must have experienced disinvestment, drawing conclusions without looking at dates or other data sources.",
+          "Use the historical TLC data to estimate only average trip duration for the entire city and then attribute any long-run change in that single metric to congestion pricing, regardless of when or whether such a policy was actually implemented.",
+          "Identify the month with the highest number of trips in the entire historical record and declare that month to be the point of a major city change, attributing the peak to a structural break without further analysis.",
+          "Ignore the timing of observations altogether and instead cluster zones by their overall trip volumes across the full history, labeling clusters with higher volumes as ‘impacted by city changes’ and lower-volume clusters as ‘unimpacted.’",
+          "Treat the first year of TLC data as a permanent baseline and assume all subsequent deviations at any point must be due to a single, unspecified citywide intervention, rather than examining multiple possible change points or external events."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "TLC trip data represents taxi and FHV passenger movements, with timestamps and spatial zone IDs that can be compared across times of day and locations.",
+        "Question": "To assess whether taxis/FHVs act as substitutes during public transit disruptions, what TLC-derived indicators would you compute and what outside information would you align them with?",
+        "Output": "Compute zone- and hour-level trip counts, pickup surges near transit hubs, and changes in trip distance/duration, then align them with outside records of transit service reductions/disruptions and typical ridership patterns.",
+        "Explanation": "A substitution effect should appear as time-localized and location-specific demand increases in TLC trips that coincide with reduced transit availability in the same areas and hours.",
+        "Level": 3,
+        "seed_id": "tlc_trip_instructions__short_answer__l3__0005",
+        "source_name": "tlc_trip_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 19,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "TLC trip records capture when and where taxi and FHV rides occur, using timestamps and zone identifiers that allow aggregation of trips by hour and by geographic area.",
+            "Explanation": "By summarizing trips at the zone–hour level, you can detect localized spikes in ride volume or changes in trip characteristics that may correspond to times and places where transit service is disrupted, indicating potential substitution behavior."
+          },
+          {
+            "Fact": "Each TLC trip entry includes pickup time and pickup zone, enabling construction of time-series of ride counts and surge patterns around specific locations such as transit hubs.",
+            "Explanation": "By examining whether ride counts and surges near transit hubs increase during particular hours, and matching those hours to known transit outages, you can infer whether taxis and FHVs are being used as substitutes when public transit is less available."
+          },
+          {
+            "Fact": "TLC data provides spatially coded trip origins and destinations, which can be grouped by transit-adjacent zones to study changes in ride activity around those areas over time.",
+            "Explanation": "If zones that are normally served by public transit show elevated taxi/FHV activity during documented service reductions, this spatial alignment supports the idea that riders are switching to these services when transit is disrupted."
+          },
+          {
+            "Fact": "The temporal detail in TLC trip timestamps allows comparison of ride volumes and patterns between normal conditions and periods of known transit disruptions.",
+            "Explanation": "By aligning hourly TLC trip metrics with external schedules and incident logs of transit service cuts, you can see whether increases in taxi/FHV demand coincide with reduced transit availability, consistent with a substitution effect."
+          }
+        ],
+        "questions": [
+          "How would you use TLC trip records to build indicators that reveal whether taxis/FHVs are substituting for public transit during service outages, and with what external transit service and ridership data would you compare those indicators?",
+          "If you wanted to test whether taxis/FHVs are being used as replacement modes when public transit is disrupted, which metrics would you derive from TLC’s zone- and time-stamped trip data, and which external sources on transit disruptions and normal usage would you match them against?",
+          "Using TLC trip data with timestamps and zone IDs, what specific measures would you calculate to detect substitution behavior during transit interruptions, and what outside information on transit service levels and ridership would you align those measures with?",
+          "When investigating whether taxis/FHVs serve as substitutes during periods of reduced transit service, which TLC-based indicators (by zone and time) would you construct, and which external datasets on transit outages and baseline ridership would you use for comparison?",
+          "To evaluate if taxi/FHV demand spikes when public transit is partially shut down, what zone- and hour-based metrics would you extract from TLC trip records, and which external records of transit disruptions and usual passenger volumes would you line them up with?",
+          "Suppose you want to identify substitution effects between taxis/FHVs and public transit during service disruptions. Which indicators would you compute from TLC’s spatial-temporal trip data, and what external information on transit cutbacks and standard ridership patterns would you use to benchmark them?",
+          "How could you operationalize the idea that taxis/FHVs substitute for transit during outages using TLC data—what zone/hour trip metrics would you compute, and with which external transit disruption logs and normal ridership data would you compare them?",
+          "If your goal is to measure whether taxis/FHVs pick up slack when transit service is disrupted, what indicators would you derive from TLC trip counts and trip characteristics by zone and time, and what outside records of transit service changes and typical usage would you align them with?",
+          "In order to test for a substitution effect between TLC trips and public transit during disruptions, which spatial-temporal indicators would you calculate from the TLC dataset, and which external information on transit service reductions and baseline ridership would you use for alignment?",
+          "How would you construct evidence from TLC’s time- and zone-tagged trip data to show taxis/FHVs substituting for transit during disruptions—what indicators would you compute, and what external data on transit outages and normal ridership patterns would you compare them to?"
+        ],
+        "negative_candidates": [
+          "Compute daily average fare per trip across the entire city and compare it to annual citywide public transit funding levels published in the city budget documents.",
+          "Measure the proportion of cash versus credit card payments in TLC data by month and correlate it with long-term subway expansion plans from regional transportation authorities.",
+          "Aggregate weekly unique driver IDs per borough and align this with quarterly employment statistics for the transportation sector from the Bureau of Labor Statistics to infer substitution behavior.",
+          "Calculate the median tip percentage by zone and hour and compare it with station-level transit fare evasion estimates to see if riders are switching modes during disruptions.",
+          "Track changes in the most common payment processor or vendor IDs in TLC data and align these with changes in transit agency leadership or board meeting dates to detect substitution effects.",
+          "Compute citywide monthly averages of trip speed and match them to yearly average subway on-time performance metrics to identify whether taxis replace trains during outages.",
+          "Estimate the proportion of shared versus solo rides in TLC data and compare it to the total number of buses in operation citywide as reported in annual transit fleet inventories.",
+          "Calculate borough-level daily revenue totals and correlate them with the number of planned capital construction projects listed in long-term transit investment reports to determine substitution.",
+          "Analyze the distribution of passenger counts per trip by month and compare it to the annual changes in transit fare prices to infer whether taxis are substituting for public transit during disruptions.",
+          "Compute the average wait time between trips for each driver and align it with regional gasoline price indices to infer substitution during transit disruptions."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "screened": {
+    "canonical_records": 14726,
+    "question_variants": 1745
+  },
+  "residual_embedded_blocks": 0,
+  "changed_canonical_by_split": {
+    "cross_regional": 60,
+    "train": 240,
+    "validation": 60
+  },
+  "source_hashes_unchanged": true,
+  "output_hashes_verified": true
+}

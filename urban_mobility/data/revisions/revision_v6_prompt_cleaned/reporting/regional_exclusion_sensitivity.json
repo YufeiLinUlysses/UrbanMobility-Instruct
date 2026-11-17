@@ -1,0 +1,225 @@
+{
+  "note": "Descriptive exclusion of embedded-answer-key prompts from OLD predictions. Not a corrected-prompt re-evaluation; excludes a nonrandom seed family and cannot resolve training or validation contamination.",
+  "rows": [
+    {
+      "model": "llama31_70b",
+      "stage": "base",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 94.43986820428336,
+      "unaffected_subset_pct": 94.72128378378379,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\llama31_70b\\base\\cross_regional\\revision-v5-llama31-70b-three-task-chat-v2-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "llama31_70b",
+      "stage": "base",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 99.08785405664906,
+      "unaffected_subset_pct": 99.0745250852411,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\llama31_70b\\base\\cross_regional\\revision-v5-llama31-70b-three-task-chat-v2-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "llama31_70b",
+      "stage": "fine_tuned",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 99.9176276771005,
+      "unaffected_subset_pct": 99.91554054054053,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\llama31_70b\\fine_tuned\\cross_regional\\revision-v5-llama31-70b-three-task-chat-v2-finetuned-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "llama31_70b",
+      "stage": "fine_tuned",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 99.43590974555929,
+      "unaffected_subset_pct": 99.4276668290307,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\llama31_70b\\fine_tuned\\cross_regional\\revision-v5-llama31-70b-three-task-chat-v2-finetuned-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "llama31_8b",
+      "stage": "base",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 96.12850082372323,
+      "unaffected_subset_pct": 96.0304054054054,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\llama31_8b\\base\\cross_regional\\revision-v5-llama31-8b-three-task-chat-v2-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "llama31_8b",
+      "stage": "base",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 92.64282285165628,
+      "unaffected_subset_pct": 92.53531417437895,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\llama31_8b\\base\\cross_regional\\revision-v5-llama31-8b-three-task-chat-v2-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "llama31_8b",
+      "stage": "fine_tuned",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 100.0,
+      "unaffected_subset_pct": 100.0,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\llama31_8b\\fine_tuned\\cross_regional\\revision-v5-llama31-8b-three-task-chat-v2-finetuned-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "llama31_8b",
+      "stage": "fine_tuned",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 98.13970235237637,
+      "unaffected_subset_pct": 98.11251826595226,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\llama31_8b\\fine_tuned\\cross_regional\\revision-v5-llama31-8b-three-task-chat-v2-finetuned-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "qwen25_14b",
+      "stage": "base",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 74.58813838550246,
+      "unaffected_subset_pct": 73.94425675675676,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\qwen25_14b\\base\\cross_regional\\revision-v5-qwen25-14b-three-task-chat-v2-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "qwen25_14b",
+      "stage": "base",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 98.6077772443591,
+      "unaffected_subset_pct": 98.68485143692158,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\qwen25_14b\\base\\cross_regional\\revision-v5-qwen25-14b-three-task-chat-v2-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "qwen25_14b",
+      "stage": "fine_tuned",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 99.7528830313015,
+      "unaffected_subset_pct": 99.74662162162163,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\qwen25_14b\\fine_tuned\\cross_regional\\revision-v5-qwen25-14b-three-task-chat-v2-finetuned-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "qwen25_14b",
+      "stage": "fine_tuned",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 99.69995199231877,
+      "unaffected_subset_pct": 99.69556746225037,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\qwen25_14b\\fine_tuned\\cross_regional\\revision-v5-qwen25-14b-three-task-chat-v2-finetuned-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "qwen25_7b",
+      "stage": "base",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 84.22570016474464,
+      "unaffected_subset_pct": 83.91047297297297,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\qwen25_7b\\base\\cross_regional\\revision-v5-qwen25-7b-three-task-chat-v2-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "qwen25_7b",
+      "stage": "base",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 96.59145463274123,
+      "unaffected_subset_pct": 97.10180224062348,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\qwen25_7b\\base\\cross_regional\\revision-v5-qwen25-7b-three-task-chat-v2-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "qwen25_7b",
+      "stage": "fine_tuned",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 99.9176276771005,
+      "unaffected_subset_pct": 99.91554054054053,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\qwen25_7b\\fine_tuned\\cross_regional\\revision-v5-qwen25-7b-three-task-chat-v2-finetuned-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "qwen25_7b",
+      "stage": "fine_tuned",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 98.76380220835334,
+      "unaffected_subset_pct": 98.77009254749147,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\qwen25_7b\\fine_tuned\\cross_regional\\revision-v5-qwen25-7b-three-task-chat-v2-finetuned-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "t5_base",
+      "stage": "base",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 5.2718286655683695,
+      "unaffected_subset_pct": 5.405405405405405,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\t5_base\\base\\cross_regional\\revision-v5-t5-three-task-v1-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "t5_base",
+      "stage": "base",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 0.0,
+      "unaffected_subset_pct": 0.0,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\t5_base\\base\\cross_regional\\revision-v5-t5-three-task-v1-base-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "t5_base",
+      "stage": "fine_tuned",
+      "task": "mc_answer",
+      "metric": "normalized_correct",
+      "n": 2428,
+      "excluded": 60,
+      "original_pct": 65.8154859967051,
+      "unaffected_subset_pct": 66.13175675675676,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\t5_base\\fine_tuned\\cross_regional\\revision-v5-t5-three-task-v1-finetuned-cross-regional\\predictions.parquet"
+    },
+    {
+      "model": "t5_base",
+      "stage": "fine_tuned",
+      "task": "answer_verification",
+      "metric": "correct",
+      "n": 8332,
+      "excluded": 120,
+      "original_pct": 54.560729716754686,
+      "unaffected_subset_pct": 54.639551875304434,
+      "source": "revision_pipeline\\data\\07_model_output\\evaluations\\revision_v5\\t5_base\\fine_tuned\\cross_regional\\revision-v5-t5-three-task-v1-finetuned-cross-regional\\predictions.parquet"
+    }
+  ]
+}

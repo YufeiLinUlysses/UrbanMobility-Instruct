@@ -1,0 +1,157 @@
+{
+  "enabled": true,
+  "model_id": "sentence-transformers/all-mpnet-base-v2",
+  "similarity_threshold": 0.9,
+  "comparison_scope": "cross-split prompts only; cross-regional holdout excluded",
+  "review_required": false,
+  "human_review_policy": "Candidates are deduplicated by concept pair. Review the highest-similarity concept pairs and deterministic boundary cases closest to the threshold; review all when the flagged set is small.",
+  "human_review_queue": [
+    {
+      "split_pair": "test__train",
+      "left_split": "test",
+      "right_split": "train",
+      "left_example_id": "tlc_trip_instructions__short_answer__l1__0001__aug_00048__generation",
+      "right_example_id": "tlc_trip_instructions__short_answer__l1__0010__aug_00014__generation",
+      "left_seed_id": "tlc_trip_instructions__short_answer__l1__0001",
+      "right_seed_id": "tlc_trip_instructions__short_answer__l1__0010",
+      "left_concept_group_id": "tlc_trip_instructions__concept__33b139cb4069c24a",
+      "right_concept_group_id": "tlc_trip_instructions__concept__8b7dfcb4e2bfbaba",
+      "left_source_name": "tlc_trip_instructions",
+      "right_source_name": "tlc_trip_instructions",
+      "left_prompt": "Dataset context:\nThe TLC trip dataset captures the movements of passengers who actually used NYC taxis and for-hire vehicles.\n\nQuestion:\nTLC trip data primarily represents what about passenger movements in New York City?\n\nPlease provide a concise answer grounded in the dataset information.",
+      "right_prompt": "Dataset context:\nTrips in the TLC data are logged with their origins and destinations located in New York City.\n\nQuestion:\nThe TLC trip data covers taxi trip locations exclusively inside which city?\n\nPlease provide a concise answer grounded in the dataset information.",
+      "similarity": 0.904498,
+      "supporting_record_pair_count": 1,
+      "human_decision": "related_but_distinct",
+      "human_notes": "Both concern TLC passenger trips, but one asks whose movements are represented and the other asks the city containing trip origins and destinations."
+    },
+    {
+      "split_pair": "test__validation",
+      "left_split": "test",
+      "right_split": "validation",
+      "left_example_id": "ngsim_instructions__multiple_choice__l1__0003__aug_00025__generation",
+      "right_example_id": "ngsim_instructions__multiple_choice__l2__0003__aug_00056__generation",
+      "left_seed_id": "ngsim_instructions__multiple_choice__l1__0003",
+      "right_seed_id": "ngsim_instructions__multiple_choice__l2__0003",
+      "left_concept_group_id": "ngsim_instructions__concept__f1bf94c536fcdc15",
+      "right_concept_group_id": "ngsim_instructions__concept__4b373bf32aa0fd6e",
+      "left_source_name": "ngsim_instructions",
+      "right_source_name": "ngsim_instructions",
+      "left_prompt": "Dataset context:\nThe NGSIM dataset captures vehicle trajectories at a sampling frequency of 10 Hz.\n\nQuestion:\nFor the NGSIM vehicle trajectory data, a sampling rate of 10 Hz indicates which of the following?\n\nOptions:\nA. 10 vehicles per hour\nB. 10 GB of data\nC. 10 measurements each second\nD. 10 cameras were used\n\nPlease provide the correct option and a concise explanation.",
+      "right_prompt": "Dataset context:\nNGSIM vehicle trajectories are sampled at 10 Hz and include position-based variables such as speed, acceleration, and lane IDs.\n\nQuestion:\nRegarding NGSIM vehicle trajectories, what does a 10 Hz sampling rate tell you about the resulting dataset?\n\nOptions:\nA. It restricts the dataset to static vehicle counts\nB. It supports accurate extraction of motion-related quantities, including speed and acceleration\nC. It indicates data were recorded once every 10 minutes\nD. It limits the dataset to qualitative observations\n\nPlease provide the correct option and a concise explanation.",
+      "similarity": 0.927345,
+      "supporting_record_pair_count": 408,
+      "human_decision": "related_but_distinct",
+      "human_notes": "Both mention 10 Hz, but the Level 1 item asks for its literal frequency meaning while the Level 2 item asks what motion variables that resolution supports."
+    },
+    {
+      "split_pair": "test__validation",
+      "left_split": "test",
+      "right_split": "validation",
+      "left_example_id": "highd_instructions__multiple_choice__l1__0004__aug_00002__generation",
+      "right_example_id": "highd_instructions__multiple_choice__l2__0003__aug_00051__generation",
+      "left_seed_id": "highd_instructions__multiple_choice__l1__0004",
+      "right_seed_id": "highd_instructions__multiple_choice__l2__0003",
+      "left_concept_group_id": "highd_instructions__concept__a8aab85457e1cbec",
+      "right_concept_group_id": "highd_instructions__concept__b1408799c58f4d91",
+      "left_source_name": "highD_instructions",
+      "right_source_name": "highD_instructions",
+      "left_prompt": "Dataset context:\nVehicle trajectories in the highD dataset were recorded at a sampling rate of 25 Hz.\n\nQuestion:\nIn the context of the highD dataset, what does a sampling rate of 25 Hz indicate?\n\nOptions:\nA. 25 vehicles recorded per hour\nB. 25 cameras were used\nC. 25 minutes of footage\nD. 25 trajectory samples each second\n\nPlease provide the correct option and a concise explanation.",
+      "right_prompt": "Dataset context:\nVehicle trajectories in the highD dataset are sampled at 25 Hz and include position-based motion variables such as speed and acceleration.\n\nQuestion:\nIn the context of the highD dataset, what does a 25 Hz sampling rate tell us about how well motion variables like speed and acceleration can be determined?\n\nOptions:\nA. It indicates that data were collected once every 25 seconds\nB. It enables accurate calculation of motion-related variables such as speed and acceleration\nC. It limits the dataset to static vehicle counts only\nD. It restricts the dataset to qualitative observations\n\nPlease provide the correct option and a concise explanation.",
+      "similarity": 0.913011,
+      "supporting_record_pair_count": 156,
+      "human_decision": "related_but_distinct",
+      "human_notes": "Both mention 25 Hz, but the Level 1 item asks for its literal frequency meaning while the Level 2 item asks what motion-variable calculation it supports."
+    }
+  ],
+  "split_pairs": {
+    "test__train": {
+      "flagged_record_pair_count": 1,
+      "flagged_candidate_count": 1,
+      "retained_candidate_count": 1,
+      "human_review_count": 1,
+      "maximum_similarity": 0.904498,
+      "candidates": [
+        {
+          "split_pair": "test__train",
+          "left_split": "test",
+          "right_split": "train",
+          "left_example_id": "tlc_trip_instructions__short_answer__l1__0001__aug_00048__generation",
+          "right_example_id": "tlc_trip_instructions__short_answer__l1__0010__aug_00014__generation",
+          "left_seed_id": "tlc_trip_instructions__short_answer__l1__0001",
+          "right_seed_id": "tlc_trip_instructions__short_answer__l1__0010",
+          "left_concept_group_id": "tlc_trip_instructions__concept__33b139cb4069c24a",
+          "right_concept_group_id": "tlc_trip_instructions__concept__8b7dfcb4e2bfbaba",
+          "left_source_name": "tlc_trip_instructions",
+          "right_source_name": "tlc_trip_instructions",
+          "left_prompt": "Dataset context:\nThe TLC trip dataset captures the movements of passengers who actually used NYC taxis and for-hire vehicles.\n\nQuestion:\nTLC trip data primarily represents what about passenger movements in New York City?\n\nPlease provide a concise answer grounded in the dataset information.",
+          "right_prompt": "Dataset context:\nTrips in the TLC data are logged with their origins and destinations located in New York City.\n\nQuestion:\nThe TLC trip data covers taxi trip locations exclusively inside which city?\n\nPlease provide a concise answer grounded in the dataset information.",
+          "similarity": 0.904498,
+          "supporting_record_pair_count": 1,
+          "human_decision": "pending"
+        }
+      ]
+    },
+    "test__validation": {
+      "flagged_record_pair_count": 564,
+      "flagged_candidate_count": 2,
+      "retained_candidate_count": 2,
+      "human_review_count": 2,
+      "maximum_similarity": 0.927345,
+      "candidates": [
+        {
+          "split_pair": "test__validation",
+          "left_split": "test",
+          "right_split": "validation",
+          "left_example_id": "ngsim_instructions__multiple_choice__l1__0003__aug_00025__generation",
+          "right_example_id": "ngsim_instructions__multiple_choice__l2__0003__aug_00056__generation",
+          "left_seed_id": "ngsim_instructions__multiple_choice__l1__0003",
+          "right_seed_id": "ngsim_instructions__multiple_choice__l2__0003",
+          "left_concept_group_id": "ngsim_instructions__concept__f1bf94c536fcdc15",
+          "right_concept_group_id": "ngsim_instructions__concept__4b373bf32aa0fd6e",
+          "left_source_name": "ngsim_instructions",
+          "right_source_name": "ngsim_instructions",
+          "left_prompt": "Dataset context:\nThe NGSIM dataset captures vehicle trajectories at a sampling frequency of 10 Hz.\n\nQuestion:\nFor the NGSIM vehicle trajectory data, a sampling rate of 10 Hz indicates which of the following?\n\nOptions:\nA. 10 vehicles per hour\nB. 10 GB of data\nC. 10 measurements each second\nD. 10 cameras were used\n\nPlease provide the correct option and a concise explanation.",
+          "right_prompt": "Dataset context:\nNGSIM vehicle trajectories are sampled at 10 Hz and include position-based variables such as speed, acceleration, and lane IDs.\n\nQuestion:\nRegarding NGSIM vehicle trajectories, what does a 10 Hz sampling rate tell you about the resulting dataset?\n\nOptions:\nA. It restricts the dataset to static vehicle counts\nB. It supports accurate extraction of motion-related quantities, including speed and acceleration\nC. It indicates data were recorded once every 10 minutes\nD. It limits the dataset to qualitative observations\n\nPlease provide the correct option and a concise explanation.",
+          "similarity": 0.927345,
+          "supporting_record_pair_count": 408,
+          "human_decision": "pending"
+        },
+        {
+          "split_pair": "test__validation",
+          "left_split": "test",
+          "right_split": "validation",
+          "left_example_id": "highd_instructions__multiple_choice__l1__0004__aug_00002__generation",
+          "right_example_id": "highd_instructions__multiple_choice__l2__0003__aug_00051__generation",
+          "left_seed_id": "highd_instructions__multiple_choice__l1__0004",
+          "right_seed_id": "highd_instructions__multiple_choice__l2__0003",
+          "left_concept_group_id": "highd_instructions__concept__a8aab85457e1cbec",
+          "right_concept_group_id": "highd_instructions__concept__b1408799c58f4d91",
+          "left_source_name": "highD_instructions",
+          "right_source_name": "highD_instructions",
+          "left_prompt": "Dataset context:\nVehicle trajectories in the highD dataset were recorded at a sampling rate of 25 Hz.\n\nQuestion:\nIn the context of the highD dataset, what does a sampling rate of 25 Hz indicate?\n\nOptions:\nA. 25 vehicles recorded per hour\nB. 25 cameras were used\nC. 25 minutes of footage\nD. 25 trajectory samples each second\n\nPlease provide the correct option and a concise explanation.",
+          "right_prompt": "Dataset context:\nVehicle trajectories in the highD dataset are sampled at 25 Hz and include position-based motion variables such as speed and acceleration.\n\nQuestion:\nIn the context of the highD dataset, what does a 25 Hz sampling rate tell us about how well motion variables like speed and acceleration can be determined?\n\nOptions:\nA. It indicates that data were collected once every 25 seconds\nB. It enables accurate calculation of motion-related variables such as speed and acceleration\nC. It limits the dataset to static vehicle counts only\nD. It restricts the dataset to qualitative observations\n\nPlease provide the correct option and a concise explanation.",
+          "similarity": 0.913011,
+          "supporting_record_pair_count": 156,
+          "human_decision": "pending"
+        }
+      ]
+    },
+    "train__validation": {
+      "flagged_record_pair_count": 0,
+      "flagged_candidate_count": 0,
+      "retained_candidate_count": 0,
+      "human_review_count": 0,
+      "maximum_similarity": null,
+      "candidates": []
+    }
+  },
+  "adjudication_summary": {
+    "reviewed_concept_pairs": 3,
+    "related_but_distinct": 3,
+    "confirmed_leakage": 0,
+    "pending": 0,
+    "review_basis": "Manual comparison of the complete cleaned prompt pairs.",
+    "prior_decisions_reused_without_review": false
+  }
+}

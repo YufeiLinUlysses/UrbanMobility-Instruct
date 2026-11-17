@@ -1,0 +1,2148 @@
+{
+  "schema_version": "2.0",
+  "source_name": "ngsim_instructions",
+  "generator_model": "gpt-5.1",
+  "random_seed": 2025,
+  "seed_components": [
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset was collected on U.S. Highway 101 and I-80 in California.",
+        "Question": "Which roadways were used for collecting the NGSIM dataset?",
+        "Selections": {
+          "A": "I-95 in Florida",
+          "B": "U.S. Highway 101 and I-80 in California",
+          "C": "Route 66 in Arizona",
+          "D": "I-5 in Washington"
+        },
+        "Output": "B",
+        "Explanation": "NGSIM trajectory data was captured on U.S. Highway 101 and I-80 in California.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0001",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 0,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "On which specific highways was the NGSIM traffic dataset gathered?",
+          "The NGSIM dataset was compiled from vehicle trajectories recorded on which roadways?",
+          "From which roadways were the traffic trajectories in the NGSIM dataset originally collected?",
+          "The NGSIM traffic data collection took place on which of the following roadways?",
+          "Which of the following roadways served as the locations for collecting the NGSIM dataset?"
+        ],
+        "correct_answers": [
+          "U.S. Highway 101 and Interstate 80 in California",
+          "Interstate 80 and U.S. Highway 101 located in California"
+        ],
+        "explanations": [
+          "The NGSIM trajectory data was gathered from traffic observed on U.S. Highway 101 and I-80 in California.",
+          "Data for the NGSIM trajectories was recorded specifically on U.S. Highway 101 and Interstate 80 located in California."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "U.S. Highway 101 and I-80 in California",
+              "B": "I-95 in Florida",
+              "C": "I-5 in Washington",
+              "D": "Route 66 in Arizona"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Route 66 in Arizona",
+              "B": "U.S. Highway 101 and I-80 in California",
+              "C": "I-95 in Florida",
+              "D": "I-5 in Washington"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "U.S. Highway 101 and I-80 in California",
+              "B": "I-5 in Washington",
+              "C": "I-95 in Florida",
+              "D": "Route 66 in Arizona"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "U.S. Highway 101 and I-80 in California",
+              "B": "I-95 in Florida",
+              "C": "Route 66 in Arizona",
+              "D": "I-5 in Washington"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Route 66 in Arizona",
+              "B": "I-95 in Florida",
+              "C": "I-5 in Washington",
+              "D": "U.S. Highway 101 and I-80 in California"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset includes three 15-minute periods recorded during peak traffic hours.",
+        "Question": "When were the NGSIM recordings made?",
+        "Selections": {
+          "A": "Random times throughout the night",
+          "B": "Three 15-minute periods during peak traffic hours",
+          "C": "Only during weekend evenings",
+          "D": "Continuously over a full week"
+        },
+        "Output": "B",
+        "Explanation": "NGSIM collected trajectory data in three short peak-hour periods.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0002",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 1,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "During what time intervals were the NGSIM data recordings collected?",
+          "The NGSIM dataset was gathered over which specific recording periods?",
+          "In which time spans did NGSIM conduct its data recordings?",
+          "NGSIM trajectory data were obtained during which of the following recording schedules?",
+          "Over what kind of time periods were the NGSIM recordings carried out?"
+        ],
+        "correct_answers": [
+          "Three separate 15-minute intervals during peak traffic periods",
+          "Three 15-minute time windows captured during peak traffic hours"
+        ],
+        "explanations": [
+          "NGSIM gathered trajectory data during three brief 15-minute intervals that occurred in peak traffic periods.",
+          "The NGSIM dataset was recorded in three short segments, each 15 minutes long, specifically scheduled during peak-hour traffic."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Random times throughout the night",
+              "B": "Continuously over a full week",
+              "C": "Only during weekend evenings",
+              "D": "Three 15-minute periods during peak traffic hours"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Continuously over a full week",
+              "B": "Random times throughout the night",
+              "C": "Three 15-minute periods during peak traffic hours",
+              "D": "Only during weekend evenings"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Continuously over a full week",
+              "B": "Only during weekend evenings",
+              "C": "Three 15-minute periods during peak traffic hours",
+              "D": "Random times throughout the night"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Continuously over a full week",
+              "B": "Only during weekend evenings",
+              "C": "Random times throughout the night",
+              "D": "Three 15-minute periods during peak traffic hours"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Random times throughout the night",
+              "B": "Only during weekend evenings",
+              "C": "Three 15-minute periods during peak traffic hours",
+              "D": "Continuously over a full week"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset captures vehicle trajectories at a sampling frequency of 10 Hz.",
+        "Question": "What does a 10 Hz sampling frequency mean for NGSIM?",
+        "Selections": {
+          "A": "10 vehicles per hour",
+          "B": "10 samples per second",
+          "C": "10 GB of data",
+          "D": "10 cameras were used"
+        },
+        "Output": "B",
+        "Explanation": "“10 Hz” indicates 10 position samples recorded per second.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0003",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 2,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In the context of the NGSIM dataset, what does a sampling frequency of 10 Hz signify?",
+          "For the NGSIM vehicle trajectory data, a sampling rate of 10 Hz indicates which of the following?",
+          "When describing the NGSIM dataset, a sampling frequency of 10 Hz corresponds to what?",
+          "In NGSIM data collection, a 10 Hz sampling frequency means which of these?",
+          "Regarding NGSIM trajectories, what is implied by using a 10 Hz sampling frequency?"
+        ],
+        "correct_answers": [
+          "10 measurements each second",
+          "10 recorded samples every second"
+        ],
+        "explanations": [
+          "A sampling frequency of 10 Hz means that position data is captured 10 times every second.",
+          "The term 10 Hz refers to recording 10 position measurements per second in the dataset."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "10 vehicles per hour",
+              "B": "10 samples per second",
+              "C": "10 GB of data",
+              "D": "10 cameras were used"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "10 GB of data",
+              "B": "10 samples per second",
+              "C": "10 vehicles per hour",
+              "D": "10 cameras were used"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "10 vehicles per hour",
+              "B": "10 GB of data",
+              "C": "10 samples per second",
+              "D": "10 cameras were used"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "10 samples per second",
+              "B": "10 GB of data",
+              "C": "10 vehicles per hour",
+              "D": "10 cameras were used"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "10 cameras were used",
+              "B": "10 samples per second",
+              "C": "10 GB of data",
+              "D": "10 vehicles per hour"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset includes vehicle positions, speeds, accelerations, lane IDs, and vehicle classifications.",
+        "Question": "Which of the following is part of the NGSIM data fields?",
+        "Selections": {
+          "A": "Smartphone usage logs",
+          "B": "Vehicle positions and lane IDs",
+          "C": "Pedestrian facial recognition",
+          "D": "Weather radar outputs"
+        },
+        "Output": "B",
+        "Explanation": "NGSIM focuses on detailed vehicle trajectory information including lane assignment.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0004",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 3,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Which of the following data types is included in the NGSIM dataset fields?",
+          "NGSIM data fields contain which of the following kinds of information?",
+          "The NGSIM dataset specifically records which of the following as part of its fields?",
+          "Which option represents information that is actually stored in NGSIM data fields?",
+          "Among the following, which type of information is captured within the NGSIM data fields?"
+        ],
+        "correct_answers": [
+          "Positions of vehicles along with their lane identifiers",
+          "Locations of vehicles together with their corresponding lane IDs"
+        ],
+        "explanations": [
+          "NGSIM contains high-resolution vehicle trajectory data, which specifically includes each vehicle’s position and the lane it occupies.",
+          "The NGSIM dataset is designed to capture detailed motion of vehicles on roadways, so it records their spatial locations along with corresponding lane identifiers."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Weather radar outputs",
+              "B": "Smartphone usage logs",
+              "C": "Vehicle positions and lane IDs",
+              "D": "Pedestrian facial recognition"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Vehicle positions and lane IDs",
+              "B": "Weather radar outputs",
+              "C": "Pedestrian facial recognition",
+              "D": "Smartphone usage logs"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Smartphone usage logs",
+              "B": "Pedestrian facial recognition",
+              "C": "Vehicle positions and lane IDs",
+              "D": "Weather radar outputs"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Vehicle positions and lane IDs",
+              "B": "Weather radar outputs",
+              "C": "Smartphone usage logs",
+              "D": "Pedestrian facial recognition"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Smartphone usage logs",
+              "B": "Vehicle positions and lane IDs",
+              "C": "Weather radar outputs",
+              "D": "Pedestrian facial recognition"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM trajectories were extracted from video recordings and include known sources of noise.",
+        "Question": "Why must users examine NGSIM data quality?",
+        "Selections": {
+          "A": "It may contain extraction noise",
+          "B": "It has too few columns",
+          "C": "It is not downloadable",
+          "D": "It is only available on weekends"
+        },
+        "Output": "A",
+        "Explanation": "Video-based extraction introduces small trajectory inaccuracies.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0005",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 4,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Why is it important for users to carefully assess the quality of NGSIM data?",
+          "For what reason should users scrutinize NGSIM data quality before using it?",
+          "Why do users need to evaluate the reliability of NGSIM data?",
+          "What makes it necessary for users to inspect the quality of NGSIM data?",
+          "Why are users expected to review NGSIM data quality prior to analysis?"
+        ],
+        "correct_answers": [
+          "Because it can include noise from the extraction process",
+          "Because the data may have noise introduced during extraction"
+        ],
+        "explanations": [
+          "Because the trajectories are derived from video, the extraction process can introduce minor errors into the recorded vehicle paths, so users need to check the data quality.",
+          "Since trajectories are computed from video footage, the extraction step can cause slight inaccuracies in the position data, making it important for users to assess the data’s quality."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "It is only available on weekends",
+              "B": "It is not downloadable",
+              "C": "It has too few columns",
+              "D": "It may contain extraction noise"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "It may contain extraction noise",
+              "B": "It has too few columns",
+              "C": "It is only available on weekends",
+              "D": "It is not downloadable"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "It may contain extraction noise",
+              "B": "It has too few columns",
+              "C": "It is not downloadable",
+              "D": "It is only available on weekends"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "It is only available on weekends",
+              "B": "It may contain extraction noise",
+              "C": "It has too few columns",
+              "D": "It is not downloadable"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "It is not downloadable",
+              "B": "It is only available on weekends",
+              "C": "It may contain extraction noise",
+              "D": "It has too few columns"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset focuses on freeway traffic rather than urban arterials.",
+        "Question": "For which type of roadway is NGSIM most applicable?",
+        "Selections": {
+          "A": "Rural dirt roads",
+          "B": "Urban pedestrian plazas",
+          "C": "Freeways",
+          "D": "Suburban cul-de-sacs"
+        },
+        "Output": "C",
+        "Explanation": "NGSIM describes behavior on major freeways like U.S. 101 and I-80.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0006",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 5,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "NGSIM data is best suited for analyzing traffic on which type of roadway?",
+          "For what roadway environment is the NGSIM dataset primarily intended?",
+          "NGSIM is most appropriately applied to traffic studies on which kind of road?",
+          "When using NGSIM data, which roadway type is it most representative of?",
+          "NGSIM is mainly designed to capture traffic behavior on what category of roadway?"
+        ],
+        "correct_answers": [
+          "Highways with controlled access",
+          "Limited-access motorways"
+        ],
+        "explanations": [
+          "NGSIM focuses on traffic behavior on large freeways, such as U.S. 101 and I-80, making it most suitable for freeway analysis.",
+          "Because NGSIM data were collected on major freeway facilities like U.S. 101 and I-80, its methods and findings are best applied to freeways."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Freeways",
+              "B": "Suburban cul-de-sacs",
+              "C": "Urban pedestrian plazas",
+              "D": "Rural dirt roads"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Freeways",
+              "B": "Urban pedestrian plazas",
+              "C": "Suburban cul-de-sacs",
+              "D": "Rural dirt roads"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Freeways",
+              "B": "Urban pedestrian plazas",
+              "C": "Rural dirt roads",
+              "D": "Suburban cul-de-sacs"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Urban pedestrian plazas",
+              "B": "Suburban cul-de-sacs",
+              "C": "Rural dirt roads",
+              "D": "Freeways"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Suburban cul-de-sacs",
+              "B": "Rural dirt roads",
+              "C": "Urban pedestrian plazas",
+              "D": "Freeways"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset is publicly available as open data.",
+        "Question": "What is the licensing status of NGSIM?",
+        "Selections": {
+          "A": "Private, paid subscription",
+          "B": "Restricted to university researchers",
+          "C": "Government open data",
+          "D": "Only usable after signing an NDA"
+        },
+        "Output": "C",
+        "Explanation": "NGSIM is part of the U.S. DOT open data program.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0007",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 6,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Under what type of license is the NGSIM dataset made available?",
+          "How is the NGSIM dataset licensed for public use?",
+          "What best describes the licensing model applied to the NGSIM dataset?",
+          "Which of the following characterizes the official licensing status of NGSIM data?",
+          "What is the official data licensing arrangement under which NGSIM is released?"
+        ],
+        "correct_answers": [
+          "Government open data",
+          "U.S. government open data"
+        ],
+        "explanations": [
+          "NGSIM belongs to the U.S. Department of Transportation’s open data initiative, so it is released as government open data.",
+          "Because NGSIM is included in the U.S. DOT open data program, its licensing status is that of government open data."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Only usable after signing an NDA",
+              "B": "Restricted to university researchers",
+              "C": "Private, paid subscription",
+              "D": "Government open data"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Only usable after signing an NDA",
+              "B": "Government open data",
+              "C": "Restricted to university researchers",
+              "D": "Private, paid subscription"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Restricted to university researchers",
+              "B": "Private, paid subscription",
+              "C": "Government open data",
+              "D": "Only usable after signing an NDA"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "Restricted to university researchers",
+              "B": "Government open data",
+              "C": "Private, paid subscription",
+              "D": "Only usable after signing an NDA"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Only usable after signing an NDA",
+              "B": "Government open data",
+              "C": "Private, paid subscription",
+              "D": "Restricted to university researchers"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM provides full documentation including data dictionaries and methodology reports.",
+        "Question": "Why is the NGSIM documentation helpful?",
+        "Selections": {
+          "A": "It contains user interface photos",
+          "B": "It explains variable definitions and methods",
+          "C": "It provides advertisements",
+          "D": "It shows highway construction plans"
+        },
+        "Output": "B",
+        "Explanation": "Proper metadata supports correct interpretation of dataset fields.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0008",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 7,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In what way is the NGSIM documentation particularly useful?",
+          "What is the main benefit of the NGSIM documentation for users of the dataset?",
+          "Why would a researcher find the NGSIM documentation valuable when working with the data?",
+          "For someone analyzing NGSIM data, what makes the documentation especially important?",
+          "When using the NGSIM dataset, why is consulting the documentation advantageous?"
+        ],
+        "correct_answers": [
+          "It describes the variables and the methodologies used",
+          "It provides definitions of variables and explanations of the methods applied"
+        ],
+        "explanations": [
+          "Because it supplies the metadata needed to correctly understand what each dataset variable means and how it was produced.",
+          "Because it documents the definitions of the variables and the procedures used, enabling accurate interpretation of the dataset fields."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "It contains user interface photos",
+              "B": "It provides advertisements",
+              "C": "It explains variable definitions and methods",
+              "D": "It shows highway construction plans"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "It shows highway construction plans",
+              "B": "It provides advertisements",
+              "C": "It explains variable definitions and methods",
+              "D": "It contains user interface photos"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "It provides advertisements",
+              "B": "It shows highway construction plans",
+              "C": "It explains variable definitions and methods",
+              "D": "It contains user interface photos"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "It provides advertisements",
+              "B": "It contains user interface photos",
+              "C": "It explains variable definitions and methods",
+              "D": "It shows highway construction plans"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "It shows highway construction plans",
+              "B": "It contains user interface photos",
+              "C": "It provides advertisements",
+              "D": "It explains variable definitions and methods"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM data can be imported into simulation tools like SUMO, VISSIM, and Aimsun after preprocessing.",
+        "Question": "Why is tool compatibility important for NGSIM users?",
+        "Selections": {
+          "A": "It prevents file corruption",
+          "B": "It allows integration into traffic simulation workflows",
+          "C": "It ensures videos load quickly",
+          "D": "It improves dataset aesthetics"
+        },
+        "Output": "B",
+        "Explanation": "Planners often require datasets compatible with standard modeling software.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0009",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 8,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "What makes tool compatibility a key requirement for users working with NGSIM data?",
+          "Why do NGSIM users need the dataset to be compatible with common traffic modeling tools?",
+          "For NGSIM users, what is the main reason that compatibility with external tools matters?",
+          "Why is it important that NGSIM data can be used directly with standard traffic simulation software?",
+          "In the context of NGSIM, why is ensuring compatibility with traffic simulation tools considered crucial for users?"
+        ],
+        "correct_answers": [
+          "It enables incorporation into traffic simulation workflows",
+          "It supports integration within traffic simulation workflows"
+        ],
+        "explanations": [
+          "Tool compatibility matters because planners need NGSIM data to work smoothly with commonly used traffic modeling and simulation software in their existing workflows.",
+          "Since planners typically rely on standard modeling tools, NGSIM data must be compatible with those tools so it can be directly integrated into their traffic simulation processes."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "It prevents file corruption",
+              "B": "It ensures videos load quickly",
+              "C": "It improves dataset aesthetics",
+              "D": "It allows integration into traffic simulation workflows"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "It improves dataset aesthetics",
+              "B": "It allows integration into traffic simulation workflows",
+              "C": "It ensures videos load quickly",
+              "D": "It prevents file corruption"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "It prevents file corruption",
+              "B": "It allows integration into traffic simulation workflows",
+              "C": "It ensures videos load quickly",
+              "D": "It improves dataset aesthetics"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "It ensures videos load quickly",
+              "B": "It prevents file corruption",
+              "C": "It improves dataset aesthetics",
+              "D": "It allows integration into traffic simulation workflows"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "It prevents file corruption",
+              "B": "It ensures videos load quickly",
+              "C": "It allows integration into traffic simulation workflows",
+              "D": "It improves dataset aesthetics"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset reflects freeway driver behavior in California during weekday peak hours.",
+        "Question": "Which issue does 'generalizability' address when using NGSIM?",
+        "Selections": {
+          "A": "Whether the data loads fast",
+          "B": "Whether highway behavior from California applies to other regions",
+          "C": "Whether the fonts are readable",
+          "D": "Whether the files are small"
+        },
+        "Output": "B",
+        "Explanation": "Planners must consider whether California freeway behavior reflects their own region.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__multiple_choice__l1__0010",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 9,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In the context of using NGSIM data, what concern does the term 'generalizability' specifically refer to? A. Whether the data loads fast B. Whether highway behavior from California applies to other regions C. Whether the fonts are readable D. Whether the files are small",
+          "When working with the NGSIM dataset, what question is raised by the issue of 'generalizability'? A. Whether the data loads fast B. Whether highway behavior from California applies to other regions C. Whether the fonts are readable D. Whether the files are small",
+          "Regarding NGSIM, what does the concept of 'generalizability' focus on? A. Whether the data loads fast B. Whether highway behavior from California applies to other regions C. Whether the fonts are readable D. Whether the files are small",
+          "In analyzing NGSIM freeway data, what problem is captured by the idea of 'generalizability'? A. Whether the data loads fast B. Whether highway behavior from California applies to other regions C. Whether the fonts are readable D. Whether the files are small",
+          "When planners discuss the 'generalizability' of NGSIM, what are they primarily concerned about? A. Whether the data loads fast B. Whether highway behavior from California applies to other regions C. Whether the fonts are readable D. Whether the files are small"
+        ],
+        "correct_answers": [
+          "Whether freeway driving behavior observed in California is applicable to other geographic areas",
+          "Whether traffic behavior recorded on California highways can be validly used to represent behavior in other regions"
+        ],
+        "explanations": [
+          "Generalizability concerns whether driving patterns observed on California freeways in NGSIM can be validly applied to highways in other areas.",
+          "It addresses the question of whether the freeway behavior captured in California within NGSIM is representative of driver behavior in different regions."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Whether highway behavior from California applies to other regions",
+              "B": "Whether the data loads fast",
+              "C": "Whether the fonts are readable",
+              "D": "Whether the files are small"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Whether the data loads fast",
+              "B": "Whether highway behavior from California applies to other regions",
+              "C": "Whether the files are small",
+              "D": "Whether the fonts are readable"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Whether the files are small",
+              "B": "Whether the fonts are readable",
+              "C": "Whether the data loads fast",
+              "D": "Whether highway behavior from California applies to other regions"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "Whether highway behavior from California applies to other regions",
+              "B": "Whether the fonts are readable",
+              "C": "Whether the files are small",
+              "D": "Whether the data loads fast"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Whether the data loads fast",
+              "B": "Whether the fonts are readable",
+              "C": "Whether the files are small",
+              "D": "Whether highway behavior from California applies to other regions"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset was collected on U.S. Highway 101 and I-80, both of which are major freeways in California.",
+        "Question": "Combining its collection location and roadway type, which environment is the NGSIM dataset best suited to model?",
+        "Selections": {
+          "A": "Urban pedestrian streets in Europe",
+          "B": "Rural highways in the Midwest",
+          "C": "California freeway traffic",
+          "D": "Residential neighborhood roads"
+        },
+        "Output": "C",
+        "Explanation": "NGSIM was collected on U.S. Highway 101 and I-80 in California, both of which are freeways.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__multiple_choice__l2__0001",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 10,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Considering where and on what type of roads the data were gathered, which traffic setting is the NGSIM dataset most appropriate for modeling?",
+          "Given the collection sites and roadway classification of NGSIM, which traffic environment does this dataset primarily represent?",
+          "Based on the dataset’s acquisition locations and the fact that they are freeways, which traffic scenario is NGSIM most suitable for simulating?",
+          "Taking into account that NGSIM was recorded on major California freeways, which driving environment does it best capture?",
+          "If you consider both the geographic collection area and that the roads are high-speed freeways, which setting is NGSIM primarily designed to model?"
+        ],
+        "correct_answers": [
+          "Traffic on California freeways",
+          "Freeway traffic conditions in California"
+        ],
+        "explanations": [
+          "The NGSIM data was gathered on U.S. Highway 101 and Interstate 80 in California, and both of these roads are freeways, so it is most appropriate for modeling California freeway traffic.",
+          "Because the NGSIM dataset comes from vehicle trajectories recorded on California’s U.S. Highway 101 and I-80—both classified as freeways—it is best suited to represent California freeway traffic conditions."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Urban pedestrian streets in Europe",
+              "B": "Residential neighborhood roads",
+              "C": "Rural highways in the Midwest",
+              "D": "California freeway traffic"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "California freeway traffic",
+              "B": "Rural highways in the Midwest",
+              "C": "Urban pedestrian streets in Europe",
+              "D": "Residential neighborhood roads"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Residential neighborhood roads",
+              "B": "Urban pedestrian streets in Europe",
+              "C": "California freeway traffic",
+              "D": "Rural highways in the Midwest"
+            },
+            "Output": "C"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM recordings consist of three 15-minute periods captured during weekday peak traffic hours.",
+        "Question": "What can be inferred by combining the short recording periods with their peak-hour timing in NGSIM?",
+        "Selections": {
+          "A": "The dataset represents overnight low-traffic conditions",
+          "B": "The dataset captures peak-hour congestion on freeways",
+          "C": "The dataset provides year-long traffic trends",
+          "D": "The dataset focuses on weekend recreational traffic"
+        },
+        "Output": "B",
+        "Explanation": "NGSIM was recorded during peak hours, emphasizing congested freeway traffic.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__multiple_choice__l2__0002",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 11,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Based on the brief recording durations and their scheduling during peak hours in NGSIM, what does this imply about the type of traffic conditions represented in the dataset?",
+          "Considering that NGSIM data was collected in three short 15-minute intervals during weekday rush hours, what does this suggest about the traffic situation that the dataset emphasizes?",
+          "Given that NGSIM recordings are limited to three 15-minute sessions taken during weekday peak periods, what conclusion can be drawn about the nature of the traffic captured in this dataset?",
+          "If NGSIM only includes three short 15-minute recordings collected during weekday rush hours, what does this combination of duration and timing indicate about the traffic conditions represented?",
+          "Taking into account that NGSIM consists of three 15-minute segments recorded on weekdays during peak traffic times, what inference can be made about the primary traffic scenario depicted in the dataset?"
+        ],
+        "correct_answers": [
+          "The dataset represents freeway traffic during peak-hour congestion",
+          "The data reflects congested freeway conditions during peak travel hours"
+        ],
+        "explanations": [
+          "Because NGSIM data was collected specifically during peak hours, it highlights traffic conditions when freeways are most congested, rather than lighter, off-peak periods.",
+          "The timing of the short recording intervals during peak hours indicates that the dataset is intended to capture detailed snapshots of heavy freeway congestion rather than long-term or low-traffic patterns."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "The dataset represents overnight low-traffic conditions",
+              "B": "The dataset focuses on weekend recreational traffic",
+              "C": "The dataset provides year-long traffic trends",
+              "D": "The dataset captures peak-hour congestion on freeways"
+            },
+            "Output": "D"
+          },
+          {
+            "Selections": {
+              "A": "The dataset provides year-long traffic trends",
+              "B": "The dataset focuses on weekend recreational traffic",
+              "C": "The dataset captures peak-hour congestion on freeways",
+              "D": "The dataset represents overnight low-traffic conditions"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "The dataset captures peak-hour congestion on freeways",
+              "B": "The dataset provides year-long traffic trends",
+              "C": "The dataset focuses on weekend recreational traffic",
+              "D": "The dataset represents overnight low-traffic conditions"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM vehicle trajectories are sampled at 10 Hz and include position-based variables such as speed, acceleration, and lane IDs.",
+        "Question": "How does the 10 Hz sampling rate relate to the types of data available in NGSIM?",
+        "Selections": {
+          "A": "It restricts the dataset to static vehicle counts",
+          "B": "It enables accurate derivation of motion variables such as speed and acceleration",
+          "C": "It indicates data were recorded once every 10 minutes",
+          "D": "It limits the dataset to qualitative observations"
+        },
+        "Output": "B",
+        "Explanation": "A 10 Hz sampling frequency supports detailed motion analysis.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__multiple_choice__l2__0003",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 12,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "In the context of NGSIM, what does the 10 Hz sampling rate allow researchers to do with the collected data?",
+          "Within the NGSIM dataset, what is the significance of having vehicle trajectories sampled at 10 Hz?",
+          "What does the 10 Hz sampling frequency imply about the kind of vehicle trajectory information provided in NGSIM?",
+          "In NGSIM trajectory data, what is the practical consequence of recording vehicle positions at 10 Hz?",
+          "Regarding NGSIM vehicle trajectories, what does a 10 Hz sampling rate tell you about the resulting dataset?"
+        ],
+        "correct_answers": [
+          "It allows precise calculation of motion variables like speed and acceleration",
+          "It supports accurate extraction of motion-related quantities, including speed and acceleration"
+        ],
+        "explanations": [
+          "A 10 Hz sampling frequency allows data to be captured often enough to accurately compute detailed motion variables like speed and acceleration.",
+          "Because measurements are taken ten times per second, the dataset has sufficient temporal resolution to reliably derive motion-related quantities such as speed and acceleration."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "It restricts the dataset to static vehicle counts",
+              "B": "It enables accurate derivation of motion variables such as speed and acceleration",
+              "C": "It indicates data were recorded once every 10 minutes",
+              "D": "It limits the dataset to qualitative observations"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "It limits the dataset to qualitative observations",
+              "B": "It indicates data were recorded once every 10 minutes",
+              "C": "It enables accurate derivation of motion variables such as speed and acceleration",
+              "D": "It restricts the dataset to static vehicle counts"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "It restricts the dataset to static vehicle counts",
+              "B": "It indicates data were recorded once every 10 minutes",
+              "C": "It limits the dataset to qualitative observations",
+              "D": "It enables accurate derivation of motion variables such as speed and acceleration"
+            },
+            "Output": "D"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM trajectories were extracted from video recordings, a process known to introduce noise and small inaccuracies.",
+        "Question": "Why must users examine data quality when working with NGSIM, given its extraction method?",
+        "Selections": {
+          "A": "Because the dataset has too few variables",
+          "B": "Because video-based extraction introduces trajectory noise",
+          "C": "Because the dataset cannot be downloaded",
+          "D": "Because the files are encrypted"
+        },
+        "Output": "B",
+        "Explanation": "Trajectory noise is a known limitation of video-based extraction methods.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__multiple_choice__l2__0004",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 13,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "Why is it important for users to assess data quality when using NGSIM, considering that its trajectories were extracted from video recordings?",
+          "Given that NGSIM trajectories are derived from video footage, why should users carefully evaluate the quality of the data?",
+          "Why do users need to scrutinize NGSIM’s data quality in light of the fact that its trajectories were obtained through video-based extraction?",
+          "Considering that NGSIM relies on trajectories captured from video, why is it necessary for users to inspect the dataset’s quality?",
+          "Why should users pay special attention to data quality in NGSIM, knowing that its trajectory data comes from video-based extraction methods?"
+        ],
+        "correct_answers": [
+          "Because extracting trajectories from video inherently adds noise to the data",
+          "Because the use of video to extract trajectories naturally results in noisy trajectory data"
+        ],
+        "explanations": [
+          "Users need to assess data quality because the video-based method used to extract trajectories can introduce noise into the recorded vehicle paths.",
+          "Since NGSIM trajectories are derived from video footage, the extraction process is prone to inaccuracies, making it important to check for trajectory noise in the data."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "Because the dataset cannot be downloaded",
+              "B": "Because video-based extraction introduces trajectory noise",
+              "C": "Because the dataset has too few variables",
+              "D": "Because the files are encrypted"
+            },
+            "Output": "B"
+          },
+          {
+            "Selections": {
+              "A": "Because video-based extraction introduces trajectory noise",
+              "B": "Because the dataset cannot be downloaded",
+              "C": "Because the files are encrypted",
+              "D": "Because the dataset has too few variables"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "Because the dataset has too few variables",
+              "B": "Because video-based extraction introduces trajectory noise",
+              "C": "Because the dataset cannot be downloaded",
+              "D": "Because the files are encrypted"
+            },
+            "Output": "B"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM is distributed as open government data and reflects freeway driving behavior in California.",
+        "Question": "What should researchers consider when reusing NGSIM, given its licensing status and regional focus?",
+        "Selections": {
+          "A": "It is restricted to private companies only",
+          "B": "It is open data, but regional driving behavior may not generalize",
+          "C": "It requires a paid license for all uses",
+          "D": "It is only suitable for pedestrian studies"
+        },
+        "Output": "B",
+        "Explanation": "NGSIM is openly available but represents California freeway traffic patterns.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__multiple_choice__l2__0005",
+        "source_name": "ngsim_instructions",
+        "task_type": "multiple_choice",
+        "source_instruction_index": 0,
+        "source_example_index": 14,
+        "category": "Multiple Selection",
+        "task_definition": "You are given 4 answer options (associated with 'A', 'B', 'C', 'D'), out of which only one is correct. You need to answer the question by selecting the correct option. You should only answer with the choice letter, not the whole answer."
+      },
+      "components": {
+        "questions": [
+          "When working with NGSIM data, which factor related to its open-government license and California freeway origin should researchers keep in mind?",
+          "In reusing NGSIM, what key issue arises from its status as open data collected on California freeways?",
+          "Given that NGSIM is openly available and based on California freeway traffic, what must researchers be cautious about when applying it elsewhere?",
+          "Considering NGSIM’s open-data license and its basis in California freeway driving, what limitation should researchers account for in their studies?",
+          "Because NGSIM is open government data derived from California freeway behavior, what important consideration should guide researchers’ reuse of this dataset?"
+        ],
+        "correct_answers": [
+          "It is open data, but its region-specific driving patterns may not be broadly applicable",
+          "It is publicly available, yet its California-based driving behavior might not generalize to other regions"
+        ],
+        "explanations": [
+          "Researchers should recognize that NGSIM is freely available as open data, but it reflects driving behavior specific to California freeways, which may not be representative of other regions or contexts.",
+          "Although NGSIM can be reused without licensing fees because it is open data, its focus on California freeway traffic means the captured driving patterns might not generalize well to different geographic areas or traffic environments."
+        ],
+        "choice_permutations": [
+          {
+            "Selections": {
+              "A": "It is open data, but regional driving behavior may not generalize",
+              "B": "It is restricted to private companies only",
+              "C": "It requires a paid license for all uses",
+              "D": "It is only suitable for pedestrian studies"
+            },
+            "Output": "A"
+          },
+          {
+            "Selections": {
+              "A": "It is restricted to private companies only",
+              "B": "It is only suitable for pedestrian studies",
+              "C": "It is open data, but regional driving behavior may not generalize",
+              "D": "It requires a paid license for all uses"
+            },
+            "Output": "C"
+          },
+          {
+            "Selections": {
+              "A": "It is open data, but regional driving behavior may not generalize",
+              "B": "It is restricted to private companies only",
+              "C": "It is only suitable for pedestrian studies",
+              "D": "It requires a paid license for all uses"
+            },
+            "Output": "A"
+          }
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM reflects freeway driver behavior in California during weekday peak hours.",
+        "Question": "What traffic conditions does the NGSIM dataset represent?",
+        "Output": "California freeway peak-hour traffic.",
+        "Explanation": "Recordings were taken during congested peak periods on California freeways.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0001",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 0,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The NGSIM dataset captures driver behavior on California freeways during busy weekday rush hours.",
+            "Explanation": "It was collected on California freeways specifically during high-demand rush-hour periods, matching peak-hour traffic conditions."
+          },
+          {
+            "Fact": "NGSIM data represents traffic on California freeways at times of heavy weekday congestion.",
+            "Explanation": "The recordings focus on congested intervals on California freeways, corresponding to peak-hour traffic flows."
+          },
+          {
+            "Fact": "The NGSIM dataset is based on observations of California freeway traffic during weekday rush-hour conditions.",
+            "Explanation": "Data collection targeted rush-hour windows on California freeways, so the dataset reflects peak-hour traffic states."
+          },
+          {
+            "Fact": "NGSIM characterizes vehicle movements on California freeways when traffic volumes are highest on weekdays.",
+            "Explanation": "The study sites were monitored during the busiest weekday periods, ensuring the dataset depicts peak-hour freeway traffic in California."
+          },
+          {
+            "Fact": "The NGSIM dataset models California freeway operations under typical weekday peak-period demand.",
+            "Explanation": "Measurements were taken during standard weekday peak periods on California freeways, so the data corresponds to peak-hour traffic conditions."
+          }
+        ],
+        "questions": [
+          "What type of traffic scenario is captured in the NGSIM dataset?",
+          "The NGSIM dataset was collected to study which kind of traffic on California freeways?",
+          "NGSIM data is representative of what specific freeway traffic conditions in California?",
+          "Which traffic environment on California freeways does the NGSIM dataset primarily model?",
+          "The NGSIM dataset focuses on driver behavior under what freeway traffic conditions in California?",
+          "What particular California freeway traffic situation during weekdays is characterized by the NGSIM dataset?",
+          "NGSIM recordings were made to reflect which kind of peak-period traffic on California freeways?",
+          "The NGSIM dataset is intended to represent what sort of weekday traffic on California freeways?",
+          "What real-world traffic setting on California freeways does NGSIM aim to capture?",
+          "NGSIM observations correspond to which specific traffic conditions on California freeways during weekdays?"
+        ],
+        "negative_candidates": [
+          "Rural two-lane highway traffic during off-peak nighttime hours in the Midwest.",
+          "Urban arterial intersections with signalized cross streets in downtown New York City.",
+          "Suburban collector roads under free-flow conditions on weekend afternoons in Texas.",
+          "European multilane roundabouts during midday non-congested periods.",
+          "Mixed urban–rural corridors in Japan during holiday travel surges.",
+          "Unsignalized residential streets with low-speed neighborhood traffic in Florida.",
+          "High-occupancy toll (HOT) lanes on East Coast expressways during early morning free-flow conditions.",
+          "Dedicated bus rapid transit (BRT) corridors in South American cities during regular weekday service.",
+          "Mountain pass roads with heavy truck traffic during winter weather conditions in Colorado.",
+          "Signal-controlled freeway ramp metering queues in Chicago during light traffic periods."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM data can be imported into simulation tools like SUMO, VISSIM, and Aimsun after preprocessing.",
+        "Question": "Name one simulation tool that can use NGSIM data.",
+        "Output": "SUMO, VISSIM, or Aimsun.",
+        "Explanation": "Many traffic simulation tools can load NGSIM after format conversion.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0002",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 1,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "After appropriate preprocessing, NGSIM datasets can be loaded into microscopic traffic simulators such as SUMO, VISSIM, and Aimsun.",
+            "Explanation": "Because SUMO, VISSIM, and Aimsun can all read NGSIM data once it is converted to their input formats, any one of them is a valid tool to name."
+          },
+          {
+            "Fact": "Traffic simulation platforms including SUMO, VISSIM, and Aimsun are capable of using NGSIM data once it has been converted into their supported formats.",
+            "Explanation": "Since these simulators accept NGSIM data after format conversion, each of SUMO, VISSIM, and Aimsun qualifies as a correct example."
+          },
+          {
+            "Fact": "With suitable data preprocessing, NGSIM trajectory data can be imported into simulation environments like SUMO, VISSIM, and Aimsun.",
+            "Explanation": "Because NGSIM can be brought into SUMO, VISSIM, or Aimsun through preprocessing, any of these simulators can be correctly cited as an answer."
+          },
+          {
+            "Fact": "NGSIM traffic data, after being reformatted, is compatible with several simulators, including SUMO, VISSIM, and Aimsun.",
+            "Explanation": "The compatibility of NGSIM with SUMO, VISSIM, and Aimsun means that naming any one of these tools correctly answers the question."
+          },
+          {
+            "Fact": "Once NGSIM data is preprocessed into the right structure, it can be used in traffic simulation tools such as SUMO, VISSIM, and Aimsun.",
+            "Explanation": "Because these tools can run simulations based on preprocessed NGSIM data, SUMO, VISSIM, or Aimsun are all acceptable responses."
+          }
+        ],
+        "questions": [
+          "Identify one traffic simulation software package that is capable of using NGSIM data after preprocessing.",
+          "Give an example of a simulation tool into which NGSIM data can be imported once it has been preprocessed.",
+          "Name a traffic simulation program that can load NGSIM data after it is converted to the proper format.",
+          "What is one microscopic traffic simulation tool that can work with NGSIM data following preprocessing?",
+          "Provide the name of one simulation platform that supports importing NGSIM data after suitable preprocessing.",
+          "Cite one simulation environment that can utilize NGSIM data once the data has been preprocessed.",
+          "Mention a traffic simulation package that can accept NGSIM data after it has been formatted correctly.",
+          "List one simulation tool that is able to read NGSIM data after performing the necessary preprocessing steps.",
+          "What is one example of a simulation software that can import and use NGSIM data after preprocessing?",
+          "Identify a traffic simulation application that can incorporate NGSIM data once it has undergone preprocessing."
+        ],
+        "negative_candidates": [
+          "MATLAB Simulink",
+          "TransModeler",
+          "HCS (Highway Capacity Software)",
+          "Synchro Studio",
+          "PTV VISUM",
+          "Cube Voyager",
+          "OpenStreetMap Editor",
+          "ArcGIS Network Analyst",
+          "Eclipse MOSAIC",
+          "Vehicle Dynamics Library (VDL)"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM provides full documentation including data dictionaries and methodology reports.",
+        "Question": "What type of supporting materials does the NGSIM dataset provide?",
+        "Output": "Documentation such as data dictionaries and methodology reports.",
+        "Explanation": "NGSIM includes extensive metadata describing variables and collection processes.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0003",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 2,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The NGSIM dataset comes with comprehensive documentation, including detailed data dictionaries and reports on the methods used to create the data.",
+            "Explanation": "These materials describe the dataset’s variables and the procedures used to collect and process them, matching the answer’s focus on documentation and methodology reports."
+          },
+          {
+            "Fact": "NGSIM supplies extensive supporting documents, notably data dictionaries and methodological reports that explain how the dataset was produced.",
+            "Explanation": "The provided documentation outlines variable definitions and data generation methods, which aligns with the answer’s mention of data dictionaries and methodology reports."
+          },
+          {
+            "Fact": "Alongside the raw data, NGSIM offers thorough documentation resources, such as data dictionaries and reports describing the methodological approach.",
+            "Explanation": "These resources give structured descriptions of each field and the overall data collection methodology, directly corresponding to the answer’s listed documentation types."
+          },
+          {
+            "Fact": "NGSIM includes rich supporting documentation, featuring data dictionaries and detailed reports on the methodology behind the dataset.",
+            "Explanation": "The documentation clarifies what each variable represents and how the data were obtained, which is exactly the kind of supporting material cited in the answer."
+          },
+          {
+            "Fact": "The NGSIM dataset is accompanied by full supporting documentation, including variable data dictionaries and formal methodology reports.",
+            "Explanation": "By providing both variable-level descriptions and explanations of the collection process, NGSIM offers the documentation types identified in the answer."
+          }
+        ],
+        "questions": [
+          "What kinds of documentation materials are included with the NGSIM dataset?",
+          "Which types of descriptive resources, like data dictionaries and methodology reports, are supplied with the NGSIM dataset?",
+          "What forms of documentation does NGSIM offer to explain its variables and data collection methods?",
+          "What supporting documents, for example data dictionaries and methodological descriptions, accompany the NGSIM dataset?",
+          "What kinds of metadata resources, including data dictionaries and methodology reports, are provided with NGSIM?",
+          "What types of explanatory documentation does NGSIM include alongside its data?",
+          "Which supporting documentation, such as data dictionaries and reports on methods, does NGSIM make available?",
+          "What categories of supporting documentation come with the NGSIM dataset to describe its structure and collection process?",
+          "What forms of supporting information, like data dictionaries and methodology write-ups, are bundled with NGSIM?",
+          "What types of detailed documentation does NGSIM supply to help users understand the dataset and how it was collected?"
+        ],
+        "negative_candidates": [
+          "Only raw trajectory data files without any additional explanatory materials.",
+          "Interactive visualization dashboards but no written documentation or metadata files.",
+          "Proprietary simulation software tools instead of descriptive documentation resources.",
+          "Audio recordings of field researchers discussing the data in lieu of formal written reports.",
+          "Physical printed manuals that must be requested by mail, with no digital documentation available.",
+          "Crowdsourced user comments and forum posts that substitute for official data dictionaries.",
+          "High-level marketing brochures summarizing the project but omitting variable-level descriptions.",
+          "Training videos demonstrating traffic scenarios but providing no written methodological details.",
+          "Encrypted metadata files that cannot be accessed or interpreted by standard tools.",
+          "A single-page README text file with no detailed descriptions of variables or collection methods."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset is publicly available as open data.",
+        "Question": "Is the NGSIM dataset publicly accessible?",
+        "Output": "Yes, it is open data.",
+        "Explanation": "NGSIM is distributed as a public open-access dataset.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0004",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 3,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The NGSIM dataset can be freely accessed by the public as open data.",
+            "Explanation": "Because NGSIM is released for unrestricted public use, it qualifies as open data and is publicly accessible."
+          },
+          {
+            "Fact": "NGSIM has been released as an open-access dataset that anyone can download.",
+            "Explanation": "Since NGSIM is distributed under an open-access model, it is available to the public and thus is open data."
+          },
+          {
+            "Fact": "Members of the public are allowed to obtain and use the NGSIM dataset without special restrictions.",
+            "Explanation": "The lack of special access restrictions means NGSIM is provided as open data that is publicly accessible."
+          },
+          {
+            "Fact": "The NGSIM dataset is distributed in a manner that permits public use and sharing.",
+            "Explanation": "Because it is distributed for public use and sharing, NGSIM is considered open data and is accessible to everyone."
+          },
+          {
+            "Fact": "NGSIM is made available online for general public access as an open dataset.",
+            "Explanation": "Being posted online for general public access indicates that NGSIM is open data and can be freely obtained."
+          }
+        ],
+        "questions": [
+          "Can the public freely access the NGSIM dataset?",
+          "Is the NGSIM dataset available as open-access data?",
+          "Is NGSIM released as a publicly available dataset?",
+          "Can anyone download the NGSIM dataset as open data?",
+          "Is the NGSIM dataset openly accessible to the public?",
+          "Is NGSIM provided as a public open-data resource?",
+          "Is the NGSIM dataset offered for public use without restriction?",
+          "Is NGSIM made available as an open, publicly accessible dataset?",
+          "Is the NGSIM dataset distributed as open data that anyone can access?",
+          "Is NGSIM accessible to the general public as an open dataset?"
+        ],
+        "negative_candidates": [
+          "No, the NGSIM dataset is proprietary and can only be accessed through a paid license agreement.",
+          "No, NGSIM data is restricted to internal use by the U.S. Department of Transportation and is not shared externally.",
+          "No, the NGSIM dataset is only available to researchers who sign a non-disclosure agreement and obtain special clearance.",
+          "No, the NGSIM dataset was made public initially but has since been removed and is no longer accessible to the general public.",
+          "No, access to the NGSIM dataset is limited to commercial partners collaborating directly with the original project team.",
+          "No, the NGSIM dataset can only be accessed through a closed institutional repository that requires membership fees.",
+          "No, the NGSIM dataset is classified due to privacy concerns and cannot be downloaded by the public.",
+          "No, NGSIM is only distributed on physical media to approved government agencies, not via any public portal.",
+          "No, the NGSIM dataset is available only as part of a private benchmark suite that requires a formal application and review.",
+          "No, NGSIM data is accessible exclusively through a paywalled analytics platform, not as an open dataset."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset was collected on U.S. Highway 101 and I-80 in California.",
+        "Question": "Where was the NGSIM dataset collected?",
+        "Output": "U.S. Highway 101 and I-80 in California.",
+        "Explanation": "The dataset was collected on U.S. Highway 101 and I-80 in California.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0005",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 4,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "Data for the NGSIM dataset was gathered from traffic on U.S. Highway 101 and Interstate 80 in California.",
+            "Explanation": "The collection sites for the NGSIM dataset were U.S. Highway 101 and I-80 in the state of California, which matches the stated answer."
+          },
+          {
+            "Fact": "NGSIM’s traffic recordings were obtained along segments of U.S. Highway 101 and I-80 located in California.",
+            "Explanation": "Because the traffic data was recorded on U.S. Highway 101 and I-80 in California, the correct location is U.S. Highway 101 and I-80 in California."
+          },
+          {
+            "Fact": "Researchers collected the NGSIM dataset from roadway sections on U.S. Highway 101 and Interstate 80 in California.",
+            "Explanation": "Since the dataset originates from sections of U.S. Highway 101 and I-80 in California, the answer is U.S. Highway 101 and I-80 in California."
+          },
+          {
+            "Fact": "The NGSIM dataset originates from vehicle trajectory data captured on U.S. Highway 101 and I-80 in California.",
+            "Explanation": "Because the original trajectory data was captured on U.S. Highway 101 and I-80 in California, that is the correct collection location."
+          },
+          {
+            "Fact": "All NGSIM data was recorded on California roadways, specifically U.S. Highway 101 and Interstate 80.",
+            "Explanation": "The only roads used for NGSIM data collection were U.S. Highway 101 and I-80 in California, so the dataset’s location is U.S. Highway 101 and I-80 in California."
+          }
+        ],
+        "questions": [
+          "On which roadways was the NGSIM dataset gathered?",
+          "The NGSIM dataset was recorded along which highways?",
+          "Identify the specific highways where the NGSIM dataset was collected.",
+          "The NGSIM dataset originates from traffic data on which California highways?",
+          "From which two California highways was the NGSIM dataset obtained?",
+          "Name the highways in California where the NGSIM dataset was captured.",
+          "The NGSIM dataset was compiled using traffic data from which segments of the U.S. highway system in California?",
+          "On what California highway corridors was the NGSIM dataset recorded?",
+          "Which California interstate and U.S. highway were used to collect the NGSIM dataset?",
+          "Specify the California highways that served as the collection sites for the NGSIM dataset."
+        ],
+        "negative_candidates": [
+          "On Interstate 95 and the New Jersey Turnpike on the U.S. East Coast",
+          "Along the M25 orbital motorway around London in the United Kingdom",
+          "On urban arterials in downtown Chicago, Illinois",
+          "On State Route 520 and Interstate 5 in Seattle, Washington",
+          "On the Autobahn A3 and A9 corridors in Germany",
+          "On Toronto’s Highway 401 and the Don Valley Parkway in Ontario, Canada",
+          "On the Garden State Parkway and Route 1 in New Jersey",
+          "On Interstate 10 and Loop 610 in Houston, Texas",
+          "On the Tokyo Shuto Expressway C1 inner loop in Japan",
+          "On the A1 and A4 motorways near Paris, France"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset includes three 15-minute periods recorded during peak traffic hours.",
+        "Question": "How many 15-minute data collection periods are included in the NGSIM dataset?",
+        "Output": "Three periods.",
+        "Explanation": "The dataset contains three distinct 15-minute recordings collected during peak hours.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0006",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 5,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The NGSIM dataset consists of three separate 15-minute data collection intervals captured during peak traffic conditions.",
+            "Explanation": "Because there are three distinct 15-minute intervals, the total number of 15-minute periods in the dataset is three."
+          },
+          {
+            "Fact": "Within the NGSIM dataset, traffic data was gathered over three individual 15-minute time segments.",
+            "Explanation": "Since the data was recorded in three separate 15-minute segments, the dataset includes three such periods."
+          },
+          {
+            "Fact": "NGSIM’s traffic recordings are divided into three discrete 15-minute observation windows.",
+            "Explanation": "The presence of three observation windows of 15 minutes each means the dataset has three 15-minute periods."
+          },
+          {
+            "Fact": "There are three distinct 15-minute time blocks of traffic data collection in the NGSIM dataset.",
+            "Explanation": "Because the dataset is organized into three 15-minute blocks, the number of 15-minute periods is three."
+          },
+          {
+            "Fact": "The NGSIM dataset was compiled from three unique 15-minute sampling periods.",
+            "Explanation": "As the dataset is based on three separate 15-minute samples, it contains three 15-minute data collection periods."
+          }
+        ],
+        "questions": [
+          "What is the total number of 15-minute data collection intervals contained in the NGSIM dataset?",
+          "How many separate 15-minute recording segments does the NGSIM dataset provide?",
+          "The NGSIM dataset was gathered in 15-minute intervals; how many such intervals are there in total?",
+          "Counting only the 15-minute collection windows, how many are present in the NGSIM dataset?",
+          "How many distinct 15-minute observation periods were used to compile the NGSIM dataset?",
+          "In terms of 15-minute sampling periods, how many does the NGSIM dataset consist of?",
+          "How many individual 15-minute time blocks of data were recorded for the NGSIM dataset?",
+          "What is the number of 15-minute traffic recording periods included in the NGSIM dataset?",
+          "How many separate 15-minute peak-hour data segments are included in the NGSIM dataset?",
+          "When broken down into 15-minute collection spans, how many such spans are in the NGSIM dataset?"
+        ],
+        "negative_candidates": [
+          "One period.",
+          "Two periods.",
+          "Four periods.",
+          "Five periods.",
+          "Six periods.",
+          "Seven periods.",
+          "Eight periods.",
+          "Nine periods.",
+          "Ten periods.",
+          "Twelve periods."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset captures vehicle trajectories at a sampling frequency of 10 Hz.",
+        "Question": "At what sampling frequency were NGSIM vehicle trajectories recorded?",
+        "Output": "10 Hz.",
+        "Explanation": "Each vehicle’s trajectory was collected at a rate of 10 samples per second.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0007",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 6,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The NGSIM vehicle trajectory data were recorded at a rate of 10 Hz.",
+            "Explanation": "This means the positions of vehicles were sampled 10 times every second."
+          },
+          {
+            "Fact": "In the NGSIM dataset, vehicle trajectories were sampled with a frequency of 10 Hz.",
+            "Explanation": "A 10 Hz sampling rate corresponds to collecting trajectory data 10 times per second for each vehicle."
+          },
+          {
+            "Fact": "NGSIM trajectory recordings use a 10 Hz sampling frequency.",
+            "Explanation": "Using 10 Hz implies that each vehicle’s motion was measured at 10 equally spaced time intervals per second."
+          },
+          {
+            "Fact": "Vehicle trajectories in the NGSIM data are logged at 10 Hz.",
+            "Explanation": "Logging at 10 Hz indicates that trajectory points are captured 10 times in each second of observation."
+          },
+          {
+            "Fact": "The sampling frequency for NGSIM vehicle trajectories is 10 Hz.",
+            "Explanation": "A sampling frequency of 10 Hz means that the dataset includes 10 trajectory samples per second for each vehicle."
+          }
+        ],
+        "questions": [
+          "What was the sampling rate used to record the NGSIM vehicle trajectories?",
+          "The NGSIM dataset collected vehicle trajectories at what sampling frequency?",
+          "At which sampling frequency were the vehicle trajectories in the NGSIM dataset sampled?",
+          "NGSIM vehicle trajectory data were recorded at a rate of how many samples per second?",
+          "What is the data collection frequency (in Hz) for the NGSIM vehicle trajectories?",
+          "The trajectories in the NGSIM dataset were captured at what temporal sampling rate?",
+          "At what rate, measured in Hertz, did NGSIM record vehicle trajectory points?",
+          "How many times per second were vehicle positions sampled in the NGSIM trajectory dataset?",
+          "What sampling frequency was used when recording the NGSIM vehicle trajectory data?",
+          "The NGSIM vehicle trajectories were logged at what frequency in Hz?"
+        ],
+        "negative_candidates": [
+          "1 Hz",
+          "5 Hz",
+          "20 Hz",
+          "30 Hz",
+          "50 Hz",
+          "60 Hz",
+          "100 Hz",
+          "250 Hz",
+          "500 Hz",
+          "1 kHz"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset includes vehicle positions, speeds, accelerations, lane IDs, and vehicle classifications.",
+        "Question": "Name one type of data included in the NGSIM dataset.",
+        "Output": "Examples include vehicle positions, speeds, accelerations, lane IDs, or classifications.",
+        "Explanation": "NGSIM contains multiple modalities such as positions, speeds, and lane identifiers.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0008",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 7,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The NGSIM dataset records detailed vehicle trajectories, including their positions, speeds, accelerations, lane identifiers, and classification types.",
+            "Explanation": "Because NGSIM stores vehicle positions, speeds, accelerations, lane IDs, and classes, any one of these (such as position or speed) is a valid example of the data it includes."
+          },
+          {
+            "Fact": "Data in the NGSIM dataset consists of per-vehicle measurements such as spatial position, velocity, acceleration, lane ID, and vehicle category labels.",
+            "Explanation": "Since NGSIM tracks each vehicle’s position, speed, acceleration, lane membership, and class, listing any of these (for example, lane ID) correctly identifies a type of data it contains."
+          },
+          {
+            "Fact": "NGSIM provides time-stamped vehicle-level information, including coordinates, speed values, acceleration values, lane indices, and vehicle type classifications.",
+            "Explanation": "The presence of coordinates, speeds, accelerations, lane indices, and type labels in NGSIM means that naming any of these (like accelerations) correctly answers what kind of data it includes."
+          },
+          {
+            "Fact": "Among the variables stored in NGSIM are each vehicle’s position along the roadway, its instantaneous speed, its acceleration, the lane number it occupies, and its classification label.",
+            "Explanation": "Because NGSIM explicitly stores position, speed, acceleration, lane number, and classification for vehicles, citing any one of these (such as lane number) is a correct example of included data."
+          },
+          {
+            "Fact": "The NGSIM dataset captures multiple attributes for every tracked vehicle, such as its location, travel speed, rate of acceleration, lane identifier, and classification category.",
+            "Explanation": "Given that NGSIM contains location, speed, acceleration, lane ID, and classification attributes, mentioning any single attribute (for instance, vehicle location) correctly specifies a type of data in the dataset."
+          }
+        ],
+        "questions": [
+          "Identify one kind of information that the NGSIM dataset records about vehicles.",
+          "Give a single example of a measurement type stored in the NGSIM dataset.",
+          "What is one specific attribute of vehicles that is contained in the NGSIM dataset?",
+          "Name one variable that the NGSIM dataset tracks for each vehicle.",
+          "State one category of vehicle-related data that can be found in the NGSIM dataset.",
+          "Provide one example of a vehicle feature that is documented in the NGSIM dataset.",
+          "Mention one type of kinematic or categorical data that NGSIM provides for vehicles.",
+          "List one kind of vehicle descriptor that appears in the NGSIM dataset.",
+          "What is one form of vehicle state information included in the NGSIM dataset?",
+          "Cite one type of lane or motion data about vehicles that is part of the NGSIM dataset."
+        ],
+        "negative_candidates": [
+          "Traffic signal phase timings for each intersection in the study area",
+          "Weather conditions such as temperature, precipitation, and visibility for each recording period",
+          "Driver demographic information including age, gender, and years of driving experience",
+          "Engine diagnostic data like RPM, fuel consumption, and throttle position for each vehicle",
+          "In-vehicle GPS coordinates recorded independently of the overhead sensors",
+          "Audio recordings of driver conversations and in-car noise levels",
+          "Eye-tracking data indicating where each driver was looking at every time step",
+          "Road surface friction coefficients measured at multiple points along the roadway",
+          "Tire pressure readings for all four tires on each instrumented vehicle",
+          "Detailed vehicle maintenance histories including service dates and replaced parts"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM trajectories were extracted from video recordings and include known sources of noise.",
+        "Question": "What is one reason NGSIM data requires quality consideration?",
+        "Output": "Because video extraction introduces noise into vehicle trajectories.",
+        "Explanation": "The dataset contains extraction errors due to reliance on video-based tracking.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0009",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 8,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "NGSIM vehicle trajectories are derived from video footage, which is known to introduce noise into the data.",
+            "Explanation": "Since the trajectories come from video-based measurements, they inherently contain inaccuracies that must be accounted for."
+          },
+          {
+            "Fact": "The NGSIM dataset is built from camera recordings, and this video-based extraction process is known to produce noisy trajectory data.",
+            "Explanation": "Because the positions are obtained through video tracking, the resulting trajectories can include errors that affect data quality."
+          },
+          {
+            "Fact": "NGSIM trajectory information originates from image-based tracking of vehicles, a method that is susceptible to measurement noise.",
+            "Explanation": "Using visual tracking to obtain trajectories leads to imperfect position estimates, so the data may contain extraction-related errors."
+          },
+          {
+            "Fact": "Vehicle paths in NGSIM were computed from recorded video, and this extraction method is recognized as a source of trajectory noise.",
+            "Explanation": "The reliance on video processing to determine vehicle locations introduces inaccuracies, making quality checks necessary."
+          },
+          {
+            "Fact": "NGSIM relies on video-derived trajectories, and such video extraction methods are known to yield noisy measurements.",
+            "Explanation": "Because the dataset depends on video tracking rather than direct sensor readings, the trajectories can include noise from the extraction process."
+          }
+        ],
+        "questions": [
+          "Why must the quality of NGSIM data be carefully evaluated?",
+          "Why is it important to account for potential errors when using NGSIM trajectory data?",
+          "What aspect of how NGSIM trajectories are obtained makes data quality a concern?",
+          "Why can NGSIM trajectory data contain inaccuracies that need consideration?",
+          "What characteristic of NGSIM’s data collection process leads to possible noise in the trajectories?",
+          "Why should researchers be cautious about noise when analyzing NGSIM vehicle trajectories?",
+          "What feature of the NGSIM data acquisition method necessitates checking for trajectory quality?",
+          "Why is there a need to scrutinize NGSIM trajectory data for extraction errors?",
+          "What is a key factor in the NGSIM data generation process that can degrade trajectory quality?",
+          "Why might NGSIM vehicle trajectories not perfectly reflect true motion and thus require quality checks?"
+        ],
+        "negative_candidates": [
+          "Because the dataset was generated entirely from simulated traffic rather than real-world measurements.",
+          "Because the GPS sensors used in the study had insufficient satellite coverage in urban canyons.",
+          "Because manual transcription of driver survey responses led to inconsistent labeling of driver intentions.",
+          "Because the loop detectors embedded in the roadway were miscalibrated during data collection.",
+          "Because the lidar scanners suffered from frequent occlusions caused by heavy fog conditions.",
+          "Because the radar units mounted on vehicles experienced interference from nearby cellular towers.",
+          "Because the accelerometer data was downsampled too aggressively, removing critical high-frequency dynamics.",
+          "Because the dataset merged information from incompatible coordinate systems without proper transformation.",
+          "Because the vehicle-to-vehicle communication logs were partially encrypted and could not be fully decoded.",
+          "Because the time stamps in the dataset were intentionally randomized to protect driver privacy, reducing accuracy."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset focuses on freeway traffic rather than urban arterials.",
+        "Question": "What roadway type does the NGSIM dataset primarily represent?",
+        "Output": "Freeway traffic.",
+        "Explanation": "NGSIM was collected on high-speed freeways, not urban city streets.",
+        "Level": 1,
+        "seed_id": "ngsim_instructions__short_answer__l1__0010",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 9,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The NGSIM dataset is mainly composed of traffic data collected from freeways, not from city streets or arterials.",
+            "Explanation": "Because its observations come from freeway environments, the dataset primarily characterizes freeway traffic conditions."
+          },
+          {
+            "Fact": "NGSIM’s traffic recordings were taken on limited-access highways instead of signalized urban roadways.",
+            "Explanation": "Since the data were gathered on limited-access highways, the dataset chiefly represents freeway traffic patterns."
+          },
+          {
+            "Fact": "The primary setting for NGSIM data collection is high-speed freeway segments rather than lower-speed urban corridors.",
+            "Explanation": "As the measurements come from high-speed freeway segments, the dataset is best described as representing freeway traffic."
+          },
+          {
+            "Fact": "NGSIM emphasizes vehicle trajectories on freeway facilities instead of on urban arterial networks.",
+            "Explanation": "This emphasis on freeway facilities means the dataset’s main roadway type is freeway traffic."
+          },
+          {
+            "Fact": "Most of the NGSIM observations originate from controlled-access freeway sections, not from mixed-use city streets.",
+            "Explanation": "Because the observations are drawn from controlled-access freeways, the dataset primarily reflects freeway traffic."
+          }
+        ],
+        "questions": [
+          "The NGSIM dataset is mainly based on traffic from what kind of roadway?",
+          "The NGSIM data primarily captures vehicle movements on which type of road facility?",
+          "NGSIM observations are drawn chiefly from which roadway environment?",
+          "The traffic in the NGSIM dataset predominantly comes from what category of roadway?",
+          "NGSIM mainly characterizes traffic behavior on which kind of roadway?",
+          "The NGSIM collection is focused on traffic from what specific type of road?",
+          "NGSIM traffic data were gathered primarily on which roadway type?",
+          "The NGSIM dataset is largely representative of traffic found on what sort of roadway?",
+          "NGSIM’s recorded vehicle trajectories mostly correspond to which type of roadway?",
+          "The roadway setting emphasized in the NGSIM dataset is best described as what?"
+        ],
+        "negative_candidates": [
+          "Urban arterial streets with signalized intersections",
+          "Low-speed residential neighborhood streets",
+          "Rural two-lane highways without median separation",
+          "Downtown central business district grid networks",
+          "Collector roads in suburban subdivisions",
+          "Rural unpaved gravel roads",
+          "Campus and park internal road networks",
+          "Dedicated bus rapid transit (BRT) corridors",
+          "Urban roundabouts and traffic circles",
+          "Two-way local streets with on-street parking in city centers"
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "The NGSIM dataset was collected on U.S. Highway 101 and I-80, both of which are major freeways in California.",
+        "Question": "By considering both the collection location and roadway type, what traffic environment does the NGSIM dataset primarily represent?",
+        "Output": "Freeway traffic in California.",
+        "Explanation": "Because NGSIM data were collected on major California freeways, it reflects freeway driving behavior specific to that regional context.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__short_answer__l2__0001",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 10,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "NGSIM trajectory data were gathered from segments of U.S. Highway 101 and Interstate 80 in California, which are high-capacity freeway facilities.",
+            "Explanation": "Since the observations come from California freeway segments, the dataset mainly characterizes freeway traffic conditions in that state."
+          },
+          {
+            "Fact": "The NGSIM program focused its data collection on California’s U.S. 101 and I-80 corridors, both designed and operated as freeways.",
+            "Explanation": "Because the monitored roadways are California freeways, the resulting dataset predominantly represents freeway traffic patterns in California."
+          },
+          {
+            "Fact": "All NGSIM vehicle trajectories were recorded on limited-access highway sections of U.S. 101 and I-80 located in California.",
+            "Explanation": "These limited-access highway sections function as freeways, so the dataset chiefly captures California freeway traffic behavior."
+          },
+          {
+            "Fact": "NGSIM’s empirical data come from controlled study sites along California’s U.S. Highway 101 and Interstate 80, which are part of the state’s freeway network.",
+            "Explanation": "As the study sites are on California’s freeway network, the traffic environment represented by NGSIM is that of California freeway traffic."
+          }
+        ],
+        "questions": [
+          "Taking into account where the data were gathered and the kind of roads involved, what sort of traffic setting is mainly captured by the NGSIM dataset?",
+          "Given that the NGSIM data were recorded on U.S. Highway 101 and I-80, which are major California freeways, what primary traffic context does this dataset characterize?",
+          "Considering that NGSIM observations come from U.S. Highway 101 and I-80, what is the main type of roadway traffic environment represented in the dataset?",
+          "Based on the fact that NGSIM data were collected on two major California freeways, what dominant driving environment does the dataset reflect?",
+          "If the NGSIM dataset is built from measurements on U.S. Highway 101 and I-80, what is the principal traffic scenario it represents?",
+          "Knowing that NGSIM was recorded on high-capacity freeways in California, what is the primary traffic environment modeled by this dataset?",
+          "Since NGSIM data were obtained from U.S. Highway 101 and I-80, both major freeways, what kind of traffic conditions does the dataset mainly depict?",
+          "Given that the collection sites for NGSIM are California’s U.S. Highway 101 and I-80 freeways, what overarching traffic environment does the dataset embody?",
+          "Recognizing that NGSIM measurements come from major freeway segments in California, what is the main traffic setting described by the dataset?",
+          "Because the NGSIM dataset is sourced from U.S. Highway 101 and I-80, which are significant California freeways, what primary driving environment does it represent?"
+        ],
+        "negative_candidates": [
+          "Urban arterial traffic in downtown New York City.",
+          "Mixed rural and suburban two-lane highway traffic across the Midwest.",
+          "Signalized intersection traffic in dense urban business districts.",
+          "Residential neighborhood street traffic in small California towns.",
+          "European motorway traffic in Germany and France.",
+          "Collector road traffic in suburban office parks.",
+          "Bus-only lane operations in a dedicated transit corridor.",
+          "Roundabout and rotary traffic in New England towns.",
+          "Mountain pass traffic on narrow, winding state routes in Colorado.",
+          "Low-speed shared-space traffic in pedestrian-priority city centers."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM recordings consist of three 15-minute periods captured during weekday peak traffic hours.",
+        "Question": "How do the timing and duration of NGSIM recordings together characterize the traffic conditions represented in the dataset?",
+        "Output": "They represent short-duration, peak-hour freeway traffic conditions.",
+        "Explanation": "Short recordings taken during peak hours indicate that the dataset focuses on congested traffic rather than continuous or off-peak conditions.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__short_answer__l2__0002",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 11,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The NGSIM dataset was collected in three separate 15-minute sessions conducted during weekday rush-hour periods.",
+            "Explanation": "Because each recording is brief and taken during rush hour, the data mainly reflects peak congestion rather than extended or off-peak traffic patterns."
+          },
+          {
+            "Fact": "NGSIM traffic data comes from three short, 15-minute observation windows, all recorded during weekday peak periods.",
+            "Explanation": "These limited-time snapshots at peak times emphasize congested freeway behavior instead of providing a continuous or typical off-peak traffic record."
+          },
+          {
+            "Fact": "Each NGSIM recording covers only a 15-minute interval, and all three intervals occur during weekday peak-hour traffic.",
+            "Explanation": "The combination of short intervals and peak-hour timing means the dataset is centered on heavy, peak-period freeway conditions, not on longer-term or low-demand traffic states."
+          },
+          {
+            "Fact": "The NGSIM study captured traffic in three distinct 15-minute segments, all scheduled during weekday peak traffic hours.",
+            "Explanation": "By restricting data collection to brief segments at peak times, the dataset is tailored to represent congested peak-hour freeway conditions rather than a full-day or off-peak profile."
+          }
+        ],
+        "questions": [
+          "In what way do the specific start times and 15‑minute lengths of the NGSIM recordings describe the type of traffic conditions captured in the dataset?",
+          "How does the fact that NGSIM data comes from three separate 15‑minute windows during weekday rush hours define the nature of the traffic it represents?",
+          "What do the chosen peak-hour time slots and their 15‑minute durations imply about the traffic conditions covered by the NGSIM dataset?",
+          "How do the limited 15‑minute recording intervals during weekday peak periods shape the kind of freeway traffic conditions reflected in NGSIM?",
+          "What does the combination of short 15‑minute recording spans and their occurrence in weekday peak hours reveal about the traffic regime in the NGSIM data?",
+          "How do the brief recording durations and their scheduling during rush-hour weekdays jointly indicate the type of freeway traffic captured in NGSIM?",
+          "In terms of traffic representation, what is implied by NGSIM using three 15‑minute samples taken only during weekday peak times?",
+          "How do the short sampling windows and their alignment with weekday peak traffic periods together determine the traffic state portrayed in the NGSIM dataset?",
+          "What do the three 15‑minute peak-period recordings tell you about the kind of traffic conditions that NGSIM primarily documents?",
+          "How does recording only three 15‑minute segments during weekday rush hours influence the characterization of traffic conditions in the NGSIM dataset?"
+        ],
+        "negative_candidates": [
+          "They provide a continuous, full-day view of freeway operations across both peak and off-peak periods.",
+          "They capture long-term, multi-hour traffic patterns that emphasize typical free-flow conditions rather than congestion.",
+          "They are designed to represent average, all-day traffic behavior by sampling randomly throughout weekdays and weekends.",
+          "They mainly depict nighttime and early-morning low-volume conditions due to the extended recording windows.",
+          "They focus on long-duration incident and work-zone traffic, highlighting rare, nonrecurring congestion rather than routine peak flow.",
+          "They characterize rural highway traffic under mostly uncongested, steady-state conditions over several consecutive hours.",
+          "They emphasize transitional periods between peak and off-peak, capturing primarily the buildup and dissipation of light traffic rather than the peak itself.",
+          "They are intended to model weekend recreational traffic patterns, with long recordings spanning midday to evening.",
+          "They predominantly represent arterial and urban street traffic at signalized intersections across an entire rush-hour commute window.",
+          "They provide a broad temporal sample of seasonal traffic variations, with recordings spread over many months and including holidays."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM vehicle trajectories are sampled at 10 Hz and include position-based variables such as speed, acceleration, and lane IDs.",
+        "Question": "Why does a 10 Hz sampling frequency support the motion variables provided in the NGSIM dataset?",
+        "Output": "Because frequent position measurements allow reliable computation of speeds, accelerations, and lane changes.",
+        "Explanation": "Sampling trajectories 10 times per second provides sufficient temporal resolution to derive detailed vehicle motion characteristics.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__short_answer__l2__0003",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 12,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "In the NGSIM dataset, vehicle positions are recorded at a rate of 10 samples per second, and motion-related variables like speed, acceleration, and lane identification are derived from these position measurements.",
+            "Explanation": "With positions captured every 0.1 seconds, the dataset has enough temporal detail to accurately compute how fast vehicles move, how their speeds change, and when they switch lanes."
+          },
+          {
+            "Fact": "The NGSIM trajectories use a 10 Hz sampling rate, meaning vehicle locations are logged every 0.1 seconds, from which kinematic quantities such as velocity, acceleration, and lane occupancy are obtained.",
+            "Explanation": "This high sampling frequency ensures that changes in position over short time intervals can be measured precisely enough to infer speeds, accelerations, and lane transitions reliably."
+          },
+          {
+            "Fact": "NGSIM provides vehicle trajectory data at 10 Hz, where each time step includes updated positional information that is used to calculate speed, acceleration, and lane membership.",
+            "Explanation": "Because positions are updated frequently, the differences between successive samples can be used to estimate detailed motion variables, including how quickly vehicles move and when they change lanes."
+          },
+          {
+            "Fact": "In NGSIM, vehicle trajectories are recorded at a temporal resolution of 10 Hz, and the dataset’s motion variables—such as speed, acceleration, and lane IDs—are computed from these high-frequency position records.",
+            "Explanation": "The short 0.1-second interval between samples offers enough granularity to track vehicle movement accurately, enabling dependable derivation of speeds, accelerations, and lane changes from the position data."
+          }
+        ],
+        "questions": [
+          "How does using a 10 Hz sampling rate make it possible to obtain the motion variables reported in the NGSIM dataset?",
+          "In what way does a 10 Hz trajectory sampling frequency enable accurate calculation of speed, acceleration, and lane IDs in the NGSIM data?",
+          "Why is a 10 Hz rate of recording vehicle positions adequate for deriving the motion-related variables in the NGSIM trajectories?",
+          "What is the reason that sampling vehicle positions at 10 Hz is sufficient to compute speeds, accelerations, and lane changes in NGSIM?",
+          "Why can the NGSIM dataset reliably provide speed, acceleration, and lane information when vehicle trajectories are sampled at 10 Hz?",
+          "How does collecting vehicle position data 10 times per second support the detailed motion variables included in the NGSIM dataset?",
+          "Why does recording vehicle trajectories at a frequency of 10 samples per second allow the derivation of accurate motion characteristics in NGSIM?",
+          "What makes a 10 Hz sampling frequency adequate for extracting speed, acceleration, and lane-change information from NGSIM trajectories?",
+          "Why is a 10 Hz temporal resolution of vehicle positions enough to support the computation of the motion variables present in the NGSIM data?",
+          "How does the 10 Hz sampling of vehicle trajectories in NGSIM provide sufficient detail to determine speeds, accelerations, and lane transitions?"
+        ],
+        "negative_candidates": [
+          "Because 10 Hz is the maximum frequency that most vehicle sensors can handle, so it directly records speed and acceleration without any computation from position data.",
+          "Because at 10 Hz the dataset can ignore intermediate vehicle movements, assuming cars move in straight lines at constant speed between samples, which simplifies the motion variables.",
+          "Because 10 Hz sampling aligns with the frame rate of traffic cameras worldwide, guaranteeing that the recorded speeds and accelerations are always exact multiples of 10.",
+          "Because a lower frequency like 10 Hz filters out high-frequency dynamics of vehicle motion, ensuring that only average, long-term trends in speed and acceleration are captured.",
+          "Because 10 Hz is slow enough that vehicles rarely change lanes between samples, so lane IDs can be assumed constant and do not need to be updated from the position data.",
+          "Because at 10 Hz the dataset can approximate all vehicles as moving on a fixed grid, so speeds and accelerations are assigned from lookup tables instead of being derived from measured positions.",
+          "Because 10 Hz corresponds to typical driver reaction times, so each sample represents a distinct decision by the driver, making speed and acceleration values inherently accurate.",
+          "Because a 10 Hz rate guarantees that numerical differentiation of position is unnecessary; the sensors directly log instantaneous velocity and acceleration at each timestamp.",
+          "Because 10 Hz ensures that all vehicles travel less than one meter between samples, which makes the exact sampling rate irrelevant for computing motion variables.",
+          "Because using 10 Hz avoids aliasing of lane-change events, allowing the dataset to treat all lateral motion as noise and focus solely on longitudinal speed estimates."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM trajectories were extracted from video recordings, a process known to introduce noise and small inaccuracies.",
+        "Question": "How does the video-based extraction method affect the quality considerations of the NGSIM dataset?",
+        "Output": "It introduces noise that requires users to assess and clean the data before analysis.",
+        "Explanation": "Video-based tracking can produce small trajectory errors, making data quality checks an important preprocessing step.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__short_answer__l2__0004",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 13,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "The NGSIM dataset’s vehicle trajectories were derived from overhead video footage, a technique that typically adds measurement noise and minor errors.",
+            "Explanation": "Because the trajectories come from video rather than direct sensor measurements, they can contain small inaccuracies that users must detect and correct before using the data for analysis."
+          },
+          {
+            "Fact": "In NGSIM, vehicle paths are reconstructed from camera recordings, a method that is prone to slight positional and timing inaccuracies.",
+            "Explanation": "These reconstruction errors mean the raw NGSIM data may not be fully reliable without prior quality checks and cleaning steps by the user."
+          },
+          {
+            "Fact": "NGSIM trajectory data originate from image-based tracking of vehicles in video, which is known to yield somewhat noisy and imperfect position estimates.",
+            "Explanation": "The inherent noise from image-based tracking makes it necessary for analysts to carefully inspect and preprocess the dataset to ensure adequate quality for their studies."
+          },
+          {
+            "Fact": "The NGSIM trajectories were obtained by processing traffic scenes captured on video, a workflow that can introduce small but systematic tracking noise.",
+            "Explanation": "Since the extraction pipeline can embed such noise into the trajectories, users must perform data validation and filtering to improve data quality before conducting analyses."
+          }
+        ],
+        "questions": [
+          "In what way does using video recordings to extract NGSIM trajectories influence the data quality checks that must be done before analysis?",
+          "How does the fact that NGSIM trajectories come from video recordings impact the need for data cleaning and validation?",
+          "What are the implications of video-based trajectory extraction on the reliability and preprocessing requirements of the NGSIM dataset?",
+          "How does deriving NGSIM trajectories from video footage affect the level of noise and the subsequent quality control steps needed?",
+          "In what manner does the video-based method used to obtain NGSIM trajectories shape the data quality concerns researchers must address?",
+          "How does the use of video tracking to generate NGSIM trajectories influence the extent of preprocessing needed to ensure data accuracy?",
+          "What effect does the video-based extraction process have on the precision of NGSIM trajectories and the necessity for data cleaning?",
+          "How does the reliance on video recordings for NGSIM trajectory extraction alter the quality assurance procedures required before using the data?",
+          "In what way does extracting NGSIM trajectories from video introduce issues that must be handled during data quality assessment?",
+          "How does the video-derived nature of NGSIM trajectories affect the amount of noise present and the importance of performing quality checks before analysis?"
+        ],
+        "negative_candidates": [
+          "It guarantees highly precise trajectories, eliminating the need for any additional preprocessing or quality control by the user.",
+          "It has no measurable impact on data quality, so the dataset can be treated as perfectly accurate ground truth for all applications.",
+          "It primarily affects only the file size and format of the dataset, without influencing trajectory accuracy or the need for cleaning.",
+          "It improves the temporal resolution so much that traditional validation steps become unnecessary for most traffic-flow studies.",
+          "It introduces systematic biases so severe that the dataset is considered unusable for any meaningful traffic analysis.",
+          "It ensures that all positional measurements are exact to the centimeter, making further filtering or smoothing counterproductive.",
+          "It mainly degrades the visual appearance of the video but leaves the extracted trajectory coordinates mathematically exact.",
+          "It forces all users to discard the original trajectories and instead rely solely on synthetic, model-generated trajectories provided with the dataset.",
+          "It alters vehicle speeds but leaves positions perfectly accurate, so quality checks only need to focus on velocity fields, not on trajectories.",
+          "It standardizes the trajectories so well across scenes that cross-dataset comparisons can be done without any concern for noise or errors."
+        ]
+      }
+    },
+    {
+      "seed": {
+        "Fact": "NGSIM is distributed as open government data and reflects freeway driving behavior in California.",
+        "Question": "How do NGSIM’s open-data licensing and regional focus together influence its reuse?",
+        "Output": "The open license allows broad access, but users must consider whether California freeway behavior generalizes to other regions.",
+        "Explanation": "While NGSIM is freely accessible, its regional specificity may limit direct applicability elsewhere.",
+        "Level": 2,
+        "seed_id": "ngsim_instructions__short_answer__l2__0005",
+        "source_name": "ngsim_instructions",
+        "task_type": "short_answer",
+        "source_instruction_index": 1,
+        "source_example_index": 14,
+        "category": "Question answering",
+        "task_definition": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence."
+      },
+      "components": {
+        "facts_and_explanations": [
+          {
+            "Fact": "NGSIM is released under an open U.S. government data license and is based on freeway traffic collected in California.",
+            "Explanation": "Because the dataset is openly licensed, many users can reuse it, but its basis in California freeways means users must judge how well the observed behavior applies to other locations."
+          },
+          {
+            "Fact": "NGSIM is publicly available as open government data, but its traffic trajectories come exclusively from California freeways.",
+            "Explanation": "The permissive access conditions support widespread reuse, yet the California-only freeway data may not accurately represent driving patterns in other regions, so users need to assess its generalizability."
+          },
+          {
+            "Fact": "NGSIM’s licensing classifies it as open government data, and its empirical data were gathered from California freeway segments.",
+            "Explanation": "The open license removes many legal barriers to reuse, but the fact that all measurements come from California freeways requires users to question whether the same behavior holds in different geographic or roadway contexts."
+          },
+          {
+            "Fact": "NGSIM can be freely reused as open government data, though its observations are limited to California freeway driving.",
+            "Explanation": "This legal openness encourages broad adoption, but the regional and roadway focus means users must be cautious about assuming that California freeway behavior is representative of other areas."
+          }
+        ],
+        "questions": [
+          "In what way do NGSIM’s open government data license and its California freeway focus jointly affect how others can reuse the dataset?",
+          "How does the combination of NGSIM being open government data and being based only on California freeway traffic shape its potential for reuse?",
+          "What is the impact on reuse of NGSIM being openly licensed while representing driving behavior solely on California freeways?",
+          "How do NGSIM’s open-access licensing terms and its restriction to California freeway behavior together condition how the data can be reused?",
+          "In terms of reuse, what are the implications of NGSIM being freely available government data but limited to California freeway driving patterns?",
+          "How does NGSIM’s status as open government data, coupled with its focus on California freeways, influence how broadly it can be reused?",
+          "How do NGSIM’s open-data distribution and its geographic concentration on California freeways interact to affect its applicability in other contexts?",
+          "What combined effect do NGSIM’s open licensing and its California freeway–specific driving behavior have on the dataset’s reuse potential?",
+          "How does the fact that NGSIM is openly licensed yet regionally specific to California freeways shape how researchers can reuse it?",
+          "In what ways do NGSIM’s open government data status and its California freeway regional scope together determine how transferable its data are for reuse elsewhere?"
+        ],
+        "negative_candidates": [
+          "Because NGSIM is open data and collected in California, it can be reused globally without any concern for regional driving differences or validation in new contexts.",
+          "The open license and California focus mean NGSIM is primarily intended for commercial navigation apps operating only within the state, making it unsuitable for academic or research reuse.",
+          "NGSIM’s licensing requires that any reuse must also be restricted to projects conducted in California, preventing application of the dataset to studies in other states or countries.",
+          "Since NGSIM is open and based in California, reusers are obligated to treat its behavioral patterns as the legal standard for freeway driving everywhere it is applied.",
+          "The combination of open licensing and a California focus forces all derivative datasets and models to include only California road segments, excluding any non-California roadway features.",
+          "Because it is open government data from California, NGSIM can only be reused for non-commercial purposes and cannot be integrated into commercial driver-assistance or autonomous-vehicle products.",
+          "The regional focus in California, combined with the open license, means that NGSIM must be used solely for policy analysis by California transportation agencies, not for engineering or simulation work elsewhere.",
+          "NGSIM’s open-data status automatically guarantees that its driving behavior patterns are statistically representative of national driving norms, eliminating the need for regional calibration.",
+          "The open license and California-specific collection ensure that NGSIM is primarily reused as a legal compliance dataset for verifying that freeway designs in other states match California’s exact standards.",
+          "Because NGSIM is open data, its regional focus has no impact on reuse; any user can safely assume the data are equally valid for all countries and road types, including rural and urban arterials."
+        ]
+      }
+    }
+  ]
+}

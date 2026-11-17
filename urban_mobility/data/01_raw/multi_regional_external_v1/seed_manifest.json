@@ -1,0 +1,78 @@
+{
+  "benchmark": "multi_regional_external_v1",
+  "dataset_version": "multi_regional_external_v1",
+  "datasets": {
+    "australia_melbourne_pedestrian": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    },
+    "new_zealand_auckland_cycle": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    },
+    "colombia_bogota_transit": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    },
+    "brazil_sao_paulo_od2017": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    },
+    "ghana_accra_transit": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    },
+    "kenya_nairobi_matatu": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    },
+    "spain_madrid_accidents": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    },
+    "greece_athens_transit": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    },
+    "iceland_road_traffic": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    },
+    "sweden_stockholm_traffic_flow": {
+      "concepts": 20,
+      "mc_views": 15,
+      "short_answer_views": 20,
+      "task_views": 35,
+      "review_status": "validated"
+    }
+  },
+  "independent_concepts": 200,
+  "task_views": 350
+}

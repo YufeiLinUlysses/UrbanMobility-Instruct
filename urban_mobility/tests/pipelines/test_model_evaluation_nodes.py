@@ -1,0 +1,181 @@
+from __future__ import annotations
+
+import sys
+from types import SimpleNamespace
+
+from urban_mobility.pipelines.model_evaluation.nodes import (
+    _attach_bertscore,
+    _classification_metrics,
+    _paired_verification_metrics,
+    _paraphrase_rows,
+    _reject_excessive_empty_predictions,
+    _token_f1,
+    _verification_rows,
+    extract_reference,
+    parse_mc_prediction,
+)
+from urban_mobility.pipelines.prompting import render_causal_user_prompt
+
+
+class _FakeChatTokenizer:
+    chat_template = "available"
+
+    def apply_chat_template(self, messages, *, tokenize, add_generation_prompt):
+        assert messages == [{"role": "user", "content": "Question"}]
+        assert tokenize is False
+        assert add_generation_prompt is True
+        return "<user>Question</user><assistant>"
+
+
+def test_causal_prompt_uses_native_chat_template() -> None:
+    assert render_causal_user_prompt(_FakeChatTokenizer(), "Question") == (
+        "<user>Question</user><assistant>"
+    )
+
+
+def test_excessive_empty_predictions_are_rejected() -> None:
+    _reject_excessive_empty_predictions(["answer", "", "answer"], "answer", 0.34)
+    try:
+        _reject_excessive_empty_predictions(["", "", "answer"], "answer", 0.05)
+    except RuntimeError as exc:
+        assert "2/3 empty responses" in str(exc)
+    else:  # pragma: no cover - assertion guard
+        raise AssertionError("Expected empty-response validation to fail")
+
+
+def test_paraphrase_scoring_uses_held_out_rewrite_and_requires_structure() -> None:
+    record = {
+        "example_id": "rewrite-1",
+        "seed_id": "seed-1",
+        "source_name": "source",
+        "Level": 1,
+        "base_task_type": "multiple_choice",
+        "prompt": "Paraphrase the completed instruction below.\n\nDataset context:\nOriginal",
+        "target": (
+            "Dataset context:\nRewritten context\n\nQuestion:\nRewritten question\n\n"
+            "Options:\nA. Bus\nB. Rail\n\nANSWER:\nB\n\nEXPLANATION:\nRail is correct."
+        ),
+    }
+    complete = record["target"]
+    missing_options = complete.replace("Options:", "Choices:")
+
+    rows = _paraphrase_rows([record, record], [complete, missing_options], [0.1, 0.1])
+
+    assert rows[0]["reference_text"] == record["target"]
+    assert rows[0]["answer_preserved"] is True
+    assert rows[0]["field_preservation"] is True
+    assert rows[1]["field_preservation"] is False
+
+
+def test_bertscore_skips_empty_predictions(monkeypatch) -> None:
+    def fake_score(candidates, references, **kwargs):
+        assert candidates == ["generated answer"]
+        assert references == ["reference explanation"]
+        return [0.7], [0.8], [0.75]
+
+    monkeypatch.setitem(sys.modules, "bert_score", SimpleNamespace(score=fake_score))
+    rows = [
+        {
+            "raw_prediction": "",
+            "reference_answer": "reference",
+            "reference_explanation": "explanation",
+        },
+        {
+            "raw_prediction": "generated answer",
+            "reference_answer": "reference",
+            "reference_explanation": "explanation",
+        },
+    ]
+
+    _attach_bertscore(rows, {"compute_bertscore": True})
+
+    assert rows[0]["bertscore_f1"] == 0.0
+    assert rows[1]["bertscore_precision"] == 0.7
+    assert rows[1]["bertscore_recall"] == 0.8
+    assert rows[1]["bertscore_f1"] == 0.75
+
+
+def test_reference_and_mc_parsing_are_deterministic() -> None:
+    answer, explanation = extract_reference("ANSWER:\nB\n\nEXPLANATION:\nBecause rail.")
+    assert answer == "B"
+    assert explanation == "Because rail."
+    prompt = "Options:\nA. Bus\nB. Rail\nC. Car\nD. Walk"
+    assert parse_mc_prediction("B", prompt) == ("B", "strict", True)
+    assert parse_mc_prediction("The answer is B.", prompt) == (
+        "B",
+        "normalized_letter",
+        False,
+    )
+    assert parse_mc_prediction("Rail", prompt) == ("B", "normalized_option_text", False)
+
+
+def test_structured_sections_allow_inline_or_multiline_labels() -> None:
+    inline = "ANSWER: B EXPLANATION: Because rail is correct."
+    multiline = "ANSWER:\nB\n\nEXPLANATION:\nBecause rail is correct."
+    prompt = "Options:\nA. Bus\nB. Rail\nC. Car\nD. Walk"
+
+    assert extract_reference(inline) == ("B", "Because rail is correct.")
+    assert extract_reference(multiline) == ("B", "Because rail is correct.")
+    assert parse_mc_prediction(inline, prompt) == ("B", "strict_structured", True)
+    assert parse_mc_prediction(multiline, prompt) == ("B", "strict_structured", True)
+    assert extract_reference("unstructured output") == ("", "")
+    verification = (
+        "VERDICT: incorrect CANDIDATE MATCHES CONTEXT: No"
+    )
+    assert extract_reference(verification) == (
+        "incorrect",
+        "",
+    )
+
+
+def test_transparent_text_and_verification_metrics() -> None:
+    assert _token_f1("regional transport authority", "transport authority") == 0.8
+    metrics = _classification_metrics(
+        ["correct", "incorrect", "incorrect"],
+        ["correct", "incorrect", "correct"],
+    )
+    assert metrics["accuracy"] == 2 / 3
+    assert metrics["confusion_matrix"]["incorrect"]["correct"] == 1
+
+
+def test_verification_scores_verdict_match_and_pairs() -> None:
+    records = [
+        {
+            "example_id": "item__verify_correct",
+            "variant_id": "item",
+            "seed_id": "seed",
+            "source_name": "source",
+            "Level": 1,
+            "candidate_polarity": "positive",
+            "prompt": "Candidate answer: Rail",
+            "target": "VERDICT: Correct CANDIDATE MATCHES CONTEXT: Yes",
+        },
+        {
+            "example_id": "item__verify_incorrect",
+            "variant_id": "item",
+            "seed_id": "seed",
+            "source_name": "source",
+            "Level": 1,
+            "candidate_polarity": "negative",
+            "prompt": "Candidate answer: Bus",
+            "target": "VERDICT: Incorrect CANDIDATE MATCHES CONTEXT: No",
+        },
+    ]
+    rows = _verification_rows(
+        records,
+        [
+            "VERDICT: Correct CANDIDATE MATCHES CONTEXT: Yes",
+            "VERDICT: Incorrect CANDIDATE MATCHES CONTEXT: No",
+        ],
+        [0.1, 0.1],
+    )
+
+    assert all(row["correct"] for row in rows)
+    assert all(row["candidate_match_correct"] for row in rows)
+    assert all(row["verdict_match_consistent"] for row in rows)
+    assert all(row["format_compliant"] for row in rows)
+    assert _paired_verification_metrics(rows) == {
+        "paired_count": 1,
+        "paired_consistent_count": 1,
+        "paired_consistency": 1.0,
+    }
